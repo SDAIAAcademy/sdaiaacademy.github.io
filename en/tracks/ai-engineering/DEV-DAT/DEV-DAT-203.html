@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Participants build the event backbone of a fictional delivery company. They publish order and courier events to a partitioned log, capture changes from the payments database without touching its code, and process both streams with event-time windows, watermarks and keyed state. They make the pipelin">
+<title>DEV-DAT-203 · Streaming and Change Data Capture · SDAIA Academy Course Catalog 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-DAT/DEV-DAT-203.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">Skip to content</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">SDAIA Academy</span> <span class="brand-sub">Course catalog 2027</span></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-DAT/DEV-DAT-203.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-DAT</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-DAT-203</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-DAT-203</span> <span class="t">Streaming and Change Data Capture</span></h1>
+<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">30 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-DAT</span> <span>Data Engineering and Architecture</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">30 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-DAT-201.html"><span class="code" dir="ltr">DEV-DAT-201</span> <span>Modern Data Engineering</span></a></li></ul><ul class="plain-list"><li>Runs multi-service applications with containers on a laptop</li><li>A laptop with about 16 GB of memory for the container stack, or a provided remote workspace</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>Description</h2><p>Participants build the event backbone of a fictional delivery company. They publish order and courier events to a partitioned log, capture changes from the payments database without touching its code, and process both streams with event-time windows, watermarks and keyed state. They make the pipeline survive crashes and duplicate deliveries without double counting, write results into an open table format and serve a low-latency view in streaming SQL. Generators replay synthetic events, some late, out of order or duplicated.</p></section>
+<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Distinguish logs from queues and the three delivery guarantees, and state what each costs.</p><p class="o-more"><span class="k">Given</span> five described integration needs.</p><p class="o-more"><span class="k">Evidence</span> a choice table matching the reference on four of five.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure a partitioned log with keys, schemas and consumer groups that preserve per-entity ordering.</p><p class="o-more"><span class="k">Given</span> order and courier producers.</p><p class="o-more"><span class="k">Evidence</span> consumer output showing per-key order under parallel consumers.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement log-based change data capture, including deletes and schema changes.</p><p class="o-more"><span class="k">Given</span> a payments database under synthetic load.</p><p class="o-more"><span class="k">Evidence</span> a change stream whose replay reproduces the source table.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement event-time windows with watermarks and keyed state, and compare them with a batch recomputation.</p><p class="o-more"><span class="k">Given</span> a replay with late and out-of-order events.</p><p class="o-more"><span class="k">Evidence</span> results within the stated tolerance.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a stream into an open table format that loses and duplicates nothing after a crash.</p><p class="o-more"><span class="k">Given</span> an injected crash and duplicate redelivery.</p><p class="o-more"><span class="k">Evidence</span> matching counts and checksums after recovery, with run logs.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Decide between streaming, micro-batch and batch from latency, cost and correctness evidence.</p><p class="o-more"><span class="k">Given</span> three business requests and the measured pipeline.</p><p class="o-more"><span class="k">Evidence</span> a decision record defended in the capstone.</p></li></ol></section>
+<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Logs, queues and events</h3><ul><li>Partitions, keys, offsets and retention</li><li>Consumer groups and queue semantics</li><li>Event schemas and compatibility rules</li></ul></div><div class="topic"><h3>Change data capture</h3><ul><li>Log-based versus query-based capture</li><li>Snapshots, deletes and schema changes</li><li>The outbox pattern</li></ul></div><div class="topic"><h3>State and time</h3><ul><li>Event time versus processing time</li><li>Windows, watermarks and late data</li><li>Keyed state and checkpoints</li><li>Joining streams with tables</li></ul></div><div class="topic"><h3>Correctness under failure</h3><ul><li>End-to-end delivery guarantees</li><li>Idempotent sinks and transactional writes</li><li>Consumer lag, back-pressure and dead-letter topics</li><li>Replays and reprocessing</li></ul></div><div class="topic"><h3>Streams into tables and SQL</h3><ul><li>Streaming into open table formats; compacting small files</li><li>Incrementally maintained views</li><li>Latency budgets and running cost</li></ul></div></div></section>
+<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Distributed log</dt><dd>Apache Kafka, a Kafka-compatible broker</dd></div><div><dt>Change data capture</dt><dd>Debezium, database-native logical replication</dd></div><div><dt>Event schemas with a compatibility-checking registry</dt><dd>Apache Avro, Protocol Buffers</dd></div><div><dt>Stream processor and streaming SQL</dt><dd>Apache Flink, Apache Spark Structured Streaming</dd></div><div><dt>Open table format</dt><dd>Apache Iceberg, Delta Lake</dd></div><div><dt>Local multi-service environment</dt><dd>Docker Compose, Podman</dd></div></dl></section>
+<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised AI-off check: predict window outputs and failure effects from event timelines (20%)</li><li>Graded labs (30%)</li><li>Capstone repository on a five-criterion rubric with defence (50%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall and at least 60% on both the check and the capstone</dd></div></dl></section>
+<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check and the windows lab. AI-tutor in the other labs. AI-full in the capstone, defended live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-DAT-202.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-DAT-202</span> Analytics Engineering and Semantic Layers</span></a><a class="pager-next" rel="next" href="DEV-DAT-204.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-DAT-204</span> Data Quality, Contracts and Observability</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li></ul></nav>
+<p>The SDAIA Academy course catalog for 2027, in data and artificial intelligence.</p>
+<p>The catalog describes courses; it is not a timetable. A description may change before its course opens.</p>
+</div>
+</footer>
+</body>
+</html>

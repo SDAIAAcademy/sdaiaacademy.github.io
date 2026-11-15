@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="يجعل المشاركون تكلفة تطبيقات الذكاء الاصطناعي قابلة للقياس والنسبة إلى مصادرها والخفض دون التفريط في الجودة. فانطلاقًا من آثار استخدام اصطناعية لشهر كامل لثلاثة تطبيقات خلف بوابة واحدة، ينمذجون تكلفة الطلب، وينسبون الإنفاق إلى مصادره، ويضعون الميزانيات والتنبيهات، ويضبطون التوجيه أثناء التشغيل مع فح">
+<title>DEV-OPS-304 · هندسة تكلفة الذكاء الاصطناعي: البوابات والتوجيه والتخزين المؤقت واقتصاديات الوحدة · دليل مقررات أكاديمية سدايا 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-304.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">الانتقال إلى المحتوى</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">أكاديمية سدايا</span> <span class="brand-sub">دليل المقررات 2027</span></a>
+<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../../../courses/index.html" class="here">المقررات</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-304.html" lang="en" hreflang="en">English</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="التحويل إلى المظهر الداكن" data-to-light="التحويل إلى المظهر الفاتح"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="مسار التصفح"><ol><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-OPS-304</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-OPS-304</span> <span class="t">هندسة تكلفة الذكاء الاصطناعي: البوابات والتوجيه والتخزين المؤقت واقتصاديات الوحدة</span></h1>
+<p class="alt-title"><bdi lang="en">AI Cost Engineering: Gateways, Routing, Caching and Unit Economics</bdi></p>
+<ul class="chips"><li><span class="chip chip-level">المستوى 300 · التطوير</span></li><li><span class="chip">ورشة عمل</span></li><li><span class="chip chip-plain">16 ساعة</span></li><li><span class="chip chip-plain">الفئة المستهدفة: ممارس</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="نظرة سريعة"><div class="fact"><h2>المسار</h2><p><a href="../index.html">هندسة الذكاء الاصطناعي</a></p></div><div class="fact"><h2>المسار الفرعي</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span> <span>العمليات والاعتمادية</span></a></p></div><div class="fact"><h2>المستوى</h2><p>المستوى 300 · التطوير</p></div><div class="fact"><h2>الفئة المستهدفة</h2><p>ممارس</p></div><div class="fact"><h2>الصيغة</h2><p>ورشة عمل: يومان فيهما مختبرات ومراجعة للتكلفة</p></div><div class="fact"><h2>إجمالي الساعات</h2><p class="hours-total">16 ساعة</p></div><div class="fact"><h2>المتطلبات السابقة</h2><ul class="ref-list"><li><a href="../DEV-LLM/DEV-LLM-201.html"><span class="code" dir="ltr">DEV-LLM-201</span> <span>بناء التطبيقات على النماذج اللغوية</span></a></li></ul><ul class="plain-list"><li>يقرأ آثار تنفيذ الطلبات مع عدد الوحدات النصية؛ ويُوصى بالمقرر <a href="../DEV-LLM/DEV-LLM-303.html">DEV-LLM-303</a></li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>الوصف</h2><p>يجعل المشاركون تكلفة تطبيقات الذكاء الاصطناعي قابلة للقياس والنسبة إلى مصادرها والخفض دون التفريط في الجودة. فانطلاقًا من آثار استخدام اصطناعية لشهر كامل لثلاثة تطبيقات خلف بوابة واحدة، ينمذجون تكلفة الطلب، وينسبون الإنفاق إلى مصادره، ويضعون الميزانيات والتنبيهات، ويضبطون التوجيه أثناء التشغيل مع فحص للجودة، ويقيسون أداء ذاكرات التخزين المؤقت، ويعرضون التكلفة لكل نتيجة ناجحة. ويتناول المقرر <a href="../DEV-INF/DEV-INF-401.html">DEV-INF-401</a> تحسين المحركات، ويتناول المقرر <a href="../DEV-LLM/DEV-LLM-303.html">DEV-LLM-303</a> اختيار النماذج وترتيب الأوامر.</p></section>
+<section class="sec"><h2>نواتج التعلم</h2><p class="sec-lead">بنهاية المقرر يستطيع المشارك أن:</p><ol class="outcomes"><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يحسب تكلفة الطلب والتكلفة لكل نتيجة ناجحة من الوحدات النصية (tokens) واستدعاءات الأدوات وإعادة المحاولات.</p><p class="o-more"><span class="k">المعطيات</span> استنادًا إلى آثار الاستخدام وقائمة أسعار.</p><p class="o-more"><span class="k">الدليل</span> نموذج تكلفة يطابق فاتورة بفارق لا يتجاوز 2%.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يهيئ مفاتيح البوابة لكل فريق ووسوم البيئات وحدود الإنفاق.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام بوابة مشتركة وثلاثة تطبيقات.</p><p class="o-more"><span class="k">الدليل</span> جدول لعرض التكاليف على الفرق، وحد صارم يوقف أحد التطبيقات.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يحسّن سياسة التوجيه في البوابة بحيث تبلغ كل فئة من الطلبات الحد الأدنى لجودتها بتكلفة أقل.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام ثلاثة مستويات من النماذج وحركة شهر كامل موسومة ومعاد تشغيلها.</p><p class="o-more"><span class="k">الدليل</span> الوفورات المحققة والجودة لكل فئة مع فترات الثقة، وبديل مختبَر عند نفاد الميزانية.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يقيّم ذاكرات التخزين المؤقت المطابقة والبادئية والدلالية من حيث الوفورات وتقادم المحتوى والتسرب بين المستأجرين.</p><p class="o-more"><span class="k">المعطيات</span> على حركة معاد تشغيلها من مستأجرين اثنين.</p><p class="o-more"><span class="k">الدليل</span> معدلات إصابة مقيسة واختبار عزل ناجح.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يعدّ تقريرًا لاقتصاديات الوحدة يتضمن الاتجاه والتوقع واستهلاك الطاقة وخيارات التوفير.</p><p class="o-more"><span class="k">المعطيات</span> استنادًا إلى آثار الشهر وأسئلة مالك الميزانية.</p><p class="o-more"><span class="k">الدليل</span> تقرير من صفحتين يستطيع زميل يملك ميزانية أن يتخذ قراره بناءً عليه.</p></li></ol></section>
+<section class="sec"><h2>الموضوعات</h2><div class="topics"><div class="topic"><h3>نموذج التكلفة</h3><ul><li>الوحدات النصية في مرحلتي الملء المسبق وفك الترميز، والوحدات المخزنة مؤقتًا</li><li>إعادة المحاولات وخطوات الوكلاء والسياقات الطويلة</li><li>ساعات المسرِّعات ونسبة استخدامها</li></ul></div><div class="topic"><h3>نسبة التكاليف والميزانيات</h3><ul><li>المفاتيح والوسوم لكل فريق</li><li>عرض التكاليف قبل تحميلها</li><li>تنبيهات الإنفاق غير المعتاد</li><li>توزيع تكلفة الوكلاء الذي لم يستقر بعد</li></ul></div><div class="topic"><h3>التوجيه والتخزين المؤقت</h3><ul><li>فئات الطلبات وسلاسل التصعيد والبدائل الاحتياطية</li><li>معدلات الإصابة المقيسة في ذاكرة التخزين المؤقت</li><li>تقادم المحتوى وعزل المستأجرين</li></ul></div><div class="topic"><h3>عرض القيمة</h3><ul><li>التكلفة لكل نتيجة ناجحة</li><li>التنبؤ بالإنفاق</li><li>الطاقة إلى جانب المال</li></ul></div></div></section>
+<section class="sec"><h2>الأدوات والمنصات</h2><p class="sec-lead">هذه أمثلة، ويجوز استخدام أي بديل مكافئ.</p><dl class="pairs"><div><dt>بوابة مزودة بالميزانيات والتوجيه</dt><dd>LiteLLM، Agent Router</dd></div><div><dt>تحليل الاستخدام</dt><dd>DuckDB، pandas</dd></div><div><dt>مخازن الذاكرة المؤقتة</dt><dd>Valkey، PostgreSQL مع pgvector</dd></div><div><dt>فحوصات الجودة وتوزيع تكلفة العنقود</dt><dd>promptfoo أو Inspect، OpenCost</dd></div></dl></section>
+<section class="sec"><h2>كيف يُقيَّم العمل</h2><ul><li>اختبار قصير مراقب: حساب التكاليف ووفورات التخزين المؤقت يدويًا (15%)</li><li>مختبرات مقيَّمة (40%)</li><li>مذكرة المشروع الختامي ومناقشتها (45%)</li></ul><dl class="pairs"><div><dt>معيار الاجتياز</dt><dd>70% إجمالًا، و60% في الاختبار القصير المراقب</dd></div></dl></section>
+<section class="sec"><h2>استخدام الذكاء الاصطناعي في المقرر</h2><p>دون ذكاء اصطناعي في الاختبار القصير المراقب. ذكاء اصطناعي مرشد في المختبرات. ذكاء اصطناعي كامل في المشروع الختامي، ويُناقَش مباشرة.</p><p class="legend">دون ذكاء اصطناعي: بلا أي مساعدة. ذكاء اصطناعي مرشد: مساعد يلمّح ويشرح ولا يعطي الإجابة. ذكاء اصطناعي كامل: أي مساعدة، والمشارك مسؤول عن النتيجة ويدافع عنها.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="المقرر السابق والمقرر التالي"><a class="pager-prev" rel="prev" href="DEV-OPS-303.html"><span class="k">المقرر السابق</span><span><span class="code" dir="ltr">DEV-OPS-303</span> تشغيل وكلاء الذكاء الاصطناعي: التنفيذ الدائم والعزل وإعادة تشغيل آثار التنفيذ</span></a><a class="pager-next" rel="next" href="DEV-OPS-401.html"><span class="k">المقرر التالي</span><span><span class="code" dir="ltr">DEV-OPS-401</span> هندسة الاعتمادية لخدمات الذكاء الاصطناعي</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-FND"><a href="../../foundations/index.html">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="../../data-science/index.html">علم البيانات</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">التنفيذيون والقادة</a></li></ul></nav>
+<p>دليل مقررات أكاديمية سدايا لعام 2027 في البيانات والذكاء الاصطناعي.</p>
+<p>الدليل وصف للمقررات وليس جدولًا زمنيًا لتقديمها، وقد يتغير وصف المقرر قبل فتحه.</p>
+</div>
+</footer>
+</body>
+</html>

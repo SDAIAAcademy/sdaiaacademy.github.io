@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Participants build the data side of a production model on a synthetic payments event log. They assemble training sets with point-in-time joins, define features once for training and serving, catch training-serving skew, and run a model-assisted labelling flow with human review and versioned labels.">
+<title>DEV-MLE-203 · Feature, Training-Data and Labelling Pipelines · SDAIA Academy Course Catalog 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-MLE/DEV-MLE-203.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">Skip to content</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">SDAIA Academy</span> <span class="brand-sub">Course catalog 2027</span></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-MLE/DEV-MLE-203.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-MLE</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-MLE-203</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-MLE-203</span> <span class="t">Feature, Training-Data and Labelling Pipelines</span></h1>
+<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Workshop</span></li><li><span class="chip chip-plain">16 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-MLE</span> <span>Machine Learning Engineering</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Workshop: 2 days with labs and a short tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">16 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-MLE-201.html"><span class="code" dir="ltr">DEV-MLE-201</span> <span>Machine Learning Engineering: Baselines, Validation and Pipelines</span></a></li></ul><ul class="plain-list"><li>Writes analytical SQL with joins and window functions</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>Description</h2><p>Participants build the data side of a production model on a synthetic payments event log. They assemble training sets with point-in-time joins, define features once for training and serving, catch training-serving skew, and run a model-assisted labelling flow with human review and versioned labels.</p></section>
+<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Explain how point-in-time errors, stale features and training-serving skew enter a prediction system.</p><p class="o-more"><span class="k">Given</span> a data-flow diagram of a fraud-scoring service.</p><p class="o-more"><span class="k">Evidence</span> the diagram marked with entry points and the checks that catch them.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement an as-of join that uses only feature values available at each label&#x27;s time.</p><p class="o-more"><span class="k">Given</span> event logs, labels and late-arriving records.</p><p class="o-more"><span class="k">Evidence</span> a build script and metrics compared with a naive join.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure shared feature definitions with offline materialisation and online retrieval.</p><p class="o-more"><span class="k">Given</span> a feature store and three feature definitions.</p><p class="o-more"><span class="k">Evidence</span> a test showing identical values from both paths.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Test a deployed model for training-serving skew by comparing logged and recomputed features.</p><p class="o-more"><span class="k">Given</span> a service with seeded skew in null handling and time zones.</p><p class="o-more"><span class="k">Evidence</span> a skew report with cause and a regression test.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a labelling flow that samples by model uncertainty, pre-labels, routes to human review and versions the labels.</p><p class="o-more"><span class="k">Given</span> a pool of synthetic dispute notes and a small open-weight model.</p><p class="o-more"><span class="k">Evidence</span> a label snapshot with provenance and the share of pre-labels reviewers changed.</p></li></ol></section>
+<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Features and point-in-time correctness</h3><ul><li>Entities, keys and event time</li><li>Batch, streaming and on-request features</li><li>Offline and online stores, freshness and backfills</li><li>As-of joins and late-arriving data</li></ul></div><div class="topic"><h3>Training-serving skew</h3><ul><li>Causes: duplicated code, defaults, versions</li><li>Logging served features</li><li>Skew checks; monitoring is <a href="../DEV-OPS/DEV-OPS-301.html">DEV-OPS-301</a></li></ul></div><div class="topic"><h3>Labelling flows</h3><ul><li>Choosing what to label next</li><li>Model pre-labels and anchoring bias</li><li>Label provenance and versioning; guidelines and agreement are <a href="../DEV-EVL/DEV-EVL-304.html">DEV-EVL-304</a></li></ul></div></div></section>
+<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Feature store</dt><dd>Feast, open table format with SQL as-of joins</dd></div><div><dt>Analytical SQL engine</dt><dd>DuckDB, Polars</dd></div><div><dt>Labelling and review interface</dt><dd>Label Studio, a notebook review queue</dd></div><div><dt>Data versioning</dt><dd>DVC, lakeFS</dd></div></dl></section>
+<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised AI-off check on three join queries (10%)</li><li>Graded labs (50%)</li><li>Capstone with review (40%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall, and the capstone&#x27;s point-in-time test passes on re-run</dd></div></dl></section>
+<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the join check. AI-tutor in labs. AI-full in the capstone, explained live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-MLE-202.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-MLE-202</span> Deep Learning Engineering</span></a><a class="pager-next" rel="next" href="DEV-MLE-301.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-MLE-301</span> Computer Vision Engineering</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li></ul></nav>
+<p>The SDAIA Academy course catalog for 2027, in data and artificial intelligence.</p>
+<p>The catalog describes courses; it is not a timetable. A description may change before its course opens.</p>
+</div>
+</footer>
+</body>
+</html>

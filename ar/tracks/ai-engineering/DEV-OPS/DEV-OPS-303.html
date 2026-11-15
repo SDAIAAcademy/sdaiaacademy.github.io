@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="يشغّل المشاركون مجموعة صغيرة من الوكلاء على عنقود مقدَّم لهم. فيديرون إصدار كل وكيل بوصفه حزمة واحدة، ويبقون الجلسات الدائمة عاملة رغم الأعطال والترقيات، ويختبرون أن الأدوات آمنة لإعادة المحاولة، ويشغّلون بيئات تشغيل معزولة ذات حصص وسياسات لحركة البيانات الصادرة، ويعيدون تشغيل آثار التنفيذ المسجلة ل">
+<title>DEV-OPS-303 · تشغيل وكلاء الذكاء الاصطناعي: التنفيذ الدائم والعزل وإعادة تشغيل آثار التنفيذ · دليل مقررات أكاديمية سدايا 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-303.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">الانتقال إلى المحتوى</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">أكاديمية سدايا</span> <span class="brand-sub">دليل المقررات 2027</span></a>
+<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../../../courses/index.html" class="here">المقررات</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-303.html" lang="en" hreflang="en">English</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="التحويل إلى المظهر الداكن" data-to-light="التحويل إلى المظهر الفاتح"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="مسار التصفح"><ol><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-OPS-303</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-OPS-303</span> <span class="t">تشغيل وكلاء الذكاء الاصطناعي: التنفيذ الدائم والعزل وإعادة تشغيل آثار التنفيذ</span></h1>
+<p class="alt-title"><bdi lang="en">Operating AI Agents: Durable Execution, Sandboxing and Replay</bdi></p>
+<ul class="chips"><li><span class="chip chip-level">المستوى 300 · التطوير</span></li><li><span class="chip">ورشة عمل</span></li><li><span class="chip chip-plain">16 ساعة</span></li><li><span class="chip chip-plain">الفئة المستهدفة: ممارس</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="نظرة سريعة"><div class="fact"><h2>المسار</h2><p><a href="../index.html">هندسة الذكاء الاصطناعي</a></p></div><div class="fact"><h2>المسار الفرعي</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span> <span>العمليات والاعتمادية</span></a></p></div><div class="fact"><h2>المستوى</h2><p>المستوى 300 · التطوير</p></div><div class="fact"><h2>الفئة المستهدفة</h2><p>ممارس</p></div><div class="fact"><h2>الصيغة</h2><p>ورشة عمل: يومان فيهما مختبرات ونوبة تشغيل</p></div><div class="fact"><h2>إجمالي الساعات</h2><p class="hours-total">16 ساعة</p></div><div class="fact"><h2>المتطلبات السابقة</h2><ul class="ref-list"><li><a href="../DEV-AGT/DEV-AGT-301.html"><span class="code" dir="ltr">DEV-AGT-301</span> <span>هندسة الأنظمة الوكيلية: الحلقات والسياق وأطر التشغيل</span></a></li><li><a href="DEV-OPS-302.html"><span class="code" dir="ltr">DEV-OPS-302</span> <span>تشغيل تطبيقات النماذج اللغوية: التتبع وبوابات التقييم والإطلاق الآمن</span></a></li></ul><ul class="plain-list"><li>أتم المقرر <a href="../DEV-AGT/DEV-AGT-402.html">DEV-AGT-402</a>، أو سبق له تشغيل وكلاء على محرك مسارات عمل دائمة</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>الوصف</h2><p>يشغّل المشاركون مجموعة صغيرة من الوكلاء على عنقود مقدَّم لهم. فيديرون إصدار كل وكيل بوصفه حزمة واحدة، ويبقون الجلسات الدائمة عاملة رغم الأعطال والترقيات، ويختبرون أن الأدوات آمنة لإعادة المحاولة، ويشغّلون بيئات تشغيل معزولة ذات حصص وسياسات لحركة البيانات الصادرة، ويعيدون تشغيل آثار التنفيذ المسجلة لإعادة إنتاج الحوادث، ويقيّدون الوكلاء أو يوقفونهم عند بوابة. أما بناء المنصة فيتناوله المقرر <a href="../DEV-AGT/DEV-AGT-402.html">DEV-AGT-402</a>.</p></section>
+<section class="sec"><h2>نواتج التعلم</h2><p class="sec-lead">بنهاية المقرر يستطيع المشارك أن:</p><ol class="outcomes"><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">ينفذ حزمة وكيل تثبّت النموذج والأوامر ومخططات الأدوات والمهارات وإعدادات إطار التشغيل (harness).</p><p class="o-more"><span class="k">المعطيات</span> عند التعامل مع وكيل غيّره تعديل غير مسجل في إحدى مهاراته.</p><p class="o-more"><span class="k">الدليل</span> حزمة ذات إصدار، ومقارنة بين أثري تنفيذ تحدد التعديل.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يختبر تساوي الأثر (idempotency) في الأدوات بحقن الأعطال والمهل الزمنية وعمليات التسليم المكررة.</p><p class="o-more"><span class="k">المعطيات</span> في مسار عمل دائم فيه أداة واحدة غير آمنة لإعادة المحاولة.</p><p class="o-more"><span class="k">الدليل</span> إعادة تشغيل بلا آثار جانبية مكررة بعد الإصلاح.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يشخّص إخفاق وكيل بإعادة تشغيل أثر تنفيذه المسجل على إصدارين.</p><p class="o-more"><span class="k">المعطيات</span> عند التعامل مع جلسة فاشلة استجابات أدواتها محفوظة.</p><p class="o-more"><span class="k">الدليل</span> إعادة إنتاج حتمية للإخفاق ومذكرة بالسبب الجذري.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يقرر إفراغ الجلسات الجارية أو تثبيتها أو ترحيلها من أجل ترقية، ثم ينفذ قراره.</p><p class="o-more"><span class="k">المعطيات</span> عند التعامل مع 20 جلسة جارية وتغيير في مخطط البيانات يكسر التوافق.</p><p class="o-more"><span class="k">الدليل</span> سجل تنتهي فيه كل جلسة أو تُعاد إلى صاحبها.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يهيئ لكل وكيل حدودًا لمعدل الاستخدام والإنفاق وقوائم الأدوات المصرح بها والإيقاف الفوري.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام بوابة أمام النماذج والأدوات.</p><p class="o-more"><span class="k">الدليل</span> وكيل منفلت يُوقف ضمن زمن معلن، مع قيود في سجل التدقيق.</p></li></ol></section>
+<section class="sec"><h2>الموضوعات</h2><div class="topics"><div class="topic"><h3>إدارة إصدارات الوكلاء</h3><ul><li>الفصل بين الجلسة وإطار التشغيل وبيئة التشغيل المعزولة</li><li>حزمة الوكيل</li><li>الجلسات الجارية أثناء الترقيات</li></ul></div><div class="topic"><h3>التنفيذ الدائم</h3><ul><li>نقاط الحفظ والجلسات المعلقة بلا مالك</li><li>مفاتيح منع التكرار والطلبات المكررة</li><li>انتظار الموافقات والمهل الزمنية</li><li>إشارات السلامة التشغيلية: الخطوات وأخطاء الأدوات والجلسات المتوقفة</li></ul></div><div class="topic"><h3>بيئات التشغيل المعزولة والضوابط</h3><ul><li>المجمعات الجاهزة والحصص وسياسات حركة البيانات الصادرة</li><li>ميزانيات معدل الاستخدام والإنفاق والخطوات</li><li>الإيقاف الفوري وأدلة التشغيل</li></ul></div><div class="topic"><h3>إعادة تشغيل آثار التنفيذ</h3><ul><li>استجابات الأدوات المسجلة</li><li>إعادة التشغيل لإعادة إنتاج الإخفاقات واختبار الانحدار</li></ul></div></div></section>
+<section class="sec"><h2>الأدوات والمنصات</h2><p class="sec-lead">هذه أمثلة، ويجوز استخدام أي بديل مكافئ.</p><dl class="pairs"><div><dt>التنفيذ الدائم</dt><dd>Temporal، إطار عمل قائم على مخطط الحالات مزود بآلية لنقاط الحفظ</dd></div><div><dt>بيئة تشغيل معزولة للوكلاء</dt><dd>Kubernetes agent-sandbox مع gVisor، OpenSandbox</dd></div><div><dt>بوابة للوكلاء</dt><dd>agentgateway، Agent Router</dd></div><div><dt>التتبع وحقن الأعطال</dt><dd>Langfuse أو Arize Phoenix، Toxiproxy أو Chaos Mesh</dd></div></dl></section>
+<section class="sec"><h2>كيف يُقيَّم العمل</h2><ul><li>اختبار قصير مراقب: تحديد موضع إخفاق في سجل مسار عمل (15%)</li><li>مختبرات مقيَّمة (40%)</li><li>نوبة التشغيل (45%)</li></ul><dl class="pairs"><div><dt>معيار الاجتياز</dt><dd>70% إجمالًا، و60% في الاختبار القصير المراقب</dd></div></dl></section>
+<section class="sec"><h2>استخدام الذكاء الاصطناعي في المقرر</h2><p>دون ذكاء اصطناعي في الاختبار القصير المراقب. ذكاء اصطناعي مرشد في المختبرات. ذكاء اصطناعي كامل في نوبة التشغيل، ويشرحها المشارك مباشرة.</p><p class="legend">دون ذكاء اصطناعي: بلا أي مساعدة. ذكاء اصطناعي مرشد: مساعد يلمّح ويشرح ولا يعطي الإجابة. ذكاء اصطناعي كامل: أي مساعدة، والمشارك مسؤول عن النتيجة ويدافع عنها.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="المقرر السابق والمقرر التالي"><a class="pager-prev" rel="prev" href="DEV-OPS-302.html"><span class="k">المقرر السابق</span><span><span class="code" dir="ltr">DEV-OPS-302</span> تشغيل تطبيقات النماذج اللغوية: التتبع وبوابات التقييم والإطلاق الآمن</span></a><a class="pager-next" rel="next" href="DEV-OPS-304.html"><span class="k">المقرر التالي</span><span><span class="code" dir="ltr">DEV-OPS-304</span> هندسة تكلفة الذكاء الاصطناعي: البوابات والتوجيه والتخزين المؤقت واقتصاديات الوحدة</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-FND"><a href="../../foundations/index.html">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="../../data-science/index.html">علم البيانات</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">التنفيذيون والقادة</a></li></ul></nav>
+<p>دليل مقررات أكاديمية سدايا لعام 2027 في البيانات والذكاء الاصطناعي.</p>
+<p>الدليل وصف للمقررات وليس جدولًا زمنيًا لتقديمها، وقد يتغير وصف المقرر قبل فتحه.</p>
+</div>
+</footer>
+</body>
+</html>

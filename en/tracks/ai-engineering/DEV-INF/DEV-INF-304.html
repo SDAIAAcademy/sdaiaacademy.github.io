@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Participants build a sensing device that runs a neural network in a few hundred kilobytes of memory and a few milliwatts of power. On a low-cost board they record and label sensor data, train and quantise a tiny model, deploy it as firmware and measure latency, memory and energy per inference.">
+<title>DEV-INF-304 · Embedded Machine Learning on Microcontrollers · SDAIA Academy Course Catalog 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-INF/DEV-INF-304.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">Skip to content</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">SDAIA Academy</span> <span class="brand-sub">Course catalog 2027</span></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-INF/DEV-INF-304.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-INF</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-INF-304</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-INF-304</span> <span class="t">Embedded Machine Learning on Microcontrollers</span></h1>
+<ul class="chips"><li><span class="chip chip-level">Level 300 · Develop</span></li><li><span class="chip">Workshop</span></li><li><span class="chip chip-plain">16 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-INF</span> <span>Infrastructure, Performance and Architecture</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 300 · Develop</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Workshop: two bench days with one board per pair and a live demonstration</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">16 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-INF-201.html"><span class="code" dir="ltr">DEV-INF-201</span> <span>Machine Learning Systems on One Machine</span></a></li></ul><ul class="plain-list"><li>Reads and edits simple C or C++ code, or completes the provided two-hour firmware pre-work</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>Description</h2><p>Participants build a sensing device that runs a neural network in a few hundred kilobytes of memory and a few milliwatts of power. On a low-cost board they record and label sensor data, train and quantise a tiny model, deploy it as firmware and measure latency, memory and energy per inference.</p></section>
+<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Compute the flash, RAM and energy budget of a sensing application, including the tensor arena and duty cycle.</p><p class="o-more"><span class="k">Given</span> a board datasheet and a target battery life.</p><p class="o-more"><span class="k">Evidence</span> a budget sheet within 15% of the build&#x27;s memory map and measured current.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Prepare a sensor dataset and feature pipeline with a documented collection protocol.</p><p class="o-more"><span class="k">Given</span> consenting cohort recordings and a public keyword dataset.</p><p class="o-more"><span class="k">Evidence</span> a dataset card and a split by speaker or session that prevents leakage.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Deploy a full-integer quantised model to a microcontroller and diagnose the memory, latency and accuracy problems that appear.</p><p class="o-more"><span class="k">Given</span> a firmware template and a board.</p><p class="o-more"><span class="k">Evidence</span> running firmware, serial logs and a fault log.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Deliver a sensing device that meets a stated memory, latency and battery-life target under real conditions.</p><p class="o-more"><span class="k">Given</span> a scenario from a provided list.</p><p class="o-more"><span class="k">Evidence</span> a live bench demonstration on a fresh recording and a one-page trade-off note.</p></li></ol></section>
+<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Constraints of tiny devices</h3><ul><li>Flash, SRAM, clock and power envelopes</li><li>Always-on sensing and duty cycling</li><li>Benchmarks for tiny inference</li></ul></div><div class="topic"><h3>From sensor to model</h3><ul><li>Windowing, spectral and inertial features</li><li>Small convolutional networks and autoencoders</li><li>Quantisation-aware training and integer kernels</li></ul></div><div class="topic"><h3>Deployment and measurement</h3><ul><li>Model as firmware: arena sizing and operators</li><li>Energy per inference and battery life</li><li>Desk accuracy versus field accuracy</li></ul></div></div></section>
+<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Microcontroller kits (provided)</dt><dd>Seeed XIAOML Kit, Arduino Nano 33 BLE Sense</dd></div><div><dt>Microcontroller inference runtime</dt><dd>LiteRT for Microcontrollers, ExecuTorch with Cortex-M support, CMSIS-NN kernels</dd></div><div><dt>Training and firmware toolchain</dt><dd>PyTorch or Keras, PlatformIO, Arduino CLI</dd></div><div><dt>Power measurement</dt><dd>USB power profiler, shunt resistor and multimeter</dd></div></dl></section>
+<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised budget calculation without AI assistance (20%)</li><li>Lab checkpoints (30%)</li><li>Live bench demonstration and trade-off note (50%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall, with the device meeting at least two of its three budget targets live</dd></div></dl></section>
+<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised budget calculation. AI-tutor in labs. AI-full for capstone code, explained on request at the bench.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-INF-303.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-INF-303</span> Edge and On-Device AI: Small Models and Neural Processors</span></a><a class="pager-next" rel="next" href="DEV-INF-401.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-INF-401</span> Inference Performance and Cost Engineering</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li></ul></nav>
+<p>The SDAIA Academy course catalog for 2027, in data and artificial intelligence.</p>
+<p>The catalog describes courses; it is not a timetable. A description may change before its course opens.</p>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Participants work out how supervised learning turns labelled examples into predictions, by hand first and then in code. They fit a nearest-neighbour rule and a linear model on paper, make a model overfit on purpose, choose a decision threshold from error costs and base rates, and hunt leaks seeded i">
+<title>FND-AIC-101 · How Machine Learning Works · SDAIA Academy Course Catalog 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/foundations/FND-AIC/FND-AIC-101.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-FND">
+<a class="skip" href="#main">Skip to content</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">SDAIA Academy</span> <span class="brand-sub">Course catalog 2027</span></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../ar/tracks/foundations/FND-AIC/FND-AIC-101.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">Data &amp; AI Foundations</a></li><li><a href="index.html"><span class="code" dir="ltr">FND-AIC</span></a></li><li aria-current="page"><span class="code" dir="ltr">FND-AIC-101</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">FND-AIC-101</span> <span class="t">How Machine Learning Works</span></h1>
+<ul class="chips"><li><span class="chip chip-level">Level 100 · Explain</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">30 h</span></li><li><span class="chip chip-plain">Audience: beginner</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">Data &amp; AI Foundations</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">FND-AIC</span> <span>AI Concepts and Responsible Practice</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 100 · Explain</p></div><div class="fact"><h2>Audience</h2><p>beginner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">30 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="../FND-PRG/FND-PRG-101.html"><span class="code" dir="ltr">FND-PRG-101</span> <span>Python Programming for Data and AI</span></a></li></ul><ul class="plain-list"><li>Writes short Python functions and loops; a passed placement exercise is accepted instead of <a href="../FND-PRG/FND-PRG-101.html">FND-PRG-101</a></li><li>Uses school algebra; the derivative of a squared error is taught in the pre-work</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>Description</h2><p>Participants work out how supervised learning turns labelled examples into predictions, by hand first and then in code. They fit a nearest-neighbour rule and a linear model on paper, make a model overfit on purpose, choose a decision threshold from error costs and base rates, and hunt leaks seeded in a pipeline. Labs run on a laptop with small public or synthetic tabular data, and the capstone is an honest modelling report with a model card, defended in person.</p></section>
+<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Explain how a supervised learner fits a prediction rule by minimising a loss.</p><p class="o-more"><span class="k">Given</span> a ten-row table and a one-feature linear model.</p><p class="o-more"><span class="k">Evidence</span> a hand-worked loss and two gradient steps, with a three-sentence explanation.</p></li><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Distinguish training, validation and test data, and identify overfitting and underfitting from plotted curves.</p><p class="o-more"><span class="k">Given</span> six complexity and learning curves.</p><p class="o-more"><span class="k">Evidence</span> a diagnosis and remedy per curve, at least five of six correct.</p></li><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Identify target, duplicate, preprocessing and temporal leakage in modelling pipelines.</p><p class="o-more"><span class="k">Given</span> eight short pipeline descriptions.</p><p class="o-more"><span class="k">Evidence</span> each leak named with its fix, at least six of eight correct.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement a train, validate and test workflow comparing a baseline, a linear model and a decision tree.</p><p class="o-more"><span class="k">Given</span> a tabular dataset and a starter notebook.</p><p class="o-more"><span class="k">Evidence</span> a notebook that runs end to end with a fixed seed and reports held-out metrics.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Compute confusion-matrix metrics and choose a threshold from error costs and the base rate.</p><p class="o-more"><span class="k">Given</span> test-set scores and a cost per error type.</p><p class="o-more"><span class="k">Evidence</span> a metrics table and a justified threshold.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Draft a one-page model card with intended use, data, metrics by subgroup and known limits.</p><p class="o-more"><span class="k">Given</span> the participant&#x27;s capstone model.</p><p class="o-more"><span class="k">Evidence</span> a model card reviewed in the defence.</p></li></ol></section>
+<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Learning from examples</h3><ul><li>Features, labels and prediction rules</li><li>Loss and gradient descent</li><li>Nearest neighbours and linear models by hand</li></ul></div><div class="topic"><h3>Generalisation</h3><ul><li>Training, validation and test sets</li><li>Model complexity, overfitting and regularisation</li><li>Cross-validation and learning curves</li></ul></div><div class="topic"><h3>Measuring a model</h3><ul><li>Confusion matrix, precision and recall</li><li>Thresholds, error costs and base rates</li><li>Regression errors against a naive baseline</li></ul></div><div class="topic"><h3>Data and leakage</h3><ul><li>Encoding, scaling and missing values</li><li>Pipelines fitted on training data only</li><li>Target, duplicate and temporal leakage</li></ul></div><div class="topic"><h3>Model families and limits</h3><ul><li>Trees, linear models and small neural networks</li><li>Distribution shift and subgroup error gaps</li><li>Where language models fit (<a href="FND-AIC-102.html">FND-AIC-102</a>)</li></ul></div></div></section>
+<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Notebook environment</dt><dd>JupyterLab, a free hosted notebook service</dd></div><div><dt>Machine learning library</dt><dd>scikit-learn, tidymodels in R</dd></div><div><dt>Dataframes and plotting</dt><dd>pandas with Matplotlib, Polars with seaborn</dd></div></dl></section>
+<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check without devices: a hand fit, curve reading and leak spotting (30%)</li><li>Graded labs (30%)</li><li>Capstone with defence (40%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>60% overall and at least 50% on the supervised check</dd></div></dl></section>
+<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the hand fits, the first attempt at each lab and the supervised check. AI-tutor for debugging in the labs. AI-full for capstone code, which the participant explains in the defence.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="Previous and next course"><span></span><a class="pager-next" rel="next" href="FND-AIC-102.html"><span class="k">Next course</span><span><span class="code" dir="ltr">FND-AIC-102</span> How Language Models Work</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-FND"><a href="../index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../../ai-engineering/index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li></ul></nav>
+<p>The SDAIA Academy course catalog for 2027, in data and artificial intelligence.</p>
+<p>The catalog describes courses; it is not a timetable. A description may change before its course opens.</p>
+</div>
+</footer>
+</body>
+</html>

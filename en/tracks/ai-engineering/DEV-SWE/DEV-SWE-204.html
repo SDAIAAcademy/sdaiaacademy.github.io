@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Participants build the checks that decide whether agent-written code is accepted. On a synthetic, mostly agent-written fee-calculation library, they write and protect acceptance tests before delegating, add property-based and mutation testing, wire code, dependency and secret scanning into continuou">
+<title>DEV-SWE-204 · Testing and Verification of AI-Assisted Code · SDAIA Academy Course Catalog 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-SWE/DEV-SWE-204.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">Skip to content</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">SDAIA Academy</span> <span class="brand-sub">Course catalog 2027</span></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-SWE/DEV-SWE-204.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-SWE</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-SWE-204</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-SWE-204</span> <span class="t">Testing and Verification of AI-Assisted Code</span></h1>
+<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Workshop</span></li><li><span class="chip chip-plain">16 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-SWE</span> <span>Software Engineering for AI Builders</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Workshop: two days with labs and a short build project, with guided pre-work</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">16 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="../../foundations/FND-PRG/FND-PRG-104.html"><span class="code" dir="ltr">FND-PRG-104</span> <span>Software Testing, Code Review and Documentation</span></a></li></ul><ul class="plain-list"><li>Has used a coding agent</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>Description</h2><p>Participants build the checks that decide whether agent-written code is accepted. On a synthetic, mostly agent-written fee-calculation library, they write and protect acceptance tests before delegating, add property-based and mutation testing, wire code, dependency and secret scanning into continuous integration, and size review effort to agent volume. Application-level security is <a href="../DEV-SEC/DEV-SEC-201.html">DEV-SEC-201</a>.</p></section>
+<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Prepare acceptance tests before delegating and protect them from agent edits.</p><p class="o-more"><span class="k">Given</span> a feature request and a coding agent.</p><p class="o-more"><span class="k">Evidence</span> a seeded attempt to edit a protected test, blocked by a hook or pipeline.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement property-based tests that find defects example tests miss.</p><p class="o-more"><span class="k">Given</span> a date and fee module with seeded edge-case defects.</p><p class="o-more"><span class="k">Evidence</span> properties exposing two defects with shrunk counterexamples.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Measure suite strength with mutation testing and kill surviving mutants.</p><p class="o-more"><span class="k">Given</span> a suite with high line coverage.</p><p class="o-more"><span class="k">Evidence</span> mutation scores before and after, survivors justified.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure code, dependency and secret scanning and triage findings.</p><p class="o-more"><span class="k">Given</span> seeded unsafe patterns, a vulnerable dependency and a planted key.</p><p class="o-more"><span class="k">Evidence</span> a triage file with true findings fixed and false positives justified.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a verification pipeline that accepts a correct agent change and rejects faulty ones.</p><p class="o-more"><span class="k">Given</span> one correct and four faulty unseen changes.</p><p class="o-more"><span class="k">Evidence</span> pipeline logs and a review plan with reviewer hours per risk tier.</p></li></ol></section>
+<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Tests as the contract</h3><ul><li>Test-first delegation</li><li>Characterisation tests before agent refactoring</li><li>Protected tests and hooks</li><li>Agents that skip, weaken or hard-code tests</li></ul></div><div class="topic"><h3>Stronger tests</h3><ul><li>Properties and shrinking</li><li>Mutation testing: why coverage is not strength</li></ul></div><div class="topic"><h3>Security of generated code</h3><ul><li>Common flaws in generated code</li><li>Static analysis and secret detection</li><li>Dependencies, licences and invented package names</li></ul></div><div class="topic"><h3>Review capacity</h3><ul><li>Review depth by risk tier</li><li>Small, stacked changes</li><li>Agent review as a first pass only</li></ul></div></div></section>
+<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Test runner and property-based testing</dt><dd>pytest, Hypothesis, fast-check</dd></div><div><dt>Mutation testing</dt><dd>mutmut, Stryker</dd></div><div><dt>Static, dependency and secret scanning</dt><dd>Semgrep, Bandit, OSV-Scanner, Gitleaks</dd></div><div><dt>Continuous integration</dt><dd>Forgejo Actions, GitLab CI, GitHub Actions</dd></div></dl></section>
+<section class="sec"><h2>How the work is assessed</h2><ul><li>AI-off check: find the defect and missing test in three diffs (20%)</li><li>Labs (35%)</li><li>Capstone pipeline (30%)</li><li>Live defence (15%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>60% overall, and the pipeline accepts the correct change and rejects at least three of four faulty ones</dd></div></dl></section>
+<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check and first properties in lab 2. AI-tutor in labs 3 and 4. AI-full in lab 1 and the defended capstone.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-SWE-203.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-SWE-203</span> Front Ends for AI Applications: Streaming, Chat and Generative Interfaces</span></a><a class="pager-next" rel="next" href="DEV-SWE-301.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-SWE-301</span> System Design for AI Products</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li></ul></nav>
+<p>The SDAIA Academy course catalog for 2027, in data and artificial intelligence.</p>
+<p>The catalog describes courses; it is not a timetable. A description may change before its course opens.</p>
+</div>
+</footer>
+</body>
+</html>

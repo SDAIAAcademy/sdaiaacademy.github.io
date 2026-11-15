@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="ينقل المشاركون مصنِّفًا للبيانات الجدولية ونموذجًا لغويًا صغيرًا مفتوح الأوزان من دفتر (notebook) إلى خدمة يستطيع الآخرون استدعاؤها. فيحزمون كلًّا منهما في صورة حاوية ذات اعتماديات مثبتة الإصدارات، ويقدمونه عبر واجهة برمجة تطبيقات (API) محددة الأنواع تعمل ببروتوكول HTTP مع التحقق من المدخلات وفحوصات">
+<title>DEV-OPS-201 · نشر خدمات الذكاء الاصطناعي: الحاويات وخدمة النماذج والمراقبة · دليل مقررات أكاديمية سدايا 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-201.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">الانتقال إلى المحتوى</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">أكاديمية سدايا</span> <span class="brand-sub">دليل المقررات 2027</span></a>
+<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../../../courses/index.html" class="here">المقررات</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-201.html" lang="en" hreflang="en">English</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="التحويل إلى المظهر الداكن" data-to-light="التحويل إلى المظهر الفاتح"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="مسار التصفح"><ol><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-OPS-201</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-OPS-201</span> <span class="t">نشر خدمات الذكاء الاصطناعي: الحاويات وخدمة النماذج والمراقبة</span></h1>
+<p class="alt-title"><bdi lang="en">Deploying AI Services: Containers, Serving and Monitoring</bdi></p>
+<ul class="chips"><li><span class="chip chip-level">المستوى 200 · التطبيق</span></li><li><span class="chip">دورة مكثفة</span></li><li><span class="chip chip-plain">30 ساعة</span></li><li><span class="chip chip-plain">الفئة المستهدفة: ممارس</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="نظرة سريعة"><div class="fact"><h2>المسار</h2><p><a href="../index.html">هندسة الذكاء الاصطناعي</a></p></div><div class="fact"><h2>المسار الفرعي</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span> <span>العمليات والاعتمادية</span></a></p></div><div class="fact"><h2>المستوى</h2><p>المستوى 200 · التطبيق</p></div><div class="fact"><h2>الفئة المستهدفة</h2><p>ممارس</p></div><div class="fact"><h2>الصيغة</h2><p>دورة مكثفة: 4 أيام تدريبية ويوم للمشروع الختامي، مع عمل تحضيري موجه ومهمة متابعة متعقَّبة</p></div><div class="fact"><h2>إجمالي الساعات</h2><p class="hours-total">30 ساعة</p></div><div class="fact"><h2>المتطلبات السابقة</h2><ul class="plain-list"><li>يكتب برامج بلغة بايثون ويشغلها من سطر الأوامر</li><li>يستخدم Git وبيئة افتراضية لبايثون، كما في المقرر <a href="../../foundations/FND-PRG/FND-PRG-102.html">FND-PRG-102</a></li><li>سبق له استدعاء واجهة برمجة تطبيقات عبر HTTP وقراءة استجابة بصيغة JSON</li><li>يحمّل نموذجًا محفوظًا في بايثون ويستدعيه للحصول على التنبؤات</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>الوصف</h2><p>ينقل المشاركون مصنِّفًا للبيانات الجدولية ونموذجًا لغويًا صغيرًا مفتوح الأوزان من دفتر (notebook) إلى خدمة يستطيع الآخرون استدعاؤها. فيحزمون كلًّا منهما في صورة حاوية ذات اعتماديات مثبتة الإصدارات، ويقدمونه عبر واجهة برمجة تطبيقات (API) محددة الأنواع تعمل ببروتوكول HTTP مع التحقق من المدخلات وفحوصات السلامة التشغيلية، ويضيفون سجلات مهيكلة ومقاييس وتنبيهات، ثم يطلقون إصدارًا جديدًا عبر نشر مرحلي يتراجعون عنه عندما تفشل إشارة سلامة. وتعمل المختبرات على حاسب محمول بذاكرة 16 GB، أو على آلة افتراضية مخصصة للمختبر حين يتعذر تشغيل الحاويات على الحاسب المحمول.</p></section>
+<section class="sec"><h2>نواتج التعلم</h2><p class="sec-lead">بنهاية المقرر يستطيع المشارك أن:</p><ol class="outcomes"><li><span class="tag tag-awareness">توعوي</span><p class="o-do">يميّز بين الاستنتاج الدفعي والاستنتاج الفوري والاستنتاج التدفقي، والإشارات المهمة في كل منها.</p><p class="o-more"><span class="k">المعطيات</span> استنادًا إلى أربع حالات استخدام موصوفة.</p><p class="o-more"><span class="k">الدليل</span> جدول قرارات يطابق المرجع في ثلاثة صفوف من أربعة.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يحزم نموذجًا في صورة حاوية قابلة لإعادة الإنتاج، اعتمادياتها مثبتة الإصدارات ولا تحوي أي أسرار.</p><p class="o-more"><span class="k">المعطيات</span> استنادًا إلى نموذج مدرب على بيانات جدولية ودفتره.</p><p class="o-more"><span class="k">الدليل</span> صورة تُبنى من نسخة نظيفة من المستودع وتعيد إنتاج تنبؤات الدفتر.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">ينفذ نقطة نهاية لخدمة النموذج فيها التحقق من المدخلات ومهل زمنية وحد للطلبات المتزامنة وفحوصات السلامة التشغيلية.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام النموذج المحزوم ونموذج لغوي صغير على خادم محلي.</p><p class="o-more"><span class="k">الدليل</span> حزمة اختبارات عقد ناجحة تشمل حالات الحمل الزائد والمدخلات المشوهة.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يهيئ سجلات مهيكلة ومقاييس للطلبات وتنبيهين بعتبات موثقة.</p><p class="o-more"><span class="k">المعطيات</span> عند التعامل مع الخدمة تحت نص برمجي مُعدّ لتوليد الحمل.</p><p class="o-more"><span class="k">الدليل</span> ملف مُصدَّر من لوحة المعلومات، وتنبيه ينطلق عند عطل مزروع.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يسلّم إصدارًا جديدًا عبر نشر مرحلي تحكمه إشارات السلامة، ويتراجع عنه حين تتدهور إحدى الإشارات.</p><p class="o-more"><span class="k">المعطيات</span> عند التعامل مع إصدار معيب على عنقود أحادي العقدة.</p><p class="o-more"><span class="k">الدليل</span> سجل تشغيل يُظهر التراجع ضمن زمن الاستعادة المعلن.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يعدّ دليل تشغيل يتضمن الإصدارات وبصمات مخرجات العمل والمالك والتنبيهات وخطوات التراجع.</p><p class="o-more"><span class="k">المعطيات</span> في الخدمة التي نشرها المشارك.</p><p class="o-more"><span class="k">الدليل</span> زميل يعيد نشر الخدمة ويتراجع عنها اعتمادًا على الدليل وحده دون مساعدة.</p></li></ol></section>
+<section class="sec"><h2>الموضوعات</h2><div class="topics"><div class="topic"><h3>من الدفتر إلى الخدمة</h3><ul><li>الاستنتاج الدفعي والفوري والتدفقي</li><li>عقود الخدمة</li><li>زمن الاستجابة ومعدل الإنتاجية والتكلفة بوصفها متطلبات</li></ul></div><div class="topic"><h3>التحزيم</h3><ul><li>الصور والطبقات والبناء متعدد المراحل</li><li>تثبيت إصدارات الاعتماديات</li><li>إبقاء الأسرار خارج الصور؛ فحص الصور</li></ul></div><div class="topic"><h3>خدمة النماذج</h3><ul><li>واجهات برمجة التطبيقات محددة الأنواع والتحقق من المدخلات</li><li>المهل الزمنية وإعادة المحاولة وحدود الطلبات المتزامنة</li><li>نموذج لغوي صغير خلف واجهة قياسية لإكمال المحادثات</li><li>السلامة التشغيلية والجاهزية والإحماء</li></ul></div><div class="topic"><h3>أساسيات قابلية المراقبة</h3><ul><li>السجلات المهيكلة ومعرِّفات الربط</li><li>زمن الاستجابة وحجم الحركة والأخطاء والتشبع</li><li>الوحدات النصية (tokens) وزمن الوصول إلى أول وحدة نصية</li><li>إبقاء البيانات الشخصية خارج السجلات</li></ul></div><div class="topic"><h3>الإطلاق</h3><ul><li>مخرجات عمل ثابتة لا تتغير وذات إصدارات</li><li>عمليات النشر والخدمات والمجسات على عنقود أحادي العقدة</li><li>التحديث المتدرج والتحديث بأسلوب الأزرق والأخضر</li><li>تدريبات التراجع وأدلة التشغيل</li></ul></div></div></section>
+<section class="sec"><h2>الأدوات والمنصات</h2><p class="sec-lead">هذه أمثلة، ويجوز استخدام أي بديل مكافئ.</p><dl class="pairs"><div><dt>الحاويات وعنقود أحادي العقدة</dt><dd>Podman أو Docker، kind أو k3s</dd></div><div><dt>إطار عمل لخدمة النماذج وبيئة تشغيل محلية للنماذج</dt><dd>FastAPI، Ray Serve، llama.cpp server</dd></div><div><dt>المقاييس والسجلات ولوحات المعلومات</dt><dd>OpenTelemetry، Prometheus، Grafana</dd></div><div><dt>فحص الصور والأسرار</dt><dd>Trivy، gitleaks</dd></div></dl></section>
+<section class="sec"><h2>كيف يُقيَّم العمل</h2><ul><li>اختبار قصير مراقب: تشخيص ثلاثة أعطال من ملف حاوية وسجلات ولوحة معلومات (15%)</li><li>مختبرات مقيَّمة (35%)</li><li>مشروع ختامي يُقيَّم بسلم تقدير من خمسة معايير (40%)</li><li>استعادة مباشرة (10%)</li></ul><dl class="pairs"><div><dt>معيار الاجتياز</dt><dd>70% إجمالًا، و60% في الاختبار القصير المراقب، مع إتمام عملية تراجع في الجلسة المباشرة</dd></div></dl></section>
+<section class="sec"><h2>استخدام الذكاء الاصطناعي في المقرر</h2><p>دون ذكاء اصطناعي في الاختبار القصير المراقب وفي أول ملف حاوية. ذكاء اصطناعي مرشد في المختبرات. ذكاء اصطناعي كامل في المشروع الختامي، ويشرحه المشارك مباشرة.</p><p class="legend">دون ذكاء اصطناعي: بلا أي مساعدة. ذكاء اصطناعي مرشد: مساعد يلمّح ويشرح ولا يعطي الإجابة. ذكاء اصطناعي كامل: أي مساعدة، والمشارك مسؤول عن النتيجة ويدافع عنها.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="المقرر السابق والمقرر التالي"><span></span><a class="pager-next" rel="next" href="DEV-OPS-301.html"><span class="k">المقرر التالي</span><span><span class="code" dir="ltr">DEV-OPS-301</span> عمليات تعلم الآلة: مسارات المعالجة وسجلات النماذج والتسليم</span></a></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-FND"><a href="../../foundations/index.html">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="../../data-science/index.html">علم البيانات</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">التنفيذيون والقادة</a></li></ul></nav>
+<p>دليل مقررات أكاديمية سدايا لعام 2027 في البيانات والذكاء الاصطناعي.</p>
+<p>الدليل وصف للمقررات وليس جدولًا زمنيًا لتقديمها، وقد يتغير وصف المقرر قبل فتحه.</p>
+</div>
+</footer>
+</body>
+</html>

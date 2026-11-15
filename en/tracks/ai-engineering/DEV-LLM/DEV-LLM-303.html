@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="Participants choose models with numbers. They score open and closed, small and large models at several reasoning settings on their own tasks, design a routing policy with tiers and fallbacks, arrange prompts for cache hits, and compute when self-hosting an open-weight model beats an API. The case st">
+<title>DEV-LLM-303 · Model Choice, Routing and Inference Economics · SDAIA Academy Course Catalog 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-303.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-DEV">
+<a class="skip" href="#main">Skip to content</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">SDAIA Academy</span> <span class="brand-sub">Course catalog 2027</span></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-303.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-LLM-303</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">DEV-LLM-303</span> <span class="t">Model Choice, Routing and Inference Economics</span></h1>
+<ul class="chips"><li><span class="chip chip-level">Level 300 · Develop</span></li><li><span class="chip">Workshop</span></li><li><span class="chip chip-plain">12 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span> <span>Language Model Application Engineering</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 300 · Develop</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Workshop: one and a half days with labs and a costed decision memo, with guided pre-work</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">12 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-LLM-201.html"><span class="code" dir="ltr">DEV-LLM-201</span> <span>Building Applications on Language Models</span></a></li></ul><ul class="plain-list"><li>Has compared two configurations of an application on an evaluation set</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>Description</h2><p>Participants choose models with numbers. They score open and closed, small and large models at several reasoning settings on their own tasks, design a routing policy with tiers and fallbacks, arrange prompts for cache hits, and compute when self-hosting an open-weight model beats an API. The case study is a synthetic document-review application with a stated volume, quality floor and data-placement rule. Serving optimisation continues in <a href="../DEV-INF/DEV-INF-401.html">DEV-INF-401</a> and production cost control in <a href="../DEV-OPS/DEV-OPS-304.html">DEV-OPS-304</a>.</p></section>
+<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Measure quality, latency and cost per successful task for four models at two reasoning settings.</p><p class="o-more"><span class="k">Given</span> the participant&#x27;s evaluation set.</p><p class="o-more"><span class="k">Evidence</span> a cost-quality chart.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Design a cascade that escalates from a small model to a larger one on validation failure or low confidence, keeping quality above a floor.</p><p class="o-more"><span class="k">Given</span> the measured results.</p><p class="o-more"><span class="k">Evidence</span> cascade against single-model results with intervals.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure prompt and tool layout for prefix caching and measure the effect.</p><p class="o-more"><span class="k">Given</span> a server that reports cache use.</p><p class="o-more"><span class="k">Evidence</span> hit rate and cost before and after.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Compute the break-even volume between a hosted API and self-hosting.</p><p class="o-more"><span class="k">Given</span> price, throughput and staffing figures.</p><p class="o-more"><span class="k">Evidence</span> a cost model with sensitivity analysis.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Decide on model choice and hosting for the case-study application.</p><p class="o-more"><span class="k">Given</span> a data-placement rule.</p><p class="o-more"><span class="k">Evidence</span> a two-page memo defended live.</p></li></ol></section>
+<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Choosing on own tasks</h3><ul><li>Leaderboards versus own evaluations</li><li>Licence, residency and deprecation risk</li><li>Reasoning budgets</li></ul></div><div class="topic"><h3>Routing and tiers</h3><ul><li>Cascades and difficulty routers</li><li>Per-stage models</li><li>Cache cost of switching models</li></ul></div><div class="topic"><h3>Caching</h3><ul><li>Prefix caching and stable layouts</li><li>Response caches and their risks</li></ul></div><div class="topic"><h3>Self-hosting economics</h3><ul><li>Throughput and utilisation</li><li>Batch versus interactive</li><li>Break-even</li></ul></div></div></section>
+<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Model gateway with routing</dt><dd>LiteLLM, agentgateway</dd></div><div><dt>Language model access</dt><dd>open-weight models served locally, any commercial API</dd></div><div><dt>Evaluation harness</dt><dd>promptfoo, Inspect</dd></div><div><dt>Local inference server</dt><dd>vLLM, llama.cpp</dd></div></dl></section>
+<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check without AI assistance: compute cost per successful task (20%)</li><li>Graded labs (40%)</li><li>Decision memo with defence (40%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall and a pass on the supervised check</dd></div></dl></section>
+<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check. AI-tutor in the labs. AI-full in the memo, which the participant defends live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-LLM-302.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-LLM-302</span> Arabic and Multilingual Language Applications</span></a><span></span></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li></ul></nav>
+<p>The SDAIA Academy course catalog for 2027, in data and artificial intelligence.</p>
+<p>The catalog describes courses; it is not a timetable. A description may change before its course opens.</p>
+</div>
+</footer>
+</body>
+</html>

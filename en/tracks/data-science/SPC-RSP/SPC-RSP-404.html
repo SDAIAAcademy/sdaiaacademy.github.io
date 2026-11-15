@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="A reading and hands-on seminar on systems that combine learned models with symbolic tools: language models that call solvers, generated programs checked by verifiers, and proofs checked by a proof assistant. Each week participants read current papers and run a small experiment: proving lemmas with a">
+<title>SPC-RSP-404 · Frontier Seminar: Neurosymbolic Methods and AI for Mathematics · SDAIA Academy Course Catalog 2027</title>
+<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/data-science/SPC-RSP/SPC-RSP-404.html">
+<link rel="stylesheet" href="../../../../assets/site.css">
+<script src="../../../../assets/site.js"></script>
+</head>
+<body class="acc-SPC">
+<a class="skip" href="#main">Skip to content</a>
+<div class="stripe" aria-hidden="true"></div>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../../../index.html"><span class="brand-mark" aria-hidden="true"></span><span class="brand-name">SDAIA Academy</span> <span class="brand-sub">Course catalog 2027</span></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
+<div class="tools">
+<a class="lang-switch" href="../../../../ar/tracks/data-science/SPC-RSP/SPC-RSP-404.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap course-page">
+<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">Data Science</a></li><li><a href="index.html"><span class="code" dir="ltr">SPC-RSP</span></a></li><li aria-current="page"><span class="code" dir="ltr">SPC-RSP-404</span></li></ol></nav>
+<header class="course-head">
+<h1><span class="code" dir="ltr">SPC-RSP-404</span> <span class="t">Frontier Seminar: Neurosymbolic Methods and AI for Mathematics</span></h1>
+<ul class="chips"><li><span class="chip chip-level">Level 400 · Evaluate</span></li><li><span class="chip">Seminar</span></li><li><span class="chip chip-plain">24 h</span></li><li><span class="chip chip-plain">Audience: specialist</span></li></ul>
+</header>
+<div class="course-grid">
+<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">Data Science</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">SPC-RSP</span> <span>Research Practice and Frontier</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 400 · Evaluate</p></div><div class="fact"><h2>Audience</h2><p>specialist</p></div><div class="fact"><h2>Format</h2><p>Seminar: six weekly sessions of reading, presentation and hands-on work with solvers, verifiers and proof assistants, rebuilt each term from current conference tutorials</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">24 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="plain-list"><li>Writes proofs at the level of a discrete mathematics course, as in <a href="../../foundations/FND-MTH/FND-MTH-105.html">FND-MTH-105</a>, or equivalent</li><li>Has used search, logic or constraint solving, as in <a href="../../foundations/FND-AIC/FND-AIC-105.html">FND-AIC-105</a>, or equivalent</li><li>Calls a language model API from Python and parses structured output</li><li>No proof-assistant experience is assumed; the tracked pre-work introduces one</li></ul></div></aside>
+<div class="course-main">
+<section class="sec"><h2>Description</h2><p>A reading and hands-on seminar on systems that combine learned models with symbolic tools: language models that call solvers, generated programs checked by verifiers, and proofs checked by a proof assistant. Each week participants read current papers and run a small experiment: proving lemmas with a model, verifying generated code against formal specifications, solving constraint problems with a model plus a solver, and checking whether autoformalised statements say what the informal ones say.</p></section>
+<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Explain the main neurosymbolic patterns: a model proposes and a solver checks, a model guides search, differentiable logic, and learned heuristics inside solvers.</p><p class="o-more"><span class="k">Given</span> the term&#x27;s reading list.</p><p class="o-more"><span class="k">Evidence</span> a pattern map with one example paper for each pattern, presented in session.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Use a language model with a proof assistant to prove a set of small lemmas and report success over repeated attempts.</p><p class="o-more"><span class="k">Given</span> a set of formal statements and an open-weight prover model.</p><p class="o-more"><span class="k">Evidence</span> a run log with verified proofs and success rates over a stated number of attempts.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a generate-and-verify loop that writes code with a formal specification and rejects any output the verifier does not accept.</p><p class="o-more"><span class="k">Given</span> five programming tasks and a verification-aware language.</p><p class="o-more"><span class="k">Evidence</span> a repository with specifications, verified programs and a log of rejected attempts.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Evaluate the faithfulness of autoformalised statements against their informal originals.</p><p class="o-more"><span class="k">Given</span> twenty statements formalised by a model.</p><p class="o-more"><span class="k">Evidence</span> an audit table classifying each statement as faithful, weaker, stronger or wrong, with reasons.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Review a neurosymbolic or AI-for-mathematics paper for what its verification guarantees, its contamination risk and its compute budget.</p><p class="o-more"><span class="k">Given</span> a paper the participant presents.</p><p class="o-more"><span class="k">Evidence</span> a presentation and written critique scored on a rubric.</p></li></ol></section>
+<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Neurosymbolic patterns</h3><ul><li>Model proposes, solver or verifier checks</li><li>Learned guidance for search and solvers</li><li>Differentiable and probabilistic logic</li></ul></div><div class="topic"><h3>Theorem proving and autoformalisation</h3><ul><li>Tactic prediction versus whole-proof generation</li><li>Reinforcement learning from verifier feedback</li><li>Misformalisation and human review of statements</li><li>Benchmarks, contamination and success over attempts</li></ul></div><div class="topic"><h3>Verified code generation</h3><ul><li>Specifications, pre- and postconditions, invariants</li><li>Solver-backed verification-aware languages</li><li>Property-based testing as a weaker check</li><li>What a verified program still does not guarantee</li></ul></div><div class="topic"><h3>AI and mathematical research</h3><ul><li>Recorded AI contributions to open problems and how they were checked</li><li>Credit and disclosure of AI contributions</li></ul></div></div></section>
+<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Proof assistant with a mathematics library</dt><dd>Lean with Mathlib, Isabelle with the Archive of Formal Proofs</dd></div><div><dt>Verification-aware programming language</dt><dd>Dafny, Why3, Verus</dd></div><div><dt>Satisfiability modulo theories and constraint solvers</dt><dd>Z3, cvc5, MiniZinc</dd></div><div><dt>Property-based testing</dt><dd>Hypothesis, QuickCheck</dd></div><div><dt>Language model access</dt><dd>an open-weight prover or code model served with vLLM or llama.cpp, a hosted model through a standard chat-completion API</dd></div></dl></section>
+<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised short check on reading specifications and proofs, without AI (10%)</li><li>Paper presentation and written critique (25%)</li><li>Lab logs and repositories (40%)</li><li>Extension note and presentation (25%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall with no component below 50%</dd></div></dl></section>
+<section class="sec"><h2>Use of AI in the course</h2><p>AI-off in the supervised check and when writing a first specification by hand. AI-full in the proving and code-generation labs, which study model assistance; the verifier, not the participant&#x27;s trust in the model, decides acceptance.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
+</div>
+</div>
+<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="SPC-RSP-403.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">SPC-RSP-403</span> Frontier Seminar: AI for Science</span></a><span></span></nav>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../../ai-engineering/index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../index.html">Data Science</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li></ul></nav>
+<p>The SDAIA Academy course catalog for 2027, in data and artificial intelligence.</p>
+<p>The catalog describes courses; it is not a timetable. A description may change before its course opens.</p>
+</div>
+</footer>
+</body>
+</html>
