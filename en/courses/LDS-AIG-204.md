@@ -6,7 +6,10 @@
 - Format: Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 30 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-204/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-204/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-204/practice.html
 
 ## Description
 
@@ -33,6 +36,39 @@ By the end, the participant can:
 ## Next courses
 
 - [LDS-AIG-401 · Designing and Running an AI Governance Programme](LDS-AIG-401.md)
+
+## Format and days
+
+### Day 1: الأسس والتقبّل والسياق
+
+- الخطر في الذكاء الاصطناعي ودورة الإطار الوطني
+- دروس من إدارة مخاطر النماذج، والتقبّل قبل التقدير
+- حدود التحمّل ومسار التصعيد
+- السياق والنطاق قبل أي خطر
+
+### Day 2: تحديد المخاطر
+
+- أصحاب المصلحة والمتأثرون
+- صياغة الخطر وحالات إساءة الاستخدام
+- تحليل أنماط الفشل ومخاطر المورّد
+- من سجلات الحوادث إلى السجل
+
+### Day 3: التقدير والمعايرة والمعالجة
+
+- الاحتمالية والأثر على المصفوفة
+- المعايرة بين المقيّمين والتجميع
+- خيارات المعالجة والضوابط والإشراف البشري
+- التكلفة والمتبقي والاعتماد
+
+### Day 4: المراقبة وإعادة التقييم واللجنة
+
+- مؤشرات المخاطر الرئيسة واختبار الضوابط
+- قراءة بيانات المراقبة والإنذار المبكر
+- محفزات إعادة التقييم وإشعار المورّد
+- التقرير إلى اللجنة والدفاع عن المتبقي
+
+### Day 5: عروض المشروع الختامي
+
 
 ## Topics
 

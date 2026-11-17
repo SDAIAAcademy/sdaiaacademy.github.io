@@ -51,7 +51,7 @@ In the order their prerequisites suggest.
 
 ### 4. [LDS-AIG-204 · AI Risk Management in Practice](../courses/LDS-AIG-204.md)
 
-- Level 200 · Apply · Intensive · 30 h · In development
+- Level 200 · Apply · Intensive · 30 h · Available
 - Needs: LDS-AIG-201
 - Describe the phases of the national AI risk management cycle and map them to the functions of two international risk frameworks.
 - Apply structured identification techniques, including stakeholder harm mapping, misuse cases and failure-mode analysis, to an AI use case.
