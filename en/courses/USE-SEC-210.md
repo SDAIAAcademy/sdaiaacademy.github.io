@@ -6,7 +6,10 @@
 - Format: Workshop: two days of eight sessions with labs, tracked pre-work and a defended map
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-sec-210/
+- The whole course in one file: https://sdaiaacademy.github.io/use-sec-210/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-sec-210/practice.html
 
 ## Description
 
@@ -27,6 +30,33 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](USE-FLU-201.md)
 - Knows how a retailer or operator prices, sells and serves; uses a spreadsheet
+
+## Format and days
+
+### Day 1: أسواق سحاب: القيمة قبل النموذج
+
+- كيف يصير مخرج النموذج قرارًا
+- خط الأساس قبل النموذج
+- أين يستحق النموذج تكلفته
+- العروض ورمضان والمبيعات الناقصة
+- التوصيات والبحث
+- المقاييس دون اتصال وتجارب A/B
+- الأسعار المخصصة والموافقة
+- فروق الأسعار والعملاء الأكثر عرضة للضرر
+
+### Day 2: سحاب للاتصالات: الاحتفاظ والشبكة والخريطة
+
+- من درجة الخطر إلى القرار
+- الاستهداف بالأثر الإضافي
+- الإيراد المحتفظ به والعروض المهدرة
+- حلقات التغذية الراجعة وادعاءات القيمة الصادقة
+- شذوذ الشبكة أمام الحوادث المؤكدة
+- عتبة يتحملها الفريق
+- توفير الطاقة وبيانات الموقع
+- خريطة الفرص والمخاطر
+
+### Day 3: الخريطة أمام مكتب القيمة
+
 
 ## Topics
 

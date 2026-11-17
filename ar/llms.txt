@@ -102,6 +102,7 @@
 - [USE-SEC-205 · الذكاء الاصطناعي في التنقل والخدمات اللوجستية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-205.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-207 · الذكاء الاصطناعي في قطاع العدل والخدمات القانونية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-207.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-208 · الذكاء الاصطناعي في الإعلام والصناعات الإبداعية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-208.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-210 · الذكاء الاصطناعي في التجزئة والاتصالات](https://sdaiaacademy.github.io/ar/courses/USE-SEC-210.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [FN-101 · بايثون لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FN-101.md): المستوى 100 · الشرح, 26 ساعة, متاح
 - [FN-102 · سطر الأوامر وGit والمشاريع القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FN-102.md): المستوى 100 · الشرح, 21 ساعة, متاح
 - [FN-103 · الرياضيات لتعلم الآلة: المتجهات والتدرجات والاحتمالات](https://sdaiaacademy.github.io/ar/courses/FN-103.md): المستوى 100 · الشرح, 26 ساعة, متاح
@@ -167,7 +168,6 @@
 - [USE-SEC-204 · الذكاء الاصطناعي في منظومات التعليم](https://sdaiaacademy.github.io/ar/courses/USE-SEC-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-206 · الذكاء الاصطناعي في الخدمات المالية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-209 · الذكاء الاصطناعي في التصنيع والصناعة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-209.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
-- [USE-SEC-210 · الذكاء الاصطناعي في التجزئة والاتصالات](https://sdaiaacademy.github.io/ar/courses/USE-SEC-210.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-211 · الذكاء الاصطناعي في الزراعة والمياه والبيئة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-211.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-212 · الذكاء الاصطناعي في المدن والسياحة والحج](https://sdaiaacademy.github.io/ar/courses/USE-SEC-212.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [LDS-EXE-101 · الذكاء الاصطناعي للتنفيذيين: إحاطة تطبيقية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-101.md): المستوى 100 · الشرح, 4 ساعات, قيد التطوير

@@ -110,7 +110,7 @@ In the order their prerequisites suggest.
 
 ### 10. [USE-SEC-210 · AI in Retail and Telecommunications](../courses/USE-SEC-210.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-201
 - Explain how recommenders, forecasts, pricing, churn and network models each turn data into a decision.
 - Compare a demand forecast with a naive seasonal baseline and state where the model earns its cost.
