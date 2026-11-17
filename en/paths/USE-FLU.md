@@ -159,7 +159,7 @@ In the order their prerequisites suggest.
 
 ### 14. [USE-FLU-303 · Leading AI Adoption in a Team: Champions and Trainers](../courses/USE-FLU-303.md)
 
-- Level 300 · Develop · Workshop · 16 h · In development
+- Level 300 · Develop · Workshop · 16 h · Available
 - Needs: USE-FLU-202
 - Prepare a 45-minute clinic plan with a short lesson, a worked example, an AI-off task and safe task collection.
 - Lead a clinic and give feedback that improves colleagues' requests and checks.

@@ -78,6 +78,7 @@
 - [USE-FLU-205 · بناء أدوات صغيرة دون برمجة](https://sdaiaacademy.github.io/ar/courses/USE-FLU-205.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-FLU-207 · الكتابة العربية والترجمة والعمل على اللهجات بالذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/USE-FLU-207.md): المستوى 200 · التطبيق, 8 ساعات, متاح
 - [USE-FLU-301 · إعادة تصميم مسار عمل الفريق بالذكاء الاصطناعي وقياس المكاسب](https://sdaiaacademy.github.io/ar/courses/USE-FLU-301.md): المستوى 300 · التطوير, 30 ساعة, متاح
+- [USE-FLU-303 · قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون](https://sdaiaacademy.github.io/ar/courses/USE-FLU-303.md): المستوى 300 · التطوير, 16 ساعة, متاح
 - [USE-EDU-101 · الطلاقة في البيانات والذكاء الاصطناعي لطلبة الجامعات](https://sdaiaacademy.github.io/ar/courses/USE-EDU-101.md): المستوى 100 · الشرح, 40 ساعة, متاح
 - [USE-EDU-102 · التعلم بالذكاء الاصطناعي دون فقدان المهارة](https://sdaiaacademy.github.io/ar/courses/USE-EDU-102.md): المستوى 100 · الشرح, 4 ساعات, متاح
 - [USE-EDU-201 · التدريس والتقييم في عصر الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/USE-EDU-201.md): المستوى 200 · التطبيق, 16 ساعة, متاح
@@ -162,7 +163,6 @@
 - [DS-408 · منتجات التحليلات: الطبقات الدلالية والتحليلات الحوارية](https://sdaiaacademy.github.io/ar/courses/DS-408.md): المستوى 400 · التقييم, 26 ساعة, متاح
 - [USE-FLU-206 · إنتاج الصور والصوت والفيديو بالذكاء الاصطناعي بمسؤولية](https://sdaiaacademy.github.io/ar/courses/USE-FLU-206.md): المستوى 200 · التطبيق, 8 ساعات, قيد التطوير
 - [USE-FLU-302 · إستديو الفريق للبناء وتولي الملكية: تطبيق واحد لجهة واحدة](https://sdaiaacademy.github.io/ar/courses/USE-FLU-302.md): المستوى 300 · التطوير, 40 ساعة, قيد التطوير
-- [USE-FLU-303 · قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون](https://sdaiaacademy.github.io/ar/courses/USE-FLU-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
 - [USE-EDU-204 · تصميم المرشدين الذكيين والمساعدات الذكية للمقررات](https://sdaiaacademy.github.io/ar/courses/USE-EDU-204.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [USE-SEC-204 · الذكاء الاصطناعي في منظومات التعليم](https://sdaiaacademy.github.io/ar/courses/USE-SEC-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-206 · الذكاء الاصطناعي في الخدمات المالية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير

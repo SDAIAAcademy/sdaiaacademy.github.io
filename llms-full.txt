@@ -1223,7 +1223,10 @@ By the end, the participant can:
 - Format: Workshop: two days of four sessions with labs, an observed practice clinic and a tracked 30-day follow-up
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-flu-303/
+- The whole course in one file: https://sdaiaacademy.github.io/use-flu-303/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-flu-303/practice.html
 
 ## Description
 
@@ -1244,6 +1247,25 @@ By the end, the participant can:
 - [USE-FLU-202 · AI Productivity for Knowledge Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-202.md)
 - Uses AI assistants weekly in own work
 - Nominated by a manager who agrees to the follow-up
+
+## Format and days
+
+### Day 1: السفير والعيادة
+
+- دور السفير وحدوده
+- مثال محلول ثم ممارسة دون ذكاء اصطناعي
+- ملاحظات تحسّن الطلب والتحقق
+- العيادة في الغرفة: المتردد والمفرط في الثقة
+
+### Day 2: المكتبة والقياس والاتفاق
+
+- مكتبة مشتركة لكل مدخل فيها مالك
+- المراجعة والسحب: المكتبة تشيخ
+- قياس الاستخدام والقيمة بما يتجاوز التقرير الذاتي
+- العمل المشترك: التحقق قبل المشاركة
+
+### Day 3: مهمة الثلاثين يومًا ومكالمة المتابعة
+
 
 ## Topics
 
