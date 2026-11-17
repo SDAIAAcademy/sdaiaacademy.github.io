@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs, guided pre-work and a micro-teach
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-edu-202/
+- The whole course in one file: https://sdaiaacademy.github.io/use-edu-202/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-edu-202/practice.html
 
 ## Description
 
@@ -27,6 +30,25 @@ By the end, the participant can:
 - [USE-EDU-101 · Data and AI Fluency for University Students](USE-EDU-101.md)
 - Or an AI-off entry check on the six components
 - Teaches or will teach a university course
+
+## Format and days
+
+### Day 1: المنهج والتدريس بالممارسة
+
+- المنهج وخياراته
+- مقارنة التوقع بالواقع
+- تمرين الفرق الحمراء
+- اختبار التغطية
+- نمط التقديم ومصفوفة المواءمة
+
+### Day 2: من الخطة إلى القاعة
+
+- تكييف مختبر وتنفيذه مع الزملاء
+- حزم المسارات
+- التقييم ومعايرة التقدير
+
+### Day 3: التدريس المصغر وخطة التقديم
+
 
 ## Topics
 

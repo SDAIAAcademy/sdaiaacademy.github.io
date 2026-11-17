@@ -6,7 +6,10 @@
 - Format: Workshop: one day of six sessions, each with concepts and a lab, plus guided pre-work and a tracked follow-up task
 - Total hours: 8 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-flu-201/
+- The whole course in one file: https://sdaiaacademy.github.io/use-flu-201/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-flu-201/practice.html
 
 ## Description
 
@@ -54,6 +57,17 @@ By the end, the participant can:
 - [USE-SEC-210 · AI in Retail and Telecommunications](USE-SEC-210.md)
 - [USE-SEC-211 · AI in Agriculture, Water and Environment](USE-SEC-211.md)
 - [USE-SEC-212 · AI in Cities, Tourism and Pilgrimage](USE-SEC-212.md)
+
+## Format and days
+
+### Day 1: أربع عادات: فوِّض وصِف واحكم وتحمَّل
+
+- التفويض: ما الذي تسلّمه للمساعد؟
+- الحد المتعرج: اختبر قبل أن تفوّض
+- الوصف: السياق والمعايير
+- التكرار: التحسين على جولات
+- الحكم: التحقق من المخرج المصقول
+- المسؤولية: القرار والإفصاح
 
 ## Topics
 

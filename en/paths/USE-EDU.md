@@ -46,7 +46,7 @@ In the order their prerequisites suggest.
 
 ### 4. [USE-EDU-202 · Delivering the Cross-Disciplinary Data and AI Curriculum](../courses/USE-EDU-202.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-EDU-101
 - Explain the six components, the six intended learning outcomes and their mapping to international frameworks.
 - Prepare an alignment matrix from a chosen delivery model to the intended and component outcomes.
@@ -56,7 +56,7 @@ In the order their prerequisites suggest.
 
 ### 5. [USE-EDU-203 · AI Literacy for School Teachers](../courses/USE-EDU-203.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Compare the competence frameworks for teachers and pupils and identify those a lesson addresses.
 - Use age-appropriate activities to teach how AI learns, fails and is checked.
 - Prepare a lesson for one's subject with an AI-literacy objective and an AI-off understanding check.

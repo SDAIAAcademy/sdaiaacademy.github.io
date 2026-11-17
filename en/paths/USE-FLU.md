@@ -62,7 +62,7 @@ In the order their prerequisites suggest.
 
 ### 5. [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](../courses/USE-FLU-201.md)
 
-- Level 200 · Apply · Workshop · 8 h · In development
+- Level 200 · Apply · Workshop · 8 h · Available
 - Needs: USE-FLU-101
 - Analyse a work task into steps and assign each to the person, the assistant, both or neither, with a reason based on risk, skill and accountability.
 - Prepare a request that gives the assistant the goal, context, audience, constraints, success criteria and an example, and refine it over at least three turns.

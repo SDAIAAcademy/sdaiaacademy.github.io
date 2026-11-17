@@ -6,7 +6,10 @@
 - Format: Workshop: three three-hour sessions, guided pre-work and a tracked trial lesson
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-edu-203/
+- The whole course in one file: https://sdaiaacademy.github.io/use-edu-203/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-edu-203/practice.html
 
 ## Description
 
@@ -26,6 +29,29 @@ By the end, the participant can:
 
 - Teaches or leads in a primary or secondary school
 - Has used an AI assistant for a few tasks
+
+## Format and days
+
+### Day 1: الأطر، وكيف يتعلم الذكاء الاصطناعي
+
+- الأطر: الإلمام بالذكاء الاصطناعي ليس استخدام الأدوات
+- الصفوف الأولية: لعبة تصنيف دون حاسوب
+- الصفوف العليا: درّب مصنِّفًا ثم أفشِله
+
+### Day 2: التحقق، ثم درس في مادتك
+
+- المرحلة الثانوية: تحقق من روبوت محادثة
+- التحيز والوسائط الاصطناعية
+- خطة درس في مادتك
+
+### Day 3: حماية الطلاب، والأسر، والدرس التجريبي
+
+- حماية الطلاب: البيانات والأدوات والصور
+- الأسر: رسالة واضحة عن قواعد الصف
+- الاختبار القصير والدرس التجريبي
+
+### Day 4: مراجعة الدرس التجريبي
+
 
 ## Topics
 
