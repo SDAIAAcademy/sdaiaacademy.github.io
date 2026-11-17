@@ -30,7 +30,7 @@ In the order their prerequisites suggest.
 
 ### 2. [USE-PRO-202 · AI for Human Resources and Talent Work](../courses/USE-PRO-202.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Explain why ranking candidates with a general assistant is high-risk and which HR decisions stay with people.
 - Analyse an AI-drafted job description for exclusionary wording and inflated requirements, and revise it.
