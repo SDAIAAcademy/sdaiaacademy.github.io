@@ -6,7 +6,10 @@
 - Format: Workshop: one day of six short sessions with labs, guided pre-work and a tracked follow-up
 - Total hours: 8 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-flu-207/
+- The whole course in one file: https://sdaiaacademy.github.io/use-flu-207/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-flu-207/practice.html
 
 ## Description
 
@@ -26,6 +29,17 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](USE-FLU-201.md)
 - Writes formal Modern Standard Arabic and reads English documents
+
+## Format and days
+
+### Day 1: العربية مع المساعد: اضبط وقابل وراجع
+
+- المستوى اللغوي قبل الصياغة
+- المسرد يضبط الترجمة
+- الأسماء والأرقام والتواريخ أمام المصدر
+- اللهجات وحدود المساعدين
+- النص في اتجاهين
+- قبل أن يحمل النص اسمك
 
 ## Topics
 

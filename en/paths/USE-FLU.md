@@ -127,7 +127,7 @@ In the order their prerequisites suggest.
 
 ### 11. [USE-FLU-207 · Arabic Writing, Translation and Dialect Work with AI](../courses/USE-FLU-207.md)
 
-- Level 200 · Apply · Workshop · 8 h · In development
+- Level 200 · Apply · Workshop · 8 h · Available
 - Needs: USE-FLU-201
 - Prepare requests that set register, tone, audience and terminology for formal and plain-language Arabic.
 - Draft a bilingual glossary and use it to control an AI translation in both directions.
