@@ -5802,7 +5802,10 @@ By the end, the participant can:
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-101/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-101/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-101/practice.html
 
 ## Description
 
@@ -5834,6 +5837,32 @@ By the end, the participant can:
 - [LDS-DMG-206 · Personal Data Protection in Practice](https://sdaiaacademy.github.io/en/courses/LDS-DMG-206.md)
 - [LDS-DMG-207 · Compliance Evidence and Data Maturity Assessment](https://sdaiaacademy.github.io/en/courses/LDS-DMG-207.md)
 - [LDS-DMG-208 · Master and Reference Data Management](https://sdaiaacademy.github.io/en/courses/LDS-DMG-208.md)
+
+## Format and days
+
+### Day 1: البيانات أصلٌ يُدار
+
+- ما إدارة البيانات
+- مجالات المعارف والمعيار الوطني
+- من يقرر ومن ينفذ
+- سجل الأصول
+
+### Day 2: المعنى والمسار
+
+- قاموس الأعمال وقاموس البيانات
+- مصطلح واحد ومعنيان
+- تتبع أصل البيانات
+- من السجل إلى الكتالوج
+
+### Day 3: الحماية والجودة والقياس
+
+- التصنيف بحسب أثر الإفصاح
+- أبعاد الجودة
+- البيانات الشخصية والمشاركة وأدوات الذكاء الاصطناعي
+- النضج والأدلة
+
+### Day 4: عروض المشروع الختامي
+
 
 ## Topics
 

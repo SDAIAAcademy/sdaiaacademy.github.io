@@ -103,6 +103,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [USE-SEC-207 · AI in Justice and Legal Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-207.md): Level 200 · Apply, 16 h, Available
 - [USE-SEC-208 · AI in Media and Creative Industries](https://sdaiaacademy.github.io/en/courses/USE-SEC-208.md): Level 200 · Apply, 16 h, Available
 - [USE-SEC-210 · AI in Retail and Telecommunications](https://sdaiaacademy.github.io/en/courses/USE-SEC-210.md): Level 200 · Apply, 16 h, Available
+- [LDS-DMG-101 · Data Management Foundations](https://sdaiaacademy.github.io/en/courses/LDS-DMG-101.md): Level 100 · Explain, 24 h, Available
 - [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available
 - [FN-102 · Command Line, Git and Reproducible Projects](https://sdaiaacademy.github.io/en/courses/FN-102.md): Level 100 · Explain, 21 h, Available
 - [FN-103 · Mathematics for Machine Learning: Vectors, Gradients and Probability](https://sdaiaacademy.github.io/en/courses/FN-103.md): Level 100 · Explain, 26 h, Available
@@ -207,7 +208,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-AIG-306 · Privacy, Intellectual Property and Content Provenance in AI](https://sdaiaacademy.github.io/en/courses/LDS-AIG-306.md): Level 300 · Develop, 12 h, In development
 - [LDS-AIG-307 · Human Oversight and Ethics Review Design](https://sdaiaacademy.github.io/en/courses/LDS-AIG-307.md): Level 300 · Develop, 12 h, In development
 - [LDS-AIG-401 · Designing and Running an AI Governance Programme](https://sdaiaacademy.github.io/en/courses/LDS-AIG-401.md): Level 400 · Evaluate, 40 h, In development
-- [LDS-DMG-101 · Data Management Foundations](https://sdaiaacademy.github.io/en/courses/LDS-DMG-101.md): Level 100 · Explain, 24 h, In development
 - [LDS-DMG-201 · Data Governance Operating Model and Stewardship](https://sdaiaacademy.github.io/en/courses/LDS-DMG-201.md): Level 200 · Apply, 24 h, In development
 - [LDS-DMG-202 · Metadata, Catalogues and Lineage](https://sdaiaacademy.github.io/en/courses/LDS-DMG-202.md): Level 200 · Apply, 16 h, In development
 - [LDS-DMG-203 · Data Quality Management](https://sdaiaacademy.github.io/en/courses/LDS-DMG-203.md): Level 200 · Apply, 24 h, In development

@@ -103,6 +103,7 @@
 - [USE-SEC-207 · الذكاء الاصطناعي في قطاع العدل والخدمات القانونية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-207.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-208 · الذكاء الاصطناعي في الإعلام والصناعات الإبداعية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-208.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-210 · الذكاء الاصطناعي في التجزئة والاتصالات](https://sdaiaacademy.github.io/ar/courses/USE-SEC-210.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-DMG-101 · أسس إدارة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-101.md): المستوى 100 · الشرح, 24 ساعة, متاح
 - [FN-101 · بايثون لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FN-101.md): المستوى 100 · الشرح, 26 ساعة, متاح
 - [FN-102 · سطر الأوامر وGit والمشاريع القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FN-102.md): المستوى 100 · الشرح, 21 ساعة, متاح
 - [FN-103 · الرياضيات لتعلم الآلة: المتجهات والتدرجات والاحتمالات](https://sdaiaacademy.github.io/ar/courses/FN-103.md): المستوى 100 · الشرح, 26 ساعة, متاح
@@ -207,7 +208,6 @@
 - [LDS-AIG-306 · الخصوصية والملكية الفكرية وتتبع منشأ المحتوى في الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-306.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
 - [LDS-AIG-307 · تصميم الإشراف البشري ومراجعة الأخلاقيات](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-307.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
 - [LDS-AIG-401 · تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-401.md): المستوى 400 · التقييم, 40 ساعة, قيد التطوير
-- [LDS-DMG-101 · أسس إدارة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-101.md): المستوى 100 · الشرح, 24 ساعة, قيد التطوير
 - [LDS-DMG-201 · نموذج تشغيل حوكمة البيانات والإشراف على البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
 - [LDS-DMG-202 · البيانات الوصفية وكتالوجات البيانات وتتبع أصل البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-202.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [LDS-DMG-203 · إدارة جودة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-203.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير

@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [LDS-DMG-101 · Data Management Foundations](../courses/LDS-DMG-101.md)
 
-- Level 100 · Explain · Intensive · 24 h · In development
+- Level 100 · Explain · Intensive · 24 h · Available
 - Describe the knowledge areas of data management with the main artefact and accountable role for each.
 - Distinguish the roles of a governance structure, from the committee to business and technical stewards.
 - Prepare a data asset register and business glossary entries for one business domain.
