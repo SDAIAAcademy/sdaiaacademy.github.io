@@ -60,7 +60,7 @@ In the order their prerequisites suggest.
 
 ### 5. [USE-SEC-205 · AI in Mobility and Logistics](../courses/USE-SEC-205.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-103
 - Describe the driving automation levels and what a claim implies for the driver and operating domain.
 - Configure a routing run with time windows and capacities and compare it with a manual plan.

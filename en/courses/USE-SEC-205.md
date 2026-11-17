@@ -6,7 +6,10 @@
 - Format: Workshop: two days of labs, tracked pre-work and a defended map
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-sec-205/
+- The whole course in one file: https://sdaiaacademy.github.io/use-sec-205/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-sec-205/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [USE-FLU-103 · How AI Systems Learn and Where They Fail](USE-FLU-103.md)
 - Works in or advises transport or logistics
+
+## Format and days
+
+### Day 1: خطة على الطريق وتنبؤ بالموسم
+
+- أداة الحل لا تعرف ما يعرفه المرسِل
+- تنبؤ يجب أن يغلب الساذج
+
+### Day 2: السلامة بأرقام صادقة، والأتمتة بكلمات دقيقة
+
+- المعدل قبل أي ادعاء سلامة
+- من يقود؟ ثم الخريطة
+
+### Day 3: خريطة الفرص والمخاطر أمام لجنة السلامة
+
 
 ## Topics
 
