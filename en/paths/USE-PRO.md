@@ -110,7 +110,7 @@ In the order their prerequisites suggest.
 
 ### 10. [USE-PRO-210 · AI for Sales, Marketing and Market Insight](../courses/USE-PRO-210.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Analyse customer feedback with an assistant into counted themes, validated against a hand-coded sample.
 - Prepare segment notes from customer data and test them for unsupported generalisations and sensitive inferences.

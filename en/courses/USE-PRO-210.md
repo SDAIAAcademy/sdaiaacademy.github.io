@@ -6,7 +6,10 @@
 - Format: Workshop: two days of labs on one synthetic case, plus a tracked baseline
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-pro-210/
+- The whole course in one file: https://sdaiaacademy.github.io/use-pro-210/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-pro-210/practice.html
 
 ## Description
 
@@ -26,6 +29,25 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](USE-FLU-201.md)
 - Works in sales, marketing or market research and uses spreadsheets
+
+## Format and days
+
+### Day 1: رؤى تُعدّ وتُختبر
+
+- أين يضلل الذكاء الاصطناعي في العمل التجاري
+- دليل ترميز وعينة مرمّزة باليد
+- الاتفاق قبل العدّ
+- ملاحظات شرائح تصمد أمام إعادة الحساب
+
+### Day 2: حملة مسندة، وموافقة مسجّلة، ومهمة مقيسة
+
+- الادعاءات وأدلتها
+- لغتان وحقائق واحدة، ووسوم الصور
+- الموافقة قبل التواصل
+- أعد تصميم مهمة واحدة وقِسها
+
+### Day 3: المراجعة المباشرة للمهام المعاد تصميمها
+
 
 ## Topics
 
