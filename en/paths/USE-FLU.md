@@ -137,7 +137,7 @@ In the order their prerequisites suggest.
 
 ### 12. [USE-FLU-301 · Redesigning a Team Workflow with AI and Measuring the Gain](../courses/USE-FLU-301.md)
 
-- Level 300 · Develop · Studio · 30 h · In development
+- Level 300 · Develop · Studio · 30 h · Available
 - Needs: USE-FLU-202
 - Measure a baseline for a team workflow: time per case, rubric quality, error rate and rework.
 - Analyse the workflow into steps with input data, classification, decision and accountable person.

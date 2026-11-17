@@ -77,6 +77,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [USE-FLU-204 · Supervising AI Agents in Knowledge Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-204.md): Level 200 · Apply, 16 h, Available
 - [USE-FLU-205 · Building Small Tools without Code](https://sdaiaacademy.github.io/en/courses/USE-FLU-205.md): Level 200 · Apply, 16 h, Available
 - [USE-FLU-207 · Arabic Writing, Translation and Dialect Work with AI](https://sdaiaacademy.github.io/en/courses/USE-FLU-207.md): Level 200 · Apply, 8 h, Available
+- [USE-FLU-301 · Redesigning a Team Workflow with AI and Measuring the Gain](https://sdaiaacademy.github.io/en/courses/USE-FLU-301.md): Level 300 · Develop, 30 h, Available
 - [USE-EDU-101 · Data and AI Fluency for University Students](https://sdaiaacademy.github.io/en/courses/USE-EDU-101.md): Level 100 · Explain, 40 h, Available
 - [USE-EDU-102 · Learning with AI without Losing the Skill](https://sdaiaacademy.github.io/en/courses/USE-EDU-102.md): Level 100 · Explain, 4 h, Available
 - [USE-EDU-201 · Teaching and Assessing in the AI Era](https://sdaiaacademy.github.io/en/courses/USE-EDU-201.md): Level 200 · Apply, 16 h, Available
@@ -159,7 +160,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [DS-407 · Leading Analytical Work: Review, Standards and Stakeholders](https://sdaiaacademy.github.io/en/courses/DS-407.md): Level 400 · Evaluate, 21 h, Available
 - [DS-408 · Analytics Products: Semantic Layers and Conversational Analytics](https://sdaiaacademy.github.io/en/courses/DS-408.md): Level 400 · Evaluate, 26 h, Available
 - [USE-FLU-206 · Creating Images, Audio and Video with AI Responsibly](https://sdaiaacademy.github.io/en/courses/USE-FLU-206.md): Level 200 · Apply, 8 h, In development
-- [USE-FLU-301 · Redesigning a Team Workflow with AI and Measuring the Gain](https://sdaiaacademy.github.io/en/courses/USE-FLU-301.md): Level 300 · Develop, 30 h, In development
 - [USE-FLU-302 · Team Build-and-Own Studio: One Application for One Entity](https://sdaiaacademy.github.io/en/courses/USE-FLU-302.md): Level 300 · Develop, 40 h, In development
 - [USE-FLU-303 · Leading AI Adoption in a Team: Champions and Trainers](https://sdaiaacademy.github.io/en/courses/USE-FLU-303.md): Level 300 · Develop, 16 h, In development
 - [USE-EDU-204 · Designing AI Tutors and Course Assistants](https://sdaiaacademy.github.io/en/courses/USE-EDU-204.md): Level 200 · Apply, 12 h, In development

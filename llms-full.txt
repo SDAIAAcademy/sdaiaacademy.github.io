@@ -1065,7 +1065,10 @@ By the end, the participant can:
 - Format: Studio: five-week coached team project with three workshops, two coach reviews, two pilot runs and a panel defence
 - Total hours: 30 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-flu-301/
+- The whole course in one file: https://sdaiaacademy.github.io/use-flu-301/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-flu-301/practice.html
 
 ## Description
 
@@ -1087,6 +1090,31 @@ By the end, the participant can:
 - [USE-FLU-202 · AI Productivity for Knowledge Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-202.md)
 - USE-FLU-201 with USE-FLU-204 is accepted instead
 - A team of three to six from one unit, with a sponsoring manager
+
+## Format and days
+
+### Day 1: الانطلاقة: اختيار مسار العمل وقياسه ورسمه
+
+- اختيار مسار العمل وقياس خط الأساس
+- رسم مسار العمل وتقسيمه
+
+### Day 2: بطاقة التفويض وتصميم التشغيل التجريبي
+
+- تصميم بطاقة التفويض والتحقق
+- تصميم التشغيل التجريبي وتشغيله
+
+### Day 3: بطاقة التفويض قبل التشغيل
+
+
+### Day 4: التشغيل الأول والتعديل الواحد
+
+
+### Day 5: النتائج والقرار وخطة الثلاثين يومًا
+
+- القرار والاستدامة
+
+### Day 6: المناقشة أمام اللجنة
+
 
 ## Topics
 
