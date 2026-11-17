@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs, guided pre-reading and a tracked post-course mapping task
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-202/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-202/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-202/practice.html
 
 ## Description
 
@@ -27,6 +30,22 @@ By the end, the participant can:
 
 - [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](LDS-AIG-201.md)
 - Reads a regulatory or policy text in English and extracts who must do what by when
+
+## Format and days
+
+### Day 1: من قوة النص إلى انطباقه
+
+- قوة النص الإلزامية
+- قراءة النص وسجل الالتزامات
+- الانطباق: النطاق الإقليمي والدور وفئة المخاطر
+
+### Day 2: من الالتزامات إلى الضوابط والمستجدات
+
+- المعايير وجدول المقابلة
+- مواكبة المستجدات والخريطة
+
+### Day 3: الخريطة وقائمة الفجوات والمراجعة
+
 
 ## Topics
 

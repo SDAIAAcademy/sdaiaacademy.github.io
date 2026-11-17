@@ -30,7 +30,7 @@ In the order their prerequisites suggest.
 
 ### 2. [LDS-AIG-202 · AI Regulation and Standards in Practice](../courses/LDS-AIG-202.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: LDS-AIG-201
 - Distinguish binding law, implementing regulation, advisory framework, voluntary code and international standard, and state what each requires of an organisation.
 - Analyse an instrument to extract scope, roles, risk classes, duties, deadlines and enforcement into a structured obligations register.
