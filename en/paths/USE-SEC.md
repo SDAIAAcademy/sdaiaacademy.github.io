@@ -90,7 +90,7 @@ In the order their prerequisites suggest.
 
 ### 8. [USE-SEC-208 · AI in Media and Creative Industries](../courses/USE-SEC-208.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-201
 - Explain which rights, consents and labels each AI use in the media value chain needs.
 - Measure a machine dubbing and subtitling workflow for meaning, timing, names and dialect.
