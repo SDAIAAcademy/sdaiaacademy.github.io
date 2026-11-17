@@ -50,7 +50,7 @@ In the order their prerequisites suggest.
 
 ### 4. [USE-PRO-204 · AI for Legal, Regulatory and Compliance Work](../courses/USE-PRO-204.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Identify how AI legal research fails: invented authorities, wrong jurisdiction, repealed provisions, misstated holdings.
 - Apply a contract playbook with an assistant to flag deviations, missing clauses and changes between drafts.
