@@ -3366,7 +3366,10 @@ By the end, the participant can:
 - Format: Workshop: two days of eight sessions with labs, tracked pre-work and a defended map
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-sec-211/
+- The whole course in one file: https://sdaiaacademy.github.io/use-sec-211/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-sec-211/practice.html
 
 ## Description
 
@@ -3386,6 +3389,33 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](https://sdaiaacademy.github.io/en/courses/USE-FLU-201.md)
 - Knows how farms, water utilities or environment agencies monitor their work; uses a spreadsheet
+
+## Format and days
+
+### Day 1: من الصورة إلى الحقل
+
+- ما يقيسه كل مصدر
+- الدقة المكانية والزيارة والغيوم
+- مؤشر الغطاء النباتي وسلسلته الزمنية
+- القطع التي يخالف نمطها التصريح
+- الفحص الميداني قبل أي جزاء
+- خرائط الغطاء الأرضي من النماذج المفتوحة
+- الدقة لكل فئة والاستخدامات المسموح بها
+- الحقيقة الميدانية وحملات القياس
+
+### Day 2: الماء: التنبؤ والري والتسرب، ثم الخريطة
+
+- إعادة التحليل والتنبؤ ونماذج الطقس
+- ميزان ماء التربة والجدول الثابت
+- جدول ري يقوده التنبؤ
+- قول عدم اليقين للمزارع
+- محاسبة المياه والتدفق الليلي
+- إنذارات تسرب يحتملها الفريق
+- الجفاف والغبار والحر، وحقوق البيانات
+- خريطة الفرص والمخاطر
+
+### Day 3: الخريطة أمام الميسّر
+
 
 ## Topics
 

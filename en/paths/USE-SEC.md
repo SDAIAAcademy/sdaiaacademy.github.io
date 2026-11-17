@@ -121,7 +121,7 @@ In the order their prerequisites suggest.
 
 ### 11. [USE-SEC-211 · AI in Agriculture, Water and Environment](../courses/USE-SEC-211.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-201
 - Describe what optical, radar and thermal imagery, field sensors and reanalysis can measure for crops and water.
 - Compute a vegetation index time series and flag plots whose pattern disagrees with the declared crop.

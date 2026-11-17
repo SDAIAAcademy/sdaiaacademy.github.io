@@ -103,6 +103,7 @@
 - [USE-SEC-207 · الذكاء الاصطناعي في قطاع العدل والخدمات القانونية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-207.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-208 · الذكاء الاصطناعي في الإعلام والصناعات الإبداعية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-208.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-210 · الذكاء الاصطناعي في التجزئة والاتصالات](https://sdaiaacademy.github.io/ar/courses/USE-SEC-210.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-211 · الذكاء الاصطناعي في الزراعة والمياه والبيئة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-211.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-212 · الذكاء الاصطناعي في المدن والسياحة والحج](https://sdaiaacademy.github.io/ar/courses/USE-SEC-212.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-EXE-101 · الذكاء الاصطناعي للتنفيذيين: إحاطة تطبيقية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-101.md): المستوى 100 · الشرح, 4 ساعات, متاح
 - [LDS-DMG-101 · أسس إدارة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-101.md): المستوى 100 · الشرح, 24 ساعة, متاح
@@ -171,7 +172,6 @@
 - [USE-SEC-204 · الذكاء الاصطناعي في منظومات التعليم](https://sdaiaacademy.github.io/ar/courses/USE-SEC-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-206 · الذكاء الاصطناعي في الخدمات المالية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-209 · الذكاء الاصطناعي في التصنيع والصناعة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-209.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
-- [USE-SEC-211 · الذكاء الاصطناعي في الزراعة والمياه والبيئة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-211.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [LDS-EXE-201 · استراتيجية الذكاء الاصطناعي ومحفظة حالات الاستخدام](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
 - [LDS-EXE-202 · اقتصاديات الذكاء الاصطناعي والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-202.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [LDS-EXE-203 · إعادة تصميم العمل لفرق تجمع البشر والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-203.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
