@@ -86,7 +86,7 @@ In the order their prerequisites suggest.
 
 ### 7. [USE-FLU-203 · Research and Verification with AI](../courses/USE-FLU-203.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Prepare a research brief that sets the question, scope, source standards and the decision it will inform.
 - Classify the claims in an AI-generated report by type and choose the check that each type needs.
