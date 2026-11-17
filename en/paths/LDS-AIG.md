@@ -41,7 +41,7 @@ In the order their prerequisites suggest.
 
 ### 3. [LDS-AIG-203 · Third-Party AI: Licences, Supply Chain and Retirement](../courses/LDS-AIG-203.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: LDS-AIG-201
 - Compare permissive, copyleft, restricted open-weight and proprietary terms for models, datasets and code.
 - Analyse the provenance of a model and its training data using model cards, dataset cards and a bill of materials, and record unresolved gaps.

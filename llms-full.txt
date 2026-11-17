@@ -5231,7 +5231,10 @@ By the end, the participant can:
 - Format: Workshop: one and a half days with labs and a tracked follow-up review
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-203/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-203/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-203/practice.html
 
 ## Description
 
@@ -5252,6 +5255,22 @@ By the end, the participant can:
 - [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](https://sdaiaacademy.github.io/en/courses/LDS-AIG-201.md)
 - Reads a contract clause or terms of service and identifies the obligations on each party
 - Runs provided commands in a terminal or a notebook cell and reads their output
+
+## Format and days
+
+### Day 1: ما لا تبنيه جهتك
+
+- ما نشتريه أو ننزّله، وبأي شروط
+- المنشأ وقائمة المكونات والتوقيع
+- ضمان المورِّد: الأدلة ونطاقها
+
+### Day 2: التغيير والخروج والإيقاف
+
+- التغيير والخروج
+- إيقاف نموذج بانضباط
+
+### Day 3: ملف مراجعة مكوّن خارجي
+
 
 ## Topics
 
