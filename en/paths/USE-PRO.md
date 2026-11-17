@@ -100,7 +100,7 @@ In the order their prerequisites suggest.
 
 ### 9. [USE-PRO-209 · AI for Clinical and Health Professionals](../courses/USE-PRO-209.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Test an AI-drafted note against its consultation for omissions, fabrications, negation, laterality and dose errors.
 - Prepare plain-language Arabic and English patient information and check it against the source guidance.

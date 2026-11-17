@@ -89,6 +89,7 @@
 - [USE-PRO-205 · الذكاء الاصطناعي في أعمال الاتصال والإعلام والمحتوى](https://sdaiaacademy.github.io/ar/courses/USE-PRO-205.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [USE-PRO-206 · الذكاء الاصطناعي في أعمال خدمة العملاء والمواطنين](https://sdaiaacademy.github.io/ar/courses/USE-PRO-206.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [USE-PRO-208 · الذكاء الاصطناعي للباحثين والعمل العلمي](https://sdaiaacademy.github.io/ar/courses/USE-PRO-208.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-209 · الذكاء الاصطناعي للعاملين في المهن السريرية والصحية](https://sdaiaacademy.github.io/ar/courses/USE-PRO-209.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [FN-101 · بايثون لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FN-101.md): المستوى 100 · الشرح, 26 ساعة, متاح
 - [FN-102 · سطر الأوامر وGit والمشاريع القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FN-102.md): المستوى 100 · الشرح, 21 ساعة, متاح
 - [FN-103 · الرياضيات لتعلم الآلة: المتجهات والتدرجات والاحتمالات](https://sdaiaacademy.github.io/ar/courses/FN-103.md): المستوى 100 · الشرح, 26 ساعة, متاح
@@ -154,7 +155,6 @@
 - [USE-FLU-303 · قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون](https://sdaiaacademy.github.io/ar/courses/USE-FLU-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
 - [USE-EDU-204 · تصميم المرشدين الذكيين والمساعدات الذكية للمقررات](https://sdaiaacademy.github.io/ar/courses/USE-EDU-204.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [USE-PRO-207 · الذكاء الاصطناعي في أعمال المشروعات والمشتريات والعمليات](https://sdaiaacademy.github.io/ar/courses/USE-PRO-207.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
-- [USE-PRO-209 · الذكاء الاصطناعي للعاملين في المهن السريرية والصحية](https://sdaiaacademy.github.io/ar/courses/USE-PRO-209.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [USE-PRO-210 · الذكاء الاصطناعي في المبيعات والتسويق ورؤى السوق](https://sdaiaacademy.github.io/ar/courses/USE-PRO-210.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [USE-PRO-211 · الذكاء الاصطناعي للمهندسين والعمليات الميدانية](https://sdaiaacademy.github.io/ar/courses/USE-PRO-211.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [USE-PRO-212 · الذكاء الاصطناعي للعاملين في الأمن وعمليات تقنية المعلومات](https://sdaiaacademy.github.io/ar/courses/USE-PRO-212.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
