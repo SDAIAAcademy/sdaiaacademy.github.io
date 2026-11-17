@@ -80,7 +80,7 @@ In the order their prerequisites suggest.
 
 ### 7. [USE-PRO-207 · AI for Project, Procurement and Operations Work](../courses/USE-PRO-207.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Identify AI drafting failures in project documents: invented owners and dates, lost dependencies, inflated status, wrong totals.
 - Prepare a project plan with an assistant and test its dependencies, durations and calendar.
