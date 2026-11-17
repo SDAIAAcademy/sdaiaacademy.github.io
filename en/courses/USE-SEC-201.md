@@ -6,7 +6,10 @@
 - Format: Workshop: two days of labs, tracked pre-work and a defended map
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-sec-201/
+- The whole course in one file: https://sdaiaacademy.github.io/use-sec-201/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-sec-201/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [USE-FLU-103 · How AI Systems Learn and Where They Fail](USE-FLU-103.md)
 - Works in or advises a health organisation
+
+## Format and days
+
+### Day 1: ماذا يعني الرقم هنا؟
+
+- جهاز طبي أم أداة إدارية؟
+- تنبيه الفرز عند انتشارنا نحن
+
+### Day 2: من يتضرر، ومن يراقب؟
+
+- الوسم الذي تتعلمه الدرجة
+- من الادعاء إلى التجربة الصامتة، ثم الخريطة
+
+### Day 3: خريطة الفرص والمخاطر أمام مجلس الحوكمة السريرية
+
 
 ## Topics
 

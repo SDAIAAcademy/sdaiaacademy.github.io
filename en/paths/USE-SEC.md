@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [USE-SEC-201 · AI in Health Systems](../courses/USE-SEC-201.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-103
 - Distinguish AI products regulated as medical devices from administrative tools and explain what each requires.
 - Compute predictive value, alert volume and missed cases for an imaging-triage tool at local prevalence.
