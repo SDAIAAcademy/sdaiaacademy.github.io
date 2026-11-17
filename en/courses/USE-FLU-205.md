@@ -6,7 +6,10 @@
 - Format: Workshop: two days of four sessions with labs, guided pre-work and a tracked build task
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-flu-205/
+- The whole course in one file: https://sdaiaacademy.github.io/use-flu-205/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-flu-205/practice.html
 
 ## Description
 
@@ -27,6 +30,25 @@ By the end, the participant can:
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](USE-FLU-201.md)
 - USE-FLU-202 also meets the prerequisite
 - Keeps data in spreadsheet tables; no programming needed
+
+## Format and days
+
+### Day 1: من الحاجة إلى نموذج يعمل
+
+- أصغر أداة نافعة
+- اختبارات القبول ومستويات الوصول
+- ملف التعليمات وسياق المشروع
+- خطوات صغيرة ونقاط حفظ وتراجع
+
+### Day 2: اختبر، وافحص، وسلّم
+
+- الحالات الطرفية والحساب باليد
+- الاختبار بكل دور
+- البيانات والأسرار والروابط العامة
+- الملكية ومذكرة التسليم
+
+### Day 3: عروض الأدوات الحية
+
 
 ## Topics
 

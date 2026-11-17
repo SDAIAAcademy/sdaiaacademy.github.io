@@ -107,7 +107,7 @@ In the order their prerequisites suggest.
 
 ### 9. [USE-FLU-205 · Building Small Tools without Code](../courses/USE-FLU-205.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-201
 - Distinguish a team prototype from a production system and identify requests that need developers.
 - Draft a one-page specification with users, data fields, rules, access levels and acceptance tests.
