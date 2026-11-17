@@ -106,6 +106,7 @@
 - [USE-SEC-211 · الذكاء الاصطناعي في الزراعة والمياه والبيئة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-211.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-212 · الذكاء الاصطناعي في المدن والسياحة والحج](https://sdaiaacademy.github.io/ar/courses/USE-SEC-212.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-EXE-101 · الذكاء الاصطناعي للتنفيذيين: إحاطة تطبيقية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-101.md): المستوى 100 · الشرح, 4 ساعات, متاح
+- [LDS-ADV-202 · تقييم نضج البيانات والذكاء الاصطناعي وخرائط الطريق](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-DMG-101 · أسس إدارة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-101.md): المستوى 100 · الشرح, 24 ساعة, متاح
 - [FN-101 · بايثون لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FN-101.md): المستوى 100 · الشرح, 26 ساعة, متاح
 - [FN-102 · سطر الأوامر وGit والمشاريع القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FN-102.md): المستوى 100 · الشرح, 21 ساعة, متاح
@@ -193,7 +194,6 @@
 - [LDS-PRD-205 · بناء النماذج الأولية لمنتجات الذكاء الاصطناعي باستخدام وكلاء البرمجة](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-205.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [LDS-PRD-301 · الذكاء الاصطناعي المسؤول بالتصميم لفرق المنتجات](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-301.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
 - [LDS-ADV-201 · تقييم جدوى حالات استخدام الذكاء الاصطناعي وإعداد دراسات الجدوى](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
-- [LDS-ADV-202 · تقييم نضج البيانات والذكاء الاصطناعي وخرائط الطريق](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-202.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [LDS-ADV-301 · منتجات البيانات وتقدير قيمتها وتحقيق الإيرادات منها](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
 - [LDS-ADV-302 · العمل الاستشاري في تكليفات البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
 - [LDS-AIG-201 · أسس حوكمة الذكاء الاصطناعي: المبادئ والأدوار وضوابط دورة الحياة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير

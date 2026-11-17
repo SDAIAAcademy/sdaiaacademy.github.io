@@ -30,7 +30,7 @@ In the order their prerequisites suggest.
 
 ### 2. [LDS-ADV-202 · Data and AI Maturity Assessment and Roadmaps](../courses/LDS-ADV-202.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Prepare an evidence plan of interview guides, a document request and a survey for a chosen maturity model.
 - Analyse interviews, documents and survey results to score each dimension with a confidence rating.
 - Design a roadmap that turns gaps into initiatives sequenced by dependency, budget and capacity.

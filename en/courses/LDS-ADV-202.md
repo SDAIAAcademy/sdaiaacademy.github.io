@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs and a tracked follow-up task
 - Total hours: 16 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-adv-202/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-adv-202/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-adv-202/practice.html
 
 ## Description
 
@@ -29,6 +32,25 @@ By the end, the participant can:
 ## Next courses
 
 - [LDS-ADV-302 · Advisory Practice for Data and AI Engagements](LDS-ADV-302.md)
+
+## Format and days
+
+### Day 1: من النموذج إلى ملف الدرجات
+
+- اختيار نموذج النضج وتكييفه
+- مقابلات تنتج أدلة
+- الوثائق والجولات الميدانية
+- الاستبانات وتضخم التقييم الذاتي وتجميع الملاحظات
+- تثليث الأدلة ومنح الدرجات ومعايرتها
+
+### Day 2: من الفجوات إلى قرار الراعي
+
+- مستهدفات من الاستراتيجية وسجل الفجوات
+- ترتيب خارطة الطريق بالتبعيات والميزانية والقدرة
+- إحاطة تطلب قرارات
+
+### Day 3: التقييم المراقب والإحاطة للراعي
+
 
 ## Topics
 
