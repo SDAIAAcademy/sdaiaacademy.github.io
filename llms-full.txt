@@ -2988,7 +2988,10 @@ By the end, the participant can:
 - Format: Workshop: two days of eight sessions with labs, tracked pre-work and a defended map
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-sec-207/
+- The whole course in one file: https://sdaiaacademy.github.io/use-sec-207/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-sec-207/practice.html
 
 ## Description
 
@@ -3008,6 +3011,33 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](https://sdaiaacademy.github.io/en/courses/USE-FLU-201.md)
 - Knows how cases or contracts move through legal work; uses a spreadsheet
+
+## Format and days
+
+### Day 1: ما يساعد المحامي وما يقرر في حق شخص
+
+- نوعان من الذكاء الاصطناعي القانوني
+- كيف يختلق مساعد البحث المراجع
+- المراجع المعدّلة والمنقوضة والمقتبسة خطأً
+- النسخ والترجمة بالعربية
+- مراجعة العقود بدليل الشروط
+- البنود الفائتة والاطمئنان الزائف
+- معدلات خطأ يوقّع عليها المدير
+- الأدلة المولّدة أو المعدّلة، والتحيز للأتمتة
+
+### Day 2: الفرز والإجراءات العادلة والخريطة
+
+- استقبال الدعاوى وفرزها
+- عتبتان، ومن يتحمل كل خطأ
+- التحيز في بيانات القضايا السابقة
+- الإشعار والتفسير
+- صاحب القرار والمراجعة والتظلم
+- الإفصاح والتصنيف عالي المخاطر بحسب الجهة
+- القيمة وتكلفة الخطأ وقابلية التراجع والجاهزية والطعن
+- التجربة بعينة مراجَعة
+
+### Day 3: خريطة الفرص والمخاطر، تُناقَش مباشرة
+
 
 ## Topics
 

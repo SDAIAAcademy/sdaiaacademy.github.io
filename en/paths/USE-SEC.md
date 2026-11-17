@@ -80,7 +80,7 @@ In the order their prerequisites suggest.
 
 ### 7. [USE-SEC-207 · AI in Justice and Legal Services](../courses/USE-SEC-207.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-201
 - Distinguish legal AI uses that assist a lawyer from those that inform decisions about people.
 - Test research and contract review assistants for invented authorities and missed clauses against the sources.

@@ -98,6 +98,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [USE-SEC-202 · AI in Energy and Petrochemicals](https://sdaiaacademy.github.io/en/courses/USE-SEC-202.md): Level 200 · Apply, 16 h, Available
 - [USE-SEC-203 · AI in Government Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-203.md): Level 200 · Apply, 16 h, Available
 - [USE-SEC-205 · AI in Mobility and Logistics](https://sdaiaacademy.github.io/en/courses/USE-SEC-205.md): Level 200 · Apply, 16 h, Available
+- [USE-SEC-207 · AI in Justice and Legal Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-207.md): Level 200 · Apply, 16 h, Available
 - [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available
 - [FN-102 · Command Line, Git and Reproducible Projects](https://sdaiaacademy.github.io/en/courses/FN-102.md): Level 100 · Explain, 21 h, Available
 - [FN-103 · Mathematics for Machine Learning: Vectors, Gradients and Probability](https://sdaiaacademy.github.io/en/courses/FN-103.md): Level 100 · Explain, 26 h, Available
@@ -164,7 +165,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [USE-EDU-204 · Designing AI Tutors and Course Assistants](https://sdaiaacademy.github.io/en/courses/USE-EDU-204.md): Level 200 · Apply, 12 h, In development
 - [USE-SEC-204 · AI in Education Systems](https://sdaiaacademy.github.io/en/courses/USE-SEC-204.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-206 · AI in Financial Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-206.md): Level 200 · Apply, 16 h, In development
-- [USE-SEC-207 · AI in Justice and Legal Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-207.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-208 · AI in Media and Creative Industries](https://sdaiaacademy.github.io/en/courses/USE-SEC-208.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-209 · AI in Manufacturing and Industry](https://sdaiaacademy.github.io/en/courses/USE-SEC-209.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-210 · AI in Retail and Telecommunications](https://sdaiaacademy.github.io/en/courses/USE-SEC-210.md): Level 200 · Apply, 16 h, In development
