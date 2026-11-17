@@ -40,7 +40,7 @@ In the order their prerequisites suggest.
 
 ### 3. [USE-PRO-203 · AI for Finance, Accounting and Audit Work](../courses/USE-PRO-203.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Distinguish figures computed by code or formulas from figures generated as text, and state the check each needs.
 - Implement a bank-to-ledger reconciliation with generated code or formulas, proved by control totals.
