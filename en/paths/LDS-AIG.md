@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](../courses/LDS-AIG-201.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Explain how principles, policies, standards, controls and evidence relate, and where each sits in an AI governance framework.
 - Prepare an AI system inventory with the fields needed for ownership, purpose, data, model source, risk tier and lifecycle stage.
 - Classify AI systems into four risk levels and record the factors that decided each level.

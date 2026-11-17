@@ -5045,7 +5045,10 @@ By the end, the participant can:
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-201/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-201/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-201/practice.html
 
 ## Description
 
@@ -5079,6 +5082,32 @@ By the end, the participant can:
 - [LDS-AIG-306 · Privacy, Intellectual Property and Content Provenance in AI](https://sdaiaacademy.github.io/en/courses/LDS-AIG-306.md)
 - [LDS-AIG-307 · Human Oversight and Ethics Review Design](https://sdaiaacademy.github.io/en/courses/LDS-AIG-307.md)
 - [LDS-AIG-401 · Designing and Running an AI Governance Programme](https://sdaiaacademy.github.io/en/courses/LDS-AIG-401.md)
+
+## Format and days
+
+### Day 1: من المبادئ إلى السجل
+
+- من المبدأ إلى الدليل
+- المبادئ الوطنية والأطر الدولية
+- ما الذي يُعد نظام ذكاء اصطناعي
+- ما لم يُصرَّح عنه
+
+### Day 2: المخاطر والمساءلة
+
+- أربعة مستويات وخمسة عوامل
+- التناسب والحالات الحدّية
+- من يقرر
+- التصعيد وخطوط الدفاع
+
+### Day 3: السياسات وبوابات دورة الحياة
+
+- سياسة الاستخدام المقبول
+- اختبار السياسة والتوثيق
+- بوابات من الاستقبال إلى الإيقاف
+- حوكمة تعمل
+
+### Day 4: عروض المشروع الختامي
+
 
 ## Topics
 

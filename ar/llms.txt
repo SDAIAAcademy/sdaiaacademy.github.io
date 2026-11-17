@@ -108,6 +108,7 @@
 - [LDS-EXE-101 · الذكاء الاصطناعي للتنفيذيين: إحاطة تطبيقية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-101.md): المستوى 100 · الشرح, 4 ساعات, متاح
 - [LDS-ADV-201 · تقييم جدوى حالات استخدام الذكاء الاصطناعي وإعداد دراسات الجدوى](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-ADV-202 · تقييم نضج البيانات والذكاء الاصطناعي وخرائط الطريق](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-AIG-201 · أسس حوكمة الذكاء الاصطناعي: المبادئ والأدوار وضوابط دورة الحياة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-AIG-202 · تنظيمات الذكاء الاصطناعي ومعاييره في التطبيق العملي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-AIG-203 · الذكاء الاصطناعي من أطراف خارجية: التراخيص وسلسلة الإمداد والإيقاف](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-203.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [LDS-DMG-101 · أسس إدارة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-101.md): المستوى 100 · الشرح, 24 ساعة, متاح
@@ -198,7 +199,6 @@
 - [LDS-PRD-301 · الذكاء الاصطناعي المسؤول بالتصميم لفرق المنتجات](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-301.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
 - [LDS-ADV-301 · منتجات البيانات وتقدير قيمتها وتحقيق الإيرادات منها](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
 - [LDS-ADV-302 · العمل الاستشاري في تكليفات البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
-- [LDS-AIG-201 · أسس حوكمة الذكاء الاصطناعي: المبادئ والأدوار وضوابط دورة الحياة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
 - [LDS-AIG-204 · إدارة مخاطر الذكاء الاصطناعي في التطبيق العملي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-204.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
 - [LDS-AIG-301 · تقييم النماذج والأنظمة: أدلة الإنصاف والمتانة والسلامة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
 - [LDS-AIG-302 · مختبر ضوابط الذكاء الاصطناعي التوليدي والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-302.md): المستوى 300 · التطوير, 24 ساعة, قيد التطوير
