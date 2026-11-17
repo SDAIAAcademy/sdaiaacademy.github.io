@@ -120,7 +120,7 @@ In the order their prerequisites suggest.
 
 ### 11. [USE-PRO-211 · AI for Engineers and Field Operations](../courses/USE-PRO-211.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Identify field tasks where AI output must never drive action, and the check each needs.
 - Use a source-grounded assistant to update a procedure, checking each step, value and unit against the current revision.

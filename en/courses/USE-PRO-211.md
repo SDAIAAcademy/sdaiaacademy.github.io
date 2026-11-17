@@ -6,7 +6,10 @@
 - Format: Workshop: two days of labs on one synthetic case, plus a tracked baseline
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-pro-211/
+- The whole course in one file: https://sdaiaacademy.github.io/use-pro-211/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-pro-211/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](USE-FLU-201.md)
 - Works in engineering, maintenance or operations and reads procedures and drawings
+
+## Format and days
+
+### Day 1: الحدود والإجراءات
+
+- حدود السلامة والبيانات: أين يقف المساعد
+- الأدلة التشغيلية والإجراءات: الخطوة والقيمة والوحدة
+
+### Day 2: السجلات والصور
+
+- سجلات الصيانة: ترميز بالمساعد وأعداد من الكود
+- الصور والرسومات والملاحظات الصوتية
+
+### Day 3: بطاقة إعادة التصميم والمراجعة المباشرة
+
 
 ## Topics
 
