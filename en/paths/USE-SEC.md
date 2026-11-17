@@ -30,7 +30,7 @@ In the order their prerequisites suggest.
 
 ### 2. [USE-SEC-202 · AI in Energy and Petrochemicals](../courses/USE-SEC-202.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-103
 - Identify each energy AI application as advisory, supervisory or closed-loop and the evidence it needs.
 - Test a learned load forecast against seasonal-naive and persistence baselines.
