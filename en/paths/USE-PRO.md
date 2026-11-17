@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [USE-PRO-201 · AI for Public Servants and Policy Work](../courses/USE-PRO-201.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Identify AI drafting errors typical of government work: superseded rules, invented article numbers, misattributed positions.
 - Classify case documents by sensitivity and match each to the tools its level allows.
