@@ -60,7 +60,7 @@ In the order their prerequisites suggest.
 
 ### 5. [USE-PRO-205 · AI for Communications, Media and Content Work](../courses/USE-PRO-205.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Identify editorial risks in AI content: invented quotes and statistics, copy echoing the brief and unlabelled synthetic media.
 - Implement an editorial workflow in which drafting, fact checking, rights review and sign-off are separate, logged steps.
