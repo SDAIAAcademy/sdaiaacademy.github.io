@@ -93,6 +93,7 @@
 - [USE-PRO-209 · الذكاء الاصطناعي للعاملين في المهن السريرية والصحية](https://sdaiaacademy.github.io/ar/courses/USE-PRO-209.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [USE-PRO-210 · الذكاء الاصطناعي في المبيعات والتسويق ورؤى السوق](https://sdaiaacademy.github.io/ar/courses/USE-PRO-210.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [USE-PRO-211 · الذكاء الاصطناعي للمهندسين والعمليات الميدانية](https://sdaiaacademy.github.io/ar/courses/USE-PRO-211.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-212 · الذكاء الاصطناعي للعاملين في الأمن وعمليات تقنية المعلومات](https://sdaiaacademy.github.io/ar/courses/USE-PRO-212.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [USE-SEC-201 · الذكاء الاصطناعي في الأنظمة الصحية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-201.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-202 · الذكاء الاصطناعي في الطاقة والبتروكيماويات](https://sdaiaacademy.github.io/ar/courses/USE-SEC-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [USE-SEC-203 · الذكاء الاصطناعي في الخدمات الحكومية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-203.md): المستوى 200 · التطبيق, 16 ساعة, متاح
@@ -160,7 +161,6 @@
 - [USE-FLU-302 · إستديو الفريق للبناء وتولي الملكية: تطبيق واحد لجهة واحدة](https://sdaiaacademy.github.io/ar/courses/USE-FLU-302.md): المستوى 300 · التطوير, 40 ساعة, قيد التطوير
 - [USE-FLU-303 · قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون](https://sdaiaacademy.github.io/ar/courses/USE-FLU-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
 - [USE-EDU-204 · تصميم المرشدين الذكيين والمساعدات الذكية للمقررات](https://sdaiaacademy.github.io/ar/courses/USE-EDU-204.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
-- [USE-PRO-212 · الذكاء الاصطناعي للعاملين في الأمن وعمليات تقنية المعلومات](https://sdaiaacademy.github.io/ar/courses/USE-PRO-212.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [USE-SEC-204 · الذكاء الاصطناعي في منظومات التعليم](https://sdaiaacademy.github.io/ar/courses/USE-SEC-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-205 · الذكاء الاصطناعي في التنقل والخدمات اللوجستية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-205.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-206 · الذكاء الاصطناعي في الخدمات المالية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير

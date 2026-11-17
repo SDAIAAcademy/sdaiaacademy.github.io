@@ -130,7 +130,7 @@ In the order their prerequisites suggest.
 
 ### 12. [USE-PRO-212 · AI for Security and IT Operations Staff](../courses/USE-PRO-212.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Use an assistant to triage redacted alerts and verify each verdict against the raw events.
 - Draft a runbook from a closed incident and test each step in a disposable environment.
