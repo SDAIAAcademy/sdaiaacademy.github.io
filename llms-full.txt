@@ -2067,7 +2067,10 @@ By the end, the participant can:
 - Format: Workshop: two days of labs on one synthetic case, plus a tracked baseline
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-pro-206/
+- The whole course in one file: https://sdaiaacademy.github.io/use-pro-206/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-pro-206/practice.html
 
 ## Description
 
@@ -2087,6 +2090,25 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](https://sdaiaacademy.github.io/en/courses/USE-FLU-201.md)
 - Handles customer or citizen enquiries in Arabic, English or both, or supervises people who do
+
+## Format and days
+
+### Day 1: أجب من المصدر، واعرف ما يبقى لك
+
+- العمل في الخدمة إلى جانب الوكيل الآلي
+- الإجابة من قاعدة المعرفة وحدها
+- اللباقة واللهجة والإفصاح
+- التصعيد وفق القواعد
+
+### Day 2: تسلَّم وتحقَّق، ثم عايِن وقِس
+
+- تسليم الحالة وانتحال الشخصية
+- خطة المعاينة وسلم التقدير
+- المقيِّم الثاني وإيصال الإصلاحات
+- إعادة تصميم مهمة وقياسها
+
+### Day 3: بطاقة إعادة التصميم والمراجعة المباشرة
+
 
 ## Topics
 

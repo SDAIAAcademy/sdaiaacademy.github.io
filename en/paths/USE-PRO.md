@@ -70,7 +70,7 @@ In the order their prerequisites suggest.
 
 ### 6. [USE-PRO-206 · AI for Customer and Citizen Service Work](../courses/USE-PRO-206.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Distinguish grounded from ungrounded replies and identify their failures, such as invented policies and promises staff cannot keep.
 - Use a grounded assistant to draft courteous Arabic and English replies, checked against cited articles.
