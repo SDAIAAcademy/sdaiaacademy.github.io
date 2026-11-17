@@ -6,7 +6,10 @@
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-adv-201/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-adv-201/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-adv-201/practice.html
 
 ## Description
 
@@ -27,6 +30,32 @@ By the end, the participant can:
 - [DEV-LLM-201 · Building Applications on Language Models](DEV-LLM-201.md)
 - USE-FLU-302 is accepted in place of DEV-LLM-201 for participants who do not program
 - Builds a spreadsheet model with formulas and scenarios
+
+## Format and days
+
+### Day 1: التأطير وخط الأساس وجاهزية المعرفة
+
+- القرار الكامن وراء الطلب
+- خطوط الأساس المستخرجة من بيانات العمليات
+- فرضيات القيمة ومعايير التوقف
+- التغطية والجودة وحقوق الاستخدام
+
+### Day 2: الجاهزية والتجربة التقنية
+
+- التصنيف والبيانات الشخصية والصلاحيات
+- تصميم تجربة تقنية محددة المدة
+- معدلات النجاح في المجموعات الصغيرة وعدم اليقين فيها
+- أنواع الإخفاق، ومتى لا يكون الذكاء الاصطناعي هو الحل
+
+### Day 3: المخاطر والخيارات ودراسة الجدوى
+
+- مستويات المخاطر والاستخدامات المحظورة
+- الآثار على الأفراد والإشراف البشري وانكشاف البيانات
+- الخيارات الأربعة والتكلفة الإجمالية للملكية
+- نقطة التعادل وتحليل الحساسية والتوصية
+
+### Day 4: مناقشة دراسات الجدوى
+
 
 ## Topics
 

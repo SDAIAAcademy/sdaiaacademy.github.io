@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [LDS-ADV-201 · AI Use-Case Feasibility and Business Cases](../courses/LDS-ADV-201.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Needs: DEV-LLM-201
 - Prepare a problem statement with a measured baseline, a value hypothesis and a success threshold.
 - Analyse data readiness: coverage, quality, rights of use, classification and personal data.
