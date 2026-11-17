@@ -90,7 +90,7 @@ In the order their prerequisites suggest.
 
 ### 8. [USE-PRO-208 · AI for Researchers and Scientific Work](../courses/USE-PRO-208.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: USE-FLU-201
 - Distinguish acceptable, disclosable and prohibited research uses of AI.
 - Use scholarly databases and an AI screening assistant to map a literature with a recorded search.

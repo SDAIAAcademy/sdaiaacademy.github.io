@@ -6,7 +6,10 @@
 - Format: Workshop: two days of labs on one synthetic case, plus a tracked baseline
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-pro-208/
+- The whole course in one file: https://sdaiaacademy.github.io/use-pro-208/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-pro-208/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](USE-FLU-201.md)
 - Has worked on a research project and can run a provided notebook
+
+## Format and days
+
+### Day 1: النزاهة وخريطة الأدبيات
+
+- ما يُقبل وما يُفصح عنه وما يُحظر
+- خريطة الأدبيات: بحث موثّق وفرز يُقاس
+
+### Day 2: الملخصات والتحليل
+
+- اقرأ المصدر لا الملخص
+- خطة قبل الأمر، وتشغيل نظيف
+
+### Day 3: جلسة المراجعة: البطاقة والإفصاح والدفتر
+
 
 ## Topics
 
