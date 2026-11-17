@@ -40,7 +40,7 @@ In the order their prerequisites suggest.
 
 ### 3. [USE-SEC-203 · AI in Government Services](../courses/USE-SEC-203.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-103
 - Identify which public-service AI uses affect rights or benefits and the duties that follow.
 - Test a bilingual citizen service assistant against official answers and classify its errors.

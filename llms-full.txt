@@ -2676,7 +2676,10 @@ By the end, the participant can:
 - Format: Workshop: two days of labs, tracked pre-work and a defended map
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-sec-203/
+- The whole course in one file: https://sdaiaacademy.github.io/use-sec-203/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-sec-203/practice.html
 
 ## Description
 
@@ -2696,6 +2699,25 @@ By the end, the participant can:
 
 - [USE-FLU-103 · How AI Systems Learn and Where They Fail](https://sdaiaacademy.github.io/en/courses/USE-FLU-103.md)
 - Works in or advises a public service
+
+## Format and days
+
+### Day 1: ما الذي يمس حقًّا أو إعانة، وكيف تختبر ما يواجه الجمهور
+
+- أربعة استخدامات وأربعة مستويات للمخاطر
+- الاستناد إلى المصادر الرسمية
+- العربية واللهجة والإنجليزية، والتصعيد إلى موظف
+- أتمتة المستندات وقياس أخطاء الاستخراج
+
+### Day 2: من يتحمل الخطأ، وكيف يُساءل النظام
+
+- فحوص الاحتيال والأهلية: العتبة قرار
+- من يتحمل العبء، وإخفاقات القرارات الآلية في الإعانات
+- سجلات الشفافية والحق في الاعتراض
+- البيانات والمشتريات وخريطة الفرص والمخاطر
+
+### Day 3: خريطة الفرص والمخاطر أمام المجلس القيادي
+
 
 ## Topics
 
