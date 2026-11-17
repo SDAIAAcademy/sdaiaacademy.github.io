@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [LDS-EXE-101 · AI for Executives: A Hands-On Briefing](../courses/LDS-EXE-101.md)
 
-- Level 100 · Explain · Primer · 4 h · In development
+- Level 100 · Explain · Primer · 4 h · Available
 - Describe where assistants and agents succeed and fail on similar tasks.
 - Compare assisted and unassisted results on one task, checking facts, figures and sources.
 - Prepare questions on task, evidence, data, cost, oversight and owner for an AI proposal.

@@ -6,7 +6,10 @@
 - Format: Primer: half a day, hands-on, with a scenario test
 - Total hours: 4 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-101/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-101/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-101/practice.html
 
 ## Description
 
@@ -23,6 +26,14 @@ By the end, the participant can:
 ## Prerequisites
 
 - None; tracked pre-work: pick and classify one non-confidential task from own work
+
+## Format and days
+
+### Day 1: جرّب بيدك، وراقب الوكيل، ثم اسأل
+
+- ما يفعله المساعد بمهمتك
+- الوكلاء وتفاوت القدرات
+- قراءة الادعاءات وسؤال الفريق
 
 ## Topics
 
