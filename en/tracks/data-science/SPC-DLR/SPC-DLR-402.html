@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants make models smaller, faster and able to read longer inputs, and measure what each method costs in quality. They prune convolutional and transformer models, quantise weights, activations and the key-value cache to 8 and 4 bits after and during training, distil a compressed student, exten">
-<title>SPC-DLR-402 · Efficient Deep Learning: Compression, Quantisation and Long Context · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/data-science/SPC-DLR/SPC-DLR-402.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/SPC-DLR-402.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-SPC">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/data-science/SPC-DLR/SPC-DLR-402.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">Data Science</a></li><li><a href="index.html"><span class="code" dir="ltr">SPC-DLR</span></a></li><li aria-current="page"><span class="code" dir="ltr">SPC-DLR-402</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">SPC-DLR-402</span> <span class="t">Efficient Deep Learning: Compression, Quantisation and Long Context</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 400 · Evaluate</span></li><li><span class="chip">Extended</span></li><li><span class="chip chip-plain">60 h</span></li><li><span class="chip chip-plain">Audience: specialist</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">Data Science</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">SPC-DLR</span> <span>Deep Learning and Model Development</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 400 · Evaluate</p></div><div class="fact"><h2>Audience</h2><p>specialist</p></div><div class="fact"><h2>Format</h2><p>Extended: 10 weeks part-time, one lecture and one long lab a week, four graded assignments, a supervised test and a compression capstone</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">60 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="SPC-DLR-302.html"><span class="code" dir="ltr">SPC-DLR-302</span> <span>Deep Learning from First Principles</span></a></li><li><a href="SPC-DLR-303.html"><span class="code" dir="ltr">SPC-DLR-303</span> <span>Building a Language Model from Scratch</span></a></li></ul><ul class="plain-list"><li>Profiles a training or inference step and reads the trace (<a href="SPC-DLR-304.html">SPC-DLR-304</a> recommended)</li><li>Has run logit-level distillation (<a href="SPC-DLR-306.html">SPC-DLR-306</a> recommended)</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants make models smaller, faster and able to read longer inputs, and measure what each method costs in quality. They prune convolutional and transformer models, quantise weights, activations and the key-value cache to 8 and 4 bits after and during training, distil a compressed student, extend a model&#x27;s context window, and train a small mixture-of-experts (MoE) layer. Each change is judged on a quality, latency and memory frontier measured on real hardware. Serving engineering is <a href="../../ai-engineering/DEV-INF/DEV-INF-401.html">DEV-INF-401</a>; on-device deployment is <a href="../../ai-engineering/DEV-INF/DEV-INF-303.html">DEV-INF-303</a>.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Apply magnitude, structured and semi-structured (N:M) pruning, and measure accuracy against sparsity and real speed-up.</p><p class="o-more"><span class="k">Given</span> a convolutional network and a small transformer trained on public data.</p><p class="o-more"><span class="k">Evidence</span> accuracy and measured latency curves, with an explanation of where speed-up appears.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a post-training quantisation pipeline with calibration, per-channel and group scaling, and outlier handling.</p><p class="o-more"><span class="k">Given</span> a small open language model and 8-bit and 4-bit targets.</p><p class="o-more"><span class="k">Evidence</span> task quality, memory and latency set against a published method.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Diagnose quality loss after compression by locating sensitive layers and outliers, and repair it with mixed precision or quantisation-aware training.</p><p class="o-more"><span class="k">Given</span> a compressed model that fails a quality threshold.</p><p class="o-more"><span class="k">Evidence</span> a sensitivity map and a repaired model that meets the threshold.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a long-context extension of a small model and evaluate it beyond single-fact retrieval tests.</p><p class="o-more"><span class="k">Given</span> a small open model with rotary positions and a target several times its training length.</p><p class="o-more"><span class="k">Evidence</span> accuracy-by-length curves on retrieval, multi-step and long-document tasks.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement a mixture-of-experts layer with routing and a load-balancing loss.</p><p class="o-more"><span class="k">Given</span> a small transformer and a fixed compute budget.</p><p class="o-more"><span class="k">Evidence</span> expert-use statistics and quality against a dense model at equal active compute.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Design a compression plan for a target device or budget and defend it with a measured frontier.</p><p class="o-more"><span class="k">Given</span> a memory and latency target.</p><p class="o-more"><span class="k">Evidence</span> the plan, the frontier and the quality loss by task and language.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Measuring efficiency</h3><ul><li>Latency, throughput, memory and energy</li><li>Quality, latency and memory frontiers</li><li>Memory-bound decoding and what hardware accelerates</li></ul></div><div class="topic"><h3>Pruning and distillation</h3><ul><li>Magnitude, structured and N:M sparsity</li><li>Distilling compressed students</li><li>Neural architecture search in brief</li></ul></div><div class="topic"><h3>Quantisation</h3><ul><li>Integer and low-bit floating formats</li><li>Calibration, group scaling and outliers</li><li>Quantisation-aware training</li><li>Key-value cache quantisation</li></ul></div><div class="topic"><h3>Long context</h3><ul><li>Cost of attention with length</li><li>Positional interpolation and rotary scaling</li><li>Sliding-window, sparse and linear attention, and state-space hybrids</li><li>Testing long context honestly</li></ul></div><div class="topic"><h3>Sparse experts</h3><ul><li>Routing, load balancing and capacity</li><li>Active against total parameters</li><li>Consequences for serving</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Tensor framework</dt><dd>PyTorch, JAX</dd></div><div><dt>Quantised runtimes and formats</dt><dd>llama.cpp, ONNX Runtime, ExecuTorch</dd></div><div><dt>Efficient attention kernels</dt><dd>FlashAttention, the framework&#x27;s fused attention operator</dd></div><div><dt>Evaluation and measurement</dt><dd>lm-evaluation-harness, the framework profiler</dd></div><div><dt>Hardware</dt><dd>a laptop CPU, a provided GPU, a Raspberry Pi class board</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Four assignments with quality and speed checks (30%)</li><li>Supervised test without AI assistance (20%)</li><li>Capstone report and defence (50%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>60% on the supervised test and 70% overall</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised test and the first quantisation implementation. AI-tutor in the labs. AI-full in the capstone, with every measurement reproduced live on request.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="SPC-DLR-401.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">SPC-DLR-401</span> Post-Training II: Reinforcement Learning for Language Models</span></a><span></span></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/SPC-DLR-402.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/data-science/SPC-DLR/SPC-DLR-402.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../../ai-engineering/index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

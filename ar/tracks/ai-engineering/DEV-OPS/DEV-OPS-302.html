@@ -3,50 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="يشغّل المشاركون مساعدًا مستندًا إلى المصادر بوصفه خدمة في بيئة الإنتاج، وهو مكتب مساعدة اصطناعي للخدمات العامة مزود بالاسترجاع وأداتين. فيديرون إصدارات الأوامر ومعرِّفات النماذج والإعدادات وفهرس الاسترجاع ومخططات الأدوات بوصفها وحدة إطلاق واحدة، ويتتبعون كل طلب، ويضعون حزم التقييم في بوابة إطلاق، وي">
-<title>DEV-OPS-302 · تشغيل تطبيقات النماذج اللغوية: التتبع وبوابات التقييم والإطلاق الآمن · دليل مقررات أكاديمية سدايا</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="en" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-302.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-OPS-302.html">
+<title>نُقلت هذه الصفحة · دليل مقررات أكاديمية سدايا</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">الانتقال إلى المحتوى</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="أكاديمية سدايا" width="171" height="40"></a>
-<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../../../courses/index.html" class="here">المقررات</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-302.html" lang="en" hreflang="en">English</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="التحويل إلى المظهر الداكن" data-to-light="التحويل إلى المظهر الفاتح"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="مسار التصفح"><ol><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-OPS-302</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-OPS-302</span> <span class="t">تشغيل تطبيقات النماذج اللغوية: التتبع وبوابات التقييم والإطلاق الآمن</span></h1>
-<p class="alt-title"><bdi lang="en">Operating Language Model Applications: Tracing, Evaluation Gates and Safe Releases</bdi></p>
-<ul class="chips"><li><span class="chip chip-level">المستوى 300 · التطوير</span></li><li><span class="chip">دورة مكثفة</span></li><li><span class="chip chip-plain">36 ساعة</span></li><li><span class="chip chip-plain">الفئة المستهدفة: ممارس</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="نظرة سريعة"><div class="fact"><h2>المسار</h2><p><a href="../index.html">هندسة الذكاء الاصطناعي</a></p></div><div class="fact"><h2>المسار الفرعي</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span> <span>العمليات والاعتمادية</span></a></p></div><div class="fact"><h2>المستوى</h2><p>المستوى 300 · التطوير</p></div><div class="fact"><h2>الفئة المستهدفة</h2><p>ممارس</p></div><div class="fact"><h2>الصيغة</h2><p>دورة مكثفة: 4 أيام تدريبية ويوم للمشروع الختامي، مع عمل تحضيري موجه ومهمة متابعة متعقَّبة</p></div><div class="fact"><h2>إجمالي الساعات</h2><p class="hours-total">36 ساعة</p></div><div class="fact"><h2>المتطلبات السابقة</h2><ul class="ref-list"><li><a href="DEV-OPS-201.html"><span class="code" dir="ltr">DEV-OPS-201</span> <span>نشر خدمات الذكاء الاصطناعي: الحاويات وخدمة النماذج والمراقبة</span></a></li><li><a href="../DEV-LLM/DEV-LLM-201.html"><span class="code" dir="ltr">DEV-LLM-201</span> <span>بناء التطبيقات على النماذج اللغوية</span></a></li></ul><ul class="plain-list"><li>سبق له كتابة فحوصات مؤتمتة لمخرجات النماذج؛ ويُوصى بالمقرر <a href="../DEV-EVL/DEV-EVL-301.html">DEV-EVL-301</a></li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>الوصف</h2><p>يشغّل المشاركون مساعدًا مستندًا إلى المصادر بوصفه خدمة في بيئة الإنتاج، وهو مكتب مساعدة اصطناعي للخدمات العامة مزود بالاسترجاع وأداتين. فيديرون إصدارات الأوامر ومعرِّفات النماذج والإعدادات وفهرس الاسترجاع ومخططات الأدوات بوصفها وحدة إطلاق واحدة، ويتتبعون كل طلب، ويضعون حزم التقييم في بوابة إطلاق، ويمررون التغييرات عبر مرحلتي النشر في بيئة الظل والإطلاق المحدود التجريبي مع تراجع تلقائي. ثم يهيئون ضوابط الحماية، ويأخذون عينات من الحركة الفعلية للتقييم المباشر والمراجعة البشرية. وتستخدم المختبرات نموذجًا صغيرًا مفتوح الأوزان على حاسب محمول أو فئة استضافة مجانية. ويتناول المقرر <a href="../DEV-EVL/DEV-EVL-301.html">DEV-EVL-301</a> تصميم أدوات التقييم، ويتناول المقرر <a href="../DEV-EVL/DEV-EVL-401.html">DEV-EVL-401</a> معايير الإطلاق على مستوى الجهة؛ أما هنا فيشغّل المشاركون أدوات التقييم.</p></section>
-<section class="sec"><h2>نواتج التعلم</h2><p class="sec-lead">بنهاية المقرر يستطيع المشارك أن:</p><ol class="outcomes"><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">ينفذ إدارة إصدارات الأوامر ومعرِّفات النماذج والإعدادات والفهرس ومخططات الأدوات بوصفها وحدة إطلاق واحدة.</p><p class="o-more"><span class="k">المعطيات</span> عند التعامل مع مساعد إعداداته متفرقة.</p><p class="o-more"><span class="k">الدليل</span> آثار تنفيذ تذكر فيها كل استجابة الإصدار الذي صدرت عنه.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يضيف أدوات القياس إلى استدعاءات النموذج والاسترجاع والأدوات، مع نطاقات التتبع وعدد الوحدات النصية (tokens) وزمن الوصول إلى أول وحدة نصية والزمن لكل وحدة نصية مُخرَجة.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام مجمّع قياسات عن بعد يتبع اصطلاحات التتبع المفتوحة.</p><p class="o-more"><span class="k">الدليل</span> أثر تنفيذ كامل لطلب واحد ولوحة معلومات لزمن الاستجابة والتكلفة.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يبني بوابة إطلاق تمنع التغيير حين يرتفع معدل إخفاق حرج بما يتجاوز هامشًا معلنًا.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام حزمة تقييم وثلاثة تغييرات مرشحة.</p><p class="o-more"><span class="k">الدليل</span> عمليات تشغيل للبوابة تجيز تغييرًا مرشحًا واحدًا وتمنع اثنين، مع مقارنات إحصائية.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يسلّم تغييرًا عبر مرحلتي النشر في بيئة الظل والإطلاق المحدود التجريبي مع تراجع تلقائي.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام بوابة تقسم حركة معاد تشغيلها.</p><p class="o-more"><span class="k">الدليل</span> خط زمني للإطلاق فيه عملية تراجع تلقائي واحدة.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يهيئ ضوابط حماية للمدخلات والمخرجات ويقيس معدلي الحجب الخاطئ والإغفال فيها.</p><p class="o-more"><span class="k">المعطيات</span> على 200 طلب موسوم بالعربية والإنجليزية.</p><p class="o-more"><span class="k">الدليل</span> تقرير بالمعدلين لكل لغة وبزمن الاستجابة المضاف.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يصمم حلقة تقييم مباشر تأخذ عينات من آثار التنفيذ، وتحيل الحالات غير المؤكدة إلى أشخاص، وتضيف الإخفاقات إلى حزمة التقييم غير المباشر.</p><p class="o-more"><span class="k">المعطيات</span> على حركة أسبوع معاد تشغيلها.</p><p class="o-more"><span class="k">الدليل</span> مهمة عاملة، وقائمة مراجعة محسومة، وثلاث حالات جديدة لاختبار الانحدار.</p></li></ol></section>
-<section class="sec"><h2>الموضوعات</h2><div class="topics"><div class="topic"><h3>ما يغيّر السلوك</h3><ul><li>وحدة الإطلاق</li><li>تحديثات مقدمي الخدمة للنماذج وتثبيت المعرِّفات</li><li>تحديث قاعدة المعرفة بوصفه إطلاقًا</li></ul></div><div class="topic"><h3>التتبع</h3><ul><li>نطاقات التتبع لاستدعاءات النموذج والاسترجاع والأدوات والوكلاء</li><li>اصطلاحات OpenTelemetry للذكاء الاصطناعي التوليدي، وما زالت قيد التطوير</li><li>الاحتفاظ بآثار التنفيذ وحجب محتواها الحساس</li></ul></div><div class="topic"><h3>البوابات والإطلاق</h3><ul><li>أنماط الفشل الحرجة والمحتملة</li><li>المقارنة الزوجية ضمن ميزانية من الاستدعاءات</li><li>حركة بيئة الظل والإطلاق المحدود التجريبي ومحفزات التراجع</li></ul></div><div class="topic"><h3>ضوابط الحماية والتقييم المباشر</h3><ul><li>ضوابط الحماية أثناء التنفيذ، وأدوات التقييم بعده</li><li>مصححات معايَرة على آثار التنفيذ الفعلية</li><li>قوائم المراجعة وحالات جديدة لاختبار الانحدار</li></ul></div></div></section>
-<section class="sec"><h2>الأدوات والمنصات</h2><p class="sec-lead">هذه أمثلة، ويجوز استخدام أي بديل مكافئ.</p><dl class="pairs"><div><dt>الوصول إلى النموذج عبر نقطة نهاية متوافقة مع واجهة إكمال المحادثات</dt><dd>نموذج مفتوح الأوزان، مستضاف أو محلي، أي واجهة برمجة تطبيقات تجارية</dd></div><div><dt>التتبع وسجل الأوامر</dt><dd>OpenTelemetry مع Langfuse، Arize Phoenix، MLflow</dd></div><div><dt>إطار التقييم</dt><dd>Inspect، promptfoo</dd></div><div><dt>البوابة والتسليم التدريجي</dt><dd>LiteLLM، Agent Router، Argo Rollouts</dd></div><div><dt>مكونات ضوابط الحماية</dt><dd>Presidio، مصنِّف سلامة مفتوح الأوزان</dd></div></dl></section>
-<section class="sec"><h2>كيف يُقيَّم العمل</h2><ul><li>اختبار قصير مراقب: تحديد سبب انحدار في الأداء من آثار التنفيذ والفروق بين إصدارين (15%)</li><li>مختبرات مقيَّمة (30%)</li><li>مشروع ختامي يُقيَّم بسلم تقدير من ستة معايير (45%)</li><li>مناقشة مباشرة (10%)</li></ul><dl class="pairs"><div><dt>معيار الاجتياز</dt><dd>70% إجمالًا، و60% على الأقل في كل من الاختبار القصير المراقب والمشروع الختامي</dd></div></dl></section>
-<section class="sec"><h2>استخدام الذكاء الاصطناعي في المقرر</h2><p>دون ذكاء اصطناعي في الاختبار القصير المراقب. ذكاء اصطناعي مرشد في المختبرات. ذكاء اصطناعي كامل في المشروع الختامي، ويُناقَش مباشرة.</p><p class="legend">دون ذكاء اصطناعي: بلا أي مساعدة. ذكاء اصطناعي مرشد: مساعد يلمّح ويشرح ولا يعطي الإجابة. ذكاء اصطناعي كامل: أي مساعدة، والمشارك مسؤول عن النتيجة ويدافع عنها.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="المقرر السابق والمقرر التالي"><a class="pager-prev" rel="prev" href="DEV-OPS-301.html"><span class="k">المقرر السابق</span><span><span class="code" dir="ltr">DEV-OPS-301</span> عمليات تعلم الآلة: مسارات المعالجة وسجلات النماذج والتسليم</span></a><a class="pager-next" rel="next" href="DEV-OPS-303.html"><span class="k">المقرر التالي</span><span><span class="code" dir="ltr">DEV-OPS-303</span> تشغيل وكلاء الذكاء الاصطناعي: التنفيذ الدائم والعزل وإعادة تشغيل آثار التنفيذ</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>نُقلت هذه الصفحة</h1>
+<p>عنوانها الجديد: <a href="../../../courses/DEV-OPS-302.html">افتح الصفحة</a></p>
+<p><a class="lang-switch" href="../../../../en/tracks/ai-engineering/DEV-OPS/DEV-OPS-302.html" lang="en" hreflang="en">English</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">التنفيذيون والقادة</a></li><li class="acc-FND"><a href="../../foundations/index.html">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="../../data-science/index.html">علم البيانات</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

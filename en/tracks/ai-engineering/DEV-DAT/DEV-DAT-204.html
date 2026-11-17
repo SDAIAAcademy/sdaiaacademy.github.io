@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants put quality controls into the synthetic claims platform of a fictional health insurer. They profile the sources, turn consumer requirements into executable rules, extend the contract basics of DEV-DAT-201 with versioning and service levels, and gate every build on them. Pipelines emit l">
-<title>DEV-DAT-204 · Data Quality, Contracts and Observability · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-DAT/DEV-DAT-204.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-DAT-204.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-DAT/DEV-DAT-204.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-DAT</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-DAT-204</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-DAT-204</span> <span class="t">Data Quality, Contracts and Observability</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">24 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-DAT</span> <span>Data Engineering and Architecture</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">24 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-DAT-201.html"><span class="code" dir="ltr">DEV-DAT-201</span> <span>Modern Data Engineering</span></a></li></ul><ul class="plain-list"><li>Runs and edits an orchestrated pipeline locally</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants put quality controls into the synthetic claims platform of a fictional health insurer. They profile the sources, turn consumer requirements into executable rules, extend the contract basics of <a href="DEV-DAT-201.html">DEV-DAT-201</a> with versioning and service levels, and gate every build on them. Pipelines emit lineage and run events, which participants use to find the blast radius of a seeded incident, quarantine bad data, notify consumers and write a post-incident review. The quality programme and stewardship side is <a href="../../executives-and-leaders/LDS-DMG/LDS-DMG-203.html">LDS-DMG-203</a>.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Describe the data quality dimensions and match each to a check that runs inside a pipeline.</p><p class="o-more"><span class="k">Given</span> eight described defects.</p><p class="o-more"><span class="k">Evidence</span> a mapping matching the reference on six of eight.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Analyse tables with column, relationship and dependency profiling to propose rules.</p><p class="o-more"><span class="k">Given</span> four claims tables with seeded defects.</p><p class="o-more"><span class="k">Evidence</span> a report listing each rule, its threshold and the defect it catches.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement rules with thresholds, severities and quarantine actions as pipeline gates.</p><p class="o-more"><span class="k">Given</span> an orchestrated pipeline.</p><p class="o-more"><span class="k">Evidence</span> a run in which one rule warns, one blocks publication and bad rows land in quarantine.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement contract versioning with breaking-change rules and service-level clauses for freshness and ownership, checked in continuous integration.</p><p class="o-more"><span class="k">Given</span> an open-standard contract and two planned producer schema changes.</p><p class="o-more"><span class="k">Evidence</span> runs that reject the breaking change, accept the compatible one and bump the version.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure lineage and run events across the pipeline and use them to list affected downstream assets.</p><p class="o-more"><span class="k">Given</span> a seeded upstream defect.</p><p class="o-more"><span class="k">Evidence</span> an impact list matching the reference set.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Diagnose a data incident from alerts, lineage and logs, and lead it to closure.</p><p class="o-more"><span class="k">Given</span> a timed simulated incident and a consumer pressing for answers.</p><p class="o-more"><span class="k">Evidence</span> a timeline, consumer notice and blameless review.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Dimensions, profiling and rules</h3><ul><li>Accuracy, completeness, consistency, timeliness, validity, uniqueness</li><li>Column, relationship and dependency profiling</li><li>Critical data elements first</li><li>Rules with scope, threshold, severity and owner</li><li>Quality scores and trend reports</li></ul></div><div class="topic"><h3>Gates in pipelines</h3><ul><li>Warn, block or quarantine</li><li>Write, audit, publish</li><li>Volume and distribution anomalies</li></ul></div><div class="topic"><h3>Data contracts</h3><ul><li>Producer and consumer duties</li><li>Service-level clauses: freshness, completeness, support</li><li>Versioning and breaking-change rules in continuous integration</li></ul></div><div class="topic"><h3>Lineage and observability</h3><ul><li>Lineage as events emitted by runs</li><li>Freshness, volume and schema signals</li><li>Alert routing and fatigue</li></ul></div><div class="topic"><h3>Incident handling</h3><ul><li>Triage and consumer notice</li><li>Root cause through lineage</li><li>Backfills, corrections and blameless reviews</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Validation framework</dt><dd>Great Expectations, Soda Core, Pandera</dd></div><div><dt>Data contract specification</dt><dd>Open Data Contract Standard (ODCS), contract checks compiled to SQL tests</dd></div><div><dt>Lineage events</dt><dd>OpenLineage with Marquez, the orchestrator&#x27;s built-in lineage</dd></div><div><dt>Orchestrator and engine</dt><dd>Dagster with DuckDB, Apache Airflow with PostgreSQL</dd></div><div><dt>Metrics and alerting</dt><dd>Prometheus with Grafana, the orchestrator&#x27;s alerting</dd></div><div><dt>Continuous integration</dt><dd>GitHub Actions, GitLab CI</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised AI-off check: write rules and thresholds for described defects (20%)</li><li>Graded labs (30%)</li><li>Follow-up repository and live incident diagnosis on a five-criterion rubric (50%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall and at least 60% on both the check and the follow-up review</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check and the profiling lab. AI-tutor in the other labs, including the incident drill. AI-full in the follow-up task, defended live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-DAT-203.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-DAT-203</span> Streaming and Change Data Capture</span></a><a class="pager-next" rel="next" href="DEV-DAT-301.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-DAT-301</span> Data Modelling: Conceptual to Semantic</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-DAT-204.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-DAT/DEV-DAT-204.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

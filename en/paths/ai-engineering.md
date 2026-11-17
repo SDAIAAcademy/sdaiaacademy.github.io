@@ -1,0 +1,736 @@
+# AI Engineering
+
+For people who build and run systems that use AI: applications and agents, evaluation, machine learning engineering, operations, infrastructure, data engineering and security.
+
+## [DEV-SWE · Software Engineering for AI Builders](DEV-SWE.md)
+
+- [DEV-SWE-201 · Software Engineering with Coding Agents](../courses/DEV-SWE-201.md): Level 200 · Apply, 36 h; Needs: FND-PRG-102
+  - Explain how a coding agent searches code, spends its context and uses subagents, and identify its common failure modes.
+  - Prepare a specification and plan that split a feature into slices an agent can execute and a reviewer can verify.
+  - Configure an agent-ready repository with a context file, a skill, a check-running hook, a read-only protocol server and permission settings.
+  - Apply risk-based review to agent changes, setting review depth by blast radius.
+  - Analyse unfamiliar code and an agent diff without assistance, predicting behaviour and locating defects.
+  - Deliver a feature with a coding agent from specification to merged change, with tests and a review record.
+- [DEV-SWE-202 · Back-End Services and Interfaces for AI Applications](../courses/DEV-SWE-202.md): Level 200 · Apply, 30 h; Needs: FND-PRG-105
+  - Distinguish request-response, streaming and asynchronous job patterns and state which fits a given model call.
+  - Implement a typed API contract that validates model output and maps provider failures to stable error codes.
+  - Implement token streaming with cancellation and clean handling of client disconnects.
+  - Implement queued jobs with idempotency keys, retries with backoff and a status endpoint.
+  - Configure sign-in, per-user authorisation and quotas.
+  - Build a service that persists state, recovers from a restart and meets a latency budget under load.
+- [DEV-SWE-203 · Front Ends for AI Applications: Streaming, Chat and Generative Interfaces](../courses/DEV-SWE-203.md): Level 200 · Apply, 16 h
+  - Describe the events an agent sends to an interface and how an open agent-to-interface protocol carries them.
+  - Implement streamed rendering and conversation state that survive stops, retries, edits and reloads.
+  - Implement approval prompts that state an action, its target and its effect, with a fallback for interactive components.
+  - Test the interface for keyboard use, screen-reader announcement of streamed text and right-to-left layout.
+  - Build a chat and agent interface that streams, recovers from failure, gates actions on approval and passes the accessibility audit.
+- [DEV-SWE-204 · Testing and Verification of AI-Assisted Code](../courses/DEV-SWE-204.md): Level 200 · Apply, 16 h; Needs: FND-PRG-104
+  - Prepare acceptance tests before delegating and protect them from agent edits.
+  - Implement property-based tests that find defects example tests miss.
+  - Measure suite strength with mutation testing and kill surviving mutants.
+  - Configure code, dependency and secret scanning and triage findings.
+  - Build a verification pipeline that accepts a correct agent change and rejects faulty ones.
+- [DEV-SWE-301 · System Design for AI Products](../courses/DEV-SWE-301.md): Level 300 · Develop, 30 h; Needs: DEV-SWE-202, DEV-LLM-201
+  - Explain how non-determinism, token-priced compute, provider limits and model changes alter service design.
+  - Prepare a latency and cost budget per user task, including time to first token and cost per successful task.
+  - Analyse the failure modes of a design and attach a detection signal and degradation response to each.
+  - Design the decomposition and state placement of an AI product.
+  - Build a walking skeleton whose degradation paths hold the budget under injected faults.
+  - Review a peer design and defend one's own when the panel changes a constraint.
+- [DEV-SWE-302 · Agent-Ready Engineering Organisations: Parallel Agents, Review and Governance](../courses/DEV-SWE-302.md): Level 300 · Develop, 16 h; Needs: DEV-SWE-201, DEV-SWE-204
+  - Configure parallel background agents on isolated workspaces with a merge and conflict policy.
+  - Configure permission tiers, sandboxing and an egress allowlist for team agents.
+  - Design a versioned team harness with an owner, a changelog and a regression task set.
+  - Design release lanes and a review-queue policy that route changes by risk and fit reviewer capacity.
+  - Evaluate claims about agent productivity using delivery measures with stated uncertainty.
+- [DEV-SWE-303 · Shaping the Build: Product Sense and Forward-Deployed Practice](../courses/DEV-SWE-303.md): Level 300 · Develop, 16 h; Needs: DEV-SWE-201
+  - Analyse a workflow from interviews to find where AI would change an outcome users care about.
+  - Design a specification with success metrics, non-goals, acceptance criteria written as evaluation cases, data needs and risks.
+  - Test the riskiest assumption with a time-boxed prototype and short user sessions.
+  - Decide whether to stop, iterate or build, backed by a value case with sensitivity.
+  - Deliver a hand-over package the client team can run and change alone.
+
+## [DEV-LLM · Language Model Application Engineering](DEV-LLM.md)
+
+- [DEV-LLM-201 · Building Applications on Language Models](../courses/DEV-LLM-201.md): Level 200 · Apply, 36 h
+  - Distinguish the chat-message, item-list and provider-neutral response shapes of model APIs.
+  - Implement prompts as versioned templates that keep instructions apart from untrusted user text.
+  - Implement structured outputs that validate against a schema, with a bounded retry and a fallback.
+  - Configure tool calling with typed tools, recovery from tool errors and confirmation before state changes.
+  - Measure quality, latency and cost per request for three candidate models.
+  - Build a grounded answering feature that cites sources and declines when the documents hold no answer.
+- [DEV-LLM-202 · Applied Natural Language Processing Engineering](../courses/DEV-LLM-202.md): Level 200 · Apply, 30 h; Needs: FND-AIC-101
+  - Explain how tokenisation, embeddings and attention turn a sentence into a prediction.
+  - Implement semantic search and measure recall at ten for two embedding models.
+  - Measure a classical baseline, a prompted generative model and a fine-tuned encoder against each other on a routing task.
+  - Implement a token-classification model that extracts named entities.
+  - Apply low-rank and quantised low-rank adapters to fit training into limited memory.
+  - Build a routing and extraction service with a demo interface and a model card.
+- [DEV-LLM-203 · Retrieval and Knowledge Engineering for Language Model Systems](../courses/DEV-LLM-203.md): Level 200 · Apply, 36 h; Needs: DEV-LLM-201
+  - Distinguish lexical, dense, hybrid, multi-vector and agentic retrieval and the query types each suits.
+  - Implement hybrid retrieval with rank fusion and a cross-encoder reranker.
+  - Configure an agent to choose among file listing, keyword, semantic and SQL search and to page large results.
+  - Implement assistant access to a warehouse through a provided semantic layer, with query validation, row limits and role checks.
+  - Implement permission filtering so retrieval returns only passages the requester may see.
+  - Build a knowledge assistant over documents, structured data and a memory file, and defend each choice with measurements.
+- [DEV-LLM-204 · Document Intelligence: Parsing, Extraction and Multimodal Retrieval](../courses/DEV-LLM-204.md): Level 200 · Apply, 16 h; Needs: DEV-LLM-201
+  - Compare pipeline parsers, small document models and general vision-language models for layout, tables and Arabic text.
+  - Measure parsing quality separately from extraction with edit distance and table-structure scores.
+  - Implement schema-based extraction with field rules and cross-field checks.
+  - Implement retrieval that indexes page images alongside parsed text.
+  - Build a pipeline that routes low-confidence fields to human review.
+- [DEV-LLM-205 · Voice and Conversational Applications](../courses/DEV-LLM-205.md): Level 200 · Apply, 16 h; Needs: DEV-LLM-201
+  - Distinguish cascaded, speech-to-speech and full-duplex voice architectures by latency, control and inspectable text.
+  - Implement a cascaded agent with voice activity detection, streaming recognition, tools and streaming synthesis.
+  - Configure end-of-turn detection and interruption handling.
+  - Measure word and character error rates on dialect and code-switched speech.
+  - Build a voice channel that confirms key details and hands over to a person.
+- [DEV-LLM-301 · Model Adaptation for Applications: Fine-Tuning, Distillation and Small Models](../courses/DEV-LLM-301.md): Level 300 · Develop, 36 h; Needs: DEV-LLM-201, DEV-LLM-202
+  - Decide whether to prompt, retrieve, fine-tune or distil to fix an application's failures.
+  - Prepare a tuning dataset with deduplication, decontamination, licence checks and personal-data removal.
+  - Implement supervised fine-tuning with low-rank adapters on a small open-weight model.
+  - Implement distillation of a teacher's behaviour into a student by generating, filtering and training on examples.
+  - Evaluate an adapted model against its base and a larger prompted model on task metrics, general ability and safety behaviour.
+  - Build a serving setup for a quantised small model with several adapters and measure its latency, throughput and cost.
+- [DEV-LLM-302 · Arabic and Multilingual Language Applications](../courses/DEV-LLM-302.md): Level 300 · Develop, 30 h; Needs: DEV-LLM-201, DEV-LLM-202
+  - Measure how tokeniser fertility changes cost, usable context and chunk sizes for standard and dialectal Arabic across target models.
+  - Implement normalisation, romanised-Arabic detection and dialect identification.
+  - Test retrieval and prompting strategies for dialectal and code-switched queries.
+  - Design an application test set covering standard Arabic, dialects, code-switching and cultural items.
+  - Evaluate Arabic-first and multilingual open models on public benchmarks and on the custom set, and explain disagreements.
+  - Build a model-graded check for cultural appropriateness and calibrate it against native-speaker labels.
+- [DEV-LLM-303 · Model Choice, Routing and Inference Economics](../courses/DEV-LLM-303.md): Level 300 · Develop, 12 h; Needs: DEV-LLM-201
+  - Measure quality, latency and cost per successful task for four models at two reasoning settings.
+  - Design a cascade that escalates from a small model to a larger one on validation failure or low confidence, keeping quality above a floor.
+  - Configure prompt and tool layout for prefix caching and measure the effect.
+  - Compute the break-even volume between a hosted API and self-hosting.
+  - Decide on model choice and hosting for the case-study application.
+
+## [DEV-AGT · Agentic Systems](DEV-AGT.md)
+
+- [DEV-AGT-301 · Agentic Systems Engineering: Loops, Context and Harnesses](../courses/DEV-AGT-301.md): Level 300 · Develop, 40 h; Needs: DEV-LLM-201
+  - Distinguish a fixed workflow, a single agent in a loop and a multi-agent design, and state which one a given task needs.
+  - Implement an agent loop from scratch that calls typed tools, handles tool errors and stops on explicit completion criteria.
+  - Measure and reduce context use with compaction, offloading of large tool results to files and progressive disclosure of skills.
+  - Configure a protocol server and a skill so that an agent discovers and uses them without changes to the agent's code.
+  - Build a state-graph agent with checkpoints and a human approval gate before every irreversible action.
+  - Evaluate an agent with transcript and outcome graders over repeated trials and report consistency and cost per completed task.
+  - Defend the containment design of an agent that combines private data, untrusted content and a possible exfiltration path.
+- [DEV-AGT-302 · Protocol Servers and Agent Integrations](../courses/DEV-AGT-302.md): Level 300 · Develop, 16 h; Needs: DEV-AGT-301
+  - Explain what the current protocol revision changed and which deprecated features a new server must not depend on.
+  - Build a stateless protocol server with typed tools, resources and a stable tool order that an unmodified agent can list and call over local and remote transports.
+  - Configure delegated authorisation so that each tool call carries a short-lived token scoped to one user and one kind of action.
+  - Test a server with contract, error-path and hostile-input tests, including a tool description that changes after approval.
+  - Design the integration of several servers behind a gateway with a registry, allowlists, rate limits and audit logs.
+  - Implement an agent-to-agent service that accepts a delegated task through a signed capability card and reports task state, streamed updates and results.
+- [DEV-AGT-303 · Computer-Use and Browser Agents](../courses/DEV-AGT-303.md): Level 300 · Develop, 16 h; Needs: DEV-AGT-301
+  - Compare screenshot, accessibility-tree and document object model observation for cost, reliability and exposure to injected content.
+  - Implement a browser agent that completes multi-step form tasks with element grounding, waiting and error recovery.
+  - Measure partial and complete task success, consistency over repeated trials and cost per completed task.
+  - Configure containment for an interface agent with a disposable profile, a domain allowlist, no stored credentials, confirmation gates and a step budget.
+  - Diagnose the causes of failed interface-agent runs and redesign the agent or the task to remove the most frequent cause.
+  - Decide whether an interface agent, a scripted automation or an API integration fits a process, using measured cost, latency and risk.
+- [DEV-AGT-401 · Harness Engineering for Long-Running and Multi-Agent Systems](../courses/DEV-AGT-401.md): Level 400 · Evaluate, 36 h; Needs: DEV-AGT-301, DEV-EVL-302
+  - Implement planner, generator and evaluator roles that exchange work through files and stop on completion criteria agreed before work starts.
+  - Design a memory layer that writes, consolidates, retrieves and forgets, and guards against stale notes, over-recording and concurrent overwrites.
+  - Build an orchestrator that runs asynchronous subagents it can steer, queue and be notified by, and that receives summaries rather than full transcripts.
+  - Build durable sessions whose event log is separate from the harness, so that a run resumes after the harness or sandbox is killed.
+  - Evaluate harness components by ablation with the model held fixed, reporting success over repeated trials, cost and wall-clock time per accepted task.
+  - Decide whether a multi-agent design or a single agent with subagents fits a task, and defend the choice with measured coordination cost.
+- [DEV-AGT-402 · Agent Platforms: Sandboxes, Durable Execution and Identity](../courses/DEV-AGT-402.md): Level 400 · Evaluate, 30 h; Needs: DEV-AGT-301, DEV-OPS-201
+  - Measure start-up time and density of process, container, user-space kernel and micro virtual machine isolation for one agent workload, and compare the attack surface each tier exposes.
+  - Design a sandbox with an egress allowlist, scoped mounts and a credential-holding proxy so that generated code never sees a secret.
+  - Build durable agent sessions on a workflow engine with checkpointed state, replay and idempotent tool calls.
+  - Build delegated authorisation in which each hop exchanges its token for a narrower, short-lived one and no access decision rests on nested actor claims.
+  - Design multi-tenant operation with per-tenant isolation, quotas, rate limits, kill switches and cost attribution.
+  - Audit an agent platform design against a control checklist covering isolation, state, identity, monitoring and human escalation.
+- [DEV-AGT-403 · Agent System Design Reviews](../courses/DEV-AGT-403.md): Level 400 · Evaluate, 30 h; Needs: DEV-AGT-301
+  - Decide whether a proposed system needs an agent, a fixed workflow or no model at all, from the task's environment, context and verifiability.
+  - Evaluate a design's autonomy level, task horizon, persistent state and authority, and set human oversight proportionate to the risk.
+  - Diagnose likely failure modes and compounding risks using a published agentic failure taxonomy and risk list.
+  - Evaluate the cost of a design per accepted task, including retries, reasoning tokens, cache behaviour and human review time.
+  - Review the evaluation and release plan of a design for outcome grading, consistency over trials and regression gates.
+  - Defend a written design review before a panel and revise it in response to challenge.
+
+## [DEV-EVL · Evaluation and Quality Engineering for AI Systems](DEV-EVL.md)
+
+- [DEV-EVL-301 · Evaluation-Driven Development for Language Model Applications](../courses/DEV-EVL-301.md): Level 300 · Develop, 28 h
+  - Distinguish code-based checks, model-graded checks and human review, and state when each is the cheapest reliable instrument.
+  - Carry out open and axial coding of application traces to produce a failure taxonomy with counts.
+  - Implement code-based evaluators for structure, grounding and policy rules.
+  - Calibrate a model-graded evaluator against human labels and report its agreement with a confidence interval.
+  - Decide between two candidate configurations of an application using a statistically sound comparison.
+  - Build a regression gate that blocks a change when a critical failure mode gets worse.
+- [DEV-EVL-302 · Evaluating Agents: Trajectories, Simulation and Consistency](../courses/DEV-EVL-302.md): Level 300 · Develop, 16 h; Needs: DEV-EVL-301
+  - Implement final-state outcome checks and transcript checks on tool use, side effects and policy.
+  - Configure a simulated user with a persona, a hidden goal and a stop rule, and measure its fidelity.
+  - Compute one-success and every-success rates over k trials with small-sample intervals, and the cost per completed job.
+  - Diagnose and repair an agent evaluation that gives a misleading score.
+  - Build capability and regression suites for an agent and defend which metric should gate its release.
+- [DEV-EVL-303 · Evaluating Retrieval and Grounded Generation](../courses/DEV-EVL-303.md): Level 300 · Develop, 12 h; Needs: DEV-EVL-301
+  - Design a retrieval test set covering Arabic and English, dialect and spelling variants, and unanswerable and multi-passage questions.
+  - Compute rank-aware retrieval metrics for two retrievers and compare them with a paired interval.
+  - Implement claim-level support, citation and completeness checks and calibrate the model-graded step against human labels.
+  - Diagnose the main source of failure in a grounded-generation system and decide which component to change first.
+- [DEV-EVL-304 · Annotation, Golden Data and Human Review Operations](../courses/DEV-EVL-304.md): Level 300 · Develop, 16 h
+  - Draft a labelling guideline with definitions, decision rules and edge cases, and revise it after a pilot.
+  - Compute chance-corrected agreement by category and rater to find ambiguous categories.
+  - Measure a language model labeller's reliability against adjudicated labels before and after a prompt change.
+  - Design a golden evaluation set with a sampling plan, adjudication, versioning and leakage safeguards.
+  - Design and cost a human review queue: sampling rules, capacity, quality checks and a route into the evaluation set.
+- [DEV-EVL-401 · Evaluation Programmes and Release Gates](../courses/DEV-EVL-401.md): Level 400 · Evaluate, 30 h; Needs: DEV-EVL-301
+  - Design a risk-tiered evaluation policy stating the suites, sample sizes, human review and sign-off each tier requires.
+  - Design release criteria with blocking thresholds, non-inferiority margins and re-evaluation triggers fixed in advance, and back-test them.
+  - Audit a public benchmark or vendor claim for validity, contamination, harness sensitivity and dependence on token budget.
+  - Design a monitoring plan linking production signals to offline suites and turning incidents into regression cases.
+  - Analyse the running cost of an evaluation programme across grader calls, review hours and infrastructure, and allocate it by tier.
+  - Defend a release recommendation, presenting the evidence with its uncertainty and residual risk.
+
+## [DEV-MLE · Machine Learning Engineering](DEV-MLE.md)
+
+- [DEV-MLE-201 · Machine Learning Engineering: Baselines, Validation and Pipelines](../courses/DEV-MLE-201.md): Level 200 · Apply, 36 h; Needs: FND-AIC-101
+  - Explain why a validation estimate turns optimistic when splits ignore groups, time order or duplicate entities.
+  - Implement a baseline ladder from a constant predictor through a regularised linear model to gradient-boosted trees tuned under a fixed budget, then test an automated or pretrained challenger.
+  - Configure a grouped or time-ordered validation scheme and report its gap to a naive random split.
+  - Analyse a training pipeline for target, temporal, preprocessing and entity leakage and remove each source.
+  - Calibrate predicted probabilities and choose a decision threshold from stated error costs.
+  - Build a reproducible training pipeline that another engineer re-runs to the same metrics.
+- [DEV-MLE-202 · Deep Learning Engineering](../courses/DEV-MLE-202.md): Level 200 · Apply, 36 h; Needs: DEV-MLE-201
+  - Compute gradients by reverse-mode automatic differentiation and estimate the memory held by saved activations.
+  - Implement a training loop with learning-rate scheduling, checkpointing, resumption and fixed seeds.
+  - Diagnose faults in broken training runs using overfit-one-batch tests, loss and gradient-norm curves and data checks.
+  - Apply transfer learning from an open-weight model, comparing frozen, partial and full fine-tuning with training from scratch.
+  - Measure throughput and peak memory, then apply mixed precision, data-loading and batch-size changes.
+  - Use experiment tracking to run a bounded hyperparameter search and report results across seeds.
+- [DEV-MLE-203 · Feature, Training-Data and Labelling Pipelines](../courses/DEV-MLE-203.md): Level 200 · Apply, 16 h; Needs: DEV-MLE-201
+  - Explain how point-in-time errors, stale features and training-serving skew enter a prediction system.
+  - Implement an as-of join that uses only feature values available at each label's time.
+  - Configure shared feature definitions with offline materialisation and online retrieval.
+  - Test a deployed model for training-serving skew by comparing logged and recomputed features.
+  - Build a labelling flow that samples by model uncertainty, pre-labels, routes to human review and versions the labels.
+- [DEV-MLE-301 · Computer Vision Engineering](../courses/DEV-MLE-301.md): Level 300 · Develop, 36 h; Needs: DEV-MLE-202
+  - Prepare an image dataset by auditing labels, near-duplicates and leakage by site, and writing annotation guidelines.
+  - Apply transfer learning from convolutional and transformer backbones with a stated augmentation policy.
+  - Compute mean average precision over intersection-over-union thresholds and analyse detection errors by type.
+  - Build a video pipeline that detects, tracks and counts objects crossing a line.
+  - Optimise a vision model to a latency, memory and accuracy budget through resolution, export and quantisation.
+  - Evaluate a vision system under field conditions and decide whether it is fit for release.
+- [DEV-MLE-302 · Speech and Audio Systems Engineering](../courses/DEV-MLE-302.md): Level 300 · Develop, 30 h; Needs: DEV-MLE-202
+  - Prepare a speech dataset with segmentation, transcript normalisation rules and speaker-disjoint splits.
+  - Measure word and character error rates, real-time factor and latency by dialect, speaker group and channel.
+  - Optimise an open-weight recogniser for a target domain and dialect by fine-tuning, and decide whether the improvement justifies its cost.
+  - Implement voice activity detection and speaker diarisation, and compute the diarisation error rate.
+  - Test an open text-to-speech model with a recognise-back check and a small listening panel.
+  - Build a streaming transcription service that meets a latency budget and degrades gracefully under load.
+- [DEV-MLE-303 · Recommender and Ranking Systems Engineering](../courses/DEV-MLE-303.md): Level 300 · Develop, 30 h; Needs: DEV-MLE-201, DEV-MLE-202
+  - Prepare an interaction dataset with implicit-feedback labels, time-based splits and leakage checks.
+  - Implement candidate generation with matrix factorisation and a two-tower model served from an approximate nearest-neighbour index.
+  - Build a learned ranking stage with business rules and diversity re-ranking over retrieved candidates.
+  - Compute an off-policy estimate of a new ranking policy from logged data, with its variance.
+  - Design an online experiment for a ranking change, with primary metric, guardrails, duration and feedback-loop risk.
+  - Diagnose cold-start and popularity-bias failures and select controls for new users, new items and long-tail exposure.
+- [DEV-MLE-304 · Multimodal Systems Engineering](../courses/DEV-MLE-304.md): Level 300 · Develop, 16 h; Needs: DEV-LLM-201
+  - Implement question answering and field extraction from images with schema validation.
+  - Use boxes and points returned by the model to check that each answer refers to the right region.
+  - Evaluate an open-weight and a hosted vision-language model for accuracy, hallucination, cost and latency, and choose one.
+  - Build a video pipeline that samples frames, answers time-stamped questions and routes low-confidence segments to human review.
+  - Explain where image resolution, cropping and frame sampling lose information a model needs.
+- [DEV-MLE-305 · Geospatial and Earth-Observation AI Engineering](../courses/DEV-MLE-305.md): Level 300 · Develop, 16 h; Needs: DEV-MLE-202
+  - Prepare analysis-ready image chips with cloud masking, reprojection and labels rasterised from vector data.
+  - Configure spatially blocked cross-validation and compute per-class accuracy against ground-truth points.
+  - Evaluate a fine-tuned open Earth-observation foundation model against a segmentation baseline trained from scratch.
+  - Build a change-detection workflow and estimate the changed area with a confidence interval.
+  - Prepare predictions as cloud-optimised rasters and vector layers with a model card.
+- [DEV-MLE-306 · Forecasting Systems in Production](../courses/DEV-MLE-306.md): Level 300 · Develop, 16 h; Needs: SPC-MOD-302
+  - Implement a rolling-origin backtest that scores point and quantile forecasts against naive floors.
+  - Test statistical, gradient-boosted and pretrained zero-shot forecasters under one backtest.
+  - Apply hierarchical reconciliation across product and region levels.
+  - Build a scheduled pipeline with input checks, versioned models and forecasts stored with their intervals.
+  - Design monitoring and retraining rules that catch accuracy decay and structural breaks without reacting to noise.
+
+## [DEV-OPS · Operations and Reliability](DEV-OPS.md)
+
+- [DEV-OPS-201 · Deploying AI Services: Containers, Serving and Monitoring](../courses/DEV-OPS-201.md): Level 200 · Apply, 30 h
+  - Distinguish batch, online and streaming inference and the signals that matter for each.
+  - Package a model as a reproducible container image with pinned dependencies and no secrets inside.
+  - Implement a serving endpoint with input validation, timeouts, a concurrency limit and health checks.
+  - Configure structured logs, request metrics and two alerts with documented thresholds.
+  - Deliver a new version through a health-gated staged rollout and roll it back when a signal degrades.
+  - Prepare a runbook with versions, artefact hashes, owner, alerts and rollback steps.
+- [DEV-OPS-301 · Machine Learning Operations: Pipelines, Registries and Delivery](../courses/DEV-OPS-301.md): Level 300 · Develop, 36 h; Needs: DEV-OPS-201
+  - Implement versioning that ties each model to its data snapshot, code commit, configuration and environment.
+  - Build a training pipeline with data validation, evaluation against the production model and a promotion gate.
+  - Configure continuous integration and delivery that tests code, data contracts and model behaviour before deployment.
+  - Measure feature drift, prediction drift and delayed-label performance against a reference window.
+  - Design a retraining policy combining schedule, drift and performance triggers with human approval and a cost limit.
+  - Diagnose a training-serving skew incident from lineage and logs.
+- [DEV-OPS-302 · Operating Language Model Applications: Tracing, Evaluation Gates and Safe Releases](../courses/DEV-OPS-302.md): Level 300 · Develop, 36 h; Needs: DEV-OPS-201, DEV-LLM-201
+  - Implement versioning of prompts, model identifiers, settings, index and tool schemas as one release unit.
+  - Instrument model, retrieval and tool calls with spans, token counts, time to first token and time per output token.
+  - Build a release gate that blocks a change when a critical failure rate rises beyond a stated margin.
+  - Deliver a change through shadow and canary stages with automatic rollback.
+  - Configure input and output guardrails and measure their false-block and miss rates.
+  - Design an online evaluation loop that samples traces, routes uncertain cases to people and feeds failures into the offline suite.
+- [DEV-OPS-303 · Operating AI Agents: Durable Execution, Sandboxing and Replay](../courses/DEV-OPS-303.md): Level 300 · Develop, 16 h; Needs: DEV-AGT-301, DEV-OPS-302
+  - Implement an agent bundle that pins model, prompts, tool schemas, skills and harness settings.
+  - Test tool idempotency by injecting crashes, timeouts and duplicate deliveries.
+  - Diagnose an agent failure by replaying its recorded trace against two versions.
+  - Decide whether to drain, pin or migrate in-flight sessions for an upgrade, then carry it out.
+  - Configure per-agent rate and spend limits, tool allowlists and a kill switch.
+- [DEV-OPS-304 · AI Cost Engineering: Gateways, Routing, Caching and Unit Economics](../courses/DEV-OPS-304.md): Level 300 · Develop, 16 h; Needs: DEV-LLM-201
+  - Compute request cost and cost per successful outcome from tokens, tool calls and retries.
+  - Configure gateway keys per team, environment tags and spend limits.
+  - Optimise a gateway routing policy so each request class meets its quality floor at lower cost.
+  - Evaluate exact, prefix and semantic caches for savings, staleness and cross-tenant leakage.
+  - Prepare a unit-economics report with trend, forecast, energy use and savings options.
+- [DEV-OPS-401 · Reliability Engineering for AI Services](../courses/DEV-OPS-401.md): Level 400 · Evaluate, 36 h; Needs: DEV-OPS-302
+  - Design service level objectives for availability, latency and answer quality, with error budgets.
+  - Evaluate service capacity by load-testing to a goodput target and setting an admission limit.
+  - Design degradation for overload and dependency failure using load shedding and a smaller fallback model.
+  - Lead an incident drill from detection to recovery and write a blameless review.
+  - Build an admission check that verifies model signatures, an AI bill of materials and licences.
+  - Review another team's AI service for reliability readiness and set launch conditions.
+
+## [DEV-INF · Infrastructure, Performance and Architecture](DEV-INF.md)
+
+- [DEV-INF-201 · Machine Learning Systems on One Machine](../courses/DEV-INF-201.md): Level 200 · Apply, 36 h; Needs: FND-PRG-101, FND-AIC-101
+  - Compute a first-order time estimate with the roofline model and identify whether data, algorithm or machine binds the workload.
+  - Measure where time goes in a training step and explain the gap from the estimate.
+  - Compute a training memory budget and apply mixed precision and activation checkpointing to fit a memory limit.
+  - Apply quantisation, pruning and distillation and measure accuracy, size and latency for each variant.
+  - Prepare a fair benchmark with warm-up, repetitions, fixed inputs and latency percentiles.
+  - Deliver a served model that meets a stated requirement on two hardware targets and defend a ship, restrict or hold decision.
+- [DEV-INF-301 · Container Orchestration for AI Workloads: Accelerators, Scheduling and Autoscaling](../courses/DEV-INF-301.md): Level 300 · Develop, 36 h; Needs: DEV-OPS-201
+  - Configure accelerator allocation for whole, shared and partitioned devices and verify isolation between tenants.
+  - Configure queue-based admission with quotas, borrowing, priorities and preemption for a shared accelerator pool.
+  - Implement gang scheduling so that a multi-worker training job no longer holds accelerators idle.
+  - Design autoscaling for an inference service on queue or latency metrics, including scale to zero and a cold-start budget.
+  - Evaluate load-aware and prefix-cache-aware routing against round-robin.
+  - Audit a cluster against a public AI conformance checklist and deliver a ranked remediation plan.
+- [DEV-INF-302 · AI Infrastructure and Capacity Planning](../courses/DEV-INF-302.md): Level 300 · Develop, 16 h; Needs: DEV-INF-201
+  - Compute the memory, bandwidth and compute needed to serve a language model at a given precision, context and concurrency.
+  - Analyse latency-throughput benchmark curves to choose an operating point and replica count for a service objective.
+  - Design a capacity plan in accelerators, racks, power and cooling for a growing demand forecast.
+  - Evaluate cloud, on-premises and sovereign options with a cost-of-ownership model including utilisation risk and placement limits.
+- [DEV-INF-303 · Edge and On-Device AI: Small Models and Neural Processors](../courses/DEV-INF-303.md): Level 300 · Develop, 30 h; Needs: DEV-INF-201
+  - Analyse whether on-device, browser, hybrid or server inference fits a case on privacy, latency, connectivity and cost.
+  - Prepare a small language model and a vision model for a device by quantising, converting and checking parity.
+  - Measure latency, peak memory, energy per inference and thermal throttling under sustained load.
+  - Optimise a model for a neural processing unit or GPU delegate by diagnosing unsupported operators.
+  - Build a browser application that runs a small model locally with a server fallback.
+  - Deliver an on-device application that meets a latency, memory and accuracy budget and defend its trade-offs.
+- [DEV-INF-304 · Embedded Machine Learning on Microcontrollers](../courses/DEV-INF-304.md): Level 300 · Develop, 16 h; Needs: DEV-INF-201
+  - Compute the flash, RAM and energy budget of a sensing application, including the tensor arena and duty cycle.
+  - Prepare a sensor dataset and feature pipeline with a documented collection protocol.
+  - Deploy a full-integer quantised model to a microcontroller and diagnose the memory, latency and accuracy problems that appear.
+  - Deliver a sensing device that meets a stated memory, latency and battery-life target under real conditions.
+- [DEV-INF-401 · Inference Performance and Cost Engineering](../courses/DEV-INF-401.md): Level 400 · Evaluate, 40 h; Needs: DEV-INF-201, DEV-OPS-201
+  - Compute prefill cost, decode cost and key-value cache memory, and predict the binding resource.
+  - Benchmark a serving configuration as a goodput curve over concurrency against latency objectives.
+  - Diagnose why a deployment misses its service objective.
+  - Optimise batching, admission, prefix caching, cache precision and speculative decoding while holding task quality.
+  - Evaluate compressed variants against the base model and decide which to serve.
+  - Design a serving topology covering disaggregation, routing, replica count and scaling policy.
+- [DEV-INF-402 · Scaling Machine Learning Systems: Distributed Training and Fleets](../courses/DEV-INF-402.md): Level 400 · Evaluate, 36 h; Needs: DEV-INF-201, DEV-MLE-202
+  - Compute collective communication time with a latency-bandwidth model and calibrate it against measurements.
+  - Build a training run with replicated, then sharded, model and optimiser state and measure scaling efficiency.
+  - Design a parallelism plan that fits device memory and maximises throughput for a large model.
+  - Design a checkpoint and recovery policy from failure rates and checkpoint cost.
+  - Diagnose the causes of low accelerator utilisation in a fleet.
+  - Evaluate fleet serving options for several models across two sites.
+- [DEV-INF-403 · Designing an Internal AI Platform](../courses/DEV-INF-403.md): Level 400 · Evaluate, 40 h; Needs: DEV-OPS-301
+  - Analyse platform demand into a matrix of workloads, tenants, classifications and service objectives.
+  - Design a model catalogue and gateway with admission criteria, routing, quotas, fallback and audit logging.
+  - Design tenant isolation, quotas and fair sharing of accelerators.
+  - Build golden-path templates with evaluation, tracing and governance gates on by default.
+  - Design cost attribution and showback with a tagging scheme and unit metrics.
+  - Defend the platform design, its build-or-buy decisions and a phased roadmap.
+- [DEV-INF-404 · AI Solution Architecture and Decision Records](../courses/DEV-INF-404.md): Level 400 · Evaluate, 36 h; Needs: DEV-SWE-301
+  - Prepare quality-attribute scenarios with measurable targets, including regulatory and classification constraints.
+  - Design an end-to-end architecture with context, container and data-flow views and a per-request latency and cost budget.
+  - Evaluate at least three solution options, including a non-generative baseline.
+  - Deliver a decision log whose records state context, options, decision, consequences and review trigger.
+  - Review a peer's architecture with a structured trade-off method and recommend approval or a recorded deviation.
+  - Design a reference architecture with fitness functions that check conformance automatically.
+- [DEV-INF-405 · Regulated and Sovereign Deployment Architecture](../courses/DEV-INF-405.md): Level 400 · Evaluate, 16 h
+  - Classify a system's data and AI artefacts and analyse every flow crossing a jurisdiction or trust boundary.
+  - Design a placement that puts each component in an allowed location.
+  - Design and test key custody, attestation, egress denial and signed model import.
+  - Defend a hybrid deployment design and its evidence pack.
+
+## [DEV-DAT · Data Engineering and Architecture](DEV-DAT.md)
+
+- [DEV-DAT-201 · Modern Data Engineering](../courses/DEV-DAT-201.md): Level 200 · Apply, 36 h; Needs: FND-DAT-101, FND-PRG-102
+  - Distinguish transactional, warehouse, lake and lakehouse platforms and the workloads each serves.
+  - Analyse raw extracts with window functions, deduplication and incremental predicates in analytical SQL.
+  - Implement idempotent incremental loads from an API and a change feed, applying merges with type 2 history.
+  - Implement a dimensional model as version-controlled transformations with tests and documentation.
+  - Draft a data contract in an open standard and enforce it in the build.
+  - Build an orchestrated pipeline into an open table format that recovers from failure by re-running.
+- [DEV-DAT-202 · Analytics Engineering and Semantic Layers](../courses/DEV-DAT-202.md): Level 200 · Apply, 30 h; Needs: DEV-DAT-201
+  - Explain how a semantic layer differs from a dimensional model and from a business intelligence (BI) tool's internal model.
+  - Implement metric definitions as code, including ratios, time grains and filters, with tests that reconcile them to source totals.
+  - Configure a semantic model with entities, joins, dimensions and row-level access rules.
+  - Prepare dashboards as code that read only from the semantic layer and ship through review.
+  - Measure the execution accuracy of natural-language querying with and without the semantic layer.
+  - Decide which questions may be routed to natural-language querying, and under which safeguards.
+- [DEV-DAT-203 · Streaming and Change Data Capture](../courses/DEV-DAT-203.md): Level 200 · Apply, 30 h; Needs: DEV-DAT-201
+  - Distinguish logs from queues and the three delivery guarantees, and state what each costs.
+  - Configure a partitioned log with keys, schemas and consumer groups that preserve per-entity ordering.
+  - Implement log-based change data capture, including deletes and schema changes.
+  - Implement event-time windows with watermarks and keyed state, and compare them with a batch recomputation.
+  - Build a stream into an open table format that loses and duplicates nothing after a crash.
+  - Decide between streaming, micro-batch and batch from latency, cost and correctness evidence.
+- [DEV-DAT-204 · Data Quality, Contracts and Observability](../courses/DEV-DAT-204.md): Level 200 · Apply, 24 h; Needs: DEV-DAT-201
+  - Describe the data quality dimensions and match each to a check that runs inside a pipeline.
+  - Analyse tables with column, relationship and dependency profiling to propose rules.
+  - Implement rules with thresholds, severities and quarantine actions as pipeline gates.
+  - Implement contract versioning with breaking-change rules and service-level clauses for freshness and ownership, checked in continuous integration.
+  - Configure lineage and run events across the pipeline and use them to list affected downstream assets.
+  - Diagnose a data incident from alerts, lineage and logs, and lead it to closure.
+- [DEV-DAT-301 · Data Modelling: Conceptual to Semantic](../courses/DEV-DAT-301.md): Level 300 · Develop, 30 h; Needs: FND-DAT-101, DEV-DAT-201
+  - Compare normalised, dimensional, vault and wide-table models by the change, history and query patterns each serves.
+  - Prepare conceptual and normalised logical models from interviews and source-system analysis.
+  - Design a dimensional model with declared grain, conformed dimensions and chosen history types, and implement it.
+  - Design a vault layer and a wide feature table and optimise their physical layout.
+  - Implement a semantic model of entities, measures and dimensions carrying definitions and classification tags.
+  - Review a generated schema against modelling standards and defend the corrections.
+- [DEV-DAT-302 · Data Infrastructure for AI](../courses/DEV-DAT-302.md): Level 300 · Develop, 36 h; Needs: DEV-DAT-201
+  - Implement an incremental pipeline that parses, chunks and embeds documents and reprocesses only what changed.
+  - Configure a parsing stage that routes by document class, falls back to deterministic extraction and quarantines failures.
+  - Design an index whose chunks and vectors trace to source, version and permissions, and migrate it to a new embedding model.
+  - Build permission-aware indexing that copies source access rules onto chunks and filters before ranking.
+  - Measure personal-data detection before indexing and set a redaction rule per entity type.
+  - Build a protocol server that gives an agent read-only, scoped access to governed tables and metrics.
+- [DEV-DAT-303 · Data Platform Operations: Reliability, Security and Cost](../courses/DEV-DAT-303.md): Level 300 · Develop, 30 h; Needs: DEV-DAT-201
+  - Configure service level objectives and error budgets for data product freshness, completeness and latency.
+  - Implement branch-based promotion with state-aware continuous integration, infrastructure as code and write-audit-publish gates.
+  - Design and test access controls combining roles, attributes, column masking, row filters and encryption at a single policy enforcement point.
+  - Optimise platform cost by attributing spend to workloads and changing engine placement, schedules and table maintenance.
+  - Prepare a software bill of materials for pipeline code, images and connectors and gate builds on it.
+  - Diagnose and resolve platform incidents from lineage, logs and metrics, and write a blameless review.
+- [DEV-DAT-304 · Knowledge Graphs and Ontology Engineering](../courses/DEV-DAT-304.md): Level 300 · Develop, 16 h
+  - Distinguish Resource Description Framework (RDF) graphs, property graphs and relational models, and state when each fits.
+  - Apply entity resolution with blocking, scoring and clustering, and measure its precision and recall.
+  - Design an ontology and shape constraints that answer competency questions.
+  - Implement language-model extraction of facts into the graph with validation and source provenance.
+  - Evaluate graph-grounded against text-only retrieval and recommend one.
+- [DEV-DAT-401 · Data Architecture](../courses/DEV-DAT-401.md): Level 400 · Evaluate, 36 h; Needs: DEV-DAT-201, DEV-DAT-301
+  - Analyse business, regulatory and operational requirements into quality-attribute scenarios.
+  - Design a target architecture covering storage, catalogue, engines, integration, semantic layer and serving to analytics and AI.
+  - Evaluate three architecture options on five-year cost of ownership and risk.
+  - Design standards for federated ownership: data product descriptors, contracts, naming and the supported platform path.
+  - Review a design and a vendor proposal against the standards and decide on deviations.
+  - Design a migration roadmap with transition states, legacy retirement and measurable milestones.
+
+## [DEV-SEC · Security and Privacy Engineering for AI](DEV-SEC.md)
+
+- [DEV-SEC-201 · Secure Development of AI Applications](../courses/DEV-SEC-201.md): Level 200 · Apply, 16 h
+  - Distinguish risks of the model as a component from risks of the model as an agent.
+  - Implement validation and encoding of model output before it reaches a query, a web page or a shell.
+  - Configure secret handling so that no key appears in prompts, client code, logs or history.
+  - Apply document-level access control to retrieval.
+  - Review a small AI application and decide whether it may ship.
+- [DEV-SEC-301 · Securing Language Model and Agent Applications](../courses/DEV-SEC-301.md): Level 300 · Develop, 36 h; Needs: DEV-SEC-201
+  - Prepare a threat model naming trust boundaries, private data, untrusted inputs and exit paths.
+  - Test the agent against injection and exfiltration through documents, images, links and tool arguments.
+  - Design containment that removes private data, untrusted content or the exit path from each high-risk flow.
+  - Build delegated authorisation with scoped, short-lived tokens exchanged at each hop.
+  - Measure guardrails on attack and benign sets and set thresholds.
+  - Evaluate the residual risk of a hardened agent and decide which actions still need approval.
+- [DEV-SEC-302 · AI Red Teaming and Adversarial Testing](../courses/DEV-SEC-302.md): Level 300 · Develop, 30 h; Needs: DEV-SEC-201
+  - Distinguish security, safety, privacy and misuse objectives and the harm each tests.
+  - Design an exercise plan with scope, rules of engagement, stop conditions and handling of harmful outputs.
+  - Apply manual techniques including multi-turn escalation, encoding, indirect injection and attacks in Arabic dialect and transliteration.
+  - Configure automated probing and compute attack success with intervals.
+  - Evaluate findings for severity, likelihood and reproducibility and prioritise fixes.
+  - Build regression tests from confirmed findings.
+- [DEV-SEC-303 · Privacy Engineering and Privacy-Enhancing Technologies](../courses/DEV-SEC-303.md): Level 300 · Develop, 30 h
+  - Compare pseudonymisation, anonymisation, differential privacy, synthetic data and confidential computing by what each protects and costs.
+  - Prepare a personal-data flow inventory with a minimisation decision per field.
+  - Test a de-identified release for re-identification by linkage on quasi-identifiers.
+  - Compute differentially private statistics under a fixed budget.
+  - Evaluate a synthetic dataset for utility and membership-inference leakage and decide on release.
+  - Build a personal-data detector for prompts, logs and retrieval chunks.
+- [DEV-SEC-304 · AI Supply Chain Security: Signing, Bills of Materials and Provenance](../courses/DEV-SEC-304.md): Level 300 · Develop, 12 h
+  - Explain where models, datasets, packages, prompts, tools and skills enter an AI system and the attack at each point.
+  - Test downloaded model files for unsafe serialisation and tampering before loading.
+  - Prepare a machine-learning bill of materials with model, dataset and licence provenance.
+  - Build a pipeline that signs model manifests and blocks unsigned, modified or badly licensed artefacts.
+  - Evaluate a third-party model's supply-chain evidence and decide whether to adopt it.
+- [DEV-SEC-305 · AI for Security Operations](../courses/DEV-SEC-305.md): Level 300 · Develop, 16 h
+  - Build an alert-triage assistant that ranks and summarises alerts with cited evidence.
+  - Test model-drafted detection rules before deployment.
+  - Measure model-assisted code and configuration review and generated fuzzing harnesses against static analysis.
+  - Test a security assistant against injection hidden in log fields and tickets.
+  - Design the handling of AI-generated findings from verification to approved containment.
+- [DEV-SEC-401 · Security Architecture for AI Platforms](../courses/DEV-SEC-401.md): Level 400 · Evaluate, 24 h; Needs: DEV-SEC-301
+  - Design an identity model that binds every agent action to an agent, a delegating person and a scoped grant.
+  - Design least-privilege access across tools, stores and indexes derived from data classification.
+  - Decide isolation tiers by code trust, tenant and data sensitivity.
+  - Design action monitoring that detects unsafe tool-call sequences.
+  - Prepare a control map to an AI controls framework and national controls.
+  - Review two competing platform security designs and recommend one.
+
+## [DEV-PHY · Physical AI and Robotics Engineering](DEV-PHY.md)
+
+- [DEV-PHY-201 · Sensors, Perception and Compute for Physical AI](../courses/DEV-PHY-201.md): Level 200 · Apply, 16 h
+  - Explain how cameras, depth sensors and inertial units measure, and the main error sources of each.
+  - Calibrate camera intrinsics and the camera-IMU extrinsics and time offset.
+  - Implement synchronised recording and an inertial orientation filter with consistent frames.
+  - Measure the end-to-end latency of a quantised detector on embedded compute, stage by stage.
+  - Build a real-time node that reports 3D positions of one object class from colour and depth images.
+- [DEV-PHY-301 · Simulation and Digital Twins for AI Systems](../courses/DEV-PHY-301.md): Level 300 · Develop, 30 h; Needs: DEV-PHY-201
+  - Configure a physics simulation of an arm and conveyor cell, choosing time step, contact and solver settings.
+  - Generate a labelled synthetic image dataset with randomised lighting, texture, pose and camera placement.
+  - Evaluate the synthetic-to-real gap of a detector and decide the mix of synthetic and real training data.
+  - Apply system identification to fit the friction, damping and mass of a simulated arm to logged trajectories.
+  - Build a digital twin that ingests replayed telemetry, stays synchronised and flags divergence from the asset.
+  - Evaluate a twin against acceptance criteria for one stated use and decide the domain in which its answers hold.
+- [DEV-PHY-302 · Robot Learning Systems: Data, Policies and Deployment](../courses/DEV-PHY-302.md): Level 300 · Develop, 36 h; Needs: DEV-PHY-201
+  - Collect teleoperated demonstrations and audit them for synchronisation, task success and coverage of starting conditions.
+  - Train an imitation policy and fine-tune a small pretrained action model on the same data at matched compute.
+  - Evaluate policies with randomised starting conditions and enough trials to separate them.
+  - Deploy a policy with a control loop that meets its rate, enforces joint, workspace and speed limits and stops on command.
+  - Diagnose the dominant failure of a deployed policy and decide what data to collect next.
+- [DEV-PHY-401 · Safety Engineering for Autonomous Systems](../courses/DEV-PHY-401.md): Level 400 · Evaluate, 16 h
+  - Apply system-theoretic hazard analysis to a system with learned perception and specify its operational design domain.
+  - Build a structured safety case linking claims to test evidence, with its defeaters.
+  - Design and fault-test a runtime monitor and fallback that keep the system in its safety envelope.
+  - Measure human takeover time and mode errors and derive interface requirements.
+  - Review a published incident and decide the changes to hazards, tests and the safety case.
+
+## [DEV-PRJ · Practicums](DEV-PRJ.md)
+
+- [DEV-PRJ-301 · AI Engineering Practicum](../courses/DEV-PRJ-301.md): Level 300 · Develop, 100 h
+  - Draft a scoped specification with acceptance criteria, an initial evaluation set and an out-of-scope list.
+  - Prepare a data-handling plan that classifies the sponsor's data, replaces personal data and states what may reach which model.
+  - Build and ship a working AI system in weekly iterations with tests and human review of every merged change.
+  - Evaluate the system against the acceptance criteria with error analysis and a regression gate.
+  - Review the system's security with a threat model and another team's attack, and fix the highest risks.
+  - Deliver an operations plan and hand-over that the sponsor's team can run alone.
+- [DEV-PRJ-401 · AI Systems Capstone: Production Readiness Review](../courses/DEV-PRJ-401.md): Level 400 · Evaluate, 60 h
+  - Evaluate the architecture against its requirements and reconstruct the key decisions and risks.
+  - Evaluate reliability against service objectives for latency and quality under load and injected faults.
+  - Audit cost per successful outcome and identify the largest cost levers.
+  - Audit security with a threat model and targeted tests of model, data, tool and supply-chain paths.
+  - Review governance evidence for classification, personal data, impact assessment, oversight, incidents and retirement.
+  - Decide go, conditional go or no-go and defend the decision and its conditions before a panel.
+
+## [AE-200 · AI Engineering: courses that help prepare for the Assistant level](AE-200.md)
+
+- [AE-201 · Machine Learning Foundations and Model Evaluation](../courses/AE-201.md): Level 200 · Apply, 26 h; Needs: FN-101, FN-103, FN-104, FN-105
+  - Distinguish random, grouped and time-ordered validation and state which one each described prediction task requires.
+  - Prepare a feature pipeline that imputes, encodes and scales inside cross-validation so that no statistic is computed on held-out rows.
+  - Implement a baseline, a regularised linear model and a gradient-boosted tree model and score each on the same validation splits.
+  - Analyse a dataset for target leakage and train-test contamination and remove each problem found.
+  - Compute ranking, threshold and calibration metrics and choose an operating threshold from a stated cost of each error type.
+  - Analyse errors by subgroup and slice to find where the model fails, then test one data or feature change aimed at the worst slice.
+  - Evaluate whether a challenger model beats the baseline using a paired comparison with a confidence interval and a stated minimum effect.
+- [AE-202 · Deep Learning and Generative AI Fundamentals](../courses/AE-202.md): Level 200 · Apply, 26 h; Needs: AE-201, FN-103
+  - Explain how a transformer turns input tokens into next-token probabilities, naming the role of embeddings, attention, the context window and sampling.
+  - Implement a training loop with a loss, an optimiser, mini-batches and validation checks, and use it to train a small network.
+  - Apply a debugging checklist to a network whose loss does not fall and correct each fault found.
+  - Use transfer learning to adapt a pretrained image model to a new label set with little data, and measure the improvement over training from scratch.
+  - Use sentence embeddings to build and test a bilingual semantic search over product descriptions.
+  - Measure how temperature, nucleus sampling and the instruction change the outputs of a small open-weight language model.
+  - Evaluate model families for three stated use cases on quality, size, latency, licence terms and cost, and recommend one per use case.
+- [AE-203 · Building Applications on Language Models](../courses/AE-203.md): Level 200 · Apply, 26 h; Needs: FN-101, FN-102, FN-105
+  - Compare the main model API shapes and identify what changes in code when an application switches provider or moves to a local model.
+  - Implement structured extraction from free-text messages with schema validation, bounded retries and a fallback path.
+  - Implement tool calling for two services with typed arguments, argument validation and handling of tool errors.
+  - Implement a grounded answering step that retrieves policy passages, cites them and declines when the corpus holds no answer.
+  - Prepare a small evaluation set and measure the assistant with code-based checks and one model-graded check validated against labels.
+  - Configure input and output checks for personal data, off-topic requests and instruction-like text inside retrieved content.
+  - Build a bilingual assistant service that combines structured extraction, tool calls and grounded answers behind a tested API.
+- [AE-204 · Software Engineering with Coding Agents](../courses/AE-204.md): Level 200 · Apply, 26 h; Needs: FN-101, FN-102
+  - Analyse an unfamiliar code base by hand to trace a request path and locate the cause of a failing test.
+  - Draft a specification with acceptance criteria and a plan of small, verifiable steps before delegating work to an agent.
+  - Configure a repository for agent work with a short context file, one reusable skill, scoped permissions and commands for tests and linting.
+  - Test agent-written code with unit, property-based and mutation tests and report what the original tests missed.
+  - Apply a risk-based review checklist to agent pull requests, including security scanning of the change and its dependencies.
+  - Configure continuous integration that runs tests, type checks, security scans and a dependency audit on every change.
+  - Deliver a feature through the specify, plan, execute and verify cycle with an agent and defend each design decision to a reviewer.
+- [AE-205 · Deploying AI Services: Containers, Serving and Monitoring](../courses/AE-205.md): Level 200 · Apply, 26 h; Needs: FN-102, AE-201
+  - Explain the path from a trained model to a served prediction, naming the artefact, image, registry, runtime, endpoint and monitor at each step.
+  - Prepare a model artefact with pinned dependencies, a version, an input and output signature and a reproducible build.
+  - Implement a versioned prediction API with input validation, typed errors and separate health and readiness checks.
+  - Configure a container image for the service, scan it for vulnerabilities and run it with resource limits on a single-node cluster.
+  - Implement metrics, structured logs and traces for the service and a dashboard for latency percentiles, error rate and prediction distribution.
+  - Measure latency and throughput under load and size workers and replicas to meet a latency objective at the lowest cost.
+  - Deliver a new model version by canary release, decide on promotion or rollback from monitored metrics and detect drift in replayed traffic.
+- [AE-206 · Machine Learning Systems on One Machine](../courses/AE-206.md): Level 200 · Apply, 26 h; Needs: AE-202
+  - Explain how compute, memory capacity and memory bandwidth limit training and inference, and identify which one binds for a described workload.
+  - Measure where time goes in a data pipeline and a training step with profilers and timers, and remove the largest bottleneck.
+  - Compute the memory needed for weights, activations, optimiser state and the key-value cache and check each estimate against measured peak memory.
+  - Apply mixed precision, batching and compilation and report their effect on speed, memory and accuracy.
+  - Apply post-training quantisation and pruning, export the model to a portable runtime and compare size, latency and quality with the original.
+  - Prepare a benchmark that controls warm-up, repetitions, batch size and input mix, and report percentiles with confidence intervals.
+  - Optimise a model and its serving path to meet a stated latency and memory budget on a target device while keeping quality within an agreed tolerance.
+- [AE-207 · Responsible and Secure AI Engineering Practice](../courses/AE-207.md): Level 200 · Apply, 21 h; Needs: FN-106, AE-203
+  - Explain how PDPL principles, data classification levels and the AI Ethics Principles apply at each stage of a language model application.
+  - Classify the data flows of an AI application and implement the minimisation, masking and retention controls that follow from the classification.
+  - Test a language model application against prepared injection and data-leakage cases mapped to a standard risk list, and record which succeed.
+  - Implement basic controls: separation of untrusted content, output validation, least-privilege tool access and a human approval step for decisions about people.
+  - Analyse risks including subgroup errors of the screening model and third-party model terms, and record each in a risk register with likelihood, impact, treatment and owner.
+  - Defend the release conditions of an AI application to non-technical stakeholders using a system card, the risk register and a plain-language statement of limits.
+
+## [AE-300 · AI Engineering: courses that help prepare for the Associate level](AE-300.md)
+
+- [AE-301 · Applied Natural Language Processing Engineering](../courses/AE-301.md): Level 300 · Develop, 21 h; Needs: AE-202
+  - Explain how tokenisation, embeddings and attention turn Arabic and English text into model inputs, and where script, diacritics and dialect break that pipeline.
+  - Implement semantic search over a bilingual message archive and measure it for each language variety.
+  - Implement schema-validated extraction of account numbers, districts and complaint types from free text, masking personal fields before text reaches a hosted model.
+  - Apply low-rank adapter fine-tuning to an encoder within a fixed memory budget and compare it with full fine-tuning.
+  - Decide among a classical baseline, a prompted generative model and a fine-tuned encoder for message routing.
+  - Deliver the chosen model as a tested service with a model card that states its limits by language variety.
+- [AE-302 · Agentic Systems Engineering: Loops, Context and Harnesses](../courses/AE-302.md): Level 300 · Develop, 26 h; Needs: AE-203
+  - Implement a tool-calling agent loop without a framework, with typed tool schemas, a step budget and explicit completion criteria.
+  - Apply compaction, offloading of tool results and staged loading of skills, and measure the effect on tokens and success.
+  - Implement a protocol server over a document store and connect the agent to it through capability discovery.
+  - Design a checkpointed state-graph agent with a human approval gate at a defined risk threshold.
+  - Evaluate the agent over repeated trials, including runs against a seeded prompt injection.
+  - Deliver the agent as a traced API service gated by a smoke evaluation in continuous integration.
+- [AE-303 · Evaluation-Driven Development for Language Model Applications](../courses/AE-303.md): Level 300 · Develop, 26 h; Needs: AE-203
+  - Distinguish code-based checks, model-graded checks and human review, and state when each is the cheapest reliable instrument.
+  - Carry out open and axial coding of traces to produce a failure taxonomy with counts.
+  - Implement code-based evaluators for structure, grounding and policy rules.
+  - Calibrate a model-graded evaluator against human labels and report its agreement with an interval.
+  - Evaluate an agent on multi-step tasks for outcome and consistency over repeated trials.
+  - Decide between two configurations using a paired comparison with its uncertainty, cost and latency.
+  - Build a regression gate that blocks a change when a critical failure mode gets worse.
+- [AE-304 · Retrieval and Knowledge Engineering for Language Model Systems](../courses/AE-304.md): Level 300 · Develop, 26 h; Needs: AE-202, AE-203
+  - Prepare a retrieval test set with graded relevance judgements and compute standard ranking metrics for each language.
+  - Implement lexical, dense, hybrid and reranked search with Arabic normalisation and compare them on quality and latency.
+  - Analyse parsing and chunking choices by scoring two parsers and two chunking schemes.
+  - Build retrieval that never returns a document the requester may not see or a superseded rule.
+  - Design an agentic search component that chooses among search tools and a small knowledge graph within a context budget.
+  - Evaluate free text-to-SQL against a semantic layer with validated SQL and decide which to ship.
+- [AE-305 · Operating Machine Learning and Language Model Systems](../courses/AE-305.md): Level 300 · Develop, 26 h; Needs: AE-205, AE-203
+  - Prepare a release manifest that versions data, code, configuration, model, prompt, retrieval index and tool schemas as one unit.
+  - Build a retraining pipeline, started by a drift or schedule trigger, with data validation and a promotion gate that compares challenger and champion overall and by region.
+  - Deliver language model changes through an evaluation gate and a canary stage with an automatic rollback trigger.
+  - Configure request tracing, drift monitors and online evaluation with a review queue, and tune alert thresholds.
+  - Diagnose an agent incident by replaying recorded traces and fix it with idempotent tools, durable state or a budget.
+  - Measure cost per successful outcome and resource use for each system and set budget alerts.
+- [AE-306 · Modern Data Engineering](../courses/AE-306.md): Level 300 · Develop, 26 h; Needs: FN-102, FN-104
+  - Analyse raw transactional extracts with analytical SQL, including window functions and incremental predicates.
+  - Implement incremental ingestion from an API and a change feed, keeping supplier history as a slowly changing dimension.
+  - Design a dimensional model at a stated grain and build it as tested, version-controlled transformations.
+  - Build an orchestrated pipeline with a data contract, quality gates, retries and backfills that fails safely when an upstream feed breaks.
+  - Configure an open table format with partitioning, schema evolution and time travel, and read it from a second engine.
+  - Classify every field under the national classification levels and apply minimisation, masking and access rules.
+- [AE-307 · Container Orchestration and Cloud Infrastructure for AI Workloads](../courses/AE-307.md): Level 300 · Develop, 26 h; Needs: AE-205, AE-206
+  - Configure accelerator allocation, sharing and health tainting for two tenants on a container cluster.
+  - Configure queues, quotas, borrowing and all-or-nothing admission for three teams.
+  - Optimise autoscaling of an inference service on a queue or service-objective metric, including scale to zero and cold start.
+  - Evaluate an inference-aware gateway against round-robin routing for goodput, latency and fairness between tenants.
+  - Compute memory, concurrency, replica count, power and monthly cost for a serving workload under cloud, on-premises and sovereign-provider options.
+  - Design a placement policy driven by data classification and audit the cluster against the conformance checklist.
+- [AE-308 · Securing Language Model and Agent Applications](../courses/AE-308.md): Level 300 · Develop, 26 h; Needs: AE-207, AE-302
+  - Prepare a threat model with data flows, trust boundaries and threats mapped to recognised risk lists and adversary-technique catalogues.
+  - Test the application with direct, indirect, memory and tool-poisoning attacks in Arabic and English over repeated trials.
+  - Design containment for generated code and outbound actions with a sandbox, an egress allowlist and recipient rules.
+  - Build delegated authorisation in which each tool call carries an exchanged token with one audience, a narrow scope and a short lifetime.
+  - Configure input guardrails and output validation and measure their false-positive and false-negative rates.
+  - Defend a residual-risk statement after another team attacks the hardened agent, with each confirmed finding turned into a regression test.
+- [AE-309 · Computer Vision Engineering](../courses/AE-309.md): Level 300 · Develop, 26 h; Needs: AE-201, AE-202
+  - Prepare an image dataset with annotation guidelines, an agreement check, splits that keep each road segment in one split, and augmentations that preserve label meaning.
+  - Implement transfer learning with two pretrained backbones and compare them by condition slice with intervals.
+  - Build a detector and a segmenter and diagnose their errors by type to choose the next improvement.
+  - Measure tracking and counting accuracy for vehicles crossing a line in video.
+  - Optimise a model to a per-frame latency and memory budget on a processor through export, input resolution and quantisation, re-measuring accuracy at each step.
+  - Evaluate the model under corruption and camera shift and decide whether to release it.
+- [AE-310 · Model Adaptation: Fine-Tuning, Distillation and Small Models](../courses/AE-310.md): Level 300 · Develop, 26 h; Needs: AE-202, AE-203
+  - Analyse the failures of a prompted model and assign each failure class to prompting, retrieval, tuning or distillation.
+  - Prepare a tuning dataset from traces, corrections and teacher outputs, with template rendering, verifier filtering, deduplication, decontamination and personal-data removal.
+  - Configure and train low-rank adapters on a 16-bit and a 4-bit base model within the memory of one free-tier GPU.
+  - Evaluate the adapted model against the base and a larger prompted model with paired statistics, language slices, regression and safety checks.
+  - Deploy a quantised small model with several adapters and measure throughput, latency and cost per thousand requests.
+  - Decide whether to ship the adapted model, weighing quality, cost, licence terms and data placement.
+- [AE-311 · Shaping the Build: Product Sense and Delivery Practice](../courses/AE-311.md): Level 300 · Develop, 21 h; Needs: AE-203, AE-204
+  - Analyse a requested AI use case through interviews about past behaviour and a workflow map, and restate the problem where the evidence differs from the request.
+  - Draft a specification with users, non-goals, constraints, data classification and acceptance criteria written as evaluation cases.
+  - Test the riskiest assumption with a thin prototype and role-played user sessions.
+  - Build a value case with cost per successful task, ranges for uncertain inputs and a break-even point, and decide whether to proceed.
+  - Deliver a recommendation and a hand-over package to non-technical leadership and the receiving team.
+- [AE-312 · AI Cost Engineering and Model Routing](../courses/AE-312.md): Level 300 · Develop, 21 h; Needs: AE-203, AE-205
+  - Compute cost per request and per session from prompt, output and cached tokens, retries, agent steps and accelerator-hours.
+  - Configure attribution, budgets and limits per team, application and environment on a model gateway.
+  - Evaluate model tiers, reasoning settings and a routing policy on the operator's own tasks, choosing by cost per successful outcome at a fixed quality floor.
+  - Measure how prefix and semantic caching change cost, latency and answer correctness, including isolation between customers.
+  - Decide between hosted APIs and a self-hosted open-weight model with a break-even analysis that includes utilisation and data-placement rules.
+  - Deliver a cost review with three measured savings options to engineering and finance stakeholders.
+- [AE-390 · AI Engineering Practicum](../courses/AE-390.md): Level 300 · Develop, 100 h; Needs: AE-302, AE-303, AE-304, AE-305, AE-308, AE-311
+  - Analyse a sponsor's problem through discovery and translate it into a specification with acceptance criteria and a data-handling plan.
+  - Build, as a team, a working AI system that meets the agreed acceptance criteria, with coding-agent output reviewed in proportion to risk.
+  - Evaluate the system against the sponsor's criteria with error analysis and a regression gate.
+  - Harden the system after a cross-team attack and record the residual risks the sponsor must accept.
+  - Deploy the system with service objectives, capacity sizing, monitoring, cost per successful task and a rehearsed rollback.
+  - Defend the system, the team's design decisions and one's own contribution before the sponsor and experienced engineers.
+
+## [AE-400 · AI Engineering: courses that help prepare for the Expert level](AE-400.md)
+
+- [AE-401 · Inference Performance and Cost Engineering](../courses/AE-401.md): Level 400 · Evaluate, 26 h; Needs: AE-305, AE-307
+  - Compute prefill cost, decode cost and key-value cache memory, and predict the binding resource.
+  - Evaluate a serving configuration by measuring its goodput curve over concurrency against latency objectives.
+  - Diagnose why a deployment misses its service objective and confirm the fix.
+  - Optimise batching, admission, prefix caching and cache precision while holding task quality.
+  - Evaluate quantised, distilled and speculative-decoding variants against the base model and decide which to serve.
+  - Design and defend a serving topology covering disaggregation, routing, replica count and scaling policy.
+- [AE-402 · AI Solution Architecture and Platform Design](../courses/AE-402.md): Level 400 · Evaluate, 26 h; Needs: AE-305, AE-308, AE-311
+  - Prepare quality-attribute scenarios with measurable targets for answer quality, latency, cost, privacy and human oversight.
+  - Design an end-to-end architecture with context, container and data-flow views and a per-request latency and cost budget.
+  - Evaluate at least three solution options, including a non-generative baseline, and record the resulting decisions.
+  - Design a shared AI platform covering model admission, gateway, tenancy, golden paths and cost attribution.
+  - Design a reference architecture with fitness functions that check conformance automatically.
+  - Review a peer's architecture with a structured trade-off method and decide on a requested deviation.
+- [AE-403 · Reliability Engineering for AI Services](../courses/AE-403.md): Level 400 · Evaluate, 26 h; Needs: AE-305, AE-307
+  - Design service level objectives for availability, latency and answer quality, with error budgets and a release policy.
+  - Decide an admission limit and shedding priorities that keep headroom for the busiest hour.
+  - Design degradation for overload and dependency failure using load shedding, a smaller fallback model and a cached-answer mode.
+  - Lead an incident drill from detection to recovery and write a blameless review.
+  - Build a release gate that verifies model signatures, a bill of materials and licences before deployment.
+  - Review another team's AI service for production readiness and set launch conditions.
+- [AE-404 · Harness Engineering for Long-Running and Multi-Agent Systems](../courses/AE-404.md): Level 400 · Evaluate, 26 h; Needs: AE-302, AE-303
+  - Implement planner, generator and evaluator roles that exchange work through files and stop on completion criteria agreed before work.
+  - Design a memory layer that writes, consolidates, retrieves and forgets, guarding against stale notes and concurrent overwrites.
+  - Build an orchestrator that steers asynchronous subagents and receives summaries rather than transcripts.
+  - Build durable sessions with an event log kept apart from the harness, idempotent tools and a human approval pause before irreversible actions.
+  - Evaluate harness components by ablation with the model held fixed, reporting success over repeated trials, cost and time per accepted task.
+  - Review a harness design and decide between a single agent with subagents and a multi-agent design on measured coordination cost.
+- [AE-405 · Evaluation Programmes and Release Decisions](../courses/AE-405.md): Level 400 · Evaluate, 26 h; Needs: AE-303, AE-305
+  - Compute clustered, paired and grader-corrected intervals for evaluation results and the number of items needed to detect a stated effect.
+  - Design a risk-tiered evaluation programme that states the evidence each tier needs before and after release.
+  - Audit a public benchmark for construct validity, label errors, contamination signals and sensitivity to harness and token budget.
+  - Specify blocking and advisory release criteria with non-inferiority margins and back-test them against history.
+  - Design post-release monitoring that grades sampled production traffic and turns incidents into regression cases.
+  - Defend a release recommendation with its uncertainty, residual risk and cost before a decision board.
+- [AE-406 · Post-Training Open Models on Domain Data](../courses/AE-406.md): Level 400 · Evaluate, 26 h; Needs: AE-310, AE-303
+  - Decide whether post-training is justified over prompting and retrieval for a task, and which method fits it.
+  - Build a validated tuning mixture of domain records, teacher-generated examples and general data with licence, deduplication and leakage checks.
+  - Configure supervised tuning at scale, choosing full-parameter or adapter tuning and a sharding strategy that fit a stated accelerator memory budget.
+  - Train with preference data or verifiable rewards and diagnose reward hacking in the result.
+  - Produce a small model by distillation and by tuning on outcome-filtered agent traces that meets a latency and cost target.
+  - Evaluate an adapted model against its base for task improvement and for regressions in general ability, safety and Arabic dialect quality.
+- [AE-407 · AI Assurance, Red Teaming and Governance for Engineering Leads](../courses/AE-407.md): Level 400 · Evaluate, 26 h; Needs: AE-308, AE-303
+  - Plan a red-team exercise with objectives tied to harms, scope, rules of engagement and stop conditions.
+  - Conduct manual and automated adversarial testing in Arabic and English and quantify attack success over repeated trials.
+  - Assess the risks of an agent with the national framework, from context to treatment and residual sign-off.
+  - Review a security architecture for agent identity, delegated authority, least privilege, isolation and egress control.
+  - Build an assurance case that links each claim to evidence and maps the evidence to a control framework.
+  - Present residual risk and a recommendation with conditions to an accountable executive.
+- [AE-408 · Multimodal and Speech Systems Engineering](../courses/AE-408.md): Level 400 · Evaluate, 26 h; Needs: AE-301, AE-303
+  - Implement image applications with vision-language models that return validated structured fields grounded in the image.
+  - Evaluate speech recognisers on Arabic dialects and code-switched speech with explicit normalisation rules.
+  - Build a bilingual voice agent that handles turn-taking, interruption and confirmed tool calls within a latency budget.
+  - Diagnose failure modes specific to image and audio inputs, including invented objects, text produced on silence and instructions hidden in images.
+  - Design a multimodal test set and an end-to-end evaluation with simulated callers.
+  - Decide between open-weight and hosted, cascaded and speech-to-speech designs on quality, latency and cost per call.
+- [AE-490 · AI Systems Capstone: Production Readiness Review](../courses/AE-490.md): Level 400 · Evaluate, 60 h; Needs: AE-401, AE-402, AE-403, AE-404, AE-405, AE-407
+  - Review the architecture of an existing AI system and the fitness of its model, retrieval and adaptation choices against its requirements.
+  - Audit the system's evaluation evidence and re-run its critical evaluations with stated uncertainty.
+  - Evaluate reliability, rollback readiness and cost against service objectives by load testing, fault injection and a rehearsed rollback.
+  - Assess security by threat modelling, sandboxed probing and checks of supply-chain evidence.
+  - Audit governance evidence for classification, personal data flows, risk assessment, human oversight, incidents and retirement.
+  - Decide and defend a go, conditional-go or no-go recommendation with conditions, owners and dates.

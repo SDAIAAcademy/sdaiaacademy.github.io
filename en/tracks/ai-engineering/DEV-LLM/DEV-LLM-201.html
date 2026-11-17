@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants build a language model application from the API up: provider-neutral calls, prompts kept as versioned code, structured outputs that validate, tool calling with confirmation before side effects, and answers grounded in documents with citations, all measured on a first evaluation set. One">
-<title>DEV-LLM-201 · Building Applications on Language Models · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-201.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-LLM-201.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-201.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-LLM-201</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-LLM-201</span> <span class="t">Building Applications on Language Models</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">36 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span> <span>Language Model Application Engineering</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">36 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="plain-list"><li>Writes and tests Python that calls an HTTP API</li><li>Explains tokens, context windows and sampling at the depth of <a href="../../foundations/FND-AIC/FND-AIC-102.html">FND-AIC-102</a></li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants build a language model application from the API up: provider-neutral calls, prompts kept as versioned code, structured outputs that validate, tool calling with confirmation before side effects, and answers grounded in documents with citations, all measured on a first evaluation set. One synthetic case study, a bilingual permits help desk with a policy handbook and a case database, runs through all four days.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Distinguish the chat-message, item-list and provider-neutral response shapes of model APIs.</p><p class="o-more"><span class="k">Given</span> three raw request and response pairs.</p><p class="o-more"><span class="k">Evidence</span> pairs annotated field by field, checked against a reference.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement prompts as versioned templates that keep instructions apart from untrusted user text.</p><p class="o-more"><span class="k">Given</span> four tasks and 20 test inputs.</p><p class="o-more"><span class="k">Evidence</span> a run log of pass rates across two revisions.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement structured outputs that validate against a schema, with a bounded retry and a fallback.</p><p class="o-more"><span class="k">Given</span> 50 labelled synthetic citizen requests.</p><p class="o-more"><span class="k">Evidence</span> schema-valid rate and field accuracy.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure tool calling with typed tools, recovery from tool errors and confirmation before state changes.</p><p class="o-more"><span class="k">Given</span> three tools over a synthetic case database.</p><p class="o-more"><span class="k">Evidence</span> passing integration tests and ten saved traces.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Measure quality, latency and cost per request for three candidate models.</p><p class="o-more"><span class="k">Given</span> the evaluation set and one gateway.</p><p class="o-more"><span class="k">Evidence</span> a results table and a justified model choice.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a grounded answering feature that cites sources and declines when the documents hold no answer.</p><p class="o-more"><span class="k">Given</span> a synthetic handbook and 30 questions, some unanswerable.</p><p class="o-more"><span class="k">Evidence</span> correctness, citation accuracy and refusal rate from two runs, defended live.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Model APIs without lock-in</h3><ul><li>Three API shapes and gateways</li><li>Sampling, reasoning effort and token limits</li><li>Streaming, retries and rate limits</li></ul></div><div class="topic"><h3>Prompts and structured outputs</h3><ul><li>Templates, versions and diffs</li><li>User and retrieved text as untrusted data</li><li>Constrained decoding versus validate and retry</li></ul></div><div class="topic"><h3>Tools</h3><ul><li>Tool schemas and tool errors</li><li>Confirmation before side effects</li><li>Fixed workflows before agents</li></ul></div><div class="topic"><h3>Grounding</h3><ul><li>Prompt versus retrieval on demand</li><li>Keyword and embedding search over a small corpus</li><li>Citations and saying no answer exists</li></ul></div><div class="topic"><h3>Measuring and choosing</h3><ul><li>Error analysis on the first traces</li><li>A small evaluation set from real tasks</li><li>Code checks and one model-graded check</li><li>Open-weight versus hosted models and licences</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Language model access through a provider-neutral endpoint</dt><dd>a locally served open-weight model, a hosted open-weight model on a free tier, any commercial API</dd></div><div><dt>Provider-neutral model gateway</dt><dd>LiteLLM, agentgateway</dd></div><div><dt>Schema validation and constrained output</dt><dd>Pydantic, Instructor, Outlines</dd></div><div><dt>Search over a small corpus</dt><dd>SQLite full-text search, Sentence Transformers with FAISS</dd></div><div><dt>Evaluation and tracing</dt><dd>promptfoo, Inspect, Langfuse</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check without AI assistance (15%)</li><li>Graded labs (35%)</li><li>Capstone on a five-criterion rubric (40%)</li><li>Live defence (10%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall, 60% on the capstone and a pass on the supervised check</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the first raw API call and the supervised check. AI-tutor in the labs. AI-full in the capstone, which the participant defends live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><span></span><a class="pager-next" rel="next" href="DEV-LLM-202.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-LLM-202</span> Applied Natural Language Processing Engineering</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-LLM-201.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-201.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

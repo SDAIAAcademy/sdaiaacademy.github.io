@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants make neural networks train, tell a bug from a hard problem, and spend accelerator time well. They check automatic differentiation by hand, write a training loop that checkpoints and resumes, diagnose seeded faults, fine-tune open-weight pretrained models against training from scratch, a">
-<title>DEV-MLE-202 · Deep Learning Engineering · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-MLE/DEV-MLE-202.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-MLE-202.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-MLE/DEV-MLE-202.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-MLE</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-MLE-202</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-MLE-202</span> <span class="t">Deep Learning Engineering</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">36 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-MLE</span> <span>Machine Learning Engineering</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">36 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-MLE-201.html"><span class="code" dir="ltr">DEV-MLE-201</span> <span>Machine Learning Engineering: Baselines, Validation and Pipelines</span></a></li></ul><ul class="plain-list"><li>Writes Python classes and works with NumPy arrays</li><li>Applies the chain rule to a small composite function (<a href="../../foundations/FND-MTH/FND-MTH-102.html">FND-MTH-102</a> or equivalent)</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants make neural networks train, tell a bug from a hard problem, and spend accelerator time well. They check automatic differentiation by hand, write a training loop that checkpoints and resumes, diagnose seeded faults, fine-tune open-weight pretrained models against training from scratch, and raise throughput with mixed precision and better data loading. Labs debug on a laptop CPU first, then use a fixed budget of GPU hours on a free notebook service or Academy machines.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Compute gradients by reverse-mode automatic differentiation and estimate the memory held by saved activations.</p><p class="o-more"><span class="k">Given</span> a small computation graph and a two-layer network.</p><p class="o-more"><span class="k">Evidence</span> hand-derived gradients matching the framework within tolerance, and an activation-memory estimate checked against a measurement.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement a training loop with learning-rate scheduling, checkpointing, resumption and fixed seeds.</p><p class="o-more"><span class="k">Given</span> a public classification dataset and a model specification.</p><p class="o-more"><span class="k">Evidence</span> a resumed run whose loss curve matches the uninterrupted run within tolerance.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Diagnose faults in broken training runs using overfit-one-batch tests, loss and gradient-norm curves and data checks.</p><p class="o-more"><span class="k">Given</span> five scripts with seeded faults.</p><p class="o-more"><span class="k">Evidence</span> a debugging log with fault, revealing signal and fix, correct for four of five.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Apply transfer learning from an open-weight model, comparing frozen, partial and full fine-tuning with training from scratch.</p><p class="o-more"><span class="k">Given</span> three training-set sizes and a GPU-hour budget.</p><p class="o-more"><span class="k">Evidence</span> a learning-curve table with a recommendation per size.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Measure throughput and peak memory, then apply mixed precision, data-loading and batch-size changes.</p><p class="o-more"><span class="k">Given</span> a profiler and one fixed accelerator.</p><p class="o-more"><span class="k">Evidence</span> a before-and-after table of samples per second, memory and validation metric.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Use experiment tracking to run a bounded hyperparameter search and report results across seeds.</p><p class="o-more"><span class="k">Given</span> a working loop and a search budget.</p><p class="o-more"><span class="k">Evidence</span> tracked runs with mean and spread over three seeds per configuration.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Tensors and automatic differentiation</h3><ul><li>Shapes, broadcasting and devices</li><li>Reverse mode and gradient checking</li><li>Memory held by saved activations</li><li>Building blocks: linear, convolution, attention, normalisation, residual</li></ul></div><div class="topic"><h3>The training loop</h3><ul><li>Loaders, losses and reductions</li><li>Optimisers and learning-rate schedules</li><li>Regularisation, early stopping and validation curves</li><li>Checkpointing, resumption and determinism</li></ul></div><div class="topic"><h3>Debugging training</h3><ul><li>Overfit one batch first</li><li>Reading loss and gradient-norm curves</li><li>Exploding, vanishing and dead units</li><li>Data and label bugs</li></ul></div><div class="topic"><h3>Pretrained models and transfer</h3><ul><li>Choosing an open-weight backbone and checking its licence</li><li>Frozen, partial and full fine-tuning</li><li>Adapters in brief (depth in <a href="../DEV-LLM/DEV-LLM-301.html">DEV-LLM-301</a>)</li></ul></div><div class="topic"><h3>Throughput and experiments</h3><ul><li>Mixed precision, loss scaling and graph compilation</li><li>Data-loading bottlenecks and gradient accumulation</li><li>Profiling and GPU-hour accounting</li><li>Seeds, bounded search and ablations; multi-device training is <a href="../DEV-INF/DEV-INF-402.html">DEV-INF-402</a></li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Deep learning framework</dt><dd>PyTorch, JAX</dd></div><div><dt>Open-weight model hubs and libraries</dt><dd>Hugging Face Hub, timm, torchvision models</dd></div><div><dt>Experiment tracking</dt><dd>MLflow, TensorBoard</dd></div><div><dt>Profiler</dt><dd>the framework&#x27;s profiler, the accelerator vendor&#x27;s profiler</dd></div><div><dt>Compute</dt><dd>laptop CPU, free notebook GPU, Academy GPU hours</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised AI-off check: a gradient by hand, loss-curve reading, a bug in a short script (20%)</li><li>Graded labs (30%)</li><li>Capstone on a five-criterion rubric with defence (50%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall and at least 60% on both the check and the capstone</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check and the gradient lab. AI-tutor in other labs. AI-full in the capstone, defended live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-MLE-201.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-MLE-201</span> Machine Learning Engineering: Baselines, Validation and Pipelines</span></a><a class="pager-next" rel="next" href="DEV-MLE-203.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-MLE-203</span> Feature, Training-Data and Labelling Pipelines</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-MLE-202.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-MLE/DEV-MLE-202.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

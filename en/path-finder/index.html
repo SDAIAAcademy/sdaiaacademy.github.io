@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="The SDAIA Academy course catalog: courses in data and artificial intelligence in five tracks, with a page for every course.">
+<title>Find my path · SDAIA Academy Course Catalog</title>
+<link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="ar" href="../../ar/path-finder/index.html">
+<link rel="stylesheet" href="../../assets/site.css">
+<script src="../../assets/site.js"></script>
+</head>
+<body data-page="finder">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../index.html"><img class="logo" src="../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="../courses/index.html">Courses</a></li><li><a href="../paths/index.html">Paths</a></li><li><a href="index.html" aria-current="page">Find my path</a></li><li><a class="plan-link" href="../plan/index.html">My plan<span class="plan-count" hidden></span></a></li></ul></nav>
+<div class="tools">
+<button type="button" class="btn-ai ask-ai-open" hidden><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg><span>Ask AI</span></button>
+<a class="lang-switch" href="../../ar/path-finder/index.html" lang="ar" hreflang="ar">العربية</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap">
+
+<header class="page-head"><h1>Find my path</h1><p class="lead">Say what you want to do, take a placement test with your own AI assistant, then paste its answer here. Or rate yourself without AI.</p></header>
+<noscript><p class="notice">Find my path needs JavaScript. Browse the paths instead.</p></noscript>
+<div class="finder" id="finder" hidden>
+<section class="step" aria-labelledby="h-step1"><h2 id="h-step1">1. Your goal</h2><div class="filter-grid"><div class="field"><label for="pf-track">Track</label><select id="pf-track"><option value="">Not sure: the whole catalog</option><option value="USE">Data &amp; AI Fluency</option><option value="LDS">Executives &amp; Leaders</option><option value="FND">Data &amp; AI Foundations</option><option value="DEV">AI Engineering</option><option value="SPC">Data Science</option></select></div><div class="field"><label for="pf-stream">Stream</label><select id="pf-stream"><option value="">Any stream of the track</option><option value="USE-FLU" data-track="USE">Fluency for Everyone</option><option value="USE-EDU" data-track="USE">Learners and Educators</option><option value="USE-PRO" data-track="USE">Fluency for Professions</option><option value="USE-SEC" data-track="USE">AI in Sectors</option><option value="LDS-EXE" data-track="LDS">Executive Leadership</option><option value="LDS-PRD" data-track="LDS">AI Product and Delivery</option><option value="LDS-ADV" data-track="LDS">Advisory and Value</option><option value="LDS-AIG" data-track="LDS">AI Governance, Risk and Assurance</option><option value="LDS-DMG" data-track="LDS">Data Management and Governance Professions</option><option value="FND-PRG" data-track="FND">Programming and Software Practice</option><option value="FND-MTH" data-track="FND">Mathematics and Statistics</option><option value="FND-DAT" data-track="FND">Data Handling</option><option value="FND-AIC" data-track="FND">AI Concepts and Responsible Practice</option><option value="FN-100" data-track="FND">Shared Foundations: the entry courses for both badge tracks</option><option value="DEV-SWE" data-track="DEV">Software Engineering for AI Builders</option><option value="DEV-LLM" data-track="DEV">Language Model Application Engineering</option><option value="DEV-AGT" data-track="DEV">Agentic Systems</option><option value="DEV-EVL" data-track="DEV">Evaluation and Quality Engineering for AI Systems</option><option value="DEV-MLE" data-track="DEV">Machine Learning Engineering</option><option value="DEV-OPS" data-track="DEV">Operations and Reliability</option><option value="DEV-INF" data-track="DEV">Infrastructure, Performance and Architecture</option><option value="DEV-DAT" data-track="DEV">Data Engineering and Architecture</option><option value="DEV-SEC" data-track="DEV">Security and Privacy Engineering for AI</option><option value="DEV-PHY" data-track="DEV">Physical AI and Robotics Engineering</option><option value="DEV-PRJ" data-track="DEV">Practicums</option><option value="AE-200" data-track="DEV">AI Engineering: courses that help prepare for the Assistant level</option><option value="AE-300" data-track="DEV">AI Engineering: courses that help prepare for the Associate level</option><option value="AE-400" data-track="DEV">AI Engineering: courses that help prepare for the Expert level</option><option value="SPC-ANL" data-track="SPC">Analysis and Business Intelligence</option><option value="SPC-STA" data-track="SPC">Statistics and Inference</option><option value="SPC-EXP" data-track="SPC">Experimentation and Causal Inference</option><option value="SPC-MOD" data-track="SPC">Machine Learning and Modelling</option><option value="SPC-DLR" data-track="SPC">Deep Learning and Model Development</option><option value="SPC-GEN" data-track="SPC">Generative, Multimodal and Embodied Models</option><option value="SPC-TRU" data-track="SPC">Trustworthy AI Science</option><option value="SPC-RSP" data-track="SPC">Research Practice and Frontier</option><option value="DS-200" data-track="SPC">Data Science: courses that help prepare for the Assistant level</option><option value="DS-300" data-track="SPC">Data Science: courses that help prepare for the Associate level</option><option value="DS-400" data-track="SPC">Data Science: courses that help prepare for the Expert level</option></select></div></div><div class="field"><label for="pf-goal">Your goal and experience, in a sentence or two</label><textarea id="pf-goal" rows="2" placeholder="For example: I build web services in Python and want to build AI agents"></textarea></div><p class="muted" id="pf-candidates" aria-live="polite"></p></section>
+<section class="step" aria-labelledby="h-step2"><h2 id="h-step2">2. Placement test with your AI assistant</h2><p class="section-lead">Pick an assistant. The page copies a prompt with the outcomes of the candidate courses, then opens the assistant: paste the prompt if the box is empty. The assistant asks about twelve questions, one at a time, and ends with a short block of course codes. Nothing is sent from this site.</p><div class="tool-grid" data-tools="finder"></div><p class="ai-actions"><button type="button" class="btn" id="pf-copy">Copy prompt</button></p><details class="pf-format"><summary>What the assistant&#x27;s answer ends with</summary><pre dir="ltr" lang="en">SDAIA-PATH v1
+take: FN-101, AE-201
+skip: FN-102</pre></details></section>
+<section class="step" aria-labelledby="h-step3"><h2 id="h-step3">3. Paste the result</h2><div class="field"><label for="pf-paste">The block that starts with SDAIA-PATH v1</label><textarea id="pf-paste" rows="5" dir="ltr" spellcheck="false"></textarea></div><p><button type="button" class="btn btn-primary" id="pf-show">Show my path</button></p></section>
+<section class="step step-alt" aria-labelledby="h-noai"><h2 id="h-noai">Or rate yourself, without AI</h2><p class="section-lead">Choose a track and a stream in step 1, then say how well you can already do each outcome. A course whose outcomes you can all do already is skipped.</p><div id="pf-rate"></div><p><button type="button" class="btn" id="pf-build">Build my path</button></p></section>
+<section class="step step-result" aria-labelledby="h-result" id="pf-result-box" hidden><h2 id="h-result" tabindex="-1">Your path</h2><div id="pf-result" aria-live="polite"></div></section>
+</div>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../paths/index.html#fluency">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../paths/index.html#executives-and-leaders">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../paths/index.html#foundations">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../paths/index.html#ai-engineering">AI Engineering</a></li><li class="acc-SPC"><a href="../paths/index.html#data-science">Data Science</a></li></ul></nav>
+</div>
+</footer>
+<dialog class="ai-dialog" id="ai-dialog" aria-labelledby="ai-title">
+<form method="dialog" class="ai-form">
+<div class="ai-head"><h2 id="ai-title"><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg>Ask AI</h2><button type="submit" class="icon-btn" value="close" aria-label="Close">&#215;</button></div>
+<p class="ai-note">The AI runs in your own assistant. This page copies a prompt, then opens the assistant you pick: paste the prompt if the box is empty. Nothing is sent from this site.</p>
+<fieldset class="ai-scopes"><legend>About</legend><ul><li data-scope="course"><input type="radio" name="ai-scope" id="ai-scope-course" value="course"><label for="ai-scope-course">This course</label></li><li data-scope="path"><input type="radio" name="ai-scope" id="ai-scope-path" value="path"><label for="ai-scope-path">This path</label></li><li data-scope="plan"><input type="radio" name="ai-scope" id="ai-scope-plan" value="plan"><label for="ai-scope-plan">My plan</label></li><li data-scope="catalog"><input type="radio" name="ai-scope" id="ai-scope-catalog" value="catalog"><label for="ai-scope-catalog">The whole catalog</label></li></ul></fieldset>
+<div class="field"><label for="ai-task">Task</label><select id="ai-task"><option value="ask" data-input="Your question">Ask a question</option><option value="compare" data-input="The courses to compare (codes or titles)">Compare courses</option><option value="role" data-input="Your role and what you want to be able to do">Which course fits my role</option><option value="explain" data-input="What you want to understand (optional)">Explain a course</option><option value="placement" data-input="Your goal and experience (optional)">Placement test</option><option value="review" data-input="What the plan is for (optional)">Review my plan</option></select></div>
+<div class="field"><label for="ai-q" id="ai-q-label">Your question</label><textarea id="ai-q" rows="3"></textarea></div>
+<p class="ai-size" id="ai-size" aria-live="polite"></p>
+<fieldset class="ai-tools"><legend>Open in</legend><div class="tool-grid" data-tools="dialog"></div></fieldset>
+<p class="ai-actions"><button type="button" class="btn" data-ai-copy>Copy prompt</button></p>
+</form>
+</dialog>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<script src="../../assets/catalog.en.js"></script>
+<script src="../../assets/ai.js"></script>
+<script src="../../assets/outcomes.en.js"></script>
+</body>
+</html>

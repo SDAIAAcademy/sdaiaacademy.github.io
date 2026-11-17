@@ -1,0 +1,194 @@
+# Data & AI Foundations
+
+The base that the AI Engineering and Data Science tracks build on: programming, mathematics and statistics, handling data, and how AI works.
+
+## [FND-PRG · Programming and Software Practice](FND-PRG.md)
+
+- [FND-PRG-101 · Python Programming for Data and AI](../courses/FND-PRG-101.md): Level 100 · Explain, 60 h
+  - Read a short program and state its output and the value of each variable at marked lines.
+  - Distinguish lists, tuples, dictionaries and sets by mutability, ordering and lookup cost, and name the right one for a task.
+  - Explain when work belongs in a notebook and when in a script or module, including the risk of hidden state.
+  - Implement functions with type hints, docstrings and explicit handling of invalid input.
+  - Use classes, files and the standard library to read, transform and write delimited and JSON data, including Arabic text.
+  - Build a small command-line program that loads, validates, summarises and reports on a dataset, and explain its structure.
+- [FND-PRG-102 · Command Line, Git and Reproducible Environments](../courses/FND-PRG-102.md): Level 100 · Explain, 24 h
+  - Explain how Git records history as commits, branches and remotes, and what each everyday command changes.
+  - Use the shell to inspect and transform files, combining commands with pipes and a short script.
+  - Apply a branch, pull request and review workflow, including resolving a merge conflict.
+  - Configure an isolated environment with locked dependencies and run the project in a container without administrator rights.
+  - Prepare a repository that keeps secrets out of history, and carry out the response when one leaks.
+  - Deliver a repository that a peer reproduces on a clean machine using only its README.
+- [FND-PRG-103 · Data Structures, Algorithms and Complexity](../courses/FND-PRG-103.md): Level 100 · Explain, 60 h; Needs: FND-PRG-101
+  - Explain big-O notation and identify the cost class of a given piece of code.
+  - Compare arrays, linked structures, hash tables, heaps and trees by operation cost and memory layout.
+  - Implement a dynamic array, a hash map with collision handling, a binary heap and a binary search tree.
+  - Implement and measure sorting, binary search and graph traversal, and relate the timings to predicted complexity.
+  - Analyse a slow data-processing function and change its structure or algorithm to remove the bottleneck.
+  - Design and build a small in-memory index and defend its structures against a time and memory budget.
+- [FND-PRG-104 · Software Testing, Code Review and Documentation](../courses/FND-PRG-104.md): Level 100 · Explain, 30 h; Needs: FND-PRG-101, FND-PRG-102
+  - Distinguish unit, integration and end-to-end tests, and explain what each can and cannot show.
+  - Design test cases from a specification using equivalence partitions, boundary values and error cases.
+  - Implement unit and integration tests with fixtures and test doubles for files, time and network calls.
+  - Review a pull request for correctness, tests, readability and security, and write actionable comments.
+  - Prepare a README and reference documentation, and package the library for installation.
+  - Deliver a tested, reviewed and documented release with automated checks on every change.
+- [FND-PRG-105 · Computer Systems and Cloud Essentials for AI Work](../courses/FND-PRG-105.md): Level 100 · Explain, 30 h; Needs: FND-PRG-101, FND-PRG-102
+  - Explain the memory hierarchy and how accelerators differ from processors, and identify what limits a workload.
+  - Describe the steps between calling an API and receiving its response, from name lookup to status code.
+  - Measure a program's processor, memory and disk use, and compare threaded and multi-process versions.
+  - Use an HTTP API from code with authentication, timeouts and retries with back-off.
+  - Configure a virtual machine, object storage, a container image and a least-privilege role for a batch job.
+  - Plan, size and price a small batch inference job, run it, and explain the gap between estimate and actual.
+- [FND-PRG-106 · Code Reading and Debugging without Assistance](../courses/FND-PRG-106.md): Level 100 · Explain, 12 h; Needs: FND-PRG-101
+  - Read unfamiliar code and state its output, including the effects of aliasing, scope and mutation.
+  - Explain what a traceback or failing assertion reveals about where and what a fault is.
+  - Apply the reproduce, isolate, hypothesise, test and fix method to locate defects, keeping a log.
+  - Use a step debugger, breakpoints and targeted logging to inspect program state.
+  - Distinguish assistant use that keeps debugging skill, such as asking for explanations, from use that erodes it.
+
+## [FND-MTH · Mathematics and Statistics](FND-MTH.md)
+
+- [FND-MTH-101 · Linear Algebra for Machine Learning](../courses/FND-MTH-101.md): Level 100 · Explain, 45 h
+  - Explain the geometric meaning of vectors, dot products, norms, projections and matrix products.
+  - Describe what rank, eigenvalues and singular values reveal about a matrix and name one machine learning use of each.
+  - Identify ill-conditioned or rank-deficient systems and explain their effect on a least-squares fit.
+  - Compute products, inverses, projections and decompositions by hand for small matrices and in array code for large ones.
+  - Implement least squares through QR factorisation and compare it with the normal equations.
+  - Apply the singular value decomposition to build low-rank approximations and principal components.
+- [FND-MTH-102 · Calculus and Optimisation for Machine Learning](../courses/FND-MTH-102.md): Level 100 · Explain, 45 h; Needs: FND-MTH-101
+  - Explain derivatives, partial derivatives, gradients and Jacobians as local linear approximations.
+  - Distinguish convex from non-convex objectives and describe how saddle points and step size shape gradient descent.
+  - Explain how a constraint moves the optimum of a small problem, using the Lagrangian and the meaning of its multiplier.
+  - Compute gradients of a composite function by applying the chain rule backwards through a computational graph.
+  - Implement reverse-mode automatic differentiation for scalar operations and verify it with finite-difference checks.
+  - Apply batch, stochastic and momentum gradient descent and diagnose divergence or slow convergence from loss curves.
+- [FND-MTH-103 · Probability for Data and AI](../courses/FND-MTH-103.md): Level 100 · Explain, 45 h
+  - Explain conditional probability, independence and Bayes rule, and identify base-rate errors in worded claims.
+  - Describe the common discrete and continuous distributions and identify which fits a described process.
+  - Explain the law of large numbers and the central limit theorem and identify where the normal approximation fails.
+  - Compute expectations, variances and conditional probabilities analytically and confirm them by seeded simulation.
+  - Implement reproducible Monte Carlo simulations that report each estimate with its standard error.
+  - Compute likelihood, entropy, cross-entropy and Kullback-Leibler divergence and relate them to training losses.
+- [FND-MTH-104 · Statistics by Simulation: Variation, Estimation and Testing](../courses/FND-MTH-104.md): Level 100 · Explain, 45 h; Needs: FND-MTH-103
+  - Distinguish population, sample, parameter, statistic and sampling distribution, and explain what a standard error measures.
+  - Explain what p-values and confidence intervals mean and identify misreadings of them.
+  - Identify multiple-testing, forking-path and confounding problems in a reported analysis.
+  - Compute bootstrap intervals for means, medians, group differences and regression slopes.
+  - Implement permutation tests and report each result as an effect size with an interval.
+  - Apply family-wise and false-discovery-rate corrections and measure by simulation how often uncorrected tests produce false findings.
+- [FND-MTH-105 · Discrete Mathematics and Logic for Computing](../courses/FND-MTH-105.md): Level 100 · Explain, 40 h
+  - Identify whether a relation is a function, an equivalence or an order, and which properties it has.
+  - Distinguish valid from invalid arguments and translate plain-language rules into propositional and predicate logic.
+  - Describe direct, contradiction and induction proofs and identify the gap in a flawed proof.
+  - Apply induction and loop invariants to prove simple claims about integers, sets and recursive code.
+  - Compute counts of arrangements, selections and collisions and verify them by enumeration.
+  - Use a graph model of dependencies to find cycles and compute a topological order.
+
+## [FND-DAT · Data Handling](FND-DAT.md)
+
+- [FND-DAT-101 · SQL and Relational Data](../courses/FND-DAT-101.md): Level 100 · Explain, 30 h
+  - Explain the relational model: tables, keys, constraints, NULL and the grain of a table.
+  - Identify the output of joins, grouping and NULL comparisons before running them.
+  - Write queries with filters, joins, grouping, subqueries and common table expressions that answer business questions.
+  - Apply window functions to rank rows, compare periods and compute running and moving totals.
+  - Implement a small schema with keys and constraints, load raw files into it and report rejected rows.
+  - Identify silent errors in assistant-written SQL, such as join fan-out, wrong grain and missing business rules.
+- [FND-DAT-102 · Data Wrangling with DataFrames](../courses/FND-DAT-102.md): Level 100 · Explain, 30 h
+  - Describe tidy data and identify the reshaping operation that makes a given table tidy.
+  - Distinguish the ways data can be missing and explain how dropping, filling or flagging changes a summary.
+  - Implement a cleaning pipeline as chained, tested functions for types, dates, duplicates and categories.
+  - Apply joins with declared cardinality and reconcile row counts before and after each join.
+  - Normalise Arabic and English text fields for matching and measure the effect on match rates.
+  - Identify defects in assistant-written wrangling code, such as wrong types, dropped rows and many-to-many joins.
+- [FND-DAT-103 · Data Formats, Interfaces and Quality Checks](../courses/FND-DAT-103.md): Level 100 · Explain, 16 h; Needs: FND-DAT-102
+  - Compare delimited, JSON Lines and columnar files on size, read time and type fidelity.
+  - Explain how encodings, byte order marks and time zones corrupt data, and identify each symptom.
+  - Implement an API client that follows cursor pagination, respects rate limits, retries with backoff and keeps raw responses.
+  - Convert nested JSON into typed tables written as partitioned columnar files.
+  - Implement validation checks that stop a load when a batch breaks the declared schema.
+
+## [FND-AIC · AI Concepts and Responsible Practice](FND-AIC.md)
+
+- [FND-AIC-101 · How Machine Learning Works](../courses/FND-AIC-101.md): Level 100 · Explain, 30 h; Needs: FND-PRG-101
+  - Explain how a supervised learner fits a prediction rule by minimising a loss.
+  - Distinguish training, validation and test data, and identify overfitting and underfitting from plotted curves.
+  - Identify target, duplicate, preprocessing and temporal leakage in modelling pipelines.
+  - Implement a train, validate and test workflow comparing a baseline, a linear model and a decision tree.
+  - Compute confusion-matrix metrics and choose a threshold from error costs and the base rate.
+  - Draft a one-page model card with intended use, data, metrics by subgroup and known limits.
+- [FND-AIC-102 · How Language Models Work](../courses/FND-AIC-102.md): Level 100 · Explain, 16 h
+  - Explain how a model generates text by repeated next-token prediction and how sampling settings change the output.
+  - Measure token counts for parallel Arabic and English text across two tokenisers.
+  - Describe how pretraining, post-training and reasoning effort shape an assistant's answers, and what a knowledge cut-off limits.
+  - Implement a minimal tool-calling loop and mark which steps the model and the program each perform.
+  - Identify typical failure modes in model transcripts and name a check that catches each.
+- [FND-AIC-103 · Reading AI Evidence: Benchmarks, Claims and Statistics](../courses/FND-AIC-103.md): Level 100 · Explain, 8 h
+  - Explain what a benchmark measures and name threats to its validity, such as contamination, saturation and invalid items.
+  - Identify why two reported scores are not comparable: partial credit, attempts, harness, token budget or grader.
+  - Compute an interval for a reported accuracy difference and decide whether it exceeds sampling noise.
+  - Explain how adoption and productivity figures differ by denominator, time window and self-reported or measured effect.
+  - Draft an evidence brief that separates what a published AI claim shows from what it asserts, using its model card.
+- [FND-AIC-104 · Responsible Data and AI Practice for Builders](../courses/FND-AIC-104.md): Level 100 · Explain, 12 h
+  - Explain the data protection principles that shape a build, from lawful basis to transfer and breach notice.
+  - Classify project data by sensitivity and decide what may go to an external model service.
+  - Analyse model and dataset licences, including attribution and non-commercial terms, against a stated use.
+  - Identify the build check and user disclosure that each AI ethics principle requires.
+  - Apply security hygiene to a repository: remove secrets, pin and audit dependencies, validate model output.
+- [FND-AIC-105 · Classical AI: Search, Planning and Knowledge Representation](../courses/FND-AIC-105.md): Level 100 · Explain, 30 h; Needs: FND-PRG-101
+  - Describe a problem as states, actions, goal and costs, and distinguish when search, constraints, planning or logic fits it.
+  - Implement uniform-cost and A* search with an admissible heuristic and measure the nodes each expands.
+  - Implement a constraint model of a timetabling problem with hard rules and soft preferences.
+  - Explain how a classical planner derives a plan from action definitions and why each step can be checked.
+  - Implement eligibility rules in logic and use an inference engine to answer queries and expose conflicts.
+  - Compare a classical method and a language-model-only attempt for correctness, verifiability, cost and explanation.
+- [FND-AIC-106 · Technical Writing for Data and AI Work](../courses/FND-AIC-106.md): Level 100 · Explain, 12 h
+  - Identify the reader, purpose and required sections of five common technical document types.
+  - Draft a README that lets a stranger install, run and check a small project.
+  - Draft a one-page decision memo with options, trade-offs, a recommendation and the conditions that would change it.
+  - Prepare an experiment report and a model card that state uncertainty, results by data slice and known limits.
+  - Compare an unassisted draft with an assisted revision for accuracy, clarity and invented content.
+
+## [FN-100 · Shared Foundations: the entry courses for both badge tracks](FN-100.md)
+
+- [FN-101 · Python for Data and AI Work](../courses/FN-101.md): Level 100 · Explain, 26 h
+  - Explain what a short program prints, step by step, including name binding, shared mutable lists and dictionaries, and scope.
+  - Distinguish when a notebook, a script or an importable module is the right home for a piece of code.
+  - Implement typed functions that load, validate and aggregate records with lists, dictionaries, sets and comprehensions.
+  - Apply exception handling and input validation so that each bad record is reported with a reason instead of crashing or passing silently.
+  - Use a repeatable debugging method: reproduce, shrink the input, form a hypothesis, test it, fix, and add a regression check.
+  - Prepare a command-line tool from an exploratory notebook, with an entry point, arguments and a written report.
+- [FN-102 · Command Line, Git and Reproducible Projects](../courses/FN-102.md): Level 100 · Explain, 21 h; Needs: FN-101
+  - Explain what a commit, a branch, a merge and a pull request record, and how each can be undone safely.
+  - Identify where secrets, personal data, large outputs and machine-specific paths leak into a project.
+  - Use shell pipelines, redirection and exit codes to inspect and summarise files without writing a program.
+  - Use branches, pull requests and review comments to integrate a change, resolving a merge conflict without losing either side's work.
+  - Configure a project environment with declared dependencies and a lock file so that it installs identically on a clean machine.
+  - Implement tests that run in continuous integration and a README that reports measured results with the command that produced them.
+- [FN-103 · Mathematics for Machine Learning: Vectors, Gradients and Probability](../courses/FN-103.md): Level 100 · Explain, 26 h; Needs: FN-101
+  - Explain dot products, norms, matrix products and rank as operations on data, and predict the shape of each result.
+  - Compute cosine similarity, a least-squares fit and principal components with array code, checking each against a hand calculation.
+  - Describe derivatives, gradients and the chain rule on a computational graph, and trace one backward pass by hand.
+  - Implement gradient descent for a small model and identify step-size problems from the loss curve.
+  - Compute the probability that an alarm signals a real fault with Bayes rule, and confirm it by seeded simulation.
+  - Use simulation to estimate an expectation and its Monte Carlo error, and show how the error shrinks with sample size.
+- [FN-104 · SQL and Data Wrangling](../courses/FN-104.md): Level 100 · Explain, 26 h; Needs: FN-101
+  - Identify the grain and keys of each table and predict the row count of a join before running it.
+  - Implement SQL queries with joins, grouping, common table expressions and window functions that answer operational questions.
+  - Prepare an analysis-ready table from raw exports with a dataframe library, handling types, missing values, duplicates, dates and reshaping.
+  - Apply Arabic text normalisation and encoding repair so that names and addresses match across sources.
+  - Configure schema and quality checks that reject or quarantine a bad batch with a reason.
+  - Compare delimited, JSON Lines and columnar formats by size, read speed, types preserved and fitness for exchange.
+- [FN-105 · How Machine Learning and Language Models Work](../courses/FN-105.md): Level 100 · Explain, 21 h; Needs: FN-101, FN-103
+  - Explain how a supervised model fits labelled examples by reducing a loss, and why its score on training data overstates its score on new data.
+  - Use a train, validation and test split and cross-validation to compare a baseline with two models.
+  - Analyse a pipeline for target, duplicate and temporal leakage and measure the score before and after each fix.
+  - Compute precision, recall and the cost of errors at several thresholds and choose one for a stated cost.
+  - Describe how a language model splits text into tokens, predicts and samples the next token, and uses its context window.
+  - Identify the limits of a model claim, including fabrication, knowledge cut-off, benchmark contamination and partial versus complete credit.
+- [FN-106 · Responsible Data and AI Practice in the Kingdom](../courses/FN-106.md): Level 100 · Explain, 21 h; Needs: FN-101, FN-105
+  - Explain the PDPL obligations that govern a build, from lawful basis and minimisation to rights, retention, transfer and breach handling.
+  - Distinguish what the data classification, data sharing and open data policies and the SDAIA Generative AI Guidelines each decide.
+  - Classify each data set of the build under the four NDMO classification levels and derive the rule for sending it to an external model service.
+  - Apply minimisation and pseudonymisation to the data the assistant sends, and test whether records can be re-identified.
+  - Prepare a risk assessment that places the assistant in an ethics risk tier and works through the four phases of the national risk framework.
+  - Test the assistant against the ethics principles for fairness across Arabic and English enquiries, transparency and human review, and draft the disclosure parents see.

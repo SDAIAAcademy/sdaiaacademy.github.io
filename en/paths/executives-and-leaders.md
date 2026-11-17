@@ -1,0 +1,316 @@
+# Executives & Leaders
+
+For people who direct, buy, govern and assure data and AI: executives, product and delivery leads, advisers, and the governance and data management professions.
+
+## [LDS-EXE · Executive Leadership](LDS-EXE.md)
+
+- [LDS-EXE-101 · AI for Executives: A Hands-On Briefing](../courses/LDS-EXE-101.md): Level 100 · Explain, 4 h
+  - Describe where assistants and agents succeed and fail on similar tasks.
+  - Compare assisted and unassisted results on one task, checking facts, figures and sources.
+  - Prepare questions on task, evidence, data, cost, oversight and owner for an AI proposal.
+- [LDS-EXE-201 · AI Strategy and Use-Case Portfolio](../courses/LDS-EXE-201.md): Level 200 · Apply, 24 h
+  - Analyse an organisation's AI maturity across strategy, governance, data, infrastructure, people, applications and impact.
+  - Classify use cases by ambiguity and risk and assign each a mode: automate, manage with guardrails, enable exploration or keep human-led.
+  - Test feasibility claims by prototyping two use cases on a hosted model against ten realistic cases each.
+  - Compare build, buy and partner options on capability fit, total cost of ownership, data control, lock-in and time to value.
+  - Build a portfolio sequenced by horizon, with funding gates and value traced to income-statement lines.
+- [LDS-EXE-202 · Economics of AI and Agents](../courses/LDS-EXE-202.md): Level 200 · Apply, 12 h
+  - Explain why billed tokens exceed user input and why price per token misstates workflow cost.
+  - Compute cost per successful task, including retries, failed runs and human review time.
+  - Compare token, capacity and per-seat or per-outcome pricing for one workflow at three volumes.
+  - Measure how routing, caching, shorter context and fewer retries change cost and success rate.
+  - Design a cost governance plan with unit-cost indicators, budgets, alerts and decision rights.
+- [LDS-EXE-203 · Redesigning Work for Human and Agent Teams](../courses/LDS-EXE-203.md): Level 200 · Apply, 16 h
+  - Analyse a process into tasks and assign each to a person, an agent or both.
+  - Test an agent on part of the redesign and revise for observed failures.
+  - Draft an agent onboarding and review plan covering scope, permissions, supervision, measures and retirement.
+  - Prepare a three-year scenario for roles, skills, hiring and redeployment.
+  - Design a plan that protects expertise and the entry-level pipeline through apprenticeship tasks and practice without AI.
+- [LDS-EXE-204 · Leading AI Adoption and Change](../courses/LDS-EXE-204.md): Level 200 · Apply, 12 h
+  - Analyse adoption data to find shallow, unsafe or blocked use and its barrier.
+  - Draft role-based literacy outcomes, each with a check, for what staff must do with AI.
+  - Prepare a manager support kit and incentives that reward measured value and safe use.
+  - Configure a dashboard reporting use, skill and value separately, each defined.
+  - Design a 90-day adoption plan with champions, a community of practice, measures and decision points.
+- [LDS-EXE-205 · Buying AI: Procurement, Evaluation and Contracts](../courses/LDS-EXE-205.md): Level 200 · Apply, 24 h
+  - Prepare requirements and weighted criteria from the business problem, covering quality thresholds, data handling, oversight and exit.
+  - Test two hosted models or services on a fixed set of the buyer's cases, prepared before vendors are seen.
+  - Draft terms for data use, no training on buyer data, portability, change notice, rollback, audit, price, fourth parties and exit.
+  - Decide a negotiation position and defend it in a timed simulation with a vendor team.
+  - Deliver a solicitation pack and award recommendation that a tender committee could approve.
+- [LDS-EXE-206 · Governing AI in the Organisation: Boards and Executives](../courses/LDS-EXE-206.md): Level 200 · Apply, 16 h
+  - Draft a risk appetite statement with tolerances by risk level and decisions reserved for the board.
+  - Analyse an AI inventory for missing systems, owners, risk levels and review needs.
+  - Specify board expectations for agent controls and vendor assurance, from permissions and stopping to certificate scope.
+  - Decide escalation and disclosure in a vendor-model incident.
+- [LDS-EXE-207 · Scaling AI from Pilots to Production](../courses/LDS-EXE-207.md): Level 200 · Apply, 12 h
+  - Identify why pilots stall: problem choice, data, integration, evaluation, ownership or unchanged processes.
+  - Test a pilot's claimed performance on realistic cases against its demonstration.
+  - Analyse two pilots' data readiness for access, quality, classification, lineage and refresh.
+  - Compare central, federated and hub-and-spoke operating models for size, skills and risk.
+  - Design scaling gates on evaluation results, governance approval, cost per successful task and process redesign.
+- [LDS-EXE-208 · Sovereignty, Infrastructure and Dependency Decisions](../courses/LDS-EXE-208.md): Level 200 · Apply, 8 h
+  - Classify workloads by data class and personal data, assigning each a permitted model type and placement.
+  - Compare a hosted closed model with a local open-weight model on quality, latency, cost and data path.
+  - Analyse withdrawal risk from export restrictions, model retirement, price change, outage and compute or energy limits.
+  - Decide a sourcing and hosting position for three workloads with exit triggers and a tested fallback.
+- [LDS-EXE-209 · AI Incident Simulation for Leadership Teams](../courses/LDS-EXE-209.md): Level 200 · Apply, 6 h
+  - Describe incident roles, decision rights and escalation thresholds, from technical lead to accountable executive.
+  - Use agent traces and logs to establish what happened, what data moved and what is still unknown.
+  - Classify each incident by severity and identify the notifications it triggers under data protection law, sector rules and contracts.
+  - Decide containment, disclosure and recovery actions under time pressure, such as pausing the agent or rolling back a model version.
+  - Prepare an after-action memo with control changes, owners and dates.
+- [LDS-EXE-210 · AI Regulation Update: National and Global Briefing](../courses/LDS-EXE-210.md): Level 200 · Apply, 4 h
+  - Identify each change in national and main foreign instruments as binding, advisory or draft.
+  - Analyse an AI summary of a new instrument and verify each claim against the primary text.
+  - Prepare an applicability note listing obligations, owners and dates.
+- [LDS-EXE-301 · AI in Public Policy and Public Service Delivery](../courses/LDS-EXE-301.md): Level 300 · Develop, 25 h; Needs: LDS-EXE-201
+  - Analyse regulation, guidance, standards, procurement, funding, sandboxes, data sharing and shared compute as policy instruments by reach, cost and speed.
+  - Analyse the public value, costs, risks and effects by user group of an AI-enabled public service.
+  - Test a citizen-facing assistant for accuracy, refusals, escalation and equal treatment across languages.
+  - Design the accountability arrangements for a public AI system: inventory entry, transparency record, impact assessment, human review and appeal.
+  - Evaluate a ministry's AI competence needs and set a role-based development plan.
+  - Defend a policy brief and public-value case before a mock ministerial committee.
+- [LDS-EXE-302 · Assessing and Certifying Skills in the AI Era](../courses/LDS-EXE-302.md): Level 300 · Develop, 8 h
+  - Test how much of an existing assessment a hosted model can pass without the candidate's own skill.
+  - Design a two-lane assessment with a supervised check and an open task backed by process evidence and a defence.
+  - Classify credentials by what they evidence, how they are verified and what they may claim.
+  - Design an evaluation of a programme's effect on job performance with a comparison group.
+- [LDS-EXE-401 · Leading the Enterprise AI Office](../courses/LDS-EXE-401.md): Level 400 · Evaluate, 60 h; Needs: LDS-EXE-201, LDS-EXE-206
+  - Design a three-horizon AI roadmap with budgets to build, run and retire, sequenced from a maturity profile.
+  - Design the AI office's mandate, operating model and decision rights alongside data, technology, security and risk functions.
+  - Build an AI portfolio with stage gates, kill criteria and value traced to the accounts by cost per successful outcome.
+  - Design governance for generative AI and agents: approved tools, data rules, agent permissions, evaluation ownership and coding agents.
+  - Evaluate an agent workflow by building it on a hosted model and measuring success rate, cost and failure modes.
+  - Lead the leadership team's response to an AI incident and a regulator inquiry.
+  - Defend an AI office plan covering roadmap, portfolio, governance, people and budget.
+- [LDS-EXE-402 · Leading the Enterprise Data Office](../courses/LDS-EXE-402.md): Level 400 · Evaluate, 60 h; Needs: LDS-DMG-101
+  - Design a data strategy with targets and indicators traced to business objectives and national data indicators.
+  - Design the governance operating model: office, committee, owners, stewards, decision rights and escalation.
+  - Analyse data management maturity and compliance against national specifications.
+  - Evaluate whether datasets are ready for training, retrieval or agent access by classification, personal data, quality, lineage and permissions.
+  - Decide data sharing requests and generative AI tool approvals as chair of a data committee.
+  - Prepare a value case for a data product with break-even and sensitivity analysis.
+  - Defend a data office plan covering strategy, operating model, compliance, AI readiness, value and budget.
+
+## [LDS-PRD · AI Product and Delivery](LDS-PRD.md)
+
+- [LDS-PRD-201 · AI Product Discovery and Specification](../courses/LDS-PRD-201.md): Level 200 · Apply, 24 h
+  - Distinguish problems suited to generative models, predictive models, rules or no automation.
+  - Analyse research material into jobs, pain points and workarounds ranked by frequency and cost of error.
+  - Test a candidate feature with a prompt-level prototype on representative cases.
+  - Draft a behaviour specification with scope, refusal and escalation rules and pass or fail acceptance criteria.
+  - Prepare a first evaluation set covering normal, edge and must-refuse cases.
+  - Defend a specification pack and its statement of data sources, access, classification and gaps.
+- [LDS-PRD-202 · Evaluation, Experiments and Economics for AI Products](../courses/LDS-PRD-202.md): Level 200 · Apply, 24 h; Needs: LDS-PRD-201
+  - Explain why variable outputs need repeated trials, binary criteria and validated graders.
+  - Analyse traces into a failure taxonomy with frequency and severity.
+  - Prepare a versioned evaluation set that assigns a code check, model grader or human review and a release threshold to each criterion.
+  - Analyse an online experiment against primary, guardrail and cost metrics planned in advance.
+  - Compute cost per successful task and latency percentiles for alternative model configurations.
+  - Decide whether to launch, iterate or stop by weighing quality, cost, latency and risk.
+- [LDS-PRD-203 · Human-AI Interaction and Experience Design](../courses/LDS-PRD-203.md): Level 200 · Apply, 24 h
+  - Describe interaction patterns for assistants and agents and the trust risk each carries.
+  - Draft onboarding, source display and uncertainty cues that match measured capability.
+  - Prepare recovery and escalation flows with confirmation and undo graded by how reversible each agent action is.
+  - Test the prototype against Web Content Accessibility Guidelines (WCAG) criteria with a screen reader and keyboard only.
+  - Test Arabic and mixed-direction layouts with numbers, dates, Latin names and code-switched input.
+  - Evaluate the design in a moderated usability test measuring task success, over-reliance on seeded errors and recovery time.
+- [LDS-PRD-204 · Managing AI Projects and Delivery Teams](../courses/LDS-PRD-204.md): Level 200 · Apply, 16 h
+  - Prepare a plan of time-boxed increments, each with a hypothesis and an exit criterion.
+  - Prepare range estimates, a responsibility matrix and a risk log covering model, data, vendor and adoption risks.
+  - Decide go, no-go or pivot at delivery gates from evaluation, cost and risk evidence.
+  - Draft an operations hand-over covering monitoring, model change, rollback and retirement.
+- [LDS-PRD-205 · Prototyping AI Products with Coding Agents](../courses/LDS-PRD-205.md): Level 200 · Apply, 16 h
+  - Prepare a brief and context file stating the question, scope, data, constraints and done criteria.
+  - Use a coding agent to build a prototype that calls a language model, in small verified steps under version control.
+  - Test the prototype against acceptance checks and a limits checklist for hard-coded paths, exposed secrets, unvetted dependencies, real data and accessibility.
+  - Deliver a hand-over that separates validated learning, specification and evaluation cases from code to discard.
+- [LDS-PRD-301 · Responsible AI by Design for Product Teams](../courses/LDS-PRD-301.md): Level 300 · Develop, 12 h; Needs: LDS-PRD-201
+  - Analyse harms across affected groups, failure, misuse and scale, ranked by severity, likelihood and reversibility.
+  - Draft safeguards as requirements with owners, pass or fail tests and subgroup release slices.
+  - Draft disclosure, explanation and appeal notices for applicants and caseworkers in Arabic and English.
+  - Design a human-oversight model with review sampling, override logs and rubber-stamping measures.
+  - Decide launch readiness from subgroup results, safeguard tests and open risks.
+
+## [LDS-ADV · Advisory and Value](LDS-ADV.md)
+
+- [LDS-ADV-201 · AI Use-Case Feasibility and Business Cases](../courses/LDS-ADV-201.md): Level 200 · Apply, 24 h; Needs: DEV-LLM-201
+  - Prepare a problem statement with a measured baseline, a value hypothesis and a success threshold.
+  - Analyse data readiness: coverage, quality, rights of use, classification and personal data.
+  - Test technical feasibility by adapting a retrieval-grounded prototype and measuring it on labelled questions.
+  - Classify the use case's risk level and identify the controls and human oversight it needs.
+  - Build a costed business case comparing four options, including one without AI, with sensitivity analysis.
+- [LDS-ADV-202 · Data and AI Maturity Assessment and Roadmaps](../courses/LDS-ADV-202.md): Level 200 · Apply, 16 h
+  - Prepare an evidence plan of interview guides, a document request and a survey for a chosen maturity model.
+  - Analyse interviews, documents and survey results to score each dimension with a confidence rating.
+  - Design a roadmap that turns gaps into initiatives sequenced by dependency, budget and capacity.
+  - Prepare and deliver a sponsor readout of findings, roadmap and decisions requested.
+- [LDS-ADV-301 · Data Products, Valuation and Monetisation](../courses/LDS-ADV-301.md): Level 300 · Develop, 30 h; Needs: LDS-DMG-101
+  - Classify data assets by expected value and assess their readiness for productisation.
+  - Analyse demand, beneficiary segments and substitutes to define use cases for a data product.
+  - Compute the value of a data asset by cost, market and income approaches and reconcile them.
+  - Design a product, licence and pricing model that balances cost, value, demand and service level.
+  - Evaluate product proposals against personal data, classification, sharing and intellectual property conditions and decide approvability.
+  - Build a business case with forecast, costs, break-even, sensitivity and portfolio indicators, and recommend launch, redesign or stop.
+- [LDS-ADV-302 · Advisory Practice for Data and AI Engagements](../courses/LDS-ADV-302.md): Level 300 · Develop, 16 h; Needs: LDS-ADV-202
+  - Draft an engagement scope with the decision to inform, deliverables, exclusions and acceptance criteria.
+  - Design and facilitate a decision workshop that brings stakeholders with conflicting aims to a recorded decision.
+  - Evaluate three options against stated criteria and recommend one in an options paper that states uncertainty.
+  - Review a deliverable for traceable claims, consistent numbers, real citations and disclosed AI use.
+  - Apply independence, confidentiality and conflict-of-interest principles to advisory dilemmas.
+
+## [LDS-AIG · AI Governance, Risk and Assurance](LDS-AIG.md)
+
+- [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](../courses/LDS-AIG-201.md): Level 200 · Apply, 24 h
+  - Explain how principles, policies, standards, controls and evidence relate, and where each sits in an AI governance framework.
+  - Prepare an AI system inventory with the fields needed for ownership, purpose, data, model source, risk tier and lifecycle stage.
+  - Classify AI systems into four risk levels and record the factors that decided each level.
+  - Draft a responsibility matrix that assigns who is accountable, responsible, consulted and informed for each governance decision.
+  - Draft an acceptable-use policy with prohibited and restricted application categories, exception handling and a review date.
+  - Design lifecycle review gates from intake to retirement, with entry criteria, required evidence and the approving role for each risk level.
+- [LDS-AIG-202 · AI Regulation and Standards in Practice](../courses/LDS-AIG-202.md): Level 200 · Apply, 16 h; Needs: LDS-AIG-201
+  - Distinguish binding law, implementing regulation, advisory framework, voluntary code and international standard, and state what each requires of an organisation.
+  - Analyse an instrument to extract scope, roles, risk classes, duties, deadlines and enforcement into a structured obligations register.
+  - Apply tests of territorial reach, provider or deployer role and risk class to a described AI product.
+  - Prepare a crosswalk from regulatory duties to clauses of an AI management system standard and a risk management framework.
+  - Prepare a horizon-scanning log for pending instruments with source, status, expected effect, owner and review date.
+  - Deliver a one-page multi-jurisdiction map with the controls that close the highest-priority gaps.
+- [LDS-AIG-203 · Third-Party AI: Licences, Supply Chain and Retirement](../courses/LDS-AIG-203.md): Level 200 · Apply, 12 h; Needs: LDS-AIG-201
+  - Compare permissive, copyleft, restricted open-weight and proprietary terms for models, datasets and code.
+  - Analyse the provenance of a model and its training data using model cards, dataset cards and a bill of materials, and record unresolved gaps.
+  - Prepare a supplier assurance review from a standard questionnaire, a management-system certificate and the supplier's evaluation results.
+  - Draft change-notice, evaluation-on-change and exit clauses for an AI service, and an exit plan with data return and replacement steps.
+  - Design a retirement plan for an AI model covering rollback, archiving, record retention, user communication, dependency removal and residual risk.
+- [LDS-AIG-204 · AI Risk Management in Practice](../courses/LDS-AIG-204.md): Level 200 · Apply, 30 h; Needs: LDS-AIG-201
+  - Describe the phases of the national AI risk management cycle and map them to the functions of two international risk frameworks.
+  - Apply structured identification techniques, including stakeholder harm mapping, misuse cases and failure-mode analysis, to an AI use case.
+  - Compute likelihood and impact scores on a four-by-four matrix with written justifications, then calibrate them with peers.
+  - Draft an AI risk appetite and tolerance statement that sets limits per risk category and the escalation route.
+  - Prepare a treatment plan that selects avoid, reduce, transfer or accept for each priority risk, with control owners, cost and expected residual score.
+  - Configure key risk indicators and early-warning thresholds with data sources, review frequency and the action each triggers.
+  - Deliver a complete AI risk assessment and defend the residual-risk recommendation before a risk committee.
+- [LDS-AIG-301 · Assessing Models and Systems: Fairness, Robustness and Safety Evidence](../courses/LDS-AIG-301.md): Level 300 · Develop, 30 h
+  - Explain why common group fairness criteria cannot all hold at once and which criterion suits which decision context.
+  - Compute subgroup performance and fairness metrics with confidence intervals and flag differences that exceed a stated tolerance.
+  - Test model behaviour under distribution shift and input perturbation, including Arabic and English text variants.
+  - Measure harmful, ungrounded and policy-violating outputs of a language model assistant with a test set and a calibrated grader.
+  - Prepare post-deployment checks for drift and subgroup degradation with thresholds, data sources and owners.
+  - Audit a supplier's evaluation report for contamination, test awareness, missing subgroups, unreported uncertainty and mismatch with intended use.
+  - Evaluate whether a system's evidence supports deployment at its risk level and recommend approval with conditions, or rejection.
+- [LDS-AIG-302 · Generative AI and Agent Controls Laboratory](../courses/LDS-AIG-302.md): Level 300 · Develop, 24 h; Needs: LDS-AIG-201
+  - Identify the main risk classes of language model and agent applications and distinguish model-as-component risks from model-as-actor risks.
+  - Configure input and output guardrails, groundedness checks and content filters, and measure their effect on blocked attacks and false refusals.
+  - Configure an agent sandbox with tool allow-lists, scoped credentials, egress limits, rate limits, human approval for high-impact actions and a kill-switch.
+  - Implement audit logging of prompts, retrieved content, tool calls, approvals and policy decisions, with filtering of personal data.
+  - Design and run a red-team exercise against an agent, with scope, rules of engagement, attack scenarios and severity scoring.
+  - Evaluate whether the hardened agent's residual risk is acceptable for its risk level and assemble the control evidence pack.
+- [LDS-AIG-303 · AI Impact Assessment and System Documentation](../courses/LDS-AIG-303.md): Level 300 · Develop, 16 h; Needs: LDS-AIG-201
+  - Distinguish impact, risk, personal data and conformity assessments by their triggers.
+  - Analyse impacts on each affected group by severity, scale and reversibility, and assign owned mitigations.
+  - Draft a datasheet and a model card that state data origin, subgroup results and untested conditions.
+  - Build a system card and a plain-language notice telling affected people how to question a result.
+  - Review a peer's evidence file and decide whether it supports approval at its risk level.
+- [LDS-AIG-304 · AI Management Systems and Internal Audit](../courses/LDS-AIG-304.md): Level 300 · Develop, 24 h; Needs: LDS-AIG-201
+  - Explain how the clauses of an AI management system standard call on risk and impact assessment standards.
+  - Prepare the scope, AI policy and measurable objectives of an AI management system.
+  - Prepare a statement of applicability that justifies each control from the risk assessment.
+  - Design a risk-based internal audit programme for one cycle and the plan for one audit.
+  - Audit a function by interview and record sampling, and grade each finding.
+  - Analyse the root cause of a nonconformity and prepare a corrective action with a success measure.
+- [LDS-AIG-305 · AI Incident Response and Compliance Monitoring](../courses/LDS-AIG-305.md): Level 300 · Develop, 12 h; Needs: LDS-AIG-201
+  - Classify incident reports by type, harm, severity and failed component.
+  - Analyse traces and change records to reconstruct an incident and the controls that failed.
+  - Draft the notices a breach requires to the data protection regulator, affected people and a supplier.
+  - Lead a blameless post-incident review and decide corrective actions.
+  - Design a compliance monitoring plan of control tests, thresholds and escalation.
+- [LDS-AIG-306 · Privacy, Intellectual Property and Content Provenance in AI](../courses/LDS-AIG-306.md): Level 300 · Develop, 12 h; Needs: LDS-AIG-201
+  - Prepare a personal data map of a fine-tuning and retrieval pipeline with lawful basis and transfers.
+  - Test a model for disclosure of planted records, with and without an output filter.
+  - Analyse a deletion request against weights, index, logs and backups.
+  - Decide for each training source whether to use, exclude or license it, and set output-use rules.
+  - Design a provenance and labelling scheme for generated media and test where it fails.
+- [LDS-AIG-307 · Human Oversight and Ethics Review Design](../courses/LDS-AIG-307.md): Level 300 · Develop, 12 h; Needs: LDS-AIG-201
+  - Measure the effectiveness of a human review step with seeded errors and review time.
+  - Configure approval thresholds for an agent's actions by impact and reversibility.
+  - Design a contestability route from notice to human re-decision and redress.
+  - Design an ethics review procedure with triggers, independent members, criteria and records.
+  - Decide as a board member whether to approve, approve with conditions or reject a proposed AI use.
+- [LDS-AIG-401 · Designing and Running an AI Governance Programme](../courses/LDS-AIG-401.md): Level 400 · Evaluate, 40 h; Needs: LDS-AIG-201, LDS-AIG-204
+  - Analyse an organisation's AI governance against its obligations and a maturity model.
+  - Design the mandate, operating model and decision rights, choosing central, federated or hub-and-spoke.
+  - Design a tiered policy set and proportionate review gates with service levels and exceptions.
+  - Lead a governance committee to decisions on contested cases, recording reasons and dissent.
+  - Design programme metrics, board reporting and a resourcing plan.
+  - Defend the programme and its 18-month roadmap before a panel and revise it under challenge.
+
+## [LDS-DMG · Data Management and Governance Professions](LDS-DMG.md)
+
+- [LDS-DMG-101 · Data Management Foundations](../courses/LDS-DMG-101.md): Level 100 · Explain, 24 h
+  - Describe the knowledge areas of data management with the main artefact and accountable role for each.
+  - Distinguish the roles of a governance structure, from the committee to business and technical stewards.
+  - Prepare a data asset register and business glossary entries for one business domain.
+  - Apply quality dimensions and provisional classification levels to registered assets.
+  - Apply a six-level maturity scale to score an organisation's data management and prepare a ranked list of first-year actions.
+- [LDS-DMG-201 · Data Governance Operating Model and Stewardship](../courses/LDS-DMG-201.md): Level 200 · Apply, 24 h; Needs: LDS-DMG-101
+  - Compare centralised, federated and hybrid governance operating models and when each works.
+  - Prepare charters for the committee, the data office and the steward network.
+  - Apply a decision-rights matrix to recurring data decisions.
+  - Prepare a governance scorecard that traces national requirements to controls, owners and indicators.
+  - Build a data strategy and a costed business case for a data office.
+- [LDS-DMG-202 · Metadata, Catalogues and Lineage](../courses/LDS-DMG-202.md): Level 200 · Apply, 16 h; Needs: LDS-DMG-101
+  - Configure scheduled harvesting of technical metadata from a database and a file store.
+  - Prepare glossary terms and link them to columns, owners and classifications.
+  - Measure the error rate of machine-drafted asset descriptions under steward review.
+  - Analyse the downstream impact of a schema change using captured lineage.
+  - Prepare dataset records in a standard vocabulary for an external catalogue.
+- [LDS-DMG-203 · Data Quality Management](../courses/LDS-DMG-203.md): Level 200 · Apply, 24 h; Needs: LDS-DMG-101
+  - Prepare measurable quality rules with scope, method, threshold and frequency.
+  - Analyse column, relationship and dependency profiles to find anomalies.
+  - Implement rules as executable checks and report results by dimension.
+  - Diagnose the root cause of a recurring issue and define corrective and preventive actions.
+  - Measure the fitness of data for training or grounding an AI system.
+  - Design a quality plan covering priorities, rules, monitoring and issue workflow for a domain.
+- [LDS-DMG-204 · Data Classification in Practice](../courses/LDS-DMG-204.md): Level 200 · Apply, 12 h; Needs: LDS-DMG-101
+  - Apply an impact assessment to propose a classification level for each asset.
+  - Prepare handling requirements per level for storage, transfer, sharing, retention and disposal.
+  - Prepare register entries with owner approval, exceptions and declassification dates.
+  - Evaluate an assisted classification pipeline and set when a person must review.
+- [LDS-DMG-205 · Data Sharing, Open Data and Freedom of Information](../courses/LDS-DMG-205.md): Level 200 · Apply, 16 h; Needs: LDS-DMG-101
+  - Apply a sharing test to requests and draft an agreement for an approved one.
+  - Decide a research request for linked records under secondary-use rules.
+  - Prepare a dataset for open publication with a re-identification risk test.
+  - Draft responses to information requests with recorded grounds for withholding.
+  - Measure access performance from response times, usage and reuse.
+- [LDS-DMG-206 · Personal Data Protection in Practice](../courses/LDS-DMG-206.md): Level 200 · Apply, 30 h; Needs: LDS-DMG-101
+  - Explain the lawful bases, data subject rights and controller and protection officer duties, and identify which apply to a processing activity.
+  - Prepare records of processing from a data-flow map, with purpose, legal basis, categories, recipients, retention and transfers.
+  - Apply an impact assessment method to an AI-assisted service, rating risks to individuals and selecting proportionate controls.
+  - Analyse data subject requests and draft responses that meet scope, identity, exemption and deadline rules.
+  - Decide whether a cross-border transfer may proceed, and under which safeguard or exemption.
+  - Lead the response to a personal data breach from containment to notice to the authority and to individuals.
+- [LDS-DMG-207 · Compliance Evidence and Data Maturity Assessment](../courses/LDS-DMG-207.md): Level 200 · Apply, 24 h; Needs: LDS-DMG-101, LDS-DMG-201
+  - Describe how a national data assessment scores compliance, maturity and operational excellence, and what evidence each part needs.
+  - Prepare acceptance criteria stating what must exist, who approved it and what proves it operates.
+  - Classify evidence as sufficient, partial or insufficient, recording the reason and the gap.
+  - Compute maturity scores and operational metrics, tracing every level claimed to its evidence.
+  - Evaluate an AI-assisted mapping of documents to specifications and decide where the compliance process may use it.
+  - Deliver an evidence pack with a risk-ranked findings register and a corrective plan with owners and dates.
+- [LDS-DMG-208 · Master and Reference Data Management](../courses/LDS-DMG-208.md): Level 200 · Apply, 16 h; Needs: LDS-DMG-101
+  - Compare registry, consolidation, coexistence and centralised implementation styles.
+  - Configure matching rules with Arabic and English name normalisation and measure their precision and recall.
+  - Implement survivorship rules that form golden records from source trust, recency and completeness.
+  - Prepare a versioned reference code list with owner, definitions and a crosswalk from source codes.
+  - Design a stewardship workflow for uncertain matches and code changes, with roles, service levels and indicators.
+- [LDS-DMG-301 · Governing Data for AI: Training, Retrieval and Agent Access](../courses/LDS-DMG-301.md): Level 300 · Develop, 16 h; Needs: LDS-DMG-204
+  - Classify proposed AI data uses by data class, purpose and hosting as allowed, conditional or prohibited.
+  - Test a retrieval assistant for permission leaks and specify the label filter that closes them.
+  - Configure per-tool agent permissions as scoped, read-only or approval-gated.
+  - Review provider terms on retention, training on inputs, residency and deletion, and decide which data classes may be sent.
+  - Defend a data-for-AI standard with logging and retention rules, and a decision record for one case.
+- [LDS-DMG-302 · Drafting Data and AI Policies and Standards](../courses/LDS-DMG-302.md): Level 300 · Develop, 12 h; Needs: LDS-DMG-201
+  - Classify statements as policy, standard, procedure or guidance, and record gaps and conflicts.
+  - Draft testable requirements, each with one obligation, an owner and evidence of compliance.
+  - Prepare a traceability matrix from external instruments to internal requirements.
+  - Design an exception and review process with criteria, expiry, compensating controls and review triggers.
+  - Lead the consultation on a generative AI use standard and defend the revised text.

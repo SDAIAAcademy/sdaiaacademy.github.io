@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="In teams of two or three at a station with a low-cost open arm and a leader arm for teleoperation, participants collect and audit demonstrations, train an imitation policy, fine-tune a small pretrained action model, evaluate both over many trials in simulation and on the arm, and deploy the better o">
-<title>DEV-PHY-302 · Robot Learning Systems: Data, Policies and Deployment · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-PHY/DEV-PHY-302.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-PHY-302.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-PHY/DEV-PHY-302.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-PHY</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-PHY-302</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-PHY-302</span> <span class="t">Robot Learning Systems: Data, Policies and Deployment</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 300 · Develop</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">36 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-PHY</span> <span>Physical AI and Robotics Engineering</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 300 · Develop</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 4 teaching days and a capstone day at robot stations, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">36 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-PHY-201.html"><span class="code" dir="ltr">DEV-PHY-201</span> <span>Sensors, Perception and Compute for Physical AI</span></a></li></ul><ul class="plain-list"><li>Trains and debugs a neural network, as taught in <a href="../DEV-MLE/DEV-MLE-202.html">DEV-MLE-202</a></li><li>Has run a physics simulation; <a href="DEV-PHY-301.html">DEV-PHY-301</a> is recommended</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>In teams of two or three at a station with a low-cost open arm and a leader arm for teleoperation, participants collect and audit demonstrations, train an imitation policy, fine-tune a small pretrained action model, evaluate both over many trials in simulation and on the arm, and deploy the better one with a timed control loop, limits and a stop. Methods research belongs to <a href="../../data-science/SPC-GEN/SPC-GEN-401.html">SPC-GEN-401</a> and safety cases to <a href="DEV-PHY-401.html">DEV-PHY-401</a>; this course is about data, evaluation and deployment.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Collect teleoperated demonstrations and audit them for synchronisation, task success and coverage of starting conditions.</p><p class="o-more"><span class="k">Given</span> a leader-follower arm pair and a pick-and-place task.</p><p class="o-more"><span class="k">Evidence</span> a versioned dataset of at least 50 episodes with a dataset card and rejection log.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Train an imitation policy and fine-tune a small pretrained action model on the same data at matched compute.</p><p class="o-more"><span class="k">Given</span> a fixed budget of accelerator hours.</p><p class="o-more"><span class="k">Evidence</span> tracked runs with configurations, checkpoints and learning curves.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Evaluate policies with randomised starting conditions and enough trials to separate them.</p><p class="o-more"><span class="k">Given</span> both policies, a simulated task and the real arm.</p><p class="o-more"><span class="k">Evidence</span> success rates with intervals, a coded failure taxonomy and every trial recorded.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Deploy a policy with a control loop that meets its rate, enforces joint, workspace and speed limits and stops on command.</p><p class="o-more"><span class="k">Given</span> the station&#x27;s compute.</p><p class="o-more"><span class="k">Evidence</span> run logs with loop timing, zero limit violations and a passed stop test.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Diagnose the dominant failure of a deployed policy and decide what data to collect next.</p><p class="o-more"><span class="k">Given</span> a budget of 20 further demonstrations.</p><p class="o-more"><span class="k">Evidence</span> a data plan and a retrained policy whose change in success rate carries an interval.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Robot learning as a system</h3><ul><li>Observation and action spaces, control rates and latency</li><li>Where learned policies fail: contact, long horizons, novelty</li><li>Control, imitation or reinforcement learning</li></ul></div><div class="topic"><h3>Demonstration data</h3><ul><li>Teleoperation with leader arms, phones and headsets</li><li>Episodes, synchronisation and dataset formats</li><li>Quality audits, coverage and licences</li></ul></div><div class="topic"><h3>Policies</h3><ul><li>Behaviour cloning and compounding error</li><li>Action chunking and diffusion policies</li><li>Fine-tuning pretrained vision-language-action models</li></ul></div><div class="topic"><h3>Evaluation</h3><ul><li>Trial protocols, randomised starts and seeds</li><li>Success rates with confidence intervals</li><li>Simulation benchmarks versus real trials</li></ul></div><div class="topic"><h3>Deployment</h3><ul><li>Inference latency and asynchronous action execution</li><li>Limits, watchdogs and stops</li><li>Logging for replay and collecting corrections</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Robot learning library</dt><dd>LeRobot, a course-supplied policy codebase</dd></div><div><dt>Open arm with leader arm (provided, one station per two or three)</dt><dd>SO-101 pair, another open-hardware arm</dd></div><div><dt>Simulated benchmark tasks</dt><dd>MuJoCo tasks shipped with the library, LIBERO</dd></div><div><dt>Pretrained action model</dt><dd>a small open-weight vision-language-action model, an openly licensed generalist policy</dd></div><div><dt>Experiment tracking (training GPUs provided)</dt><dd>MLflow, TensorBoard</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check without AI: diagnose three faults from training curves and trial logs (15%)</li><li>Graded labs (35%)</li><li>Team capstone and evaluation report (25%)</li><li>Individual oral at the station (25%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall, at least 60% in the oral, and a passed stop test</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check, the oral and the first data audit. AI-tutor in the labs. AI-full for capstone code, which the participant must explain.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-PHY-301.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-PHY-301</span> Simulation and Digital Twins for AI Systems</span></a><a class="pager-next" rel="next" href="DEV-PHY-401.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-PHY-401</span> Safety Engineering for Autonomous Systems</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-PHY-302.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-PHY/DEV-PHY-302.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

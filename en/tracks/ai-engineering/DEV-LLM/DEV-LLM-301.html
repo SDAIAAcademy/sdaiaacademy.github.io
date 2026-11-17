@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants decide when adapting a model is worth it, then do it well. From error analysis of a failing extraction and function-calling feature, they build a tuning set from traces and teacher outputs, train low-rank adapters on a small open-weight model, distil a large model into it, evaluate it a">
-<title>DEV-LLM-301 · Model Adaptation for Applications: Fine-Tuning, Distillation and Small Models · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-301.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-LLM-301.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-301.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-LLM-301</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-LLM-301</span> <span class="t">Model Adaptation for Applications: Fine-Tuning, Distillation and Small Models</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 300 · Develop</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">36 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span> <span>Language Model Application Engineering</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 300 · Develop</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">36 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-LLM-201.html"><span class="code" dir="ltr">DEV-LLM-201</span> <span>Building Applications on Language Models</span></a></li><li><a href="DEV-LLM-202.html"><span class="code" dir="ltr">DEV-LLM-202</span> <span>Applied Natural Language Processing Engineering</span></a></li></ul><ul class="plain-list"><li>Reads a PyTorch training loop and diagnoses a loss curve</li><li>Compares two configurations on an evaluation set with a statistical test (<a href="../DEV-EVL/DEV-EVL-301.html">DEV-EVL-301</a> recommended)</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants decide when adapting a model is worth it, then do it well. From error analysis of a failing extraction and function-calling feature, they build a tuning set from traces and teacher outputs, train low-rank adapters on a small open-weight model, distil a large model into it, evaluate it against the base and a larger prompted model, and serve it quantised with several adapters. Research-grade post-training is <a href="../../data-science/SPC-DLR/SPC-DLR-306.html">SPC-DLR-306</a>; serving optimisation at scale is <a href="../DEV-INF/DEV-INF-401.html">DEV-INF-401</a>.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-performance">Performance</span><p class="o-do">Decide whether to prompt, retrieve, fine-tune or distil to fix an application&#x27;s failures.</p><p class="o-more"><span class="k">Given</span> an error analysis and limits on cost, latency and data placement.</p><p class="o-more"><span class="k">Evidence</span> a decision memo linking each failure to an option and its cost.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Prepare a tuning dataset with deduplication, decontamination, licence checks and personal-data removal.</p><p class="o-more"><span class="k">Given</span> 500 synthetic traces and teacher outputs.</p><p class="o-more"><span class="k">Evidence</span> a dataset card with split statistics.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement supervised fine-tuning with low-rank adapters on a small open-weight model.</p><p class="o-more"><span class="k">Given</span> one free or provided accelerator.</p><p class="o-more"><span class="k">Evidence</span> configuration, loss curves and adapter.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement distillation of a teacher&#x27;s behaviour into a student by generating, filtering and training on examples.</p><p class="o-more"><span class="k">Given</span> a teacher endpoint and a verifier.</p><p class="o-more"><span class="k">Evidence</span> student and teacher scores and cost per request.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Evaluate an adapted model against its base and a larger prompted model on task metrics, general ability and safety behaviour.</p><p class="o-more"><span class="k">Given</span> a held-out set and a regression suite.</p><p class="o-more"><span class="k">Evidence</span> paired comparisons with intervals and a regression list.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a serving setup for a quantised small model with several adapters and measure its latency, throughput and cost.</p><p class="o-more"><span class="k">Given</span> a laptop or single accelerator.</p><p class="o-more"><span class="k">Evidence</span> a serving configuration and load-test report.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>When to adapt</h3><ul><li>Prompt, retrieve, tune or distil</li><li>Tuning changes behaviour more than knowledge</li><li>What small models do and do not do reliably</li><li>Open-weight licences and terms of use</li></ul></div><div class="topic"><h3>Data for tuning</h3><ul><li>Traces, teacher outputs and corrections</li><li>Chat templates and tool-call formats</li><li>Deduplication and decontamination</li></ul></div><div class="topic"><h3>Adapters and distillation</h3><ul><li>Low-rank and quantised adapters</li><li>Function-calling fine-tuning</li><li>Teacher generation with verifier filtering</li></ul></div><div class="topic"><h3>Evaluating adapted models</h3><ul><li>Paired comparison against the base</li><li>Forgetting and regressions</li><li>Safety behaviour after tuning</li><li>Arabic and English slices</li></ul></div><div class="topic"><h3>Serving small models</h3><ul><li>Quantised formats</li><li>Several adapters on one base</li><li>Cost per thousand requests</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Small open-weight models</dt><dd>an instruction-tuned small model, a second small model from another family</dd></div><div><dt>Fine-tuning libraries</dt><dd>Transformers with PEFT and TRL, a plain PyTorch training loop</dd></div><div><dt>Model evaluation harness</dt><dd>lm-evaluation-harness, Inspect</dd></div><div><dt>Inference server</dt><dd>vLLM, SGLang, llama.cpp</dd></div><div><dt>Experiment tracking</dt><dd>MLflow, a versioned run log in the repository</dd></div><div><dt>Load testing</dt><dd>Locust, k6</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check without AI assistance: diagnose loss curves and a contaminated split (15%)</li><li>Graded labs (30%)</li><li>Capstone (45%)</li><li>Live defence (10%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall, 60% on the capstone and a pass on the supervised check</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check. AI-tutor in the labs. AI-full in the capstone, which the participant defends live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-LLM-205.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-LLM-205</span> Voice and Conversational Applications</span></a><a class="pager-next" rel="next" href="DEV-LLM-302.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-LLM-302</span> Arabic and Multilingual Language Applications</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-LLM-301.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-301.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

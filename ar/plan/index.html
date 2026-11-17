@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="description" content="دليل مقررات أكاديمية سدايا: مقررات في البيانات والذكاء الاصطناعي في خمسة مسارات، ولكل مقرر صفحة.">
+<title>خطتي · دليل مقررات أكاديمية سدايا</title>
+<link rel="icon" href="../../assets/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="../../en/plan/index.html">
+<link rel="stylesheet" href="../../assets/site.css">
+<script src="../../assets/site.js"></script>
+</head>
+<body data-page="plan">
+<a class="skip" href="#main">الانتقال إلى المحتوى</a>
+<header class="site-header">
+<div class="wrap bar">
+<a class="brand" href="../index.html"><img class="logo" src="../../assets/logo.svg" alt="أكاديمية سدايا" width="171" height="40"></a>
+<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="../courses/index.html">المقررات</a></li><li><a href="../paths/index.html">المسارات</a></li><li><a href="../path-finder/index.html">اعثر على مسارك</a></li><li><a class="plan-link" href="index.html" aria-current="page">خطتي<span class="plan-count" hidden></span></a></li></ul></nav>
+<div class="tools">
+<button type="button" class="btn-ai ask-ai-open" hidden><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg><span>اسأل الذكاء الاصطناعي</span></button>
+<a class="lang-switch" href="../../en/plan/index.html" lang="en" hreflang="en">English</a>
+<button type="button" class="theme-toggle" hidden data-to-dark="التحويل إلى المظهر الداكن" data-to-light="التحويل إلى المظهر الفاتح"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
+</div>
+</div>
+</header>
+<main id="main" class="wrap">
+
+<header class="page-head"><h1>خطتي</h1><p class="lead">المقررات التي اخترتها، بالترتيب الذي تقتضيه متطلباتها السابقة. تبقى الخطة في هذا المتصفح، وينقلها رابط المشاركة إلى أي مكان.</p></header>
+<noscript><p class="notice">تتطلب الخطة تفعيل JavaScript.</p></noscript>
+<div class="plan" id="plan" hidden>
+<div class="notice" id="plan-shared" hidden><p>تعرض الآن خطة مشاركة، ولا تتغير خطتك إلا إذا اخترت ذلك.</p><p class="actions"><button type="button" class="btn btn-primary" id="plan-use">اعتمدها خطتي</button><button type="button" class="btn" id="plan-merge">أضفها إلى خطتي</button></p></div>
+<p class="notice" id="plan-nostore" hidden>لا يحتفظ هذا المتصفح بالخطة بين الزيارات. احفظ رابط المشاركة لتعود إليها.</p>
+<p class="plan-total" id="plan-total" role="status" aria-live="polite"></p>
+<p class="empty" id="plan-empty" hidden>خطتك فارغة. أضف مقررات من صفحة مقرر أو من مسار أو من «اعثر على مسارك». <a href="../courses/index.html">تصفّح المقررات</a> · <a href="../path-finder/index.html">اعثر على مسارك</a></p>
+<ol class="rows view-list plan-list" id="plan-list"></ol>
+<div class="plan-tools" id="plan-tools">
+<div class="field share"><label for="plan-link">رابط المشاركة</label><div class="search-row"><input type="text" id="plan-link" readonly dir="ltr"><button type="button" class="btn" id="plan-copy">انسخ الرابط</button></div></div>
+<p class="actions"><button type="button" class="btn ask-ai-open" data-scope="plan" data-task="review"><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg>اطلب من الذكاء الاصطناعي مراجعة خطتي</button><button type="button" class="btn" id="plan-print">اطبع</button><button type="button" class="btn btn-quiet" id="plan-clear">امسح الخطة</button></p>
+</div></div>
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="../paths/index.html#fluency">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-LDS"><a href="../paths/index.html#executives-and-leaders">التنفيذيون والقادة</a></li><li class="acc-FND"><a href="../paths/index.html#foundations">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="../paths/index.html#ai-engineering">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="../paths/index.html#data-science">علم البيانات</a></li></ul></nav>
+</div>
+</footer>
+<dialog class="ai-dialog" id="ai-dialog" aria-labelledby="ai-title">
+<form method="dialog" class="ai-form">
+<div class="ai-head"><h2 id="ai-title"><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg>اسأل الذكاء الاصطناعي</h2><button type="submit" class="icon-btn" value="close" aria-label="إغلاق">&#215;</button></div>
+<p class="ai-note">يعمل الذكاء الاصطناعي في مساعدك أنت. تنسخ هذه الصفحة أمرًا ثم تفتح المساعد الذي تختاره: الصق الأمر إن كان المربع فارغًا. لا يُرسَل شيء من هذا الموقع.</p>
+<fieldset class="ai-scopes"><legend>عن</legend><ul><li data-scope="course"><input type="radio" name="ai-scope" id="ai-scope-course" value="course"><label for="ai-scope-course">هذا المقرر</label></li><li data-scope="path"><input type="radio" name="ai-scope" id="ai-scope-path" value="path"><label for="ai-scope-path">هذا المسار</label></li><li data-scope="plan"><input type="radio" name="ai-scope" id="ai-scope-plan" value="plan"><label for="ai-scope-plan">خطتي</label></li><li data-scope="catalog"><input type="radio" name="ai-scope" id="ai-scope-catalog" value="catalog"><label for="ai-scope-catalog">الدليل كله</label></li></ul></fieldset>
+<div class="field"><label for="ai-task">المهمة</label><select id="ai-task"><option value="ask" data-input="سؤالك">اطرح سؤالًا</option><option value="compare" data-input="المقررات التي تريد المقارنة بينها (الرموز أو العناوين)">قارن بين مقررات</option><option value="role" data-input="دورك وما تريد أن تستطيع فعله">أي مقرر يناسب دوري</option><option value="explain" data-input="ما تريد أن تفهمه (اختياري)">اشرح لي مقررًا</option><option value="placement" data-input="هدفك وخبرتك (اختياري)">اختبار تحديد المستوى</option><option value="review" data-input="الغرض من الخطة (اختياري)">راجع خطتي</option></select></div>
+<div class="field"><label for="ai-q" id="ai-q-label">سؤالك</label><textarea id="ai-q" rows="3"></textarea></div>
+<p class="ai-size" id="ai-size" aria-live="polite"></p>
+<fieldset class="ai-tools"><legend>افتح في</legend><div class="tool-grid" data-tools="dialog"></div></fieldset>
+<p class="ai-actions"><button type="button" class="btn" data-ai-copy>انسخ الأمر</button></p>
+</form>
+</dialog>
+<p class="toast" id="toast" role="status" aria-live="polite"></p>
+<script src="../../assets/catalog.ar.js"></script>
+<script src="../../assets/ai.js"></script>
+</body>
+</html>

@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants take a tabular classifier and a small open-weight language model from a notebook to a service that other people can call. They package each in a container image with pinned dependencies, serve it behind a typed HTTP API with validation and health checks, add structured logs, metrics and">
-<title>DEV-OPS-201 · Deploying AI Services: Containers, Serving and Monitoring · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-OPS/DEV-OPS-201.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-OPS-201.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-OPS/DEV-OPS-201.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-OPS-201</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-OPS-201</span> <span class="t">Deploying AI Services: Containers, Serving and Monitoring</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Intensive</span></li><li><span class="chip chip-plain">30 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span> <span>Operations and Reliability</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">30 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="plain-list"><li>Writes and runs Python scripts from the command line</li><li>Uses Git and a Python virtual environment, as taught in <a href="../../foundations/FND-PRG/FND-PRG-102.html">FND-PRG-102</a></li><li>Has called an HTTP API and read a JSON response</li><li>Loads a saved model in Python and calls it for predictions</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants take a tabular classifier and a small open-weight language model from a notebook to a service that other people can call. They package each in a container image with pinned dependencies, serve it behind a typed HTTP API with validation and health checks, add structured logs, metrics and alerts, and release a new version through a staged rollout that they reverse when a health signal fails. Labs run on a laptop with 16 GB of memory, or on a provided lab virtual machine where a laptop cannot run containers.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Distinguish batch, online and streaming inference and the signals that matter for each.</p><p class="o-more"><span class="k">Given</span> four described use cases.</p><p class="o-more"><span class="k">Evidence</span> a decision table matching the reference on three of four rows.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Package a model as a reproducible container image with pinned dependencies and no secrets inside.</p><p class="o-more"><span class="k">Given</span> a trained tabular model and its notebook.</p><p class="o-more"><span class="k">Evidence</span> an image that builds from a clean checkout and reproduces the notebook&#x27;s predictions.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement a serving endpoint with input validation, timeouts, a concurrency limit and health checks.</p><p class="o-more"><span class="k">Given</span> the packaged model and a small language model on a local server.</p><p class="o-more"><span class="k">Evidence</span> a passing contract test suite, including overload and malformed-input cases.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure structured logs, request metrics and two alerts with documented thresholds.</p><p class="o-more"><span class="k">Given</span> the service under a provided load script.</p><p class="o-more"><span class="k">Evidence</span> a dashboard export and an alert that fires on a seeded fault.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Deliver a new version through a health-gated staged rollout and roll it back when a signal degrades.</p><p class="o-more"><span class="k">Given</span> a defective version on a single-node cluster.</p><p class="o-more"><span class="k">Evidence</span> a run log showing rollback within the stated recovery time.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Prepare a runbook with versions, artefact hashes, owner, alerts and rollback steps.</p><p class="o-more"><span class="k">Given</span> the participant&#x27;s deployed service.</p><p class="o-more"><span class="k">Evidence</span> a peer redeploys and rolls back the service from it unaided.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>From notebook to service</h3><ul><li>Batch, online and streaming inference</li><li>Service contracts</li><li>Latency, throughput and cost as requirements</li></ul></div><div class="topic"><h3>Packaging</h3><ul><li>Images, layers and multi-stage builds</li><li>Pinned dependencies</li><li>Secrets out of images; image scanning</li></ul></div><div class="topic"><h3>Serving</h3><ul><li>Typed APIs and input validation</li><li>Timeouts, retries and concurrency limits</li><li>A small language model behind a standard chat-completions interface</li><li>Health, readiness and warm-up</li></ul></div><div class="topic"><h3>Observability basics</h3><ul><li>Structured logs and correlation identifiers</li><li>Latency, traffic, errors and saturation</li><li>Tokens and time to first token</li><li>Personal data kept out of logs</li></ul></div><div class="topic"><h3>Releasing</h3><ul><li>Immutable, versioned artefacts</li><li>Deployments, services and probes on a single-node cluster</li><li>Rolling and blue-green updates</li><li>Rollback drills and runbooks</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Containers and a single-node cluster</dt><dd>Podman or Docker, kind or k3s</dd></div><div><dt>Serving framework and local model runtime</dt><dd>FastAPI, Ray Serve, llama.cpp server</dd></div><div><dt>Metrics, logs and dashboards</dt><dd>OpenTelemetry, Prometheus, Grafana</dd></div><div><dt>Image and secret scanning</dt><dd>Trivy, gitleaks</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check: diagnose three faults from a container file, logs and a dashboard (15%)</li><li>Graded labs (35%)</li><li>Capstone on a five-criterion rubric (40%)</li><li>Live recovery (10%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall, 60% on the supervised check, and a completed rollback in the live session</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check and the first container file. AI-tutor in the labs. AI-full in the capstone, explained live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><span></span><a class="pager-next" rel="next" href="DEV-OPS-301.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-OPS-301</span> Machine Learning Operations: Pipelines, Registries and Delivery</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-OPS-201.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-OPS/DEV-OPS-201.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

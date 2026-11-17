@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants make a language model train faster and larger on the hardware they have. They account for floating-point operations (FLOPs), memory and communication before running anything, profile a training step, write a fused attention kernel and test it against a reference, fit a larger model into">
-<title>SPC-DLR-304 · Training Systems for Large Models · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/data-science/SPC-DLR/SPC-DLR-304.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/SPC-DLR-304.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-SPC">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/data-science/SPC-DLR/SPC-DLR-304.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">Data Science</a></li><li><a href="index.html"><span class="code" dir="ltr">SPC-DLR</span></a></li><li aria-current="page"><span class="code" dir="ltr">SPC-DLR-304</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">SPC-DLR-304</span> <span class="t">Training Systems for Large Models</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 300 · Develop</span></li><li><span class="chip">Extended</span></li><li><span class="chip chip-plain">60 h</span></li><li><span class="chip chip-plain">Audience: specialist</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">Data Science</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">SPC-DLR</span> <span>Deep Learning and Model Development</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 300 · Develop</p></div><div class="fact"><h2>Audience</h2><p>specialist</p></div><div class="fact"><h2>Format</h2><p>Extended: 10 weeks part-time, one lecture and one long lab a week on a provided multi-GPU node, four graded assignments, a supervised test and a performance capstone</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">60 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="SPC-DLR-303.html"><span class="code" dir="ltr">SPC-DLR-303</span> <span>Building a Language Model from Scratch</span></a></li></ul><ul class="plain-list"><li>Explains processes, memory hierarchy and caches, at the depth of <a href="../../foundations/FND-PRG/FND-PRG-105.html">FND-PRG-105</a></li><li>Reads simple C or array-kernel code</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants make a language model train faster and larger on the hardware they have. They account for floating-point operations (FLOPs), memory and communication before running anything, profile a training step, write a fused attention kernel and test it against a reference, fit a larger model into memory with mixed precision and activation checkpointing, and build sharded data parallelism from collective primitives, tracking model FLOPs utilisation (MFU) throughout. Labs debug on CPU processes, then run on a provided multi-GPU node. Fleet operation at scale is <a href="../../ai-engineering/DEV-INF/DEV-INF-402.html">DEV-INF-402</a>.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Compute the arithmetic, memory and communication cost of a training configuration and predict its step time with a roofline model.</p><p class="o-more"><span class="k">Given</span> published accelerator specifications.</p><p class="o-more"><span class="k">Evidence</span> a resource sheet set beside measured step time and peak memory.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Analyse a profiler trace of a training step, attributing time to kernels, transfers, data loading and communication.</p><p class="o-more"><span class="k">Given</span> a reference script for a small transformer.</p><p class="o-more"><span class="k">Evidence</span> an annotated trace naming the three largest bottlenecks.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a fused attention kernel with tiling and an online softmax.</p><p class="o-more"><span class="k">Given</span> a kernel language, a reference implementation and a test harness.</p><p class="o-more"><span class="k">Evidence</span> passing correctness tests and time and memory benchmarks across sequence lengths.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build data-parallel training with sharded optimiser state from collective communication primitives.</p><p class="o-more"><span class="k">Given</span> several worker processes, first on CPU and then on GPUs.</p><p class="o-more"><span class="k">Evidence</span> loss curves matching a single-device run and a scaling-efficiency table.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Optimise end-to-end training throughput under a fixed memory limit without changing results beyond a stated tolerance.</p><p class="o-more"><span class="k">Given</span> a reference script and the provided node.</p><p class="o-more"><span class="k">Evidence</span> MFU, peak memory and loss-parity plots before and after.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Analyse tensor, pipeline, sequence and expert parallelism plans for a model too large for one node.</p><p class="o-more"><span class="k">Given</span> an analytical simulator and an interconnect specification.</p><p class="o-more"><span class="k">Evidence</span> a one-page plan with memory per device, communication time and expected utilisation.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Resource accounting</h3><ul><li>FLOPs and memory per training step</li><li>Arithmetic intensity and the roofline model</li><li>Model FLOPs utilisation</li></ul></div><div class="topic"><h3>Profiling and benchmarking</h3><ul><li>Timers, synchronisation and warm-up</li><li>Profiler traces</li><li>Variance and honest benchmarks</li></ul></div><div class="topic"><h3>Kernels</h3><ul><li>GPU execution model and memory hierarchy</li><li>Tiling and fusion</li><li>Compilers against hand-written kernels</li></ul></div><div class="topic"><h3>Precision and memory</h3><ul><li>Low-precision formats including 8-bit floating point</li><li>Loss scaling</li><li>Activation checkpointing, accumulation and offloading</li></ul></div><div class="topic"><h3>Distributed training</h3><ul><li>Collective operations and their cost</li><li>Data parallelism and sharded state</li><li>Tensor, pipeline, sequence and expert parallelism</li><li>Checkpointing and restart</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Tensor framework and distributed runtime</dt><dd>PyTorch distributed, JAX with sharding, DeepSpeed</dd></div><div><dt>GPU kernel language</dt><dd>Triton, CUDA C++</dd></div><div><dt>Profilers and trace viewers</dt><dd>the framework profiler, Nsight Systems, Perfetto</dd></div><div><dt>Analytical performance model</dt><dd>MLSys·im, a spreadsheet roofline model</dd></div><div><dt>Compute</dt><dd>a provided node with several GPUs, CPU worker processes for debugging</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Four assignments with correctness and speed tests (35%)</li><li>Supervised test without AI assistance on resource arithmetic and parallelism (20%)</li><li>Capstone report and review (45%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>Correctness tests passed on every assignment, 60% on the supervised test and 70% overall</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off in the supervised test and for the first version of the attention kernel. AI-tutor in the other labs. AI-full in the capstone, where every speed claim needs a trace the participant explains.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="SPC-DLR-303.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">SPC-DLR-303</span> Building a Language Model from Scratch</span></a><a class="pager-next" rel="next" href="SPC-DLR-305.html"><span class="k">Next course</span><span><span class="code" dir="ltr">SPC-DLR-305</span> Data and Scaling for Foundation Models</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/SPC-DLR-304.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/data-science/SPC-DLR/SPC-DLR-304.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../../ai-engineering/index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

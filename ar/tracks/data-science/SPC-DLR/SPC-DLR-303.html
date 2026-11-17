@@ -3,50 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="يكتب المشاركون بأنفسهم كل جزء من نموذج لغوي صغير قائم على المفكِّك وحده، من دون مكتبات للنماذج: أداة تقطيع إلى وحدات نصية (tokeniser) على مستوى البايت بخوارزمية دمج أزواج البايتات (BPE) تُدرَّب على نصوص عربية وإنجليزية، والمحوِّل، والمحسِّن وحلقة التدريب، وفك الترميز باستخدام ذاكرة KV المؤقتة. وبعد ">
-<title>SPC-DLR-303 · بناء نموذج لغوي من الصفر · دليل مقررات أكاديمية سدايا</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="en" href="../../../../en/tracks/data-science/SPC-DLR/SPC-DLR-303.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/SPC-DLR-303.html">
+<title>نُقلت هذه الصفحة · دليل مقررات أكاديمية سدايا</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-SPC">
+<body>
 <a class="skip" href="#main">الانتقال إلى المحتوى</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="أكاديمية سدايا" width="171" height="40"></a>
-<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../../../courses/index.html" class="here">المقررات</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../en/tracks/data-science/SPC-DLR/SPC-DLR-303.html" lang="en" hreflang="en">English</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="التحويل إلى المظهر الداكن" data-to-light="التحويل إلى المظهر الفاتح"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="مسار التصفح"><ol><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../index.html">علم البيانات</a></li><li><a href="index.html"><span class="code" dir="ltr">SPC-DLR</span></a></li><li aria-current="page"><span class="code" dir="ltr">SPC-DLR-303</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">SPC-DLR-303</span> <span class="t">بناء نموذج لغوي من الصفر</span></h1>
-<p class="alt-title"><bdi lang="en">Building a Language Model from Scratch</bdi></p>
-<ul class="chips"><li><span class="chip chip-level">المستوى 300 · التطوير</span></li><li><span class="chip">برنامج ممتد</span></li><li><span class="chip chip-plain">80 ساعة</span></li><li><span class="chip chip-plain">الفئة المستهدفة: مختص</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="نظرة سريعة"><div class="fact"><h2>المسار</h2><p><a href="../index.html">علم البيانات</a></p></div><div class="fact"><h2>المسار الفرعي</h2><p><a href="index.html"><span class="code" dir="ltr">SPC-DLR</span> <span>التعلم العميق وتطوير النماذج</span></a></p></div><div class="fact"><h2>المستوى</h2><p>المستوى 300 · التطوير</p></div><div class="fact"><h2>الفئة المستهدفة</h2><p>مختص</p></div><div class="fact"><h2>الصيغة</h2><p>برنامج ممتد: 12 أسبوعًا بدوام جزئي، بمحاضرة واحدة ومختبر طويل واحد في الأسبوع، وخمسة واجبات مقيَّمة، واختبار مراقب، ومشروع ختامي للتدريب من البداية إلى النهاية</p></div><div class="fact"><h2>إجمالي الساعات</h2><p class="hours-total">80 ساعة</p></div><div class="fact"><h2>المتطلبات السابقة</h2><ul class="ref-list"><li><a href="SPC-DLR-302.html"><span class="code" dir="ltr">SPC-DLR-302</span> <span>التعلم العميق من المبادئ الأولى</span></a></li></ul><ul class="plain-list"><li>يكتب رموز التدريب البرمجية بإطار PyTorch أو JAX ويصحح أخطاءها</li><li>يستخدم سطر الأوامر وإدارة الإصدارات وجهازًا بعيدًا، بمستوى المقرر <a href="../../foundations/FND-PRG/FND-PRG-102.html">FND-PRG-102</a></li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>الوصف</h2><p>يكتب المشاركون بأنفسهم كل جزء من نموذج لغوي صغير قائم على المفكِّك وحده، من دون مكتبات للنماذج: أداة تقطيع إلى وحدات نصية (tokeniser) على مستوى البايت بخوارزمية دمج أزواج البايتات (BPE) تُدرَّب على نصوص عربية وإنجليزية، والمحوِّل، والمحسِّن وحلقة التدريب، وفك الترميز باستخدام ذاكرة KV المؤقتة. وبعد تصحيح الأخطاء على وحدة المعالجة المركزية يدربون نموذجًا من البداية إلى النهاية على نصوص عامة ضمن ميزانية ثابتة من وقت المسرِّعات، ثم يقيّمونه وينشرونه مع بطاقة النموذج. ويتناول المقرر <a href="SPC-DLR-304.html">SPC-DLR-304</a> أنظمة التدريب، والمقرر <a href="SPC-DLR-305.html">SPC-DLR-305</a> مسارات معالجة البيانات، والمقرر <a href="SPC-DLR-306.html">SPC-DLR-306</a> التدريب اللاحق.</p></section>
-<section class="sec"><h2>نواتج التعلم</h2><p class="sec-lead">بنهاية المقرر يستطيع المشارك أن:</p><ol class="outcomes"><li><span class="tag tag-performance">أدائي</span><p class="o-do">يبني أداة تقطيع إلى وحدات نصية بخوارزمية BPE على مستوى البايت ويقارن معدل ضغطها بين اللغات.</p><p class="o-more"><span class="k">المعطيات</span> على نصوص عربية وإنجليزية عامة وضمن حجم مفردات مستهدف.</p><p class="o-more"><span class="k">الدليل</span> أداة تقطيع تجتاز الاختبارات المرجعية، وجدول لعدد البايتات لكل وحدة نصية بحسب اللغة.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يبني محوِّلًا قائمًا على المفكِّك وحده وحلقة تدريبه من عمليات الموترات.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام اختبارات وحدة تقارن بمخرجات مرجعية.</p><p class="o-more"><span class="k">الدليل</span> اختبارات مكونات ناجحة، ومنحنى خسارة يُظهر فرط التخصيص على دفعة واحدة ثم تدريبًا مستقرًا.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يحسب المعلَّمات والعمليات والذاكرة لإعداد معين، ويختار حجم النموذج وعدد الوحدات النصية ضمن الميزانية.</p><p class="o-more"><span class="k">المعطيات</span> ضمن عدد ثابت من ساعات المسرِّعات.</p><p class="o-more"><span class="k">الدليل</span> ورقة موارد يطابق فيها زمن الخطوة والذاكرة المتوقعان التشغيل المقيس ضمن هامش 20%.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">ينفذ استراتيجيات المعاينة وذاكرة KV المؤقتة للتوليد.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام النموذج المدرب ومجموعة ثابتة من الأوامر.</p><p class="o-more"><span class="k">الدليل</span> اختبار مرجعي للسرعة مع الذاكرة المؤقتة ودونها، ولتنوع المخرجات بحسب الاستراتيجية.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يشخّص عدم الاستقرار في تدريب النموذج اللغوي من سجلات الخسارة ومعايير التدرجات (gradient norms) وإحصاءات التنشيطات.</p><p class="o-more"><span class="k">المعطيات</span> في عمليات تشغيل مزروعة فيها قفزات في الخسارة وتباعد.</p><p class="o-more"><span class="k">الدليل</span> ملاحظة تسمّي كل سبب والتغيير الذي أزاله.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يقيّم نموذجًا لغويًا صغيرًا مدربًا بالخسارة على بيانات محجوزة وبالاختبارات المرجعية والعينات، ويوثّق حدوده.</p><p class="o-more"><span class="k">المعطيات</span> بالمقارنة مع نموذج مرجعي منشور مماثل في الحجم.</p><p class="o-more"><span class="k">الدليل</span> بطاقة نموذج تتضمن البتات لكل بايت، والدرجات مع فتراتها، وفحصًا للتلوث، وأنماط الفشل.</p></li></ol></section>
-<section class="sec"><h2>الموضوعات</h2><div class="topics"><div class="topic"><h3>التقطيع إلى وحدات نصية</h3><ul><li>معيار Unicode وتسوية الكتابة العربية</li><li>تدريب خوارزمية BPE وتطبيقها</li><li>حجم المفردات وتفاوت تكلفة الوحدات النصية بين اللغات</li></ul></div><div class="topic"><h3>المحوِّل</h3><ul><li>الانتباه السببي متعدد الرؤوس والانتباه بالاستعلامات المجمعة</li><li>الترميز الموضعي الدوراني</li><li>التسوية المسبقة وطبقات التغذية الأمامية ذات البوابات</li></ul></div><div class="topic"><h3>التدريب</h3><ul><li>الإنتروبيا المتقاطعة للتنبؤ بالوحدة النصية التالية</li><li>محسِّن AdamW والإحماء وجداول جيب التمام</li><li>قص التدرجات وتجميعها والدقة المختلطة ونقاط الحفظ</li><li>حساب الموارد قبل التشغيل</li></ul></div><div class="topic"><h3>فك الترميز</h3><ul><li>درجة الحرارة ومعاينة top-k والمعاينة النووية</li><li>ذاكرة KV المؤقتة</li><li>التوليد بالدفعات</li></ul></div><div class="topic"><h3>التقييم</h3><ul><li>الحيرة والبتات لكل بايت</li><li>الاختبارات المرجعية المصحَّحة بالأرجحية</li><li>فحوص التلوث</li><li>القراءة النقدية للعينات</li></ul></div></div></section>
-<section class="sec"><h2>الأدوات والمنصات</h2><p class="sec-lead">هذه أمثلة، ويجوز استخدام أي بديل مكافئ.</p><dl class="pairs"><div><dt>إطار عمل للموترات</dt><dd>PyTorch، JAX</dd></div><div><dt>تنفيذات مرجعية للتحقق لا للنسخ</dt><dd>nanochat، الرموز البرمجية المرافقة لكتب دراسية مفتوحة تبني النماذج من الصفر</dd></div><div><dt>مدونات نصية عامة</dt><dd>نسخ ويكيبيديا العربية والإنجليزية، عينات من Common Crawl، مدونات قصص اصطناعية صغيرة</dd></div><div><dt>إطار التقييم</dt><dd>lm-evaluation-harness، Inspect</dd></div><div><dt>الحوسبة</dt><dd>ساعات وحدات معالجة الرسومات (GPU) لدى الأكاديمية بميزانية لكل مشارك، وحدة المعالجة المركزية في حاسب محمول لتصحيح الأخطاء</dd></div></dl></section>
-<section class="sec"><h2>كيف يُقيَّم العمل</h2><ul><li>خمسة واجبات مع اختبارات آلية للمكونات (25%)</li><li>اختبار مراقب دون مساعدة الذكاء الاصطناعي (20%)</li><li>مستودع المشروع الختامي وبطاقة النموذج (40%)</li><li>المناقشة الشفهية (15%)</li></ul><dl class="pairs"><div><dt>معيار الاجتياز</dt><dd>اجتياز جميع اختبارات المكونات، و60% في الاختبار المراقب، و70% إجمالًا</dd></div></dl></section>
-<section class="sec"><h2>استخدام الذكاء الاصطناعي في المقرر</h2><p>دون ذكاء اصطناعي، بما في ذلك الإكمال التلقائي، في مكونات النموذج وفي الاختبار المراقب. ذكاء اصطناعي مرشد لتصحيح الأخطاء في المختبرات. ذكاء اصطناعي كامل في أدوات المشروع الختامي مثل برامج معالجة البيانات والرسوم البيانية؛ وتبقى الرموز البرمجية للنموذج من عمل المشارك نفسه.</p><p class="legend">دون ذكاء اصطناعي: بلا أي مساعدة. ذكاء اصطناعي مرشد: مساعد يلمّح ويشرح ولا يعطي الإجابة. ذكاء اصطناعي كامل: أي مساعدة، والمشارك مسؤول عن النتيجة ويدافع عنها.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="المقرر السابق والمقرر التالي"><a class="pager-prev" rel="prev" href="SPC-DLR-302.html"><span class="k">المقرر السابق</span><span><span class="code" dir="ltr">SPC-DLR-302</span> التعلم العميق من المبادئ الأولى</span></a><a class="pager-next" rel="next" href="SPC-DLR-304.html"><span class="k">المقرر التالي</span><span><span class="code" dir="ltr">SPC-DLR-304</span> أنظمة تدريب النماذج الكبيرة</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>نُقلت هذه الصفحة</h1>
+<p>عنوانها الجديد: <a href="../../../courses/SPC-DLR-303.html">افتح الصفحة</a></p>
+<p><a class="lang-switch" href="../../../../en/tracks/data-science/SPC-DLR/SPC-DLR-303.html" lang="en" hreflang="en">English</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">التنفيذيون والقادة</a></li><li class="acc-FND"><a href="../../foundations/index.html">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="../../ai-engineering/index.html">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="../index.html">علم البيانات</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

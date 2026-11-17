@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants operate a small agent fleet on a provided cluster. They version each agent as one bundle, keep durable sessions alive through crashes and upgrades, test that tools are safe to retry, run sandboxes with quotas and egress policies, replay recorded traces to reproduce incidents, and thrott">
-<title>DEV-OPS-303 · Operating AI Agents: Durable Execution, Sandboxing and Replay · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-OPS/DEV-OPS-303.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-OPS-303.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-OPS/DEV-OPS-303.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-OPS-303</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-OPS-303</span> <span class="t">Operating AI Agents: Durable Execution, Sandboxing and Replay</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 300 · Develop</span></li><li><span class="chip">Workshop</span></li><li><span class="chip chip-plain">16 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-OPS</span> <span>Operations and Reliability</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 300 · Develop</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Workshop: two days with labs and an operations shift</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">16 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="../DEV-AGT/DEV-AGT-301.html"><span class="code" dir="ltr">DEV-AGT-301</span> <span>Agentic Systems Engineering: Loops, Context and Harnesses</span></a></li><li><a href="DEV-OPS-302.html"><span class="code" dir="ltr">DEV-OPS-302</span> <span>Operating Language Model Applications: Tracing, Evaluation Gates and Safe Releases</span></a></li></ul><ul class="plain-list"><li><a href="../DEV-AGT/DEV-AGT-402.html">DEV-AGT-402</a>, or has run agents on a durable workflow engine</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants operate a small agent fleet on a provided cluster. They version each agent as one bundle, keep durable sessions alive through crashes and upgrades, test that tools are safe to retry, run sandboxes with quotas and egress policies, replay recorded traces to reproduce incidents, and throttle or stop agents at a gateway. Platform construction is in <a href="../DEV-AGT/DEV-AGT-402.html">DEV-AGT-402</a>.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement an agent bundle that pins model, prompts, tool schemas, skills and harness settings.</p><p class="o-more"><span class="k">Given</span> an agent changed by an unrecorded skill edit.</p><p class="o-more"><span class="k">Evidence</span> a versioned bundle and a trace diff naming the edit.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Test tool idempotency by injecting crashes, timeouts and duplicate deliveries.</p><p class="o-more"><span class="k">Given</span> a durable workflow with one tool unsafe to retry.</p><p class="o-more"><span class="k">Evidence</span> a rerun with no duplicate side effects after the fix.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Diagnose an agent failure by replaying its recorded trace against two versions.</p><p class="o-more"><span class="k">Given</span> a failing session with captured tool responses.</p><p class="o-more"><span class="k">Evidence</span> a deterministic reproduction and a root-cause note.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Decide whether to drain, pin or migrate in-flight sessions for an upgrade, then carry it out.</p><p class="o-more"><span class="k">Given</span> 20 running sessions and a breaking schema change.</p><p class="o-more"><span class="k">Evidence</span> a log in which every session finishes or is handed back.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Configure per-agent rate and spend limits, tool allowlists and a kill switch.</p><p class="o-more"><span class="k">Given</span> a gateway in front of models and tools.</p><p class="o-more"><span class="k">Evidence</span> a runaway agent stopped within a stated time, with audit entries.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Versioning agents</h3><ul><li>Session, harness and sandbox split</li><li>The agent bundle</li><li>In-flight sessions during upgrades</li></ul></div><div class="topic"><h3>Durable execution</h3><ul><li>Checkpoints and orphaned sessions</li><li>Idempotency keys and duplicates</li><li>Approval waits and timeouts</li><li>Health signals: steps, tool errors, stuck sessions</li></ul></div><div class="topic"><h3>Sandboxes and controls</h3><ul><li>Warm pools, quotas and egress policies</li><li>Rate, spend and step budgets</li><li>Kill switches and runbooks</li></ul></div><div class="topic"><h3>Replay</h3><ul><li>Recorded tool responses</li><li>Replay for reproduction and regression</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Durable execution</dt><dd>Temporal, a state-graph framework with a checkpointer</dd></div><div><dt>Agent sandbox</dt><dd>Kubernetes agent-sandbox with gVisor, OpenSandbox</dd></div><div><dt>Agent gateway</dt><dd>agentgateway, Agent Router</dd></div><div><dt>Tracing and fault injection</dt><dd>Langfuse or Arize Phoenix, Toxiproxy or Chaos Mesh</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check: locate a failure in a workflow history (15%)</li><li>Graded labs (40%)</li><li>Operations shift (45%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall and 60% on the supervised check</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check. AI-tutor in the labs. AI-full in the shift, explained live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-OPS-302.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-OPS-302</span> Operating Language Model Applications: Tracing, Evaluation Gates and Safe Releases</span></a><a class="pager-next" rel="next" href="DEV-OPS-304.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-OPS-304</span> AI Cost Engineering: Gateways, Routing, Caching and Unit Economics</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-OPS-303.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-OPS/DEV-OPS-303.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

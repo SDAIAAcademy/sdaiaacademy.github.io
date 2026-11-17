@@ -3,49 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="Participants turn scanned and digital documents into checked data. They compare parsers and vision models on Arabic and English pages, score parsing on its own, extract fields from forms and tables with validation rules, index page images beside parsed text, and send low-confidence fields to human r">
-<title>DEV-LLM-204 · Document Intelligence: Parsing, Extraction and Multimodal Retrieval · SDAIA Academy Course Catalog</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="ar" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-204.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-LLM-204.html">
+<title>This page has moved · SDAIA Academy Course Catalog</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../../../courses/index.html" class="here">Courses</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-204.html" lang="ar" hreflang="ar">العربية</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="Switch to dark theme" data-to-light="Switch to light theme"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../../../index.html">Home</a></li><li><a href="../../index.html">Tracks</a></li><li><a href="../index.html">AI Engineering</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-LLM-204</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-LLM-204</span> <span class="t">Document Intelligence: Parsing, Extraction and Multimodal Retrieval</span></h1>
-<ul class="chips"><li><span class="chip chip-level">Level 200 · Apply</span></li><li><span class="chip">Workshop</span></li><li><span class="chip chip-plain">16 h</span></li><li><span class="chip chip-plain">Audience: practitioner</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="At a glance"><div class="fact"><h2>Track</h2><p><a href="../index.html">AI Engineering</a></p></div><div class="fact"><h2>Stream</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span> <span>Language Model Application Engineering</span></a></p></div><div class="fact"><h2>Level</h2><p>Level 200 · Apply</p></div><div class="fact"><h2>Audience</h2><p>practitioner</p></div><div class="fact"><h2>Format</h2><p>Workshop: two days with labs and a short build project, with guided pre-work</p></div><div class="fact"><h2>Total hours</h2><p class="hours-total">16 h</p></div><div class="fact"><h2>Prerequisites</h2><ul class="ref-list"><li><a href="DEV-LLM-201.html"><span class="code" dir="ltr">DEV-LLM-201</span> <span>Building Applications on Language Models</span></a></li></ul><ul class="plain-list"><li>Validates model output against a schema in Python</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>Description</h2><p>Participants turn scanned and digital documents into checked data. They compare parsers and vision models on Arabic and English pages, score parsing on its own, extract fields from forms and tables with validation rules, index page images beside parsed text, and send low-confidence fields to human review. The data is a synthetic set of tender forms, invoices and reports with tables, stamps and mixed scripts.</p></section>
-<section class="sec"><h2>Learning outcomes</h2><p class="sec-lead">By the end, the participant can:</p><ol class="outcomes"><li><span class="tag tag-awareness">Awareness</span><p class="o-do">Compare pipeline parsers, small document models and general vision-language models for layout, tables and Arabic text.</p><p class="o-more"><span class="k">Given</span> five sample pages.</p><p class="o-more"><span class="k">Evidence</span> a one-page selection note.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Measure parsing quality separately from extraction with edit distance and table-structure scores.</p><p class="o-more"><span class="k">Given</span> 40 pages with reference transcriptions.</p><p class="o-more"><span class="k">Evidence</span> a comparison by page type and language.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement schema-based extraction with field rules and cross-field checks.</p><p class="o-more"><span class="k">Given</span> 100 synthetic forms.</p><p class="o-more"><span class="k">Evidence</span> field accuracy and rejected records with reasons.</p></li><li><span class="tag tag-applied">Applied</span><p class="o-do">Implement retrieval that indexes page images alongside parsed text.</p><p class="o-more"><span class="k">Given</span> 30 queries over pages with charts.</p><p class="o-more"><span class="k">Evidence</span> recall with and without images.</p></li><li><span class="tag tag-performance">Performance</span><p class="o-do">Build a pipeline that routes low-confidence fields to human review.</p><p class="o-more"><span class="k">Given</span> a target error rate.</p><p class="o-more"><span class="k">Evidence</span> automation rate against error rate.</p></li></ol></section>
-<section class="sec"><h2>Topics</h2><div class="topics"><div class="topic"><h3>Parsing</h3><ul><li>Born-digital text layers versus scanned pages</li><li>Character recognition, layout and reading order</li><li>Right-to-left and mixed scripts</li><li>Specialised versus general vision models</li></ul></div><div class="topic"><h3>Tables and forms</h3><ul><li>Table structure</li><li>Fields, checkboxes and stamps</li></ul></div><div class="topic"><h3>Extraction with validation</h3><ul><li>Schemas and field rules</li><li>Cross-field checks</li><li>Confidence and abstention</li><li>Hidden text and instructions in documents</li></ul></div><div class="topic"><h3>Retrieval and review</h3><ul><li>Page images as retrieval units</li><li>Human review queues and their cost</li></ul></div></div></section>
-<section class="sec"><h2>Tools and platforms</h2><p class="sec-lead">These are examples. Any equivalent tool may be used instead.</p><dl class="pairs"><div><dt>Document parsing</dt><dd>Docling, Unstructured, an open-weight document vision model</dd></div><div><dt>Character recognition with Arabic support</dt><dd>Tesseract, PaddleOCR</dd></div><div><dt>Vision-language model access</dt><dd>a locally served open-weight model, any commercial API</dd></div><div><dt>Image and text retrieval</dt><dd>colpali-engine, a vision-language embedding model with any vector index</dd></div></dl></section>
-<section class="sec"><h2>How the work is assessed</h2><ul><li>Supervised check without AI assistance: score a parse against its reference and find extraction errors (15%)</li><li>Graded labs (45%)</li><li>Build project with defence (40%)</li></ul><dl class="pairs"><div><dt>To pass</dt><dd>70% overall and a pass on the supervised check</dd></div></dl></section>
-<section class="sec"><h2>Use of AI in the course</h2><p>AI-off for the supervised check. AI-tutor in the labs. AI-full in the build project, which the participant defends live.</p><p class="legend">AI-off: no AI assistance. AI-tutor: an assistant that hints and explains but does not give the answer. AI-full: any assistance; the participant owns the result and defends it.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="Previous and next course"><a class="pager-prev" rel="prev" href="DEV-LLM-203.html"><span class="k">Previous course</span><span><span class="code" dir="ltr">DEV-LLM-203</span> Retrieval and Knowledge Engineering for Language Model Systems</span></a><a class="pager-next" rel="next" href="DEV-LLM-205.html"><span class="k">Next course</span><span><span class="code" dir="ltr">DEV-LLM-205</span> Voice and Conversational Applications</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>This page has moved</h1>
+<p>Its new address: <a href="../../../courses/DEV-LLM-204.html">open the page</a></p>
+<p><a class="lang-switch" href="../../../../ar/tracks/ai-engineering/DEV-LLM/DEV-LLM-204.html" lang="ar" hreflang="ar">العربية</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="../../foundations/index.html">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="../index.html">AI Engineering</a></li><li class="acc-SPC"><a href="../../data-science/index.html">Data Science</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

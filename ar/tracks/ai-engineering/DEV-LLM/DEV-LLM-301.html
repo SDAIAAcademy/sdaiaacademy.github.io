@@ -3,50 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="description" content="يقرر المشاركون متى يستحق تكييف النموذج الجهد المبذول، ثم ينفذونه على الوجه الصحيح. فانطلاقًا من تحليل أخطاء خاصية استخراج واستدعاء وظائف لا تعمل كما ينبغي، يبنون مجموعة بيانات للضبط من آثار التنفيذ ومخرجات النموذج المعلِّم، ويدرّبون مهايئات منخفضة الرتبة على نموذج صغير مفتوح الأوزان، ويقطّرون نموذجً">
-<title>DEV-LLM-301 · تكييف النماذج للتطبيقات: الضبط الدقيق والتقطير والنماذج الصغيرة · دليل مقررات أكاديمية سدايا</title>
-<link rel="icon" href="../../../../assets/icon.svg" type="image/svg+xml">
-<link rel="alternate" hreflang="en" href="../../../../en/tracks/ai-engineering/DEV-LLM/DEV-LLM-301.html">
+<meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=../../../courses/DEV-LLM-301.html">
+<title>نُقلت هذه الصفحة · دليل مقررات أكاديمية سدايا</title>
 <link rel="stylesheet" href="../../../../assets/site.css">
-<script src="../../../../assets/site.js"></script>
 </head>
-<body class="acc-DEV">
+<body>
 <a class="skip" href="#main">الانتقال إلى المحتوى</a>
-<header class="site-header">
-<div class="wrap bar">
-<a class="brand" href="../../../index.html"><img class="logo" src="../../../../assets/logo.svg" alt="أكاديمية سدايا" width="171" height="40"></a>
-<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../../../courses/index.html" class="here">المقررات</a></li></ul></nav>
-<div class="tools">
-<a class="lang-switch" href="../../../../en/tracks/ai-engineering/DEV-LLM/DEV-LLM-301.html" lang="en" hreflang="en">English</a>
-<button type="button" class="theme-toggle" hidden data-to-dark="التحويل إلى المظهر الداكن" data-to-light="التحويل إلى المظهر الفاتح"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg></button>
-</div>
-</div>
-</header>
-<main id="main" class="wrap course-page">
-<nav class="crumbs" aria-label="مسار التصفح"><ol><li><a href="../../../index.html">الرئيسية</a></li><li><a href="../../index.html">المسارات</a></li><li><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span></a></li><li aria-current="page"><span class="code" dir="ltr">DEV-LLM-301</span></li></ol></nav>
-<header class="course-head">
-<h1><span class="code" dir="ltr">DEV-LLM-301</span> <span class="t">تكييف النماذج للتطبيقات: الضبط الدقيق والتقطير والنماذج الصغيرة</span></h1>
-<p class="alt-title"><bdi lang="en">Model Adaptation for Applications: Fine-Tuning, Distillation and Small Models</bdi></p>
-<ul class="chips"><li><span class="chip chip-level">المستوى 300 · التطوير</span></li><li><span class="chip">دورة مكثفة</span></li><li><span class="chip chip-plain">36 ساعة</span></li><li><span class="chip chip-plain">الفئة المستهدفة: ممارس</span></li></ul>
-</header>
-<div class="course-grid">
-<aside class="course-side" aria-label="نظرة سريعة"><div class="fact"><h2>المسار</h2><p><a href="../index.html">هندسة الذكاء الاصطناعي</a></p></div><div class="fact"><h2>المسار الفرعي</h2><p><a href="index.html"><span class="code" dir="ltr">DEV-LLM</span> <span>هندسة تطبيقات النماذج اللغوية</span></a></p></div><div class="fact"><h2>المستوى</h2><p>المستوى 300 · التطوير</p></div><div class="fact"><h2>الفئة المستهدفة</h2><p>ممارس</p></div><div class="fact"><h2>الصيغة</h2><p>دورة مكثفة: 4 أيام تدريبية ويوم للمشروع الختامي، مع عمل تحضيري موجه ومهمة متابعة متعقَّبة</p></div><div class="fact"><h2>إجمالي الساعات</h2><p class="hours-total">36 ساعة</p></div><div class="fact"><h2>المتطلبات السابقة</h2><ul class="ref-list"><li><a href="DEV-LLM-201.html"><span class="code" dir="ltr">DEV-LLM-201</span> <span>بناء التطبيقات على النماذج اللغوية</span></a></li><li><a href="DEV-LLM-202.html"><span class="code" dir="ltr">DEV-LLM-202</span> <span>هندسة معالجة اللغات الطبيعية التطبيقية</span></a></li></ul><ul class="plain-list"><li>يقرأ حلقة تدريب مكتوبة بإطار PyTorch ويشخّص منحنى الخسارة</li><li>يقارن بين تهيئتين على مجموعة تقييم باختبار إحصائي (يُوصى بالمقرر <a href="../DEV-EVL/DEV-EVL-301.html">DEV-EVL-301</a>)</li></ul></div></aside>
-<div class="course-main">
-<section class="sec"><h2>الوصف</h2><p>يقرر المشاركون متى يستحق تكييف النموذج الجهد المبذول، ثم ينفذونه على الوجه الصحيح. فانطلاقًا من تحليل أخطاء خاصية استخراج واستدعاء وظائف لا تعمل كما ينبغي، يبنون مجموعة بيانات للضبط من آثار التنفيذ ومخرجات النموذج المعلِّم، ويدرّبون مهايئات منخفضة الرتبة على نموذج صغير مفتوح الأوزان، ويقطّرون نموذجًا كبيرًا فيه، ويقيّمونه مقارنة بالنموذج الأساسي قبل التكييف وبنموذج أكبر يُوجَّه بالأوامر، ثم يقدّمونه مجزأً تجزيئًا كميًا مع عدة مهايئات. ويتناول المقرر <a href="../../data-science/SPC-DLR/SPC-DLR-306.html">SPC-DLR-306</a> التدريب اللاحق على المستوى البحثي، والمقرر <a href="../DEV-INF/DEV-INF-401.html">DEV-INF-401</a> تحسين خدمة النماذج على نطاق واسع.</p></section>
-<section class="sec"><h2>نواتج التعلم</h2><p class="sec-lead">بنهاية المقرر يستطيع المشارك أن:</p><ol class="outcomes"><li><span class="tag tag-performance">أدائي</span><p class="o-do">يقرر هل يعالج إخفاقات التطبيق بصياغة الأوامر أو الاسترجاع أو الضبط الدقيق أو التقطير.</p><p class="o-more"><span class="k">المعطيات</span> استنادًا إلى تحليل للأخطاء وحدود للتكلفة وزمن الاستجابة وموضع البيانات.</p><p class="o-more"><span class="k">الدليل</span> مذكرة قرار تربط كل إخفاق بخيار وتكلفته.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">يعدّ مجموعة بيانات للضبط مع إزالة التكرار وإزالة التلوث بالاختبارات وفحص التراخيص وحذف البيانات الشخصية.</p><p class="o-more"><span class="k">المعطيات</span> استنادًا إلى 500 أثر تنفيذ اصطناعي ومخرجات النموذج المعلِّم.</p><p class="o-more"><span class="k">الدليل</span> بطاقة مجموعة البيانات مع إحصاءات التقسيمات.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">ينفذ ضبطًا دقيقًا خاضعًا للإشراف بمهايئات منخفضة الرتبة على نموذج صغير مفتوح الأوزان.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام مسرِّع واحد مجاني أو مقدَّم.</p><p class="o-more"><span class="k">الدليل</span> ملف التهيئة ومنحنيات الخسارة والمهايئ.</p></li><li><span class="tag tag-applied">تطبيقي</span><p class="o-do">ينفذ تقطير سلوك نموذج معلِّم في نموذج متعلِّم بتوليد الأمثلة وتصفيتها والتدريب عليها.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام نقطة نهاية للنموذج المعلِّم وأداة تحقق.</p><p class="o-more"><span class="k">الدليل</span> درجات النموذجين المتعلِّم والمعلِّم والتكلفة لكل طلب.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يقيّم نموذجًا مكيَّفًا مقارنة بنموذجه الأساسي وبنموذج أكبر يُوجَّه بالأوامر، في مقاييس المهمة والقدرات العامة وسلوك السلامة.</p><p class="o-more"><span class="k">المعطيات</span> على مجموعة محجوزة وحزمة اختبارات انحدار.</p><p class="o-more"><span class="k">الدليل</span> مقارنات مزدوجة مع فترات الثقة وقائمة بحالات الانحدار.</p></li><li><span class="tag tag-performance">أدائي</span><p class="o-do">يبني إعدادًا لخدمة نموذج صغير مجزأ تجزيئًا كميًا مع عدة مهايئات، ويقيس زمن استجابته ومعدل إنتاجيته وتكلفته.</p><p class="o-more"><span class="k">المعطيات</span> باستخدام حاسب محمول أو مسرِّع واحد.</p><p class="o-more"><span class="k">الدليل</span> ملف تهيئة الخدمة وتقرير اختبار الحمل.</p></li></ol></section>
-<section class="sec"><h2>الموضوعات</h2><div class="topics"><div class="topic"><h3>متى يُلجأ إلى التكييف</h3><ul><li>صياغة الأوامر أو الاسترجاع أو الضبط أو التقطير</li><li>الضبط يغيّر السلوك أكثر مما يغيّر المعرفة</li><li>ما تؤديه النماذج الصغيرة بموثوقية وما لا تؤديه</li><li>تراخيص النماذج مفتوحة الأوزان وشروط استخدامها</li></ul></div><div class="topic"><h3>بيانات الضبط</h3><ul><li>آثار التنفيذ ومخرجات النموذج المعلِّم والتصحيحات</li><li>قوالب المحادثة وصيغ استدعاء الأدوات</li><li>إزالة التكرار وإزالة التلوث بالاختبارات</li></ul></div><div class="topic"><h3>المهايئات والتقطير</h3><ul><li>المهايئات منخفضة الرتبة والمجزأة كميًا</li><li>الضبط الدقيق لاستدعاء الوظائف</li><li>التوليد بالنموذج المعلِّم مع التصفية بأداة تحقق</li></ul></div><div class="topic"><h3>تقييم النماذج المكيَّفة</h3><ul><li>المقارنة المزدوجة مع النموذج الأساسي</li><li>النسيان وحالات الانحدار</li><li>سلوك السلامة بعد الضبط</li><li>شرائح العربية والإنجليزية</li></ul></div><div class="topic"><h3>خدمة النماذج الصغيرة</h3><ul><li>الصيغ المجزأة كميًا</li><li>عدة مهايئات على نموذج أساسي واحد</li><li>التكلفة لكل ألف طلب</li></ul></div></div></section>
-<section class="sec"><h2>الأدوات والمنصات</h2><p class="sec-lead">هذه أمثلة، ويجوز استخدام أي بديل مكافئ.</p><dl class="pairs"><div><dt>نماذج صغيرة مفتوحة الأوزان</dt><dd>نموذج صغير مضبوط على اتباع التعليمات، نموذج صغير ثانٍ من عائلة أخرى</dd></div><div><dt>مكتبات الضبط الدقيق</dt><dd>Transformers مع PEFT وTRL، حلقة تدريب بسيطة مكتوبة بإطار PyTorch</dd></div><div><dt>إطار تقييم النماذج</dt><dd>lm-evaluation-harness، Inspect</dd></div><div><dt>خادم الاستنتاج</dt><dd>vLLM، SGLang، llama.cpp</dd></div><div><dt>تتبع التجارب</dt><dd>MLflow، سجل تشغيل ذو إصدارات في المستودع</dd></div><div><dt>اختبار الحمل</dt><dd>Locust، k6</dd></div></dl></section>
-<section class="sec"><h2>كيف يُقيَّم العمل</h2><ul><li>اختبار قصير مراقب دون مساعدة الذكاء الاصطناعي: تشخيص منحنيات الخسارة وتقسيم ملوث بالاختبارات (15%)</li><li>مختبرات مقيَّمة (30%)</li><li>المشروع الختامي (45%)</li><li>مناقشة مباشرة (10%)</li></ul><dl class="pairs"><div><dt>معيار الاجتياز</dt><dd>70% إجمالًا، و60% على الأقل في المشروع الختامي، مع اجتياز الاختبار القصير المراقب</dd></div></dl></section>
-<section class="sec"><h2>استخدام الذكاء الاصطناعي في المقرر</h2><p>دون ذكاء اصطناعي في الاختبار القصير المراقب. ذكاء اصطناعي مرشد في المختبرات. ذكاء اصطناعي كامل في المشروع الختامي، ويناقشه المشارك مناقشة مباشرة.</p><p class="legend">دون ذكاء اصطناعي: بلا أي مساعدة. ذكاء اصطناعي مرشد: مساعد يلمّح ويشرح ولا يعطي الإجابة. ذكاء اصطناعي كامل: أي مساعدة، والمشارك مسؤول عن النتيجة ويدافع عنها.</p></section>
-</div>
-</div>
-<nav class="pager" aria-label="المقرر السابق والمقرر التالي"><a class="pager-prev" rel="prev" href="DEV-LLM-205.html"><span class="k">المقرر السابق</span><span><span class="code" dir="ltr">DEV-LLM-205</span> التطبيقات الصوتية والمحادثية</span></a><a class="pager-next" rel="next" href="DEV-LLM-302.html"><span class="k">المقرر التالي</span><span><span class="code" dir="ltr">DEV-LLM-302</span> التطبيقات اللغوية العربية ومتعددة اللغات</span></a></nav>
+<main id="main" class="wrap redirect">
+<h1>نُقلت هذه الصفحة</h1>
+<p>عنوانها الجديد: <a href="../../../courses/DEV-LLM-301.html">افتح الصفحة</a></p>
+<p><a class="lang-switch" href="../../../../en/tracks/ai-engineering/DEV-LLM/DEV-LLM-301.html" lang="en" hreflang="en">English</a></p>
 </main>
-<footer class="site-footer">
-<div class="wrap">
-<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="../../fluency/index.html">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-LDS"><a href="../../executives-and-leaders/index.html">التنفيذيون والقادة</a></li><li class="acc-FND"><a href="../../foundations/index.html">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="../index.html">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="../../data-science/index.html">علم البيانات</a></li></ul></nav>
-</div>
-</footer>
 </body>
 </html>

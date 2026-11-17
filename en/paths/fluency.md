@@ -1,0 +1,292 @@
+# Data & AI Fluency
+
+For everyone who uses data and AI in their own work or study: a baseline for all staff, courses for professions and sectors, and courses for learners and educators.
+
+## [USE-FLU · Fluency for Everyone](USE-FLU.md)
+
+- [USE-FLU-101 · Data and AI Literacy Baseline for Everyone at Work](../courses/USE-FLU-101.md): Level 100 · Explain, 3 h
+  - Distinguish everyday use of a data or AI tool from specialist design, validation and governance work that belongs to a responsible team.
+  - Classify the personal, confidential or proprietary content in files, messages and prompts, and rewrite them with safer wording before using an approved tool.
+  - Prepare a request to an approved assistant that states the intended output, context, audience, constraints and review needs.
+  - Identify the title, source, date, unit, legend, filter and scope of a chart, dashboard or AI output, and the red flags that make it unsafe to rely on.
+  - Apply a source, sensitivity, accuracy, authorisation and impact check to decide whether to use, revise, pause or escalate an AI output.
+  - Explain why responsibility stays with the person who submits or acts on AI-assisted work, and when policy requires disclosure.
+  - Identify the right contact, such as data owner, AI owner, steward, compliance contact or supervisor, for a data or AI issue beyond personal authority.
+- [USE-FLU-102 · Reading Data, Charts and Claims at Work](../courses/USE-FLU-102.md): Level 100 · Explain, 6 h
+  - Identify the source, owner, date, unit, definition and filter scope of a chart, table or dashboard before using its numbers.
+  - Compute mean, median, percentage change and percentage-point change to check a stated headline figure.
+  - Distinguish correlation from causation and name the likely confounder or selection effect behind a stated link.
+  - Analyse a display for misleading design such as a truncated axis, dual axes, a selective time window or a missing denominator, and redraw it honestly.
+  - Classify the statements in a report or AI summary as fact, opinion, prediction, assumption or AI-generated content, and test each factual statement against the underlying table.
+  - Explain what a forecast range, margin of error or sample size says about how far a number can be trusted.
+- [USE-FLU-103 · How AI Systems Learn and Where They Fail](../courses/USE-FLU-103.md): Level 100 · Explain, 6 h
+  - Describe the path from data to model to decision for a workplace AI system and mark where people make choices.
+  - Explain why a fluent language model answer can be wrong, including next-word prediction, missing or outdated knowledge and the tendency to agree with the user.
+  - Compute the false alarms, misses and share of real flags that stated detection rates imply when the event is rare, and show why overall accuracy misleads.
+  - Describe how overfitting and data shift lower a model's performance on new data.
+  - Analyse a dataset description for leakage, unrepresentative coverage and unreliable labels, and state who could be harmed by each problem.
+  - Draft a critique of a vendor accuracy claim that asks for the missing evidence: test data, base rate, error types, subgroup results and conditions of use.
+  - Distinguish a model from the system around it, including rules, retrieval, tools and human review, and identify where a human must stay in the loop.
+- [USE-FLU-104 · Safe Use of AI at Work: Data, Privacy and Deception](../courses/USE-FLU-104.md): Level 100 · Explain, 4 h
+  - Classify workplace material against a data classification scheme and decide which tool tier, if any, may receive it.
+  - Explain how prompts, uploaded files and outputs may be stored, reviewed or used for training under provider and organisational terms.
+  - Prepare a minimised version of a request that keeps the task intact while removing or pseudonymising personal data.
+  - Identify signs of prompt injection in content that an assistant or agent reads, and describe the safe response.
+  - Apply an out-of-band verification routine to a suspected deepfake request involving money, credentials or data.
+  - Describe the response to a data or AI incident: stop, record, report to the right contact and prevent a repeat.
+- [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](../courses/USE-FLU-201.md): Level 200 · Apply, 8 h; Needs: USE-FLU-101
+  - Analyse a work task into steps and assign each to the person, the assistant, both or neither, with a reason based on risk, skill and accountability.
+  - Prepare a request that gives the assistant the goal, context, audience, constraints, success criteria and an example, and refine it over at least three turns.
+  - Test the assistant on a task type that is new to the participant by comparing its output with a known-good answer before deciding to delegate that task.
+  - Test a polished AI output for invented facts, missing context, faulty reasoning and agreement with a wrong premise.
+  - Decide whether to use, limit or refuse AI help for a task and defend the decision, including cases where AI should not be used.
+  - Draft a disclosure note that states what the assistant did, what the participant checked and who is accountable.
+- [USE-FLU-202 · AI Productivity for Knowledge Work](../courses/USE-FLU-202.md): Level 200 · Apply, 30 h; Needs: USE-FLU-101
+  - Apply a structured request pattern with persistent context to writing, summarising and extraction tasks in Arabic and English.
+  - Use an assistant to analyse a spreadsheet and produce a chart and a summary, with every reported figure checked by recalculation.
+  - Prepare a research brief with a deep-research tool and a source-grounded notebook, tracing each key claim to a source that exists and supports it.
+  - Configure a custom assistant with instructions, reference files and test questions for a recurring team task.
+  - Configure an agent run that uses a connector under least-privilege permissions with a human approval step, and identify the prompt-injection risk in its inputs.
+  - Draft a requirements document for a small internal tool and produce a working prototype with a generative coding platform, tested against three checks.
+  - Design an AI-assisted version of a real recurring task and measure the change in time and quality against a baseline over two trials.
+  - Prepare a personal adoption plan over one, seven and thirty days, including tasks kept AI-off to preserve skill and checks that stop unverified work reaching colleagues.
+- [USE-FLU-203 · Research and Verification with AI](../courses/USE-FLU-203.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Prepare a research brief that sets the question, scope, source standards and the decision it will inform.
+  - Classify the claims in an AI-generated report by type and choose the check that each type needs.
+  - Apply lateral reading to judge the reliability of unfamiliar sources and trace each claim to its original.
+  - Test every citation in an AI answer for existence, correct attribution and support for the claim it is attached to.
+  - Use a source-grounded notebook on a curated document set and measure how often its answers are supported by the cited passage.
+  - Deliver a verified research brief with a verification log and a confidence statement for each key finding.
+- [USE-FLU-204 · Supervising AI Agents in Knowledge Work](../courses/USE-FLU-204.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Prepare a delegation brief with goal, standing context, permitted sources, forbidden actions, stop conditions and result format.
+  - Configure least-privilege connector permissions and approval before every send, delete, payment or publication.
+  - Test an agent against hidden instructions and apply a stop, contain and report routine.
+  - Analyse agent transcripts for skipped steps, invented facts, actions beyond the brief and unsupported claims of success.
+  - Design and supervise an agent task from the participant's own work and decide to keep, change or stop it.
+- [USE-FLU-205 · Building Small Tools without Code](../courses/USE-FLU-205.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Distinguish a team prototype from a production system and identify requests that need developers.
+  - Draft a one-page specification with users, data fields, rules, access levels and acceptance tests.
+  - Use a generative coding platform and an instruction file to build the tool in small, tested, reversible steps.
+  - Test a prototype for exposed personal data, hard-coded secrets, missing access control and wrong calculations.
+  - Deliver a tested internal tool with a hand-over note naming owner, permitted data, access levels, limits and when developers take over.
+- [USE-FLU-206 · Creating Images, Audio and Video with AI Responsibly](../courses/USE-FLU-206.md): Level 200 · Apply, 8 h; Needs: USE-FLU-201
+  - Prepare a media brief and use generation tools to produce matching assets, logging prompts and settings.
+  - Test generated assets for factual, textual, cultural and visual errors, including Arabic lettering.
+  - Classify a media use by consent, rights and impersonation risk and decide whether it may proceed.
+  - Apply labels, provenance metadata, captions, alternative text and transcripts to finished assets.
+  - Explain what provenance metadata and watermarks can and cannot prove about a received file.
+- [USE-FLU-207 · Arabic Writing, Translation and Dialect Work with AI](../courses/USE-FLU-207.md): Level 200 · Apply, 8 h; Needs: USE-FLU-201
+  - Prepare requests that set register, tone, audience and terminology for formal and plain-language Arabic.
+  - Draft a bilingual glossary and use it to control an AI translation in both directions.
+  - Test AI translations and summaries against the source for wrong names, numbers, dates, units and omissions.
+  - Analyse two assistants on the same Arabic tasks and record where neither is usable without a native reviewer or translator.
+  - Analyse and fix bidirectional faults such as reversed numbers and misplaced punctuation.
+- [USE-FLU-301 · Redesigning a Team Workflow with AI and Measuring the Gain](../courses/USE-FLU-301.md): Level 300 · Develop, 30 h; Needs: USE-FLU-202
+  - Measure a baseline for a team workflow: time per case, rubric quality, error rate and rework.
+  - Analyse the workflow into steps with input data, classification, decision and accountable person.
+  - Design a delegation card assigning each step to a person, assistant, agent or rule, with the check each AI step needs.
+  - Evaluate the redesign in two pilot runs against the baseline, counting checking and rework time and errors passed on.
+  - Decide whether to scale, change or stop the redesign and defend the decision with evidence.
+  - Prepare a 30-day plan with owners, measures, AI-off practice for skills to keep and a stop rule.
+- [USE-FLU-302 · Team Build-and-Own Studio: One Application for One Entity](../courses/USE-FLU-302.md): Level 300 · Develop, 40 h; Needs: USE-FLU-202
+  - Draft a problem statement with users, process, success measures, risk tier and constraints.
+  - Prepare a data-use record classifying each source and stating what the application may read, store and send.
+  - Build a working assistant or agent on an approved platform within the data rules.
+  - Test the application with user-written questions, including required refusals, hidden instructions in documents and data-extraction attempts.
+  - Evaluate a supervised user trial and decide whether to continue, change or stop.
+  - Deliver a hand-over pack naming owner, technical contact, support routine, limits, retirement condition and cases for developers.
+- [USE-FLU-303 · Leading AI Adoption in a Team: Champions and Trainers](../courses/USE-FLU-303.md): Level 300 · Develop, 16 h; Needs: USE-FLU-202
+  - Prepare a 45-minute clinic plan with a short lesson, a worked example, an AI-off task and safe task collection.
+  - Lead a clinic and give feedback that improves colleagues' requests and checks.
+  - Configure a shared library of requests, standing context and delegation cards with owner, data rules and review date.
+  - Measure use and value with indicators, a survey and a time sample rather than self-report alone.
+  - Deliver a 30-day adoption report on clinics, library use, measured change and a unit agreement on checking AI work before sharing it.
+
+## [USE-EDU · Learners and Educators](USE-EDU.md)
+
+- [USE-EDU-101 · Data and AI Fluency for University Students](../courses/USE-EDU-101.md): Level 100 · Explain, 40 h
+  - Distinguish AI, machine learning, deep learning, generative AI and AI agents, and a model from the system around it.
+  - Identify the evidence, assumptions and limitations behind a data-based claim, including correlation presented as cause.
+  - Explain how data quality, representativeness and labelling drive a learned system's errors, using false positives, false negatives and base rates.
+  - Use structured requests with audience, constraints and quality criteria, and score generative output against them.
+  - Apply a verification and disclosure routine to AI-assisted work, classifying the data and sanitising the prompt first.
+  - Prepare a use-case plan for a bounded discipline task that justifies AI, data analysis, both or neither, with risk tier, safeguards, evaluation and cost.
+- [USE-EDU-102 · Learning with AI without Losing the Skill](../courses/USE-EDU-102.md): Level 100 · Explain, 4 h
+  - Distinguish interaction patterns that build understanding from those that replace it, citing trial evidence.
+  - Configure an assistant to give one hint at a time, ask for explain-back and withhold final answers.
+  - Prepare a two-week practice plan with AI-off first attempts, retrieval and spacing.
+- [USE-EDU-201 · Teaching and Assessing in the AI Era](../courses/USE-EDU-201.md): Level 200 · Apply, 16 h
+  - Explain why AI-text detectors cannot support an integrity decision.
+  - Analyse each graded task for what it certifies and how far an assistant completes it.
+  - Classify tasks into secure and open lanes and draft a course AI policy with per-task use labels.
+  - Prepare a short oral check and a process-evidence review.
+  - Design a replacement for an exposed assignment that rewards judgement, process and defence.
+- [USE-EDU-202 · Delivering the Cross-Disciplinary Data and AI Curriculum](../courses/USE-EDU-202.md): Level 200 · Apply, 16 h; Needs: USE-EDU-101
+  - Explain the six components, the six intended learning outcomes and their mapping to international frameworks.
+  - Prepare an alignment matrix from a chosen delivery model to the intended and component outcomes.
+  - Adapt one recommended lab and build a track pack with a local case and synthetic mini-dataset.
+  - Apply the curriculum's assessment principles to mark student use-case plans.
+  - Deliver a ten-minute hands-on micro-teach of one component.
+- [USE-EDU-203 · AI Literacy for School Teachers](../courses/USE-EDU-203.md): Level 200 · Apply, 12 h
+  - Compare the competence frameworks for teachers and pupils and identify those a lesson addresses.
+  - Use age-appropriate activities to teach how AI learns, fails and is checked.
+  - Prepare a lesson for one's subject with an AI-literacy objective and an AI-off understanding check.
+  - Apply safeguarding rules for pupils' data, tool age limits and generated images of real people.
+  - Draft a plain-language letter to families on how AI is and is not used in class.
+- [USE-EDU-204 · Designing AI Tutors and Course Assistants](../courses/USE-EDU-204.md): Level 200 · Apply, 12 h
+  - Explain what separates a tutor from an answer engine.
+  - Configure a hint-only tutor with standing instructions, worked solutions and a rubric.
+  - Test the tutor with learner-style questions, including answer-extraction attempts.
+  - Implement guardrails for learner privacy, AI disclosure and escalation to the teacher.
+  - Design a small evaluation of whether the tutor improves unaided performance.
+
+## [USE-PRO · Fluency for Professions](USE-PRO.md)
+
+- [USE-PRO-201 · AI for Public Servants and Policy Work](../courses/USE-PRO-201.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Identify AI drafting errors typical of government work: superseded rules, invented article numbers, misattributed positions.
+  - Classify case documents by sensitivity and match each to the tools its level allows.
+  - Prepare a consultation summary with theme counts that keeps minority positions and flags duplicate campaign comments.
+  - Draft an options brief and a citizen notice in which every factual statement cites an official source.
+  - Redesign one recurring task from the participant's work and measure time and errors before and after.
+- [USE-PRO-202 · AI for Human Resources and Talent Work](../courses/USE-PRO-202.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Explain why ranking candidates with a general assistant is high-risk and which HR decisions stay with people.
+  - Analyse an AI-drafted job description for exclusionary wording and inflated requirements, and revise it.
+  - Test a screening prompt for bias with applications that differ only in name, gender or age.
+  - Prepare an interview guide and learning plans without passing identifiable data to unapproved tools.
+  - Redesign one recurring HR task and measure time, errors and fairness before and after.
+- [USE-PRO-203 · AI for Finance, Accounting and Audit Work](../courses/USE-PRO-203.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Distinguish figures computed by code or formulas from figures generated as text, and state the check each needs.
+  - Implement a bank-to-ledger reconciliation with generated code or formulas, proved by control totals.
+  - Test and repair a budget model with an assistant against hand-worked cases.
+  - Draft variance commentary and a reproducible audit sample, leaving causes and exceptions to the person's judgement.
+  - Redesign one recurring finance or audit task and measure time and errors before and after.
+- [USE-PRO-204 · AI for Legal, Regulatory and Compliance Work](../courses/USE-PRO-204.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Identify how AI legal research fails: invented authorities, wrong jurisdiction, repealed provisions, misstated holdings.
+  - Apply a contract playbook with an assistant to flag deviations, missing clauses and changes between drafts.
+  - Prepare an obligations register mapping provisions to owners, controls and evidence.
+  - Classify matter documents for confidentiality, privilege and personal data, and choose the tool and redaction each allows.
+  - Redesign one recurring legal task and measure time and errors before and after.
+- [USE-PRO-205 · AI for Communications, Media and Content Work](../courses/USE-PRO-205.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Identify editorial risks in AI content: invented quotes and statistics, copy echoing the brief and unlabelled synthetic media.
+  - Implement an editorial workflow in which drafting, fact checking, rights review and sign-off are separate, logged steps.
+  - Prepare Arabic and English versions of a release and three posts with identical facts, names and figures.
+  - Test statistics, quotations and images for source and provenance, and classify synthetic items by required label and consent.
+  - Redesign one recurring content task and measure time, errors and post-sign-off corrections.
+- [USE-PRO-206 · AI for Customer and Citizen Service Work](../courses/USE-PRO-206.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Distinguish grounded from ungrounded replies and identify their failures, such as invented policies and promises staff cannot keep.
+  - Use a grounded assistant to draft courteous Arabic and English replies, checked against cited articles.
+  - Apply escalation rules to route complaints, vulnerable people, rights, safety, refunds above a limit and suspected impersonation.
+  - Measure reply quality by sampling, rubric scoring and error rates by category.
+  - Redesign one recurring service task and measure handling time, errors and escalations before and after.
+- [USE-PRO-207 · AI for Project, Procurement and Operations Work](../courses/USE-PRO-207.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Identify AI drafting failures in project documents: invented owners and dates, lost dependencies, inflated status, wrong totals.
+  - Prepare a project plan with an assistant and test its dependencies, durations and calendar.
+  - Use a meeting-to-action pipeline to turn recordings into decisions, owned actions and risk updates.
+  - Apply a weighted evaluation to supplier proposals, with AI extracting values and code computing scores.
+  - Redesign one of their own recurring tasks with AI and measure time and errors on two runs.
+- [USE-PRO-208 · AI for Researchers and Scientific Work](../courses/USE-PRO-208.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Distinguish acceptable, disclosable and prohibited research uses of AI.
+  - Use scholarly databases and an AI screening assistant to map a literature with a recorded search.
+  - Test AI-written paper summaries for misreported populations, methods, effect sizes and conclusions.
+  - Implement an AI-assisted analysis from a pre-stated plan and reproduce it from a clean run.
+  - Redesign one research task with AI, measure it on two runs and disclose the AI use.
+- [USE-PRO-209 · AI for Clinical and Health Professionals](../courses/USE-PRO-209.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Test an AI-drafted note against its consultation for omissions, fabrications, negation, laterality and dose errors.
+  - Prepare plain-language Arabic and English patient information and check it against the source guidance.
+  - Use an evidence assistant and verify each claim against the guideline or trial cited.
+  - Apply health-data rules to choose a tool per task and de-identify a case.
+  - Redesign one recurring documentation task with AI, measuring accuracy and time on two runs and keeping one unassisted step.
+- [USE-PRO-210 · AI for Sales, Marketing and Market Insight](../courses/USE-PRO-210.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Analyse customer feedback with an assistant into counted themes, validated against a hand-coded sample.
+  - Prepare segment notes from customer data and test them for unsupported generalisations and sensitive inferences.
+  - Draft a bilingual campaign with a register of the substantiation for each claim.
+  - Classify contacts by consent status and channel before personalised outreach.
+  - Redesign one recurring commercial task with AI and measure time and errors on two runs.
+- [USE-PRO-211 · AI for Engineers and Field Operations](../courses/USE-PRO-211.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Identify field tasks where AI output must never drive action, and the check each needs.
+  - Use a source-grounded assistant to update a procedure, checking each step, value and unit against the current revision.
+  - Analyse free-text maintenance logs with AI-assisted coding and computed counts for recurring faults.
+  - Test a multimodal assistant's reading of inspection photos, gauges and drawings against known values.
+  - Redesign one field documentation task, such as voice notes to a report, and measure it on two runs.
+- [USE-PRO-212 · AI for Security and IT Operations Staff](../courses/USE-PRO-212.md): Level 200 · Apply, 12 h; Needs: USE-FLU-201
+  - Use an assistant to triage redacted alerts and verify each verdict against the raw events.
+  - Draft a runbook from a closed incident and test each step in a disposable environment.
+  - Test AI-generated administration scripts by reading, static analysis and dry run.
+  - Analyse suspicious messages and calls for AI-made phishing and cloning, then verify and report them.
+  - Redesign one recurring operations task with AI and measure time and errors on two runs.
+
+## [USE-SEC · AI in Sectors](USE-SEC.md)
+
+- [USE-SEC-201 · AI in Health Systems](../courses/USE-SEC-201.md): Level 200 · Apply, 16 h; Needs: USE-FLU-103
+  - Distinguish AI products regulated as medical devices from administrative tools and explain what each requires.
+  - Compute predictive value, alert volume and missed cases for an imaging-triage tool at local prevalence.
+  - Analyse a population-health risk score for label choice and error by patient subgroup.
+  - Prepare a local validation and silent-trial plan for an ambient documentation tool.
+  - Build an opportunity-and-risk map ranking health use cases by value, data readiness and risk tier.
+- [USE-SEC-202 · AI in Energy and Petrochemicals](../courses/USE-SEC-202.md): Level 200 · Apply, 16 h; Needs: USE-FLU-103
+  - Identify each energy AI application as advisory, supervisory or closed-loop and the evidence it needs.
+  - Test a learned load forecast against seasonal-naive and persistence baselines.
+  - Measure lead time, missed events and false alarms of maintenance and fault-detection models and price them.
+  - Draft the AI part of a safety case covering hazards, operating envelope, override and fallback.
+  - Build an opportunity-and-risk map ranking energy use cases by value, data readiness, control level and risk tier.
+- [USE-SEC-203 · AI in Government Services](../courses/USE-SEC-203.md): Level 200 · Apply, 16 h; Needs: USE-FLU-103
+  - Identify which public-service AI uses affect rights or benefits and the duties that follow.
+  - Test a bilingual citizen service assistant against official answers and classify its errors.
+  - Analyse a benefit-fraud model's false positives at a chosen threshold and who bears them.
+  - Draft a public transparency record and appeal route for a decision-support system.
+  - Build an opportunity-and-risk map ranking agency use cases by public value, data readiness and risk tier.
+- [USE-SEC-204 · AI in Education Systems](../courses/USE-SEC-204.md): Level 200 · Apply, 16 h; Needs: USE-FLU-103
+  - Distinguish learning-support, assessment, admission and administrative AI uses by who is affected.
+  - Test a tutoring assistant for answer-giving, accuracy and age-appropriate behaviour.
+  - Analyse agreement and error by student group for an essay scorer and an early-warning model.
+  - Draft an AI integrity and safeguarding policy covering minors' data, permitted uses, disclosure and incidents.
+  - Build an opportunity-and-risk map ranking education use cases by learning value, data readiness and risk tier.
+- [USE-SEC-205 · AI in Mobility and Logistics](../courses/USE-SEC-205.md): Level 200 · Apply, 16 h; Needs: USE-FLU-103
+  - Describe the driving automation levels and what a claim implies for the driver and operating domain.
+  - Configure a routing run with time windows and capacities and compare it with a manual plan.
+  - Test a demand forecast against seasonal-naive baselines across a holiday period.
+  - Analyse fleet incidents with exposure-adjusted rates and a regression-to-the-mean check.
+  - Build an opportunity-and-risk map ranking mobility use cases by value, data readiness, safety impact and risk tier.
+- [USE-SEC-206 · AI in Financial Services](../courses/USE-SEC-206.md): Level 200 · Apply, 16 h; Needs: USE-FLU-103
+  - Explain the model risk lifecycle, from inventory to monitoring, and who holds each duty.
+  - Compute what fraud and laundering models catch, miss and cost in review work at three thresholds.
+  - Analyse a machine-learning credit model against a scorecard for accuracy, stability, group approval rates and decline reasons.
+  - Test a customer service assistant for wrong commitments, unsupported advice and data disclosure.
+  - Build an opportunity-and-risk map ranking financial use cases by value, data readiness, model risk tier and explanation duty.
+- [USE-SEC-207 · AI in Justice and Legal Services](../courses/USE-SEC-207.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Distinguish legal AI uses that assist a lawyer from those that inform decisions about people.
+  - Test research and contract review assistants for invented authorities and missed clauses against the sources.
+  - Measure a triage classifier's errors at two thresholds and state who bears each.
+  - Analyse an automated decision input for notice, explanation, human review and appeal.
+  - Build an opportunity-and-risk map ranking legal AI uses by value, error cost, data readiness and contestability.
+- [USE-SEC-208 · AI in Media and Creative Industries](../courses/USE-SEC-208.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Explain which rights, consents and labels each AI use in the media value chain needs.
+  - Measure a machine dubbing and subtitling workflow for meaning, timing, names and dialect.
+  - Test whether assets carry provenance data that survives common edits.
+  - Set a moderation threshold per dialect by weighing harm missed against lawful speech removed.
+  - Build an opportunity-and-risk map ranking media AI uses by value, quality risk, rights exposure and audience trust.
+- [USE-SEC-209 · AI in Manufacturing and Industry](../courses/USE-SEC-209.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Describe the data, labels and owners that inspection, maintenance, optimisation and robotics cells need.
+  - Measure an inspection model's miss and false-reject rates and convert them into cost per thousand parts.
+  - Use a remaining-useful-life forecast to set a maintenance trigger and compare it with a fixed schedule.
+  - Analyse a quality dataset for missing defect classes, label disagreement and sensor drift.
+  - Build an opportunity-and-risk map ranking plant AI uses by value, data readiness, safety impact and effort to scale.
+- [USE-SEC-210 · AI in Retail and Telecommunications](../courses/USE-SEC-210.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Explain how recommenders, forecasts, pricing, churn and network models each turn data into a decision.
+  - Compare a demand forecast with a naive seasonal baseline and state where the model earns its cost.
+  - Analyse a churn-retention campaign by uplift and estimate retained revenue and wasted offers.
+  - Test a personalised pricing rule for group differences and data used without consent.
+  - Measure a network anomaly detector against confirmed incidents and set an alert threshold the team can handle.
+  - Build an opportunity-and-risk map ranking use cases by measured value, customer harm and data rights.
+- [USE-SEC-211 · AI in Agriculture, Water and Environment](../courses/USE-SEC-211.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Describe what optical, radar and thermal imagery, field sensors and reanalysis can measure for crops and water.
+  - Compute a vegetation index time series and flag plots whose pattern disagrees with the declared crop.
+  - Measure a land-cover map's accuracy by class against ground-truth points.
+  - Compare a forecast-driven irrigation schedule with a fixed one on water use and crop-stress days.
+  - Build an opportunity-and-risk map ranking uses by water saved, data readiness, equity and accountability.
+- [USE-SEC-212 · AI in Cities, Tourism and Pilgrimage](../courses/USE-SEC-212.md): Level 200 · Apply, 16 h; Needs: USE-FLU-201
+  - Explain which city and visitor AI uses carry the highest safety and privacy stakes.
+  - Compare an arrival forecast with a seasonal baseline and report the error at staffing peaks.
+  - Use a pedestrian simulation to test whether a gate plan keeps density below a limit.
+  - Test a multilingual visitor assistant for wrong answers and failed hand-over to staff.
+  - Build an opportunity-and-risk map ranking use cases with controls for camera, location and biometric data.

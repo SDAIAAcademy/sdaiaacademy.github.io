@@ -7,8 +7,8 @@
 <meta name="robots" content="noindex">
 <title>Page not found · SDAIA Academy Course Catalog</title>
 <style>
-:root { --bg: #f7f5f0; --text: #101820; --muted: #5b6472; --line: #d4d0c5; --link: #1c355e; --surface: #ffffff; color-scheme: light dark; }
-@media (prefers-color-scheme: dark) { :root { --bg: #0f1722; --text: #e9e6de; --muted: #a4adba; --line: #2e3c51; --link: #a9c8f5; --surface: #172231; } }
+:root { --bg: #f7f5f0; --text: #101820; --muted: #5b6472; --line: #d4d0c5; --link: #00705b; --surface: #ffffff; color-scheme: light dark; }
+@media (prefers-color-scheme: dark) { :root { --bg: #0f1722; --text: #e9e6de; --muted: #a4adba; --line: #2e3c51; --link: #3fd0b3; --surface: #172231; } }
 * { box-sizing: border-box; }
 body { margin: 0; font: 1rem/1.6 "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: var(--text); background: var(--bg); }
 [lang="ar"] { font-family: "IBM Plex Sans Arabic", "Segoe UI", "Geeza Pro", "Noto Sans Arabic", Tahoma, Arial, sans-serif; line-height: 1.85; }
@@ -40,7 +40,7 @@ a { color: var(--link); text-underline-offset: .25em; }
 (function () {
   if (!/^https?:$/.test(window.location.protocol)) { return; }
   var path = window.location.pathname;
-  var at = path.search(/\/(en|ar|tracks|courses|assets)(\/|$)/);
+  var at = path.search(/\/(en|ar|tracks|courses|paths|plan|path-finder|assets)(\/|$)/);
   var base = at === -1 ? "/" : path.slice(0, at + 1);
   Array.prototype.forEach.call(document.querySelectorAll("a[data-to]"), function (a) {
     a.setAttribute("href", base + a.getAttribute("data-to"));

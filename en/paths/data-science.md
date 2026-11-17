@@ -1,0 +1,584 @@
+# Data Science
+
+For people who produce evidence, models and methods: analysis, statistics, experiments and causal inference, modelling, model development and trustworthy AI.
+
+## [SPC-ANL · Analysis and Business Intelligence](SPC-ANL.md)
+
+- [SPC-ANL-201 · Exploratory Analysis and Visualisation](../courses/SPC-ANL-201.md): Level 200 · Apply, 30 h; Needs: FND-DAT-102
+  - Distinguish exploratory from confirmatory analysis and explain why an exploratory pattern needs a fresh test.
+  - Prepare an analysis plan listing questions, units of observation, variables and the comparison that answers each question.
+  - Analyse distributions and pairwise relationships with summaries and charts suited to each variable type.
+  - Use a grammar of graphics to map variables to position, colour and facets, with honest scales and baselines.
+  - Test whether an apparent difference or correlation could arise by chance, using permutation or bootstrap resampling.
+  - Build a reproducible exploratory report stating findings, open questions and limits.
+- [SPC-ANL-202 · Analysis with AI Assistants: Delegate, Verify, Reproduce](../courses/SPC-ANL-202.md): Level 200 · Apply, 16 h; Needs: SPC-ANL-201
+  - Prepare a delegation plan marking which steps stay with the analyst, and a brief stating question, data, constraints and acceptance checks.
+  - Test assisted analyses by recomputing headline numbers and checking joins, filters and denominators.
+  - Measure run-to-run variability by repeating one request and comparing code, numbers and conclusions.
+  - Deliver an assisted analysis package that another analyst can rerun and audit.
+- [SPC-ANL-203 · Metrics, Semantic Models and Dashboards](../courses/SPC-ANL-203.md): Level 200 · Apply, 30 h; Needs: FND-DAT-101, SPC-ANL-201
+  - Explain where inconsistent numbers arise between metric definitions, semantic models and dashboards.
+  - Draft metric definitions with formula, grain, filters, time logic, owner and known limits.
+  - Implement a dimensional semantic model with conformed dimensions and metrics defined once.
+  - Design a dashboard for a named audience and decision, choosing layout, comparisons and drill paths.
+  - Measure dashboard load time and reduce it through aggregation, filters or model changes.
+  - Evaluate a conversational analytics agent against governed metrics and decide whether it is fit for a stated use.
+- [SPC-ANL-204 · Data Acquisition, Preparation and Quality for Analysis](../courses/SPC-ANL-204.md): Level 200 · Apply, 30 h; Needs: FND-DAT-101, FND-DAT-102
+  - Describe missing-data mechanisms and types of measurement error, and the bias each can introduce.
+  - Prepare a provenance record for each source with origin, coverage, licence, refresh date and limits.
+  - Implement record linkage across sources, with cardinality tests, reconciliation counts and a clerical review of uncertain matches.
+  - Configure validation rules for types, ranges, uniqueness, completeness and cross-field consistency.
+  - Analyse how complete-case analysis, imputation and a sensitivity range change a headline estimate.
+  - Evaluate language-model labels of free text as a measurement instrument and decide whether they are fit for the analysis.
+- [SPC-ANL-301 · Data Storytelling and Decision Briefings](../courses/SPC-ANL-301.md): Level 300 · Develop, 24 h; Needs: SPC-ANL-201
+  - Analyse a decision context to identify the decision maker, options, criteria and the evidence that would change the choice.
+  - Draft a storyline that puts the answer first and supports it with grouped, ordered reasons.
+  - Prepare explanatory charts whose titles state the finding, with annotation matched to the message.
+  - Draft statements of uncertainty, assumptions and risks in plain words using ranges, natural frequencies and scenarios.
+  - Deliver a decision memo stating recommendation, evidence, uncertainty, alternatives considered and what to monitor after the decision.
+  - Defend a recommendation in a live briefing under questioning, stating what is not known.
+- [SPC-ANL-302 · Geospatial Analytics](../courses/SPC-ANL-302.md): Level 300 · Develop, 16 h; Needs: SPC-ANL-201
+  - Explain how projections and the modifiable areal unit problem can change a spatial result.
+  - Apply spatial joins, buffers and distance measures to compute access to services.
+  - Prepare maps with normalised measures, suitable class breaks and colour schemes.
+  - Diagnose spatial clustering with global and local autocorrelation and judge whether a hot spot is meaningful.
+  - Deliver a service-access analysis with stated assumptions and limits.
+- [SPC-ANL-303 · Business Intelligence Platform Practice: Governance, Performance and Enablement](../courses/SPC-ANL-303.md): Level 300 · Develop, 16 h; Needs: SPC-ANL-203
+  - Implement measures with period comparisons, semi-additive balances, ratios and filter-dependent logic.
+  - Configure row-level and object-level access rules and test them with personas.
+  - Optimise a slow report using execution plans, indexes, aggregation tables and refresh design.
+  - Prepare an executive scorecard with objectives, measures, targets, owners and review rhythm.
+  - Design a governance and enablement plan covering certification, retirement, training and usage measures.
+
+## [SPC-STA · Statistics and Inference](SPC-STA.md)
+
+- [SPC-STA-201 · Statistical Inference by Simulation](../courses/SPC-STA-201.md): Level 200 · Apply, 36 h; Needs: FND-MTH-104
+  - Prepare an analysis plan stating estimand, unit of analysis, method and error rates before seeing the data.
+  - Compute bootstrap and large-sample intervals for ratios and differences in dependent data, resampling the correct unit.
+  - Implement a simulation that measures the coverage and Type I error of a method when its assumptions fail.
+  - Compute power and sample size by simulating the planned analysis, including clustering and attrition.
+  - Apply family-wise, false discovery rate and gatekeeping control to a planned family of claims, and test equivalence where the claim is no meaningful difference.
+  - Deliver an inference report that states estimates, intervals, effect sizes and limits in plain words.
+- [SPC-STA-301 · Regression and Generalised Linear Modelling](../courses/SPC-STA-301.md): Level 300 · Develop, 36 h; Needs: SPC-STA-201
+  - Distinguish descriptive, predictive and causal uses of a regression and the assumption each requires.
+  - Implement linear, logistic and count models with interactions and splines, interpreted as predicted values and average marginal effects.
+  - Diagnose misfit with residuals, influence measures and fake-data simulation, and correct the model.
+  - Analyse grouped data with cluster-adjusted standard errors and a random-intercept model, compared with a naive fit.
+  - Apply ridge and lasso penalties with cross-validated tuning and measure the stability of the selected predictors.
+  - Build and defend a regression model that answers a stated question, justifying terms, family and uncertainty.
+- [SPC-STA-302 · Survey, Sampling and Measurement Design](../courses/SPC-STA-302.md): Level 300 · Develop, 16 h; Needs: SPC-STA-201
+  - Compute design weights, design effects and design-based standard errors for a stratified cluster sample.
+  - Apply non-response adjustment and raking to population margins and measure the effect on estimates.
+  - Analyse questionnaire items for wording faults, scale reliability and evidence of validity.
+  - Review two disagreeing survey results and trace the gap to frame, non-response, wording or denominator.
+  - Design a sampling and measurement plan with frame, design, sample size, weighting and pretest.
+- [SPC-STA-401 · Bayesian Modelling and Decisions under Uncertainty](../courses/SPC-STA-401.md): Level 400 · Evaluate, 60 h; Needs: SPC-STA-301
+  - Implement a Bayesian workflow from prior predictive simulation through fitting to sampler diagnosis.
+  - Design a hierarchical model for many small groups and defend the pooling it implies.
+  - Evaluate competing models with posterior predictive checks and approximate leave-one-out cross-validation.
+  - Validate a model implementation by parameter recovery and simulation-based calibration.
+  - Decide between actions by expected utility under the posterior, including the value of collecting more data.
+  - Review another analyst's Bayesian analysis for priors, computation, checking and reporting.
+
+## [SPC-EXP · Experimentation and Causal Inference](SPC-EXP.md)
+
+- [SPC-EXP-201 · Designing and Reading Experiments](../courses/SPC-EXP-201.md): Level 200 · Apply, 16 h; Needs: FND-MTH-104
+  - Distinguish a randomised experiment, a quasi-experiment and an observational comparison, and explain what causal claim each can support.
+  - Draft a pre-registration that states the decision, hypothesis, unit of randomisation, primary and guardrail metrics and the analysis plan.
+  - Compute the sample size and run time needed to detect a minimum effect of interest, and check the answer by simulation.
+  - Analyse a completed two-arm experiment with a difference in means, a confidence interval and a sample ratio mismatch test.
+  - Measure the false-positive rate caused by repeated peeking and by testing many metrics in the same experiment.
+  - Review a reported experiment result and decide whether it supports the decision it claims to support.
+- [SPC-EXP-301 · Online Experiments at Scale](../courses/SPC-EXP-301.md): Level 300 · Develop, 30 h; Needs: SPC-EXP-201
+  - Apply regression adjustment with pre-experiment covariates (CUPED, controlled-experiment using pre-experiment data) and report the variance reduction and the saving in sample size.
+  - Compute standard errors for ratio and per-session metrics with the delta method and with a bootstrap over the randomisation unit.
+  - Implement a group sequential design and an always-valid confidence sequence, and test their error rates under daily monitoring.
+  - Design a metric set and decision rule for a launch: a primary metric, guardrails for latency, errors, cost and harm, and how they combine.
+  - Diagnose interference in a two-sided marketplace experiment and design a cluster-randomised or switchback alternative with its power.
+  - Review experiment write-ups as a member of a review board and decide launch, iterate or stop for each.
+- [SPC-EXP-302 · Causal Inference from Observational Data](../courses/SPC-EXP-302.md): Level 300 · Develop, 36 h; Needs: SPC-STA-301
+  - Draft a causal graph (directed acyclic graph, DAG) for a stated question and derive a valid adjustment set, identifying colliders and bad controls.
+  - Apply propensity-score matching and inverse probability weighting to estimate an average treatment effect, checking overlap and covariate balance.
+  - Apply difference-in-differences to estimate a programme effect, including an event-study plot and an estimator suited to staggered adoption.
+  - Implement synthetic control, regression discontinuity and instrumental-variable estimates, each with its standard diagnostic.
+  - Defend the choice of an identification strategy for a new causal question against at least two alternatives.
+  - Evaluate how sensitive an estimate is to unmeasured confounding and state how strong a confounder would have to be to change the conclusion.
+  - Deliver an end-to-end observational analysis from question to defended conclusion.
+- [SPC-EXP-303 · Measuring the Impact of AI Deployments](../courses/SPC-EXP-303.md): Level 300 · Develop, 16 h; Needs: SPC-EXP-201
+  - Explain why self-reported speed-ups, usage counts and output throughput mislead as measures of AI impact.
+  - Prepare an outcome set for an AI deployment that separates speed, quality and value, including rework and the cost of errors.
+  - Analyse a staggered rollout of an AI assistant across teams, correcting for selection into early adoption.
+  - Design a trial for an AI deployment, choosing among randomised, stepped-wedge and encouragement designs and setting unit, duration, power and contamination controls.
+  - Build a return case from an impact estimate that carries its uncertainty through costs, benefits and the break-even point.
+  - Evaluate an impact report from a vendor or internal team and decide whether it supports scaling.
+- [SPC-EXP-401 · Causal Machine Learning and Policy Evaluation](../courses/SPC-EXP-401.md): Level 400 · Evaluate, 36 h; Needs: SPC-EXP-302, SPC-MOD-201
+  - Implement double machine learning with cross-fitting for an average effect with many confounders, and compare it with plain regression adjustment.
+  - Build conditional average treatment effect (CATE) estimators with at least three methods and validate them on held-out randomised data.
+  - Evaluate a proposed targeting policy offline from logged decisions with inverse propensity and model-assisted estimators, and diagnose when the estimate cannot be trusted.
+  - Design a treatment-assignment policy under a budget and a fairness constraint, and compare it with treat-all and risk-based targeting.
+  - Diagnose a heterogeneous-effect claim that rests on overfitting, unstable subgroups or reuse of the same data for estimation and evaluation.
+  - Design a confirmatory experiment for a learned policy, with power for the comparison against the current policy.
+- [SPC-EXP-402 · Statistical Evaluation of AI Systems](../courses/SPC-EXP-402.md): Level 400 · Evaluate, 30 h; Needs: SPC-STA-201, SPC-STA-301
+  - Compute standard errors for an evaluation score that account for clustered items, repeated sampling and several runs per item.
+  - Decide whether the difference between two models on a shared item set is real and large enough to matter, using a paired analysis.
+  - Design the size of an evaluation in items, samples per item and grader calls to detect a stated difference within a budget.
+  - Decide which interval method to use for small evaluations, showing by simulation where the large-sample interval fails.
+  - Evaluate how model-grader error biases an observed pass rate and correct it using measured sensitivity and specificity, carrying the calibration uncertainty into the final interval.
+  - Audit a published or internal evaluation claim for statistical validity and write a reporting standard for future claims.
+
+## [SPC-MOD · Machine Learning and Modelling](SPC-MOD.md)
+
+- [SPC-MOD-201 · Machine Learning for Tabular Data: Baselines and Validation](../courses/SPC-MOD-201.md): Level 200 · Apply, 36 h; Needs: FND-AIC-101, FND-DAT-102
+  - Identify the leakage type and the fitting validation scheme in short modelling cases.
+  - Apply a baseline ladder from a constant predictor to tuned gradient-boosted trees, logging every run.
+  - Implement validation that matches the data structure and measure how far a random split overstates performance.
+  - Test an automated or pretrained challenger against the tuned champion under identical folds and budget.
+  - Analyse held-out errors by subgroup with intervals that reflect slice size.
+  - Audit another analyst's modelling notebook and decide whether its reported score can be trusted.
+- [SPC-MOD-301 · Uncertainty, Interpretability and Model Validation](../courses/SPC-MOD-301.md): Level 300 · Develop, 30 h; Needs: SPC-MOD-201
+  - Explain what calibration, conformal coverage and feature attribution each guarantee, and their assumptions.
+  - Measure calibration with proper scores and reliability diagrams, then recalibrate and report the effect by subgroup.
+  - Implement conformal intervals and prediction sets and test coverage overall, by group and under simulated shift.
+  - Compute permutation, accumulated-local-effect and Shapley-value explanations and test their stability across refits.
+  - Diagnose why a model degrades on a later batch from slice metrics, coverage loss and explanation changes.
+  - Audit a model package against a reporting checklist and deliver a fit-for-use decision.
+- [SPC-MOD-302 · Forecasting and Time Series](../courses/SPC-MOD-302.md): Level 300 · Develop, 36 h; Needs: SPC-MOD-201
+  - Distinguish forecasting settings by horizon, number of series, information available and demand pattern.
+  - Compute seasonal-trend decompositions and a benchmark floor scored by rolling-origin cross-validation.
+  - Apply exponential smoothing, ARIMA-family and dynamic regression models with moving-holiday features and check residuals.
+  - Test global boosted and pretrained zero-shot forecasters against statistical models on point and quantile accuracy.
+  - Review a forecast evaluation for leakage across time and for model selection on the test window.
+  - Build a forecasting analysis for new series and defend the method, horizon and uncertainty to a planner.
+- [SPC-MOD-303 · Text and Unstructured Data for Data Science](../courses/SPC-MOD-303.md): Level 300 · Develop, 30 h; Needs: SPC-MOD-201, FND-AIC-102
+  - Compare sparse features, embeddings and prompted language models on data needs, cost, transparency and failures.
+  - Prepare a codebook and gold set and measure agreement between annotators with chance-corrected statistics.
+  - Measure sparse, embedding-based and prompted classifiers against the same held-out gold set.
+  - Implement schema-constrained field extraction and measure field-level precision and recall.
+  - Evaluate a language model as an annotator and decide whether its labels can feed a downstream analysis.
+  - Design a text-measurement project that answers a stakeholder question and defend each measurement choice.
+- [SPC-MOD-304 · Optimisation and Operations Research for Decisions](../courses/SPC-MOD-304.md): Level 300 · Develop, 36 h; Needs: FND-MTH-101, SPC-MOD-201
+  - Distinguish linear, integer, constraint and scenario-based formulations and identify which a problem needs.
+  - Implement a linear programme for allocation and interpret shadow prices for a manager.
+  - Implement a staff roster with hard and soft rules and measure solve time and optimality gap as it grows.
+  - Analyse a plan under uncertain demand by Monte Carlo simulation against a scenario-based alternative.
+  - Build a predict-then-optimise pipeline and evaluate forecasts by the decision regret they cause.
+  - Design a decision model from a stakeholder brief, verify it against the owner's rules and defend its trade-offs.
+- [SPC-MOD-305 · Clustering, Anomaly Detection and Dimensionality Reduction](../courses/SPC-MOD-305.md): Level 300 · Develop, 16 h; Needs: SPC-MOD-201
+  - Apply principal components and a nonlinear embedding and test which structures survive changes of settings and seeds.
+  - Apply centroid, mixture and density-based clustering under different scaling choices and measure internal indices and bootstrap stability.
+  - Measure the precision of anomaly detectors at a fixed investigation budget.
+  - Evaluate a segmentation delivered by another team and decide whether it is stable and useful enough to act on.
+  - Design an anomaly-monitoring rule for a data feed with thresholds, alert budget and a review step.
+- [SPC-MOD-306 · Responsible Data Science: Privacy, Fairness and Documentation](../courses/SPC-MOD-306.md): Level 300 · Develop, 24 h; Needs: SPC-MOD-201
+  - Distinguish pseudonymisation, de-identification, aggregation and differential privacy by the guarantee each gives.
+  - Measure re-identification risk from quasi-identifiers and reduce it while tracking analytic utility.
+  - Compute differentially private counts and means and state the accuracy cost of a privacy budget.
+  - Audit a classifier for subgroup disparities, choose fairness criteria that fit the decision and evaluate mitigations.
+  - Build the documentation set that lets an independent reviewer rerun an analysis and judge its limits.
+- [SPC-MOD-307 · Problem Framing, Product Sense and Analytical Review](../courses/SPC-MOD-307.md): Level 300 · Develop, 16 h; Needs: SPC-ANL-201
+  - Prepare a decision question with estimand, population, metric and decision rule from a request.
+  - Analyse a metric set for proxy failure and gaming, and propose guardrail metrics.
+  - Design an analysis plan stating data, method, threats to validity and the result that would change the decision.
+  - Review an analysis for errors in question fit, data handling, method, inference and communication.
+  - Decide whether a request needs description, an experiment, a causal study, a model or no analysis.
+- [SPC-MOD-308 · Graph, Network and Relational Data Analysis](../courses/SPC-MOD-308.md): Level 300 · Develop, 16 h; Needs: SPC-MOD-201
+  - Construct a network from transaction records, justifying node, edge, weight and window choices.
+  - Compute centrality, clustering and assortativity against a degree-preserving null model.
+  - Evaluate community structure across two methods, under resampling and against external attributes.
+  - Build and compare heuristic, embedding and graph neural network link predictors.
+  - Explain how message passing generalises neighbourhood features and when engineered features suffice.
+- [SPC-MOD-401 · Foundation Models for Structured Data](../courses/SPC-MOD-401.md): Level 400 · Evaluate, 16 h; Needs: SPC-MOD-201, SPC-MOD-302
+  - Evaluate a tabular foundation model against a tuned, ensembled boosted-tree baseline across training-set sizes.
+  - Evaluate zero-shot and fine-tuned forecasters against seasonal naive, exponential smoothing and a tuned global boosted-tree model.
+  - Audit a published claim for pretraining overlap, unequal tuning budgets and leaderboard overfitting.
+  - Design a reusable evaluation protocol and decide on adoption for one structured-data task, including licence, hosting and data-flow conditions.
+- [SPC-MOD-402 · Simulation and Agent-Based Modelling](../courses/SPC-MOD-402.md): Level 400 · Evaluate, 16 h; Needs: SPC-STA-201
+  - Build a discrete-event model of a queueing service and compare staffing policies with replications and common random numbers.
+  - Build an agent-based model of adoption and document it with a standard protocol.
+  - Calibrate model parameters against observed aggregate patterns and report their uncertainty.
+  - Analyse which inputs drive outputs with designed experiments and global sensitivity analysis.
+  - Evaluate scenarios for a policy decision and defend what the model can and cannot support.
+
+## [SPC-DLR · Deep Learning and Model Development](SPC-DLR.md)
+
+- [SPC-DLR-301 · Mathematics for Model Builders](../courses/SPC-DLR-301.md): Level 300 · Develop, 45 h
+  - Apply eigen and singular value decompositions to explain and compress the weight matrices of a trained network.
+  - Compute gradients and Jacobians of vector and matrix expressions in matrix notation.
+  - Build a scalar reverse-mode automatic differentiation engine and use it to train a two-layer network.
+  - Analyse how step size, momentum and adaptive scaling interact with curvature and conditioning.
+  - Compute entropy, cross-entropy, divergence and bits per byte, and derive training losses from maximum likelihood.
+  - Diagnose and fix numerical failures such as overflow, cancellation and precision loss in low-precision formats.
+- [SPC-DLR-302 · Deep Learning from First Principles](../courses/SPC-DLR-302.md): Level 300 · Develop, 80 h; Needs: SPC-DLR-301
+  - Build a tensor library with automatic differentiation, layers, losses and optimisers on the SPC-DLR-301 engine.
+  - Implement and train multilayer, convolutional, recurrent and transformer models in a standard framework.
+  - Apply schedules, normalisation, initialisation and width-aware hyperparameter transfer when tuning a model.
+  - Diagnose why a training run fails or underperforms and fix the cause.
+  - Measure the quality of learned representations with linear probes and nearest-neighbour retrieval.
+  - Design and run a controlled ablation that tests a claim about architecture, optimisation or generalisation.
+- [SPC-DLR-303 · Building a Language Model from Scratch](../courses/SPC-DLR-303.md): Level 300 · Develop, 80 h; Needs: SPC-DLR-302
+  - Build a byte-level BPE tokeniser and compare its compression across languages.
+  - Build a decoder-only transformer and its training loop from tensor operations.
+  - Compute parameters, operations and memory for a configuration, and choose a model size and token count within budget.
+  - Implement sampling strategies and a KV cache for generation.
+  - Diagnose instability in language model training from logged loss, gradient norms and activation statistics.
+  - Evaluate a trained small language model on held-out loss, benchmarks and samples, and document its limits.
+- [SPC-DLR-304 · Training Systems for Large Models](../courses/SPC-DLR-304.md): Level 300 · Develop, 60 h; Needs: SPC-DLR-303
+  - Compute the arithmetic, memory and communication cost of a training configuration and predict its step time with a roofline model.
+  - Analyse a profiler trace of a training step, attributing time to kernels, transfers, data loading and communication.
+  - Build a fused attention kernel with tiling and an online softmax.
+  - Build data-parallel training with sharded optimiser state from collective communication primitives.
+  - Optimise end-to-end training throughput under a fixed memory limit without changing results beyond a stated tolerance.
+  - Analyse tensor, pipeline, sequence and expert parallelism plans for a model too large for one node.
+- [SPC-DLR-305 · Data and Scaling for Foundation Models](../courses/SPC-DLR-305.md): Level 300 · Develop, 40 h; Needs: SPC-DLR-303
+  - Prepare a text pipeline from raw web archives covering extraction, language identification, quality filters and personal-data removal.
+  - Implement near-duplicate detection with MinHash and decontaminate the corpus against evaluation sets.
+  - Evaluate a filter, synthetic dataset or mixture by training small models on its output at equal compute.
+  - Build a scaling-law fit from small runs and use it to decide model size and token count for a budget.
+  - Draft a data card recording sources, licences, opt-out handling, filters and known gaps.
+- [SPC-DLR-306 · Post-Training I: Fine-Tuning, Preference Optimisation and Distillation](../courses/SPC-DLR-306.md): Level 300 · Develop, 60 h; Needs: SPC-DLR-303
+  - Prepare instruction and preference datasets with chat templates, loss masking, decontamination and licence checks.
+  - Build supervised fine-tuning runs with full-parameter and low-rank adapter variants and decide between them.
+  - Build a reward model and a DPO run from their loss functions.
+  - Apply sequence-level and logit-level distillation from a larger teacher to a smaller student.
+  - Apply weight-merging methods to combine checkpoints tuned for different skills.
+  - Evaluate an adapted model for improvements, forgetting, instruction following and safety regressions.
+- [SPC-DLR-401 · Post-Training II: Reinforcement Learning for Language Models](../courses/SPC-DLR-401.md): Level 400 · Evaluate, 60 h; Needs: SPC-DLR-306
+  - Build an RL training loop for a language model with group-relative advantages, clipping and a divergence penalty.
+  - Design verifiable reward functions for maths, code and format tasks that reject known exploits.
+  - Diagnose reward hacking and pathologies such as length inflation, format gaming and entropy collapse, and fix them.
+  - Evaluate test-time compute strategies and choose an allocation for a fixed inference budget.
+  - Decide whether RL, fine-tuning on filtered samples or distillation gives the largest improvement on a task at equal compute.
+  - Prepare verified agent trajectories from a sandboxed environment and use them for rejection-sampling fine-tuning.
+- [SPC-DLR-402 · Efficient Deep Learning: Compression, Quantisation and Long Context](../courses/SPC-DLR-402.md): Level 400 · Evaluate, 60 h; Needs: SPC-DLR-302, SPC-DLR-303
+  - Apply magnitude, structured and semi-structured (N:M) pruning, and measure accuracy against sparsity and real speed-up.
+  - Build a post-training quantisation pipeline with calibration, per-channel and group scaling, and outlier handling.
+  - Diagnose quality loss after compression by locating sensitive layers and outliers, and repair it with mixed precision or quantisation-aware training.
+  - Build a long-context extension of a small model and evaluate it beyond single-fact retrieval tests.
+  - Implement a mixture-of-experts layer with routing and a load-balancing loss.
+  - Design a compression plan for a target device or budget and defend it with a measured frontier.
+
+## [SPC-GEN · Generative, Multimodal and Embodied Models](SPC-GEN.md)
+
+- [SPC-GEN-301 · Diffusion and Flow Matching from Scratch](../courses/SPC-GEN-301.md): Level 300 · Develop, 60 h; Needs: SPC-DLR-302
+  - Explain diffusion, score-based and flow matching models as ways of learning a velocity field along a probability path.
+  - Implement flow matching and denoising score matching, and compare deterministic and stochastic samplers.
+  - Build a class-conditional image generator with a U-Net and then a transformer backbone, using classifier-free guidance.
+  - Design a latent generative model, choosing the autoencoder's compression for a compute budget.
+  - Implement a masked discrete diffusion model for short text and compare it with an autoregressive model of similar size.
+  - Evaluate a generator's quality, diversity and memorisation, and state where each metric misleads.
+- [SPC-GEN-302 · Vision and Multimodal Foundation Models](../courses/SPC-GEN-302.md): Level 300 · Develop, 60 h; Needs: SPC-DLR-302
+  - Compare contrastive, masked and self-distillation objectives and explain the invariances each teaches an encoder.
+  - Implement two self-supervised objectives for a small vision transformer and measure them with linear probes and retrieval.
+  - Build a small vision-language model from a frozen encoder, a trained projector and an open-weight language model, then instruction-tune it.
+  - Evaluate a vision-language model for hallucinated objects, Arabic and English text reading, and prompt sensitivity.
+  - Fit a neural radiance field and a Gaussian splatting model to a captured scene and compare quality and speed.
+  - Design a pretraining and adaptation plan for a vision encoder in a new domain with few labels.
+- [SPC-GEN-303 · Speech and Arabic Language Modelling](../courses/SPC-GEN-303.md): Level 300 · Develop, 60 h; Needs: SPC-DLR-302
+  - Explain how Arabic morphology, optional diacritics, dialects and code-switching affect tokenisation, recognition and evaluation.
+  - Fine-tune a speech encoder and an encoder-decoder recogniser for Arabic and report error rates by dialect.
+  - Fine-tune a pretrained text-to-speech model for Arabic and measure its intelligibility and naturalness.
+  - Design an Arabic and English tokeniser and justify its vocabulary by fertility and downstream loss.
+  - Build a continued-pretraining and alignment run that improves a small open-weight model in Arabic without losing English ability.
+  - Evaluate an Arabic model for knowledge, instruction-following, dialect and cultural appropriateness, and audit the benchmarks used.
+- [SPC-GEN-304 · Reinforcement Learning and Decision Making](../courses/SPC-GEN-304.md): Level 300 · Develop, 80 h; Needs: SPC-DLR-302
+  - Explain the Bellman equations, the policy gradient theorem and the bias-variance trade-off in return estimates.
+  - Implement value iteration, bandit exploration strategies, Q-learning and a deep Q-network with replay and target networks.
+  - Implement a policy-gradient agent, proximal policy optimisation and an off-policy actor-critic for continuous control.
+  - Build a model-based agent that plans with a learned dynamics model, and diagnose where model error limits it.
+  - Evaluate offline methods against behaviour cloning on datasets of different quality and recommend one per regime.
+  - Design a reinforcement learning experiment for a decision problem, with the reward, optimisation baselines and a sound comparison over seeds.
+- [SPC-GEN-401 · Robot Learning and Vision-Language-Action Models](../courses/SPC-GEN-401.md): Level 400 · Evaluate, 60 h; Needs: SPC-GEN-304
+  - Implement behaviour cloning with action chunking and a diffusion policy, and compare them on the same demonstrations.
+  - Design a demonstration protocol and diagnose how number, diversity and operator quality of demonstrations affect success.
+  - Evaluate a fine-tuned open-weight VLA model against a policy trained from scratch on held-out objects, positions and instructions.
+  - Diagnose the gap between simulation and a real arm and measure how far randomisation and system identification close it.
+  - Review a published robot learning result for evaluation design and claimed generalisation.
+  - Configure workspace limits, speed limits and an emergency stop for a learned policy on a physical arm.
+- [SPC-GEN-402 · World Models, Video and 3D Generation](../courses/SPC-GEN-402.md): Level 400 · Evaluate, 30 h; Needs: SPC-GEN-301
+  - Describe the main families of video, world-model and 3D generative methods and the evidence each offers for physical consistency.
+  - Review a paper's claims about controllability, physical consistency and generalisation, and judge whether its evaluation supports them.
+  - Measure a pretrained video or world model's consistency under controlled prompts or actions with a small probe set.
+  - Reproduce one small published result and report where the reproduction agrees and differs.
+  - Defend a position on an open problem, such as how to evaluate interactive world models.
+
+## [SPC-TRU · Trustworthy AI Science](SPC-TRU.md)
+
+- [SPC-TRU-301 · Evaluation Science for AI Models](../courses/SPC-TRU-301.md): Level 300 · Develop, 40 h
+  - Explain the main threats to evaluation validity: construct mismatch, contamination, saturation, test awareness and grader error.
+  - Analyse a public benchmark for label errors and ambiguous items, and recompute model scores on the corrected set.
+  - Test models for training-data contamination with overlap search, perturbed item variants and completion probes.
+  - Evaluate a model-based judge against human labels, measure its position, length and self-preference biases, and decide where it may replace human graders.
+  - Design an agent evaluation that reports success over repeated trials, cost per solved task and failure categories.
+  - Build a new evaluation for a stated capability and report results with uncertainty, compute budget and known limits.
+- [SPC-TRU-302 · Interpretability of Neural Networks](../courses/SPC-TRU-302.md): Level 300 · Develop, 60 h; Needs: SPC-DLR-302
+  - Explain superposition, the linear representation hypothesis and the difference between correlational and causal evidence about model internals.
+  - Implement activation caching, the logit lens and linear probes, and compare probe accuracy with a control task.
+  - Diagnose the circuit behind a defined behaviour with activation and path patching, and test it by ablation.
+  - Build a sparse dictionary of model activations, evaluate its reconstruction, sparsity and interpretability, and steer behaviour with a chosen feature.
+  - Test two explanation methods for faithfulness with model randomisation, counterfactual inputs and a reasoning-trace consistency check.
+  - Deliver a reproduction and extension of a published interpretability result, and defend which conclusions the evidence supports.
+- [SPC-TRU-303 · AI Safety and Alignment Engineering](../courses/SPC-TRU-303.md): Level 300 · Develop, 60 h; Needs: SPC-TRU-301
+  - Compare misuse, misalignment and structural threat models, and describe how safety frameworks tie capability thresholds to safeguards.
+  - Draft a threat model naming actors, capabilities, harm pathways and the evidence that would rule each pathway in or out.
+  - Build a dangerous-capability evaluation from safe proxy tasks, with elicitation effort and thresholds fixed in advance.
+  - Evaluate sycophancy, reward hacking and sandbagging propensities, and test whether results change when the model can tell it is being evaluated.
+  - Design and stress-test a control protocol in which a trusted monitor reviews an untrusted model's actions.
+  - Defend a safety case that links each claim about a deployment to evaluation, red-team and monitoring evidence.
+- [SPC-TRU-304 · Trustworthy Machine Learning: Robustness, Privacy and Fairness](../courses/SPC-TRU-304.md): Level 300 · Develop, 60 h; Needs: SPC-DLR-302
+  - Explain threat models for evasion, poisoning, privacy and fairness harms in terms of attacker knowledge, capability and goal.
+  - Evaluate an adversarial defence with adaptive attacks and certified bounds, and identify gradient masking.
+  - Implement a backdoor attack and two detection methods, and measure attack success against clean accuracy.
+  - Audit a model for training-data leakage, then train with differential privacy and compare measured leakage with the formal bound.
+  - Test whether an unlearning method removes a forget set, using a retrained model as the reference.
+  - Design a fairness and uncertainty evaluation that states its measurement assumptions and checks stability under distribution shift.
+
+## [SPC-RSP · Research Practice and Frontier](SPC-RSP.md)
+
+- [SPC-RSP-101 · Emerging Computing Paradigms for AI](../courses/SPC-RSP-101.md): Level 100 · Explain, 12 h
+  - Explain what a gate-based quantum computer, a spiking neural network and an analogue optical matrix multiplier each compute natively.
+  - Distinguish demonstrated results, plausible near-term results and unsupported claims for machine learning on each paradigm.
+  - Identify the bottlenecks that limit practical advantage: data loading, noise and error correction, precision and conversion costs, training methods and software maturity.
+  - Use a circuit simulator to train a two-qubit variational classifier and compare it with a classical baseline on the same data.
+  - Analyse an announcement of hardware advantage for AI and draft an assessment of its baseline, problem size, end-to-end cost and missing comparisons.
+- [SPC-RSP-301 · Research Practice Studio](../courses/SPC-RSP-301.md): Level 300 · Develop, 60 h
+  - Prepare a reading note that states a paper's claim, evidence, baselines, compute and threats to validity.
+  - Reproduce one figure or table from a published paper within a stated compute budget and explain any gap.
+  - Design and run a tracked follow-up experiment with a stated hypothesis, controls and a seed count justified by a power estimate.
+  - Compute the uncertainty of model comparisons across seeds and data splits, correcting for multiple comparisons.
+  - Review a peer's short paper for soundness, clarity, reproducibility and ethics.
+  - Audit a research agent's overnight experiment results, deciding for each whether to accept, rerun or reject it.
+- [SPC-RSP-302 · Data Science Practicum](../courses/SPC-RSP-302.md): Level 300 · Develop, 100 h; Needs: SPC-STA-201, SPC-MOD-201
+  - Design a decision question from a sponsor's request, with options, a success metric, constraints and the evidence that would change the decision.
+  - Prepare a data audit covering provenance, quality, classification, personal data and fitness for the question.
+  - Design an analysis plan matched to the question type (descriptive, predictive, causal or optimisation) and fix it before outcomes are examined.
+  - Build and validate the analysis with baselines, sensitivity checks and stated uncertainty for every number the recommendation relies on.
+  - Defend a recommendation and its limits to the sponsor and a technical panel, including what evidence would reverse it.
+  - Prepare a hand-over pack with a decision log, an analysis card, a monitoring suggestion and open risks.
+- [SPC-RSP-401 · Reproduction Capstone: Reproduce and Extend a Published Result](../courses/SPC-RSP-401.md): Level 400 · Evaluate, 100 h; Needs: SPC-RSP-301
+  - Defend the choice of a target result on feasibility, licence position and compute budget.
+  - Reproduce the target result, measuring variation across seeds and logging every deviation from the paper.
+  - Diagnose the causes of any gap between the reproduced and the published result.
+  - Design and run one extension that tests the claim beyond its original conditions, such as a new dataset, scale, language or ablation.
+  - Deliver a reproducibility report that meets a published checklist for code, data, compute, statistics and ethics.
+  - Defend the findings, including any negative result, under questioning from a panel.
+- [SPC-RSP-402 · Frontier Seminar: Agent Research and Multi-Agent Systems](../courses/SPC-RSP-402.md): Level 400 · Evaluate, 24 h
+  - Explain the main open problems in agent research, namely memory, long horizons, goal drift, credit assignment and coordination, with the strongest current evidence on each.
+  - Review an agent paper's experimental design, including harness confounds, budget matching and sensitivity to task length.
+  - Design a controlled experiment that isolates one agent component while holding the model, tools and token budget fixed.
+  - Build a replication of a small published result on long-horizon or multi-agent behaviour, reporting success over repeated trials with intervals.
+  - Design a research proposal on one open problem, with hypotheses, an evaluation design and the result that would count as failure.
+- [SPC-RSP-403 · Frontier Seminar: AI for Science](../courses/SPC-RSP-403.md): Level 400 · Evaluate, 24 h
+  - Explain how scientific foundation models differ from language models in training data, inductive biases, outputs and validation.
+  - Use an open-weight scientific model to produce predictions on public data and compare them with a domain baseline.
+  - Design an evaluation split that prevents leakage through sequence similarity, spatial proximity or temporal overlap.
+  - Review a published AI-for-science claim for its baselines, its validation against experiment or observation, and its uncertainty.
+  - Design a validation plan for using a scientific model in a domain project, naming the experimental or field evidence required.
+- [SPC-RSP-404 · Frontier Seminar: Neurosymbolic Methods and AI for Mathematics](../courses/SPC-RSP-404.md): Level 400 · Evaluate, 24 h
+  - Explain the main neurosymbolic patterns: a model proposes and a solver checks, a model guides search, differentiable logic, and learned heuristics inside solvers.
+  - Use a language model with a proof assistant to prove a set of small lemmas and report success over repeated attempts.
+  - Build a generate-and-verify loop that writes code with a formal specification and rejects any output the verifier does not accept.
+  - Evaluate the faithfulness of autoformalised statements against their informal originals.
+  - Review a neurosymbolic or AI-for-mathematics paper for what its verification guarantees, its contamination risk and its compute budget.
+
+## [DS-200 · Data Science: courses that help prepare for the Assistant level](DS-200.md)
+
+- [DS-201 · Statistical Inference by Simulation](../courses/DS-201.md): Level 200 · Apply, 26 h; Needs: FN-101, FN-103
+  - Explain what a sampling distribution, a standard error, a confidence interval and a p-value describe, and identify common misreadings.
+  - Compute bootstrap intervals for a mean, a median and a group difference, resampling the correct unit.
+  - Implement a permutation test, compare it with the matching classical test and report an effect size with an interval.
+  - Apply family-wise and false discovery rate corrections to many tests and measure the false findings without them.
+  - Analyse a linear regression of water consumption on household size and temperature, with slope intervals and residual checks.
+  - Deliver an inference brief that answers a manager's question with an estimate, an interval, a test, an effect size and stated limits.
+- [DS-202 · Data Acquisition, Preparation and Quality](../courses/DS-202.md): Level 200 · Apply, 26 h; Needs: FN-101, FN-104, FN-106
+  - Describe missing-data mechanisms and kinds of measurement error and the bias each can introduce.
+  - Prepare a provenance record per source covering origin, owner, coverage, sharing basis, refresh date and limits.
+  - Implement joins with key checks, cardinality tests and reconciliation counts so that no row is silently lost or duplicated.
+  - Configure validation rules for types, ranges, uniqueness, completeness and cross-field consistency that run on every rebuild.
+  - Analyse how complete-case analysis, imputation and a sensitivity range change a headline estimate.
+  - Build a rebuildable analysis dataset from raw sources with personal data minimised and pseudonymised.
+- [DS-203 · Exploratory Analysis and Visualisation](../courses/DS-203.md): Level 200 · Apply, 26 h; Needs: FN-101, FN-104, DS-201
+  - Distinguish exploratory from confirmatory analysis and explain why a pattern found by exploring needs a fresh test.
+  - Prepare an analysis plan listing questions, units of observation, variables and the comparison that answers each.
+  - Analyse distributions, relationships and change over time with summaries and charts suited to each variable type.
+  - Use a grammar of graphics to map variables to position, colour and facets with honest scales, baselines and labels.
+  - Test whether an apparent difference or correlation could arise by chance, using permutation or bootstrap resampling.
+  - Deliver a reproducible exploratory report that states findings, uncertainty, open questions and limits for a non-specialist reader.
+- [DS-204 · Machine Learning for Tabular Data: Baselines and Validation](../courses/DS-204.md): Level 200 · Apply, 26 h; Needs: FN-101, FN-103, FN-105, DS-201
+  - Identify the leakage type and the fitting validation scheme in short tabular modelling cases.
+  - Apply a baseline ladder from a constant predictor to tuned gradient-boosted trees, logging every run.
+  - Implement validation that matches the data structure and measure how far a random split overstates performance.
+  - Test an automated or pretrained challenger against the tuned model under identical folds and time budget.
+  - Analyse calibration, the decision threshold and held-out errors by subgroup, with intervals that reflect slice size.
+  - Build a validated tabular model from framing to model card and defend its validation scheme and limits.
+- [DS-205 · Designing and Reading Experiments](../courses/DS-205.md): Level 200 · Apply, 21 h; Needs: DS-201
+  - Distinguish a randomised experiment, a quasi-experiment and an observational comparison, and explain the causal claim each supports.
+  - Draft a pre-registration stating the decision, hypothesis, unit of randomisation, primary and guardrail metrics, stop rule and analysis plan.
+  - Compute the sample size and run time needed to detect a minimum effect of interest and check it by simulation.
+  - Analyse a completed two-arm experiment with a difference in proportions, a confidence interval and a sample ratio mismatch test.
+  - Measure by simulation the false-positive rate caused by peeking, many metrics and analysis at the wrong unit.
+  - Review a reported experiment and decide whether it supports the decision it claims to support.
+- [DS-206 · Analysis with AI Assistants: Delegate, Verify, Reproduce](../courses/DS-206.md): Level 200 · Apply, 21 h; Needs: FN-101, FN-104, FN-106
+  - Identify which analysis steps suit delegation and which need the analyst's own judgement, with a reason for each.
+  - Prepare a delegation brief stating question, data, definitions, constraints and acceptance checks before the assistant runs.
+  - Test assisted analyses by recomputing headline numbers another way and checking joins, filters, denominators and chart encodings.
+  - Measure run-to-run variability by repeating one request five times and comparing code, numbers and conclusions.
+  - Classify analysis data by sensitivity and assign each table to a local assistant, a hosted assistant or neither.
+  - Deliver an assisted analysis package that another analyst can rerun and audit from logged prompts, code, data and verification notes.
+- [DS-207 · Responsible Data Practice and Conduct in Analytical Work](../courses/DS-207.md): Level 200 · Apply, 21 h; Needs: FN-106
+  - Explain the PDPL principles and the classification and sharing rules an analysis engages, from lawful basis to data subjects' rights and transfer.
+  - Classify the datasets and outputs of an analysis and decide what may be shared, with whom and in what form.
+  - Apply aggregation and small-cell suppression to results tables and check that no student can be singled out.
+  - Analyse referral and error rates across student groups and report differences with their uncertainty and possible causes.
+  - Prepare a datasheet and an analysis log that let a reviewer trace each result to its data, decisions and approvals.
+  - Lead a stakeholder conversation that rescopes an unsafe or unclear request into a lawful, answerable question, and record the agreement.
+
+## [DS-300 · Data Science: courses that help prepare for the Associate level](DS-300.md)
+
+- [DS-301 · Regression and Generalised Linear Modelling](../courses/DS-301.md): Level 300 · Develop, 26 h; Needs: DS-201
+  - Implement linear models with interactions and splines and report average marginal effects with intervals.
+  - Apply logistic and count models, choosing between Poisson and negative binomial from a dispersion check.
+  - Diagnose misfit with residuals, influence measures and simulation from the fitted model, then correct the model.
+  - Analyse grouped data with clustered standard errors and a random-intercept model and explain how the intervals change.
+  - Apply ridge and lasso with cross-validated tuning and measure the stability of the selected predictors.
+  - Build and defend a regression model for a planner's question, justifying terms, family, uncertainty and whether the use is descriptive, predictive or causal.
+- [DS-302 · Online Experiments and A/B Testing](../courses/DS-302.md): Level 300 · Develop, 26 h; Needs: DS-201, DS-205
+  - Apply regression adjustment with pre-experiment data and report the sample-size saving.
+  - Compute intervals for ratio metrics with the delta method and with a bootstrap over the randomisation unit.
+  - Implement group sequential and always-valid tests and measure their false-positive rates under daily monitoring by simulation.
+  - Design the metric set, power and decision rule for launching an AI feature.
+  - Diagnose interference in a marketplace test and design a cluster or switchback alternative with its power.
+  - Review experiment write-ups and decide launch, iterate or stop for each.
+- [DS-303 · Causal Inference from Observational Data](../courses/DS-303.md): Level 300 · Develop, 26 h; Needs: DS-205, DS-301
+  - Draft a causal graph (directed acyclic graph, DAG) and derive a valid adjustment set, naming colliders and bad controls.
+  - Apply propensity-score matching and inverse probability weighting with overlap and balance checks.
+  - Apply difference-in-differences with a leads-and-lags plot and an estimator suited to staggered adoption.
+  - Implement synthetic control and regression discontinuity, each with its standard diagnostic.
+  - Defend an identification strategy for a new causal question against at least two alternatives.
+  - Evaluate an estimate's sensitivity to unmeasured confounding and state how strong a confounder would need to be to overturn it.
+- [DS-304 · Forecasting and Time Series](../courses/DS-304.md): Level 300 · Develop, 26 h; Needs: DS-201, DS-204
+  - Apply decomposition and a seasonal-naive benchmark floor scored by rolling-origin cross-validation.
+  - Implement exponential smoothing, ARIMA-family and dynamic regression models with temperature and moving-holiday terms.
+  - Measure point and quantile accuracy of a global boosted model and a pretrained zero-shot forecaster against statistical models.
+  - Review a forecast evaluation for leakage across time and selection on the test window, and correct it.
+  - Build a forecasting analysis for new series and defend method, horizon and uncertainty to a planner.
+- [DS-305 · Uncertainty, Interpretability and Model Validation](../courses/DS-305.md): Level 300 · Develop, 26 h; Needs: DS-204, DS-301
+  - Measure calibration with proper scores and reliability diagrams, recalibrate, and report the effect by subgroup.
+  - Implement conformal intervals and prediction sets and test coverage overall, by subgroup and under simulated shift.
+  - Apply permutation, accumulated-local-effect and Shapley-value explanations and test their stability across refits.
+  - Diagnose why a model degrades on a later batch from slice metrics, coverage loss and changed explanations.
+  - Audit a model package for conceptual soundness, outcome performance and monitoring readiness and decide whether it is fit for use.
+- [DS-306 · Text and Unstructured Data for Data Science](../courses/DS-306.md): Level 300 · Develop, 26 h; Needs: DS-202, DS-204
+  - Prepare a bilingual corpus by normalising script, removing near-duplicates and redacting personal data.
+  - Implement sparse, embedding-based and prompted classifiers and score them on one held-out gold set.
+  - Implement schema-constrained field extraction and measure field-level precision and recall.
+  - Compute a district complaint rate from model labels corrected with a human-labelled sample and compare it with the uncorrected rate.
+  - Evaluate a language model as an annotator and decide whether its labels can feed a downstream estimate.
+  - Design a text-measurement pipeline for a stakeholder question and defend each measurement choice.
+- [DS-307 · Metrics, Semantic Models and Dashboards](../courses/DS-307.md): Level 300 · Develop, 26 h; Needs: FN-104, DS-203
+  - Explain why reports built on one warehouse disagree on the same measure.
+  - Draft metric definitions stating formula, grain, filters, time logic, owner and limits.
+  - Implement a star-schema semantic model with a slowly changing route dimension and each metric defined once.
+  - Analyse a metric anomaly by drill-down and segmentation to find its source.
+  - Design a dashboard for a named audience and decision within a load-time budget.
+  - Evaluate a conversational analytics agent against governed metrics and decide which question types it may answer unreviewed.
+- [DS-308 · Data Storytelling and Decision Briefings](../courses/DS-308.md): Level 300 · Develop, 21 h; Needs: DS-203, DS-201
+  - Analyse a decision context to name the decision maker, options, criteria and the evidence that would change the choice.
+  - Draft an answer-first storyline that groups and orders the supporting reasons and discards weak findings.
+  - Prepare explanatory charts whose titles state the finding, annotated for one message in Arabic and English.
+  - Draft plain-language statements of uncertainty, assumptions and risks using ranges, natural frequencies and scenarios.
+  - Deliver a decision memo stating recommendation, evidence, uncertainty, alternatives and what to monitor.
+  - Defend a recommendation in a live briefing under questioning.
+- [DS-309 · Responsible Data Science: Privacy, Fairness and Documentation](../courses/DS-309.md): Level 300 · Develop, 26 h; Needs: DS-204, DS-207
+  - Distinguish pseudonymisation, de-identification, aggregation, synthetic data and differential privacy by the guarantee and cost of each.
+  - Measure re-identification risk from quasi-identifiers and reduce it while tracking analytic utility.
+  - Compute differentially private counts and means and state the accuracy cost of a privacy budget.
+  - Test a synthetic extract for analytic utility and membership-inference leakage.
+  - Audit a screening model for subgroup disparities, choose fairness criteria that fit the decision and evaluate two mitigations.
+  - Build the datasheet, model card and impact assessment a reviewer needs to judge and rerun a release.
+- [DS-310 · Problem Framing and Analytical Review](../courses/DS-310.md): Level 300 · Develop, 21 h; Needs: DS-204, DS-205
+  - Prepare a decision question with estimand, population, metric and decision rule from a vague request.
+  - Analyse a metric set for proxy failure and gaming, and propose guardrail metrics.
+  - Use domain documents and an expert interview to map how the data behind a metric are produced.
+  - Design an analysis plan stating data, method, threats to validity and the result that would change the decision.
+  - Review an analysis for errors in question fit, data handling, method, inference and communication.
+  - Decide whether a request needs description, an experiment, a causal analysis, a predictive model or no analysis.
+- [DS-311 · Data Quality, Labelling and Pipelines for Analysis](../courses/DS-311.md): Level 300 · Develop, 26 h; Needs: DS-202, FN-102
+  - Draft a labelling guideline with definitions, decision rules and edge cases, and revise it after a pilot.
+  - Compute chance-corrected agreement by category and rater, and adjudicate the disagreements.
+  - Configure a labelling workflow with golden-question checks, review queues and rater-drift monitoring.
+  - Implement quality rules with thresholds and severities, and a data contract for the prepared table.
+  - Build a reproducible preparation pipeline from raw extracts to an analysis-ready table that stops on a blocking rule.
+  - Diagnose why an analytical figure changed after a data refresh and decide on the correction.
+- [DS-390 · Data Science Practicum](../courses/DS-390.md): Level 300 · Develop, 100 h; Needs: DS-309, DS-310
+  - Prepare a framing memo that states a sponsor's request as a decision question with options, a success metric and constraints.
+  - Prepare a data audit covering provenance, quality, classification, personal data and fitness for the question.
+  - Design an analysis plan matched to the question type and fix it before outcomes are examined.
+  - Build and validate the analysis with baselines, sensitivity checks and stated uncertainty for every number the recommendation uses.
+  - Defend a recommendation, its limits and the evidence that would reverse it to the sponsor and a technical panel.
+  - Prepare a hand-over pack with a decision log, an analysis card and open risks.
+
+## [DS-400 · Data Science: courses that help prepare for the Expert level](DS-400.md)
+
+- [DS-401 · Bayesian Modelling and Decisions under Uncertainty](../courses/DS-401.md): Level 400 · Evaluate, 26 h; Needs: DS-301
+  - Implement a Bayesian workflow from prior predictive simulation to sampler diagnosis.
+  - Design a hierarchical model for districts with very unequal data and defend the pooling it implies.
+  - Evaluate competing models by posterior predictive checks and approximate leave-one-out cross-validation and choose one for the decision.
+  - Diagnose an error in a model implementation by parameter recovery and simulation-based calibration.
+  - Decide a replacement plan by expected utility under the posterior and price further data by its value of information.
+  - Review another analyst's Bayesian analysis for priors, computation, checking and reporting.
+- [DS-402 · Causal Machine Learning and Policy Evaluation](../courses/DS-402.md): Level 400 · Evaluate, 26 h; Needs: DS-302, DS-303
+  - Implement double machine learning with cross-fitting for an average effect and compare it with regression adjustment.
+  - Build conditional average treatment effect (CATE) estimators by three methods and validate them on held-out randomised data.
+  - Evaluate allocation rules offline with inverse propensity and augmented estimators and diagnose untrustworthy estimates.
+  - Design an allocation rule under a budget and a fairness constraint and compare it with treat-all, risk targeting and current practice.
+  - Review a heterogeneous-effect claim for overfitting, unstable subgroups and reuse of data for discovery and evaluation.
+  - Design a confirmatory trial for a learned rule, powered for the comparison with current practice.
+- [DS-403 · Statistical Evaluation of AI Systems](../courses/DS-403.md): Level 400 · Evaluate, 26 h; Needs: DS-302, DS-305
+  - Compute standard errors and intervals for an evaluation score that account for clustered items, repeated samples and small item counts.
+  - Decide whether the difference between two systems is real and large enough to matter, using a paired analysis.
+  - Design an evaluation's size in items, samples per item and grader calls to detect a stated difference within budget.
+  - Evaluate the bias that grader error adds to a pass rate and correct it, carrying calibration uncertainty into the interval.
+  - Audit an evaluation claim for statistical validity, contamination risk and unequal tuning or token budgets.
+  - Design a reporting standard for evaluation claims, including results by language and subgroup.
+- [DS-404 · Advanced Modelling for Structured Data](../courses/DS-404.md): Level 400 · Evaluate, 26 h; Needs: DS-304, DS-305
+  - Evaluate a pretrained tabular model against a tuned, ensembled boosted-tree baseline across training-set sizes.
+  - Evaluate zero-shot pretrained forecasters, with and without covariates, against statistical and tuned learned benchmarks by rolling-origin backtests.
+  - Implement a stacked ensemble from out-of-fold or rolling-origin predictions and measure its improvement over the best single model.
+  - Build a predict-then-optimise pipeline and judge forecasters by the decision cost they cause.
+  - Diagnose distribution shift between training and deployment data and validate a model under it.
+  - Decide whether to adopt a pretrained model for one task, weighing accuracy, cost, licence and data residency.
+- [DS-405 · Data Preparation at Scale: Contracts, Synthetic Data and Privacy](../courses/DS-405.md): Level 400 · Evaluate, 26 h; Needs: DS-309
+  - Design shared data contracts, a pseudonymous linkage key and a breaking-change policy for a feed with several producers.
+  - Implement an incremental, idempotent preparation pipeline over partitioned columnar tables with quality gates.
+  - Evaluate a synthetic dataset for fidelity, analytical utility and disclosure risk.
+  - Compute differentially private statistics under a budget shared across repeated releases.
+  - Select a privacy-enhancing method for each data request by comparing protection, utility and cost.
+  - Decide whether to release a dataset and on what conditions, and defend the decision.
+- [DS-406 · Measuring the Impact of Data and AI Programmes](../courses/DS-406.md): Level 400 · Evaluate, 26 h; Needs: DS-302, DS-303
+  - Prepare an outcome framework that separates activity, speed, quality and value and links each measure to a programme claim.
+  - Design an evaluation for a programme before rollout, choosing among randomised, stepped-wedge and encouragement designs and setting unit, duration and power.
+  - Estimate the effect of a completed rollout while correcting for selection into adoption, and test the result's sensitivity.
+  - Build a value case that carries the effect's uncertainty through costs, benefits and break-even.
+  - Evaluate an impact report from a vendor or internal team and decide whether it supports scaling.
+  - Present programme impact to leadership with uncertainty in plain words and one clear recommendation.
+- [DS-407 · Leading Analytical Work: Review, Standards and Stakeholders](../courses/DS-407.md): Level 400 · Evaluate, 21 h; Needs: DS-310
+  - Design a proportionate quality-assurance standard for analytical work, with assurance levels, a review checklist and sign-off rules.
+  - Review analyses by others, including assistant-drafted ones, rank findings by their effect on the decision and calibrate severity with a second reviewer.
+  - Design rules for AI-assisted analysis covering verification, disclosure and the process evidence each analyst keeps, and audit the unit's work against them.
+  - Prepare feedback and a development plan for an analyst from review findings.
+  - Lead a negotiation with a sponsor on scope, deadline and evidence threshold and record the agreement.
+  - Decide how to respond to pressure to change or suppress a finding, and record the reasons.
+- [DS-408 · Analytics Products: Semantic Layers and Conversational Analytics](../courses/DS-408.md): Level 400 · Evaluate, 26 h; Needs: DS-307
+  - Design a semantic layer with entities, grain, conformed time and governed metrics for several business areas.
+  - Implement metric definitions as code with owners, tests and change control.
+  - Configure row-level access and field masking in the semantic layer according to data classification.
+  - Evaluate a conversational assistant on certified questions, measuring accuracy, stability, wrong but plausible answers and the contribution of each kind of semantic context.
+  - Decide which question types the assistant may answer and under which safeguards.
+  - Review the design of a peer's analytics product for correctness, portability and governance.
+- [DS-490 · Data Science Capstone: Defended Analysis](../courses/DS-490.md): Level 400 · Evaluate, 60 h; Needs: DS-401, DS-403, DS-407
+  - Design a decision-grade analysis from a sponsor's question, fixing the estimand, decision rule and analysis plan before outcome data are examined.
+  - Diagnose data quality problems and their effect on the conclusion, and document the prepared data.
+  - Deliver the main analysis with a design matched to the question, whether experimental, quasi-experimental, model-based or Bayesian, and validate it.
+  - Quantify the uncertainty of the conclusion and test which assumptions would reverse the recommendation.
+  - Audit the analysis for privacy, subgroup effects and limits under the national rules.
+  - Defend the recommendation and its limits before a panel, re-running one result live.
