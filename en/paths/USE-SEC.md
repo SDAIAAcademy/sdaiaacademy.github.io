@@ -131,7 +131,7 @@ In the order their prerequisites suggest.
 
 ### 12. [USE-SEC-212 · AI in Cities, Tourism and Pilgrimage](../courses/USE-SEC-212.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-201
 - Explain which city and visitor AI uses carry the highest safety and privacy stakes.
 - Compare an arrival forecast with a seasonal baseline and report the error at staffing peaks.

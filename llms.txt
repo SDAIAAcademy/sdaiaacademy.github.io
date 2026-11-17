@@ -103,6 +103,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [USE-SEC-207 · AI in Justice and Legal Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-207.md): Level 200 · Apply, 16 h, Available
 - [USE-SEC-208 · AI in Media and Creative Industries](https://sdaiaacademy.github.io/en/courses/USE-SEC-208.md): Level 200 · Apply, 16 h, Available
 - [USE-SEC-210 · AI in Retail and Telecommunications](https://sdaiaacademy.github.io/en/courses/USE-SEC-210.md): Level 200 · Apply, 16 h, Available
+- [USE-SEC-212 · AI in Cities, Tourism and Pilgrimage](https://sdaiaacademy.github.io/en/courses/USE-SEC-212.md): Level 200 · Apply, 16 h, Available
 - [LDS-EXE-101 · AI for Executives: A Hands-On Briefing](https://sdaiaacademy.github.io/en/courses/LDS-EXE-101.md): Level 100 · Explain, 4 h, Available
 - [LDS-DMG-101 · Data Management Foundations](https://sdaiaacademy.github.io/en/courses/LDS-DMG-101.md): Level 100 · Explain, 24 h, Available
 - [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available
@@ -171,7 +172,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [USE-SEC-206 · AI in Financial Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-206.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-209 · AI in Manufacturing and Industry](https://sdaiaacademy.github.io/en/courses/USE-SEC-209.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-211 · AI in Agriculture, Water and Environment](https://sdaiaacademy.github.io/en/courses/USE-SEC-211.md): Level 200 · Apply, 16 h, In development
-- [USE-SEC-212 · AI in Cities, Tourism and Pilgrimage](https://sdaiaacademy.github.io/en/courses/USE-SEC-212.md): Level 200 · Apply, 16 h, In development
 - [LDS-EXE-201 · AI Strategy and Use-Case Portfolio](https://sdaiaacademy.github.io/en/courses/LDS-EXE-201.md): Level 200 · Apply, 24 h, In development
 - [LDS-EXE-202 · Economics of AI and Agents](https://sdaiaacademy.github.io/en/courses/LDS-EXE-202.md): Level 200 · Apply, 12 h, In development
 - [LDS-EXE-203 · Redesigning Work for Human and Agent Teams](https://sdaiaacademy.github.io/en/courses/LDS-EXE-203.md): Level 200 · Apply, 16 h, In development
