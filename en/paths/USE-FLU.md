@@ -97,7 +97,7 @@ In the order their prerequisites suggest.
 
 ### 8. [USE-FLU-204 · Supervising AI Agents in Knowledge Work](../courses/USE-FLU-204.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: USE-FLU-201
 - Prepare a delegation brief with goal, standing context, permitted sources, forbidden actions, stop conditions and result format.
 - Configure least-privilege connector permissions and approval before every send, delete, payment or publication.
