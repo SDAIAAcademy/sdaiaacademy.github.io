@@ -36,7 +36,7 @@ In the order their prerequisites suggest.
 
 ### 3. [LDS-EXE-202 · Economics of AI and Agents](../courses/LDS-EXE-202.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Explain why billed tokens exceed user input and why price per token misstates workflow cost.
 - Compute cost per successful task, including retries, failed runs and human review time.
 - Compare token, capacity and per-seat or per-outcome pricing for one workflow at three volumes.

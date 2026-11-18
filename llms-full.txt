@@ -3661,7 +3661,10 @@ By the end, the participant can:
 - Format: Workshop: one and a half days with labs and a tracked follow-up
 - Total hours: 12 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-202/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-202/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-202/practice.html
 
 ## Description
 
@@ -3681,6 +3684,22 @@ By the end, the participant can:
 
 - Builds spreadsheet models with formulas and scenarios
 - Has seen an agent complete a multi-step task (LDS-EXE-101 or equivalent)
+
+## Format and days
+
+### Day 1: من الفاتورة إلى تكلفة الوحدة
+
+- الوحدات المفوترة ليست ما سأله المستخدم
+- التكلفة لكل مهمة ناجحة توزيع لا رقم
+- ثلاث طرق للدفع عند ثلاثة أحجام
+
+### Day 2: الروافع والحوكمة
+
+- روافع تخفض التكلفة، وما تكلفه في الجودة
+- حوكمة الإنفاق على الذكاء الاصطناعي
+
+### Day 3: نموذج التكلفة وخطة الحوكمة
+
 
 ## Topics
 
