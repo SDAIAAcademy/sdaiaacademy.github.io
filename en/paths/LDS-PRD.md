@@ -41,7 +41,7 @@ In the order their prerequisites suggest.
 
 ### 3. [LDS-PRD-203 · Human-AI Interaction and Experience Design](../courses/LDS-PRD-203.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Describe interaction patterns for assistants and agents and the trust risk each carries.
 - Draft onboarding, source display and uncertainty cues that match measured capability.
 - Prepare recovery and escalation flows with confirmation and undo graded by how reversible each agent action is.

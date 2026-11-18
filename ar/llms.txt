@@ -118,6 +118,7 @@
 - [LDS-EXE-210 · مستجدات تنظيم الذكاء الاصطناعي: إحاطة وطنية وعالمية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-210.md): المستوى 200 · التطبيق, 4 ساعات, متاح
 - [LDS-PRD-201 · استكشاف منتجات الذكاء الاصطناعي وإعداد مواصفاتها](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-PRD-202 · تقييم منتجات الذكاء الاصطناعي وتجاربها واقتصادياتها](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-202.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-PRD-203 · تصميم التفاعل بين الإنسان والذكاء الاصطناعي وتجربة المستخدم](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-203.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-PRD-204 · إدارة مشروعات الذكاء الاصطناعي وفرق التسليم](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-204.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-ADV-201 · تقييم جدوى حالات استخدام الذكاء الاصطناعي وإعداد دراسات الجدوى](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-ADV-202 · تقييم نضج البيانات والذكاء الاصطناعي وخرائط الطريق](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
@@ -201,7 +202,6 @@
 - [LDS-EXE-302 · تقييم المهارات وإصدار شهاداتها في عصر الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-302.md): المستوى 300 · التطوير, 8 ساعات, قيد التطوير
 - [LDS-EXE-401 · قيادة مكتب الذكاء الاصطناعي المؤسسي](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-401.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
 - [LDS-EXE-402 · قيادة مكتب البيانات المؤسسي](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-402.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
-- [LDS-PRD-203 · تصميم التفاعل بين الإنسان والذكاء الاصطناعي وتجربة المستخدم](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-203.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
 - [LDS-PRD-205 · بناء النماذج الأولية لمنتجات الذكاء الاصطناعي باستخدام وكلاء البرمجة](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-205.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [LDS-PRD-301 · الذكاء الاصطناعي المسؤول بالتصميم لفرق المنتجات](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-301.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
 - [LDS-ADV-301 · منتجات البيانات وتقدير قيمتها وتحقيق الإيرادات منها](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير

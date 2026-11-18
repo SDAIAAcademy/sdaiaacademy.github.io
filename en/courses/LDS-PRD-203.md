@@ -6,7 +6,10 @@
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-prd-203/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-prd-203/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-prd-203/practice.html
 
 ## Description
 
@@ -27,6 +30,32 @@ By the end, the participant can:
 
 - Has designed, specified or usability-tested a digital interface or service
 - Has used an AI assistant and an agent that acts on the user's behalf
+
+## Format and days
+
+### Day 1: الأنماط والثقة المعايَرة
+
+- خمسة أنماط للمساعدات والوكلاء
+- خطر الثقة في كل نمط
+- القدرة المقيسة لا الموعودة
+- التعريف الأولي والمصادر وإشارات عدم اليقين
+
+### Day 2: الإفصاح والتعافي والتحويل
+
+- الإفصاح والذاكرة والموافقة
+- الرد الخاطئ والرفض والبطء
+- التأكيد والمعاينة والتراجع بحسب قابلية التراجع
+- الإحالة إلى موظف مع السياق
+
+### Day 3: الإتاحة والاتجاه والاختبار مع الناس
+
+- الإتاحة في واجهة تبث ردودها
+- العربية والنص ثنائي الاتجاه
+- إدارة جلسة اختبار مع الناس
+- من خمس جلسات إلى ثلاثة تعديلات
+
+### Day 4: نموذج مختبَر ونقد على مسار التعافي
+
 
 ## Topics
 
