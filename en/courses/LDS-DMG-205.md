@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs, plus a short follow-up task
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-205/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-205/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-205/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [LDS-DMG-101 · Data Management Foundations](LDS-DMG-101.md)
 - Applies classification levels to datasets (LDS-DMG-204 or equivalent)
+
+## Format and days
+
+### Day 1: طلبات المشاركة والاستخدام الثانوي
+
+- اختبار المشاركة
+- الاستخدام الثانوي للبحث
+
+### Day 2: البيانات المفتوحة وحرية المعلومات
+
+- مفتوحة بالأصل وبخطر مقيس
+- طلبات المعلومات وأداء الإتاحة
+
+### Day 3: مراجعة مهمة المتابعة
+
 
 ## Topics
 

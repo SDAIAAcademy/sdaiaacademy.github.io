@@ -69,7 +69,7 @@ In the order their prerequisites suggest.
 
 ### 6. [LDS-DMG-205 · Data Sharing, Open Data and Freedom of Information](../courses/LDS-DMG-205.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: LDS-DMG-101
 - Apply a sharing test to requests and draft an agreement for an approved one.
 - Decide a research request for linked records under secondary-use rules.
