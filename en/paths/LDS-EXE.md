@@ -54,7 +54,7 @@ In the order their prerequisites suggest.
 
 ### 5. [LDS-EXE-204 · Leading AI Adoption and Change](../courses/LDS-EXE-204.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Analyse adoption data to find shallow, unsafe or blocked use and its barrier.
 - Draft role-based literacy outcomes, each with a check, for what staff must do with AI.
 - Prepare a manager support kit and incentives that reward measured value and safe use.

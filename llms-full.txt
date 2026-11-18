@@ -3839,7 +3839,10 @@ By the end, the participant can:
 - Format: Workshop: one and a half days with labs and a tracked 30-day follow-up
 - Total hours: 12 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-204/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-204/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-204/practice.html
 
 ## Description
 
@@ -3859,6 +3862,21 @@ By the end, the participant can:
 
 - Has used AI assistants on own work (LDS-EXE-101 or equivalent)
 - Leads a unit, a function or a change programme
+
+## Format and days
+
+### Day 1: من التشخيص إلى الأدوار والمديرين
+
+- لماذا يتعثر التبني
+- الإلمام بحسب الدور
+- المديرون والقواعد والحوافز
+
+### Day 2: القياس ثم القرار
+
+- سفراء التغيير والقياس
+
+### Day 3: خطة التبني لتسعين يومًا
+
 
 ## Topics
 
