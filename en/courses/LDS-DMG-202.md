@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs, plus a short follow-up task
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-202/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-202/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-202/practice.html
 
 ## Description
 
@@ -26,6 +29,23 @@ By the end, the participant can:
 
 - [LDS-DMG-101 · Data Management Foundations](LDS-DMG-101.md)
 - Reads a table schema and explains what each column holds
+
+## Format and days
+
+### Day 1: من المصدر إلى الكتالوج
+
+- البيانات الوصفية والاستخلاص المجدول
+- مساعدة الآلة ومراجعتها
+- مصطلحات تحسم الخلاف
+
+### Day 2: المسار والقياس والنشر
+
+- تتبع أصل البيانات من الأحداث
+- الكتالوج في التشغيل
+- النشر والكتالوج سياقًا للمساعدين
+
+### Day 3: مراجعة مهمة المتابعة
+
 
 ## Topics
 

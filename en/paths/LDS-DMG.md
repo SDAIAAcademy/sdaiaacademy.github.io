@@ -39,7 +39,7 @@ In the order their prerequisites suggest.
 
 ### 3. [LDS-DMG-202 · Metadata, Catalogues and Lineage](../courses/LDS-DMG-202.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: LDS-DMG-101
 - Configure scheduled harvesting of technical metadata from a database and a file store.
 - Prepare glossary terms and link them to columns, owners and classifications.
