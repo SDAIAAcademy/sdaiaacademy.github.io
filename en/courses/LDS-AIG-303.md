@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs
 - Total hours: 16 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-303/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-303/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-303/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](LDS-AIG-201.md)
 - Reads a model evaluation summary and names what is untested
+
+## Format and days
+
+### Day 1: من المحفز إلى بطاقة النموذج
+
+- التقييمات ومحفزاتها
+- تحليل الأثر في كل فئة
+- بطاقة البيانات وبطاقة النموذج
+
+### Day 2: من القارئ إلى ملف الأدلة
+
+- بطاقة النظام والإشعار وملف الأدلة
+
+### Day 3: مجموعة الوثائق بعد التغيير والمراجعة
+
 
 ## Topics
 

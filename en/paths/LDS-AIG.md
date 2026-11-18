@@ -85,7 +85,7 @@ In the order their prerequisites suggest.
 
 ### 7. [LDS-AIG-303 · AI Impact Assessment and System Documentation](../courses/LDS-AIG-303.md)
 
-- Level 300 · Develop · Workshop · 16 h · In development
+- Level 300 · Develop · Workshop · 16 h · Available
 - Needs: LDS-AIG-201
 - Distinguish impact, risk, personal data and conformity assessments by their triggers.
 - Analyse impacts on each affected group by severity, scale and reversibility, and assign owned mitigations.
