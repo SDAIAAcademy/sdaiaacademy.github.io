@@ -6,7 +6,10 @@
 - Format: Workshop: one and a half days with labs, plus a short follow-up task
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-204/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-204/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-204/practice.html
 
 ## Description
 
@@ -29,6 +32,23 @@ By the end, the participant can:
 ## Next courses
 
 - [LDS-DMG-301 · Governing Data for AI: Training, Retrieval and Agent Access](LDS-DMG-301.md)
+
+## Format and days
+
+### Day 1: من الحصر إلى المستوى إلى الضابط
+
+- ما الذي نصنفه
+- الأثر والمستوى
+- الخلاف والتجميع
+- الضوابط تتبع المستوى
+
+### Day 2: السجل والآلة
+
+- السجل: الاعتماد والاستثناء ورفع التصنيف
+- التصنيف المدعوم آليًا
+
+### Day 3: مراجعة مهمة المتابعة
+
 
 ## Topics
 

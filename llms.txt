@@ -114,6 +114,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-AIG-204 · AI Risk Management in Practice](https://sdaiaacademy.github.io/en/courses/LDS-AIG-204.md): Level 200 · Apply, 30 h, Available
 - [LDS-DMG-101 · Data Management Foundations](https://sdaiaacademy.github.io/en/courses/LDS-DMG-101.md): Level 100 · Explain, 24 h, Available
 - [LDS-DMG-202 · Metadata, Catalogues and Lineage](https://sdaiaacademy.github.io/en/courses/LDS-DMG-202.md): Level 200 · Apply, 16 h, Available
+- [LDS-DMG-204 · Data Classification in Practice](https://sdaiaacademy.github.io/en/courses/LDS-DMG-204.md): Level 200 · Apply, 12 h, Available
 - [LDS-DMG-205 · Data Sharing, Open Data and Freedom of Information](https://sdaiaacademy.github.io/en/courses/LDS-DMG-205.md): Level 200 · Apply, 16 h, Available
 - [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available
 - [FN-102 · Command Line, Git and Reproducible Projects](https://sdaiaacademy.github.io/en/courses/FN-102.md): Level 100 · Explain, 21 h, Available
@@ -212,7 +213,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-AIG-401 · Designing and Running an AI Governance Programme](https://sdaiaacademy.github.io/en/courses/LDS-AIG-401.md): Level 400 · Evaluate, 40 h, In development
 - [LDS-DMG-201 · Data Governance Operating Model and Stewardship](https://sdaiaacademy.github.io/en/courses/LDS-DMG-201.md): Level 200 · Apply, 24 h, In development
 - [LDS-DMG-203 · Data Quality Management](https://sdaiaacademy.github.io/en/courses/LDS-DMG-203.md): Level 200 · Apply, 24 h, In development
-- [LDS-DMG-204 · Data Classification in Practice](https://sdaiaacademy.github.io/en/courses/LDS-DMG-204.md): Level 200 · Apply, 12 h, In development
 - [LDS-DMG-206 · Personal Data Protection in Practice](https://sdaiaacademy.github.io/en/courses/LDS-DMG-206.md): Level 200 · Apply, 30 h, In development
 - [LDS-DMG-207 · Compliance Evidence and Data Maturity Assessment](https://sdaiaacademy.github.io/en/courses/LDS-DMG-207.md): Level 200 · Apply, 24 h, In development
 - [LDS-DMG-208 · Master and Reference Data Management](https://sdaiaacademy.github.io/en/courses/LDS-DMG-208.md): Level 200 · Apply, 16 h, In development

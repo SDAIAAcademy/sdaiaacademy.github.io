@@ -60,7 +60,7 @@ In the order their prerequisites suggest.
 
 ### 5. [LDS-DMG-204 · Data Classification in Practice](../courses/LDS-DMG-204.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Needs: LDS-DMG-101
 - Apply an impact assessment to propose a classification level for each asset.
 - Prepare handling requirements per level for storage, transfer, sharing, retention and disposal.
