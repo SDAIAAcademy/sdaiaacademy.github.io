@@ -4654,7 +4654,10 @@ By the end, the participant can:
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-prd-202/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-prd-202/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-prd-202/practice.html
 
 ## Description
 
@@ -4676,6 +4679,32 @@ By the end, the participant can:
 - [LDS-PRD-201 · AI Product Discovery and Specification](https://sdaiaacademy.github.io/en/courses/LDS-PRD-201.md)
 - Computes proportions and percentage differences in a spreadsheet
 - Reads a chart that shows a confidence interval
+
+## Format and days
+
+### Day 1: من آثار التنفيذ إلى تصنيف للفشل
+
+- مخرجات متغيرة تحتاج محاولات متكررة
+- ما يسجله أثر التنفيذ، والوسم المفتوح
+- الوسم المحوري مع المهندسين
+- التكرار مقابل الشدة
+
+### Day 2: مجموعة التقييم وخطة التجربة
+
+- الفحص البرمجي والمصحح النموذجي والمراجعة البشرية
+- اتفاق المصحح مع الحكم البشري
+- الإصدارات والتسرب والتحديث من التشغيل
+- تخطيط تجربة مباشرة
+
+### Day 3: قراءة التجربة واقتصادياتها وقرار الإطلاق
+
+- قراءة نتائج التجربة
+- الوحدات المفوترة والتكلفة لكل مهمة ناجحة
+- الفئات والتوجيه والتخزين المؤقت، والتكلفة توزيع
+- معايير الإطلاق ومالكوها، والمتابعة بعد الإطلاق
+
+### Day 4: مراجعة الإطلاق المباشرة
+
 
 ## Topics
 

@@ -30,7 +30,7 @@ In the order their prerequisites suggest.
 
 ### 2. [LDS-PRD-202 · Evaluation, Experiments and Economics for AI Products](../courses/LDS-PRD-202.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Needs: LDS-PRD-201
 - Explain why variable outputs need repeated trials, binary criteria and validated graders.
 - Analyse traces into a failure taxonomy with frequency and severity.
