@@ -90,7 +90,7 @@ In the order their prerequisites suggest.
 
 ### 8. [LDS-DMG-207 · Compliance Evidence and Data Maturity Assessment](../courses/LDS-DMG-207.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Needs: LDS-DMG-101, LDS-DMG-201
 - Describe how a national data assessment scores compliance, maturity and operational excellence, and what evidence each part needs.
 - Prepare acceptance criteria stating what must exist, who approved it and what proves it operates.

@@ -6,7 +6,10 @@
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-207/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-207/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-207/practice.html
 
 ## Description
 
@@ -28,6 +31,32 @@ By the end, the participant can:
 - [LDS-DMG-101 · Data Management Foundations](LDS-DMG-101.md)
 - [LDS-DMG-201 · Data Governance Operating Model and Stewardship](LDS-DMG-201.md)
 - Tells a control from a specification in a data management standard
+
+## Format and days
+
+### Day 1: المنهجية ومعايير القبول
+
+- كيف يقيس التقييم الوطني
+- ما ينطبق علينا في هذه الدورة
+- معايير القبول في أربع طبقات
+- معايير تصمد أمام المراجعة
+
+### Day 2: الأدلة والدرجات
+
+- كاف أو جزئي أو غير كاف
+- العينات والجولات والسجلات واللقطات
+- استبانات النضج
+- المقاييس التشغيلية
+
+### Day 3: المساعد والملاحظات ودورة التدقيق
+
+- ربط الوثائق بمساعد، مقيسًا
+- قاعدة الاستخدام والتوقيع البشري
+- الملاحظات والأسباب الجذرية وترتيب المخاطر
+- الخطة التصحيحية ودورة التدقيق
+
+### Day 4: التدقيق التجريبي
+
 
 ## Topics
 
