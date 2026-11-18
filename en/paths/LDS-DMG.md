@@ -101,7 +101,7 @@ In the order their prerequisites suggest.
 
 ### 9. [LDS-DMG-208 · Master and Reference Data Management](../courses/LDS-DMG-208.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Needs: LDS-DMG-101
 - Compare registry, consolidation, coexistence and centralised implementation styles.
 - Configure matching rules with Arabic and English name normalisation and measure their precision and recall.

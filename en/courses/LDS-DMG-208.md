@@ -6,7 +6,10 @@
 - Format: Workshop: 2 days with labs and a stewardship mini-project
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-208/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-208/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-208/practice.html
 
 ## Description
 
@@ -27,6 +30,21 @@ By the end, the participant can:
 - [LDS-DMG-101 · Data Management Foundations](LDS-DMG-101.md)
 - Has profiled a table for completeness and duplicates (LDS-DMG-203 or equivalent)
 - Runs a provided notebook; no programming
+
+## Format and days
+
+### Day 1: من ثلاثة أنظمة إلى سجل واحد
+
+- أنماط التنفيذ وقواعد المطابقة
+- السجلات الذهبية وقواعد الاستبقاء
+
+### Day 2: قوائم الرموز والإشراف على البيانات
+
+- قوائم الرموز المرجعية وإصداراتها
+- الإشراف على البيانات الرئيسة
+
+### Day 3: مراجعة حزمة القرار
+
 
 ## Topics
 
