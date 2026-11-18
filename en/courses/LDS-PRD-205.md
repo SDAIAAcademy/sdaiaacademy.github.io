@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs, guided pre-work and a five-user test
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-prd-205/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-prd-205/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-prd-205/practice.html
 
 ## Description
 
@@ -25,6 +28,24 @@ By the end, the participant can:
 
 - Has written a product requirement or user story
 - Runs a terminal command by following written steps
+
+## Format and days
+
+### Day 1: من سؤال إلى نسخة أولى تعمل
+
+- النموذج الأولي يجيب عن سؤال
+- الموجز وملف السياق
+- خطوات صغيرة وإيداع لكل خطوة
+- بيئة معزولة ومفتاح محدود وبيانات اصطناعية
+
+### Day 2: الحدود والتسليم
+
+- أوهام المسار المثالي
+- الأسرار والحزم والوصول والتراخيص
+- خمسة مستخدمين وما يحتفظ به المهندسون
+
+### Day 3: المراجعة المباشرة مع المهندس
+
 
 ## Topics
 

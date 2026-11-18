@@ -59,7 +59,7 @@ In the order their prerequisites suggest.
 
 ### 5. [LDS-PRD-205 · Prototyping AI Products with Coding Agents](../courses/LDS-PRD-205.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Prepare a brief and context file stating the question, scope, data, constraints and done criteria.
 - Use a coding agent to build a prototype that calls a language model, in small verified steps under version control.
 - Test the prototype against acceptance checks and a limits checklist for hard-coded paths, exposed secrets, unvetted dependencies, real data and accessibility.
