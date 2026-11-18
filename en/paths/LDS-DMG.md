@@ -79,7 +79,7 @@ In the order their prerequisites suggest.
 
 ### 7. [LDS-DMG-206 · Personal Data Protection in Practice](../courses/LDS-DMG-206.md)
 
-- Level 200 · Apply · Intensive · 30 h · In development
+- Level 200 · Apply · Intensive · 30 h · Available
 - Needs: LDS-DMG-101
 - Explain the lawful bases, data subject rights and controller and protection officer duties, and identify which apply to a processing activity.
 - Prepare records of processing from a data-flow map, with purpose, legal basis, categories, recipients, retention and transfers.

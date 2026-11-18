@@ -49,7 +49,7 @@ In the order their prerequisites suggest.
 
 ### 4. [LDS-ADV-302 · Advisory Practice for Data and AI Engagements](../courses/LDS-ADV-302.md)
 
-- Level 300 · Develop · Workshop · 16 h · In development
+- Level 300 · Develop · Workshop · 16 h · Available
 - Needs: LDS-ADV-202
 - Draft an engagement scope with the decision to inform, deliverables, exclusions and acceptance criteria.
 - Design and facilitate a decision workshop that brings stakeholders with conflicting aims to a recorded decision.

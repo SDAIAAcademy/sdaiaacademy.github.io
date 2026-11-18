@@ -6,7 +6,10 @@
 - Format: Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 30 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-206/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-206/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-206/practice.html
 
 ## Description
 
@@ -27,6 +30,39 @@ By the end, the participant can:
 
 - [LDS-DMG-101 · Data Management Foundations](LDS-DMG-101.md)
 - Reads a regulation and extracts who must do what, by when
+
+## Format and days
+
+### Day 1: النظام ومسؤول حماية البيانات الشخصية
+
+- الأسس النظامية والموافقة والمصلحة المشروعة
+- الحقوق وواجبات جهة التحكم
+- مسؤول حماية البيانات الشخصية
+- النص النافذ والمسودة والدليل
+
+### Day 2: السجلات وتدفقات البيانات
+
+- تدفقات البيانات عبر الأنظمة والجهات والدول
+- سجل أنشطة المعالجة وتحديثه
+- إشعار الخصوصية وعقود جهات المعالجة
+- الحد الأدنى والاحتفاظ والإتلاف
+
+### Day 3: تقويم الأثر
+
+- متى يلزم تقويم الأثر
+- الترميز وإخفاء الهوية واختبار إعادة التعرف
+- تقويم «حدس»: الوصف والمخاطر
+- الضوابط والمتبقي والتوصية
+
+### Day 4: الحقوق والنقل والتسرب
+
+- استقبال الطلبات والتحقق والمهل
+- الرد على الطلبات
+- النقل إلى خارج المملكة
+- تسرب البيانات: التقدير والإشعار والتوقيت
+
+### Day 5: عروض المشروع الختامي
+
 
 ## Topics
 

@@ -6,7 +6,10 @@
 - Format: Workshop: two days of simulated engagement with role-played clients and a tracked follow-up task
 - Total hours: 16 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-adv-302/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-adv-302/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-adv-302/practice.html
 
 ## Description
 
@@ -26,6 +29,25 @@ By the end, the participant can:
 
 - [LDS-ADV-202 · Data and AI Maturity Assessment and Roadmaps](LDS-ADV-202.md)
 - Has written a recommendation for a decision-maker
+
+## Format and days
+
+### Day 1: من الطلب الغامض إلى قرار موثق
+
+- القرار الكامن وراء الطلب
+- نطاق التكليف: الاستثناءات والتغيير وأصحاب المصلحة
+- العروض وخطط العمل وضبط الجودة وتصميم الورشة
+- تيسير النقاش عند الخلاف وإشراك الأصوات الأقل حضورًا
+
+### Day 2: من الأدلة إلى توصية تصمد
+
+- الأدلة في مقابل التقدير الشخصي: ورقة الخيارات
+- التحقق مما صاغ الذكاء الاصطناعي مسودته
+- الإفصاح عن الذكاء الاصطناعي وحماية بيانات العميل
+- الموردون والأعمال اللاحقة ومتى يُعتذر عن التكليف
+
+### Day 3: الإحاطة للراعي
+
 
 ## Topics
 
