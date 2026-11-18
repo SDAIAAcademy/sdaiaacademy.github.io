@@ -6,7 +6,10 @@
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-prd-201/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-prd-201/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-prd-201/practice.html
 
 ## Description
 
@@ -32,6 +35,32 @@ By the end, the participant can:
 
 - [LDS-PRD-202 · Evaluation, Experiments and Economics for AI Products](LDS-PRD-202.md)
 - [LDS-PRD-301 · Responsible AI by Design for Product Teams](LDS-PRD-301.md)
+
+## Format and days
+
+### Day 1: من الطلب إلى المشكلة
+
+- النتيجة قبل الميزة
+- ما تجيده النماذج ومتى تفوز القواعد
+- المقابلات والملاحظة
+- التنقيب في التذاكر
+
+### Day 2: من الفرصة إلى الجدوى
+
+- التوليف بالذكاء الاصطناعي ودونه
+- النموذج الأولي على مستوى الأوامر
+- الحالات الممثلة لا العروض
+- طريقة البناء
+
+### Day 3: من الجدوى إلى المواصفات
+
+- قواعد السلوك والرفض والتصعيد
+- معايير القبول فحوصًا ثنائية
+- مجموعة التقييم الأولى
+- التصنيف والبيانات الشخصية والملاك
+
+### Day 4: عروض المشروع الختامي
+
 
 ## Topics
 

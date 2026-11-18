@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [LDS-PRD-201 · AI Product Discovery and Specification](../courses/LDS-PRD-201.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Distinguish problems suited to generative models, predictive models, rules or no automation.
 - Analyse research material into jobs, pain points and workarounds ranked by frequency and cost of error.
 - Test a candidate feature with a prompt-level prototype on representative cases.
