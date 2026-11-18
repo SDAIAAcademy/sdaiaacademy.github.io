@@ -6,7 +6,10 @@
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-201/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-201/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-201/practice.html
 
 ## Description
 
@@ -31,6 +34,32 @@ By the end, the participant can:
 
 - [LDS-EXE-301 · AI in Public Policy and Public Service Delivery](LDS-EXE-301.md)
 - [LDS-EXE-401 · Leading the Enterprise AI Office](LDS-EXE-401.md)
+
+## Format and days
+
+### Day 1: القيمة والنضج
+
+- القيمة تأتي من إعادة تصميم العمل
+- النضج يُقاس بالدليل
+- البيانات قيد المحفظة المعتاد
+- من أين تأتي حالات الاستخدام
+
+### Day 2: الفرز والجدوى
+
+- الغموض والمخاطر وأنماطها الأربعة
+- المرشِّحات: الأثر والتصنيف والمخاطر والمالك
+- النموذج الأولي اختبار لادعاء
+- أنواع الإخفاق وقرار المضي
+
+### Day 3: الخيارات والقيمة والمحفظة
+
+- البناء أو الشراء أو الشراكة
+- التكلفة الإجمالية والخروج
+- من فرضية القيمة إلى قائمة الدخل
+- الآفاق وبوابات التمويل ومعايير التوقف
+
+### Day 4: مناقشة المحافظ أمام لجنة الاستثمار
+
 
 ## Topics
 

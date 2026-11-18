@@ -27,7 +27,7 @@ In the order their prerequisites suggest.
 
 ### 2. [LDS-EXE-201 · AI Strategy and Use-Case Portfolio](../courses/LDS-EXE-201.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Analyse an organisation's AI maturity across strategy, governance, data, infrastructure, people, applications and impact.
 - Classify use cases by ambiguity and risk and assign each a mode: automate, manage with guardrails, enable exploration or keep human-led.
 - Test feasibility claims by prototyping two use cases on a hosted model against ten realistic cases each.
