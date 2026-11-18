@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs, a tabletop and a tracked follow-up
 - Total hours: 16 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-206/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-206/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-206/practice.html
 
 ## Description
 
@@ -29,6 +32,22 @@ By the end, the participant can:
 ## Next courses
 
 - [LDS-EXE-401 · Leading the Enterprise AI Office](LDS-EXE-401.md)
+
+## Format and days
+
+### Day 1: المساءلة وسجل الأنظمة والوكلاء
+
+- المساءلة وتقبل المخاطر
+- سجل الأنظمة نافذة المجلس
+- الوكلاء: الصلاحيات والموافقات والسجل والإيقاف
+
+### Day 2: الضمان والإشراف في التطبيق
+
+- ضمان الموردين: ما تشهد به الشهادة وما لا تشهد
+- الإشراف في التطبيق: التقارير والتصعيد والإفصاح
+
+### Day 3: حزمة الإشراف لمجلس الإدارة
+
 
 ## Topics
 

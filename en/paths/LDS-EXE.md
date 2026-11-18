@@ -72,7 +72,7 @@ In the order their prerequisites suggest.
 
 ### 7. [LDS-EXE-206 · Governing AI in the Organisation: Boards and Executives](../courses/LDS-EXE-206.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Draft a risk appetite statement with tolerances by risk level and decisions reserved for the board.
 - Analyse an AI inventory for missing systems, owners, risk levels and review needs.
 - Specify board expectations for agent controls and vendor assurance, from permissions and stopping to certificate scope.
