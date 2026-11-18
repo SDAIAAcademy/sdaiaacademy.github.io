@@ -3914,7 +3914,10 @@ By the end, the participant can:
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-205/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-205/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-205/practice.html
 
 ## Description
 
@@ -3934,6 +3937,32 @@ By the end, the participant can:
 
 - Has taken part in a procurement as requester, evaluator or approver
 - Has used AI assistants and checked their output (LDS-EXE-101 or equivalent)
+
+## Format and days
+
+### Day 1: من المشكلة إلى مجموعة اختبار مختومة
+
+- شراء الذكاء الاصطناعي عملية لها مراحل
+- المتطلبات تبدأ من المشكلة لا من المنتج
+- البوابات والأوزان: معايير تستطيع اللجنة تطبيقها
+- مجموعة الاختبار تملكها الجهة ولا يراها المورِّد
+
+### Day 2: الاختبار والتقدير
+
+- اختبار خدمة لا ترى داخلها
+- قراءة النتائج: نوع الإخفاق واللغة والتكلفة
+- تقدير العروض: الادعاء والدليل
+- من الدرجات إلى قرار المرحلة
+
+### Day 3: الشروط والتفاوض
+
+- حقوق البيانات في العقد
+- التغيير والخدمة والخروج
+- السعر والموقف التفاوضي
+- المفاوضة وما بعد الترسية
+
+### Day 4: الدفاع أمام لجنة المنافسات
+
 
 ## Topics
 

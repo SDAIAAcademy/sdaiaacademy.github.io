@@ -63,7 +63,7 @@ In the order their prerequisites suggest.
 
 ### 6. [LDS-EXE-205 · Buying AI: Procurement, Evaluation and Contracts](../courses/LDS-EXE-205.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Prepare requirements and weighted criteria from the business problem, covering quality thresholds, data handling, oversight and exit.
 - Test two hosted models or services on a fixed set of the buyer's cases, prepared before vendors are seen.
 - Draft terms for data use, no training on buyer data, portability, change notice, rollback, audit, price, fourth parties and exit.
