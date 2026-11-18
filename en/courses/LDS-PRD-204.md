@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs and a delivery simulation, plus a tracked follow-up task
 - Total hours: 16 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-prd-204/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-prd-204/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-prd-204/practice.html
 
 ## Description
 
@@ -25,6 +28,22 @@ By the end, the participant can:
 
 - Has planned or coordinated a project or delivery team
 - Reads an evaluation summary of pass rates against acceptance criteria
+
+## Format and days
+
+### Day 1: التخطيط تحت عدم اليقين
+
+- التسليم في ظروف عدم اليقين
+- الفرق والتقديرات وسجل المخاطر
+- البوابات على الأدلة وتقارير الحالة
+
+### Day 2: القرار والتسليم
+
+- ثلاث جولات تسليم
+- التسليم إلى فريق العمليات
+
+### Day 3: حزمة التسليم والدفاع عن البوابة
+
 
 ## Topics
 

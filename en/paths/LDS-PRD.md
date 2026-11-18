@@ -51,7 +51,7 @@ In the order their prerequisites suggest.
 
 ### 4. [LDS-PRD-204 · Managing AI Projects and Delivery Teams](../courses/LDS-PRD-204.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Prepare a plan of time-boxed increments, each with a hypothesis and an exit criterion.
 - Prepare range estimates, a responsibility matrix and a risk log covering model, data, vendor and adoption risks.
 - Decide go, no-go or pivot at delivery gates from evaluation, cost and risk evidence.
