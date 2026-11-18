@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs and a tracked follow-up
 - Total hours: 16 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-203/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-203/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-203/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - Has used AI assistants and checked their output (LDS-EXE-101 or equivalent)
 - Manages or advises on a team or process
+
+## Format and days
+
+### Day 1: من المهام إلى عملية بتصميم جديد
+
+- المهام لا الوظائف
+- نقاط التسليم والإشراف
+
+### Day 2: الوكيل في الفريق والناس من حوله
+
+- اختبار الوكيل وتعديل التصميم
+- الوكيل عضوًا في الفريق، والأدوار والخبرة
+
+### Day 3: حزمة إعادة التصميم والمراجعة
+
 
 ## Topics
 

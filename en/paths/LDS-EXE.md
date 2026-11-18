@@ -45,7 +45,7 @@ In the order their prerequisites suggest.
 
 ### 4. [LDS-EXE-203 · Redesigning Work for Human and Agent Teams](../courses/LDS-EXE-203.md)
 
-- Level 200 · Apply · Workshop · 16 h · In development
+- Level 200 · Apply · Workshop · 16 h · Available
 - Analyse a process into tasks and assign each to a person, an agent or both.
 - Test an agent on part of the redesign and revise for observed failures.
 - Draft an agent onboarding and review plan covering scope, permissions, supervision, measures and retirement.

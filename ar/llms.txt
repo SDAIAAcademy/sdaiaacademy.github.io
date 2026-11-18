@@ -108,6 +108,7 @@
 - [LDS-EXE-101 · الذكاء الاصطناعي للتنفيذيين: إحاطة تطبيقية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-101.md): المستوى 100 · الشرح, 4 ساعات, متاح
 - [LDS-EXE-201 · استراتيجية الذكاء الاصطناعي ومحفظة حالات الاستخدام](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-EXE-202 · اقتصاديات الذكاء الاصطناعي والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-202.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [LDS-EXE-203 · إعادة تصميم العمل لفرق تجمع البشر والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-203.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-ADV-201 · تقييم جدوى حالات استخدام الذكاء الاصطناعي وإعداد دراسات الجدوى](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-ADV-202 · تقييم نضج البيانات والذكاء الاصطناعي وخرائط الطريق](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-AIG-201 · أسس حوكمة الذكاء الاصطناعي: المبادئ والأدوار وضوابط دورة الحياة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
@@ -186,7 +187,6 @@
 - [USE-SEC-204 · الذكاء الاصطناعي في منظومات التعليم](https://sdaiaacademy.github.io/ar/courses/USE-SEC-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-206 · الذكاء الاصطناعي في الخدمات المالية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-209 · الذكاء الاصطناعي في التصنيع والصناعة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-209.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
-- [LDS-EXE-203 · إعادة تصميم العمل لفرق تجمع البشر والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-203.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [LDS-EXE-204 · قيادة تبني الذكاء الاصطناعي والتغيير](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-204.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
 - [LDS-EXE-205 · شراء الذكاء الاصطناعي: المشتريات والتقييم والعقود](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-205.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
 - [LDS-EXE-206 · حوكمة الذكاء الاصطناعي في الجهة: مجالس الإدارة والتنفيذيون](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
