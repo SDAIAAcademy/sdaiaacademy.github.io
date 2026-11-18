@@ -49,7 +49,7 @@ In the order their prerequisites suggest.
 
 ### 4. [LDS-DMG-203 · Data Quality Management](../courses/LDS-DMG-203.md)
 
-- Level 200 · Apply · Intensive · 24 h · In development
+- Level 200 · Apply · Intensive · 24 h · Available
 - Needs: LDS-DMG-101
 - Prepare measurable quality rules with scope, method, threshold and frequency.
 - Analyse column, relationship and dependency profiles to find anomalies.

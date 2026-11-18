@@ -6,7 +6,10 @@
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-203/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-203/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-203/practice.html
 
 ## Description
 
@@ -27,6 +30,32 @@ By the end, the participant can:
 
 - [LDS-DMG-101 · Data Management Foundations](LDS-DMG-101.md)
 - Writes simple SQL with filters, joins and grouping (FND-DAT-101 or the provided SQL pre-work)
+
+## Format and days
+
+### Day 1: من المتطلبات إلى القواعد
+
+- الجودة صلاحية لاستخدام محدد
+- عناصر البيانات الحرجة
+- قواعد قابلة للقياس
+- العتبات والتفاوتات والاستثناءات
+
+### Day 2: التنميط والتنفيذ وبطاقة الأداء
+
+- تنميط الأعمدة
+- العلاقات والتبعيات والمعاينة
+- من القاعدة إلى فحص يُشغَّل
+- بطاقات أداء لا تضلل
+
+### Day 3: المشكلات والتشغيل والذكاء الاصطناعي
+
+- دورة حياة المشكلة
+- السبب الجذري والوقاية
+- الجودة في التشغيل
+- بيانات يستخدمها الذكاء الاصطناعي
+
+### Day 4: عروض المشروع الختامي
+
 
 ## Topics
 
