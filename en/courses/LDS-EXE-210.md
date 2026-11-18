@@ -6,7 +6,10 @@
 - Format: Primer: half-day briefing, reissued every six months
 - Total hours: 4 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-210/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-210/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-210/practice.html
 
 ## Description
 
@@ -23,6 +26,13 @@ By the end, the participant can:
 ## Prerequisites
 
 - Lists the unit's AI systems and the markets it serves
+
+## Format and days
+
+### Day 1: ما الذي تغيّر، وماذا نفعل به
+
+- ما الذي تغيّر في المملكة
+- الأنظمة الأجنبية، ثم ماذا نفعل
 
 ## Topics
 

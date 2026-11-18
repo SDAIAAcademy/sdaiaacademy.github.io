@@ -106,7 +106,7 @@ In the order their prerequisites suggest.
 
 ### 11. [LDS-EXE-210 · AI Regulation Update: National and Global Briefing](../courses/LDS-EXE-210.md)
 
-- Level 200 · Apply · Primer · 4 h · In development
+- Level 200 · Apply · Primer · 4 h · Available
 - Identify each change in national and main foreign instruments as binding, advisory or draft.
 - Analyse an AI summary of a new instrument and verify each claim against the primary text.
 - Prepare an applicability note listing obligations, owners and dates.

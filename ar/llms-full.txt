@@ -4400,7 +4400,10 @@ AI Regulation Update: National and Global Briefing
 - الصيغة: مدخل تعريفي: إحاطة في نصف يوم، تُعاد كل ستة أشهر
 - إجمالي الساعات: 4 ساعات
 - الفئة المستهدفة: قيادي
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/lds-exe-210/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/lds-exe-210/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/lds-exe-210/practice.html
 
 ## الوصف
 
@@ -4417,6 +4420,13 @@ AI Regulation Update: National and Global Briefing
 ## المتطلبات السابقة
 
 - يعدّد أنظمة الذكاء الاصطناعي في وحدته والأسواق التي تخدمها
+
+## الصيغة والأيام
+
+### اليوم 1: ما الذي تغيّر، وماذا نفعل به
+
+- ما الذي تغيّر في المملكة
+- الأنظمة الأجنبية، ثم ماذا نفعل
 
 ## الموضوعات
 
