@@ -80,7 +80,7 @@ In the order their prerequisites suggest.
 
 ### 8. [LDS-EXE-207 · Scaling AI from Pilots to Production](../courses/LDS-EXE-207.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Identify why pilots stall: problem choice, data, integration, evaluation, ownership or unchanged processes.
 - Test a pilot's claimed performance on realistic cases against its demonstration.
 - Analyse two pilots' data readiness for access, quality, classification, lineage and refresh.

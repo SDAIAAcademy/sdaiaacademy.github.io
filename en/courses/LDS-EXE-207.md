@@ -6,7 +6,10 @@
 - Format: Workshop: one and a half days with labs and a tracked follow-up
 - Total hours: 12 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-207/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-207/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-207/practice.html
 
 ## Description
 
@@ -26,6 +29,22 @@ By the end, the participant can:
 
 - Has sponsored, managed or reviewed an AI pilot
 - Has used and checked AI assistants (LDS-EXE-101 or equivalent)
+
+## Format and days
+
+### Day 1: من التعثر إلى الدليل
+
+- لماذا تتعثر المشروعات التجريبية
+- العرض التوضيحي ليس الحالات الواقعية
+- جاهزية البيانات والتكامل وهوية الوكيل
+
+### Day 2: نموذج التشغيل والبوابات
+
+- نموذج التشغيل وإعادة تصميم العملية
+- بوابات التوسع وقاعدة التوقف
+
+### Day 3: خطة التوسع لمشروعين
+
 
 ## Topics
 
