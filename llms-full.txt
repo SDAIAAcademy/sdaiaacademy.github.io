@@ -4153,7 +4153,10 @@ By the end, the participant can:
 - Format: Workshop: one day, three labs and a defended memo
 - Total hours: 8 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-208/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-208/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-208/practice.html
 
 ## Description
 
@@ -4172,6 +4175,17 @@ By the end, the participant can:
 
 - Places a described dataset in a data classification scheme
 - Has used AI assistants and checked their output (LDS-EXE-101 or equivalent)
+
+## Format and days
+
+### Day 1: أين يعمل الذكاء الاصطناعي، وعلى من يعتمد
+
+- السيادة سيطرة: أين يعمل كل حمل
+- النماذج والاستضافة: قارن على مهامك
+- الاعتماد والحوسبة والطاقة: تدرّب على الخروج قبل الدخول
+
+### Day 2: مذكرة التوريد والاستضافة
+
 
 ## Topics
 

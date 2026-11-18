@@ -89,7 +89,7 @@ In the order their prerequisites suggest.
 
 ### 9. [LDS-EXE-208 · Sovereignty, Infrastructure and Dependency Decisions](../courses/LDS-EXE-208.md)
 
-- Level 200 · Apply · Workshop · 8 h · In development
+- Level 200 · Apply · Workshop · 8 h · Available
 - Classify workloads by data class and personal data, assigning each a permitted model type and placement.
 - Compare a hosted closed model with a local open-weight model on quality, latency, cost and data path.
 - Analyse withdrawal risk from export restrictions, model retirement, price change, outage and compute or energy limits.
