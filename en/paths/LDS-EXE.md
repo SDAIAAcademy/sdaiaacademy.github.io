@@ -97,7 +97,7 @@ In the order their prerequisites suggest.
 
 ### 10. [LDS-EXE-209 · AI Incident Simulation for Leadership Teams](../courses/LDS-EXE-209.md)
 
-- Level 200 · Apply · Simulation · 6 h · In development
+- Level 200 · Apply · Simulation · 6 h · Available
 - Describe incident roles, decision rights and escalation thresholds, from technical lead to accountable executive.
 - Use agent traces and logs to establish what happened, what data moved and what is still unknown.
 - Classify each incident by severity and identify the notifications it triggers under data protection law, sector rules and contracts.

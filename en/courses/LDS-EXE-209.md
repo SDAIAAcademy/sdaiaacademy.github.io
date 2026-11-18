@@ -6,7 +6,10 @@
 - Format: Simulation: one facilitated day with a briefing, a four-phase tabletop with timed injects and a structured debrief
 - Total hours: 6 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-209/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-209/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-209/practice.html
 
 ## Description
 
@@ -26,6 +29,17 @@ By the end, the participant can:
 
 - Reads a one-page incident summary and a likelihood and impact matrix
 - Has read the sample incident procedure sent as pre-work
+
+## Format and days
+
+### Day 1: حادثة واحدة من أولها إلى مذكرتها
+
+- الإحاطة
+- المرحلة 1: إجابة ضارة تنتشر
+- المرحلة 2: الوكيل يرسل بيانات إلى الخارج
+- المرحلة 3: الجهة المختصة تكتب
+- المرحلة 4: الصحافة ومجلس الإدارة
+- استخلاص الدروس
 
 ## Topics
 

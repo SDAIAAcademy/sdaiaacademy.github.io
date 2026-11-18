@@ -114,6 +114,7 @@
 - [LDS-EXE-206 · حوكمة الذكاء الاصطناعي في الجهة: مجالس الإدارة والتنفيذيون](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-206.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-EXE-207 · توسيع نطاق الذكاء الاصطناعي من المشروعات التجريبية إلى بيئة الإنتاج](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-207.md): المستوى 200 · التطبيق, 12 ساعة, متاح
 - [LDS-EXE-208 · قرارات السيادة والبنية التحتية والاعتماد على الموردين](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-208.md): المستوى 200 · التطبيق, 8 ساعات, متاح
+- [LDS-EXE-209 · محاكاة حوادث الذكاء الاصطناعي لفرق القيادة](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-209.md): المستوى 200 · التطبيق, 6 ساعات, متاح
 - [LDS-ADV-201 · تقييم جدوى حالات استخدام الذكاء الاصطناعي وإعداد دراسات الجدوى](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
 - [LDS-ADV-202 · تقييم نضج البيانات والذكاء الاصطناعي وخرائط الطريق](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-AIG-201 · أسس حوكمة الذكاء الاصطناعي: المبادئ والأدوار وضوابط دورة الحياة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
@@ -192,7 +193,6 @@
 - [USE-SEC-204 · الذكاء الاصطناعي في منظومات التعليم](https://sdaiaacademy.github.io/ar/courses/USE-SEC-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-206 · الذكاء الاصطناعي في الخدمات المالية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
 - [USE-SEC-209 · الذكاء الاصطناعي في التصنيع والصناعة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-209.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
-- [LDS-EXE-209 · محاكاة حوادث الذكاء الاصطناعي لفرق القيادة](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-209.md): المستوى 200 · التطبيق, 6 ساعات, قيد التطوير
 - [LDS-EXE-210 · مستجدات تنظيم الذكاء الاصطناعي: إحاطة وطنية وعالمية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-210.md): المستوى 200 · التطبيق, 4 ساعات, قيد التطوير
 - [LDS-EXE-301 · الذكاء الاصطناعي في السياسات العامة وتقديم الخدمات العامة](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-301.md): المستوى 300 · التطوير, 25 ساعة, قيد التطوير
 - [LDS-EXE-302 · تقييم المهارات وإصدار شهاداتها في عصر الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-302.md): المستوى 300 · التطوير, 8 ساعات, قيد التطوير
