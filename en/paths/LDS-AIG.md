@@ -95,7 +95,7 @@ In the order their prerequisites suggest.
 
 ### 8. [LDS-AIG-304 · AI Management Systems and Internal Audit](../courses/LDS-AIG-304.md)
 
-- Level 300 · Develop · Intensive · 24 h · In development
+- Level 300 · Develop · Intensive · 24 h · Available
 - Needs: LDS-AIG-201
 - Explain how the clauses of an AI management system standard call on risk and impact assessment standards.
 - Prepare the scope, AI policy and measurable objectives of an AI management system.

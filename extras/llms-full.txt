@@ -6089,7 +6089,10 @@ By the end, the participant can:
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up audit
 - Total hours: 24 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-304/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-304/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-304/practice.html
 
 ## Description
 
@@ -6111,6 +6114,32 @@ By the end, the participant can:
 - [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](https://sdaiaacademy.github.io/en/courses/LDS-AIG-201.md)
 - Describes how a plan-do-check-act management system works, for example for quality or information security
 - Reads an AI risk register and its scoring (LDS-AIG-204 or equivalent)
+
+## Format and days
+
+### Day 1: منطق نظام الإدارة ونطاقه
+
+- منطق نظام الإدارة
+- الأدوار والأنظمة
+- النطاق والاستثناءات
+- سياسة الذكاء الاصطناعي
+
+### Day 2: الأهداف والضوابط وبيان قابلية التطبيق
+
+- الأهداف والكفاءة
+- من المخاطر إلى بيان قابلية التطبيق
+- الخدمات المشتراة والوكيل وأدوات الموظفين
+- المقابلة بكتالوج آخر
+
+### Day 3: التدقيق الداخلي والتحسين
+
+- برنامج تدقيق قائم على المخاطر
+- المقابلات والعينات
+- درجات الملاحظات والتقرير
+- السبب الجذري والإجراء التصحيحي والضمان الخارجي
+
+### Day 4: حزمة مراجعة الإدارة والدفاع عنها
+
 
 ## Topics
 
