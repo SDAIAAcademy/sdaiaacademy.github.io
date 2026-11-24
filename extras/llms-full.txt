@@ -4428,7 +4428,10 @@ By the end, the participant can:
 - Format: Workshop: one day, three labs and a pre-task
 - Total hours: 8 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-302/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-302/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-302/practice.html
 
 ## Description
 
@@ -4447,6 +4450,15 @@ By the end, the participant can:
 
 - Has designed, commissioned or run a training or assessment programme
 - Reads a pass-rate table and says what a gap between two groups shows
+
+## Format and days
+
+### Day 1: ما يجتازه النموذج، وما تشهد به الشهادة، وما يثبته الأثر
+
+- ما الذي غيّره الذكاء الاصطناعي
+- إحكام حيث تُمنح الشهادة، وانفتاح حيث يجري التعليم
+- الشهادات وادعاءاتها
+- تقييم أثر التدريب
 
 ## Topics
 

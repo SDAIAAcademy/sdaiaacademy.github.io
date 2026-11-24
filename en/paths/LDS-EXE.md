@@ -124,7 +124,7 @@ In the order their prerequisites suggest.
 
 ### 13. [LDS-EXE-302 · Assessing and Certifying Skills in the AI Era](../courses/LDS-EXE-302.md)
 
-- Level 300 · Develop · Workshop · 8 h · In development
+- Level 300 · Develop · Workshop · 8 h · Available
 - Test how much of an existing assessment a hosted model can pass without the candidate's own skill.
 - Design a two-lane assessment with a supervised check and an open task backed by process evidence and a defence.
 - Classify credentials by what they evidence, how they are verified and what they may claim.
