@@ -12,8 +12,8 @@
  *   1. storage, language and theme       6. My plan
  *   2. shared helpers                    7. Find my path
  *   3. the plan, its count, Add buttons  8. Ask AI
- *   4. the "/" shortcut                  9. small aids
- *   5. the course explorer
+ *   4. the "/" shortcut                  9. the learning paths: lines and highlight
+ *   5. the course explorer              10. small aids
  */
 (function () {
   "use strict";
@@ -125,7 +125,16 @@
   function linked() {                                /* published Markdown can be read by an assistant only from the web */
     return /^https?:$/.test(window.location.protocol);
   }
-  function llmsUrl() { return absolute(siteRoot() + (lang === "ar" ? "ar/llms.txt" : "llms.txt")); }
+  /* The pages under the Extras tab (the explorer, Extras, the streams, the courses off the learning paths)
+     carry data-tab="extras": the "catalog" of Ask AI is then the whole catalog, elsewhere the learning paths. */
+  function extrasPage() { return document.body && document.body.getAttribute("data-tab") === "extras"; }
+  function onPaths(code) { return Boolean(byCode[code] && byCode[code].m); }
+  function llmsUrl(extras) {
+    return absolute(siteRoot() + (lang === "ar" ? "ar/" : "") + (extras ? "extras/" : "") + "llms.txt");
+  }
+  function pathCodes() {                             /* the entry course and the courses of the learning paths */
+    return C.courses.filter(function (c) { return c.m; }).map(function (c) { return c.c; });
+  }
   function courseHref(code) { return langRoot() + "courses/" + code + ".html"; }
   function estimatedDays(c) { return c.d || Math.max(1, Math.ceil(c.h / 6)); }
   function lengthText(c) { return c.d ? count("day", c.d) + " · " + count("hour", c.h) : count("hour", c.h); }
@@ -529,7 +538,7 @@
     }).join("\n\n");
   }
 
-  /* the whole catalog as one line per course */
+  /* the catalog as one line per course: the given codes, or the whole catalog */
   function catalogMaterial(codes) {
     return (codes || C.courses.map(function (c) { return c.c; })).map(function (code) {
       var c = byCode[code];
@@ -601,16 +610,23 @@
     var result = document.getElementById("pf-result");
     var outcomes = window.CATALOG_OUTCOMES || {};
 
+    /* the candidates: the courses of the learning paths and the entry course (with Foundations), narrowed by
+       the path and by a level band (a stream of the path) */
     function candidates() {
       var track = trackSel.value, stream = streamSel.value;
-      var codes = C.courses.filter(function (c) { return stream ? c.s === stream : track ? c.t === track : true; }).map(function (c) { return c.c; });
+      var codes = C.courses.filter(function (c) {
+        if (!c.m) { return false; }
+        if (stream) { return c.s === stream && c.m === track; }
+        return !track || c.m === track || (track === "FN" && c.m === "S");
+      }).map(function (c) { return c.c; });
       return pathOrder(codes);
     }
     function scopeInfo() {
       var track = trackSel.value, stream = streamSel.value;
-      if (stream) { return { title: C.streams[stream].n, brief: stream, urls: [absolute(langRoot() + "paths/" + stream + ".md")] }; }
-      if (track) { return { title: C.tracks[track].n, brief: track, urls: [absolute(langRoot() + "paths/" + C.tracks[track].slug + ".md")] }; }
-      return { title: ui("scope.catalog"), urls: [llmsUrl()] };
+      var option = streamSel.selectedOptions[0];
+      if (stream) { return { title: option ? option.textContent : C.streams[stream].n, brief: stream, urls: [absolute(langRoot() + "paths/index.md")] }; }
+      if (track) { return { title: C.paths[track].n, brief: C.paths[track].n, urls: [absolute(langRoot() + "paths/index.md")] }; }
+      return { title: ui("scope.paths"), urls: [llmsUrl(false)] };
     }
     function material(codes) {
       var withOutcomes = codes.map(function (code) {
@@ -787,11 +803,16 @@
       }
       if (s === "plan") {
         var plan = pathOrder(getPlan());
-        var planUrls = plan.length <= 4 ? plan.map(function (code) { return absolute(langRoot() + "courses/" + code + ".md"); }) : [llmsUrl()];
+        var planUrls = plan.length <= 4 ? plan.map(function (code) { return absolute(langRoot() + "courses/" + code + ".md"); })
+          : [llmsUrl(!plan.every(onPaths))];
         return { title: ui("scope.plan") + " (" + plan.join(", ") + ")", brief: ui("scope.plan") + ": " + plan.join(", "), content: planMaterial(plan),
           urls: planUrls, cite: plan[0], empty: !plan.length };
       }
-      return { title: ui("scope.catalog"), content: catalogMaterial(), urls: [llmsUrl()], cite: "AE-201" };
+      if (extrasPage()) {                              /* under Extras: the whole catalog */
+        return { title: ui("scope.catalog"), content: catalogMaterial(), urls: [llmsUrl(true)], cite: "AE-201" };
+      }
+      var main = pathOrder(pathCodes());               /* elsewhere: the learning paths, as llms.txt */
+      return { title: ui("scope.paths"), content: catalogMaterial(main), urls: [llmsUrl(false)], cite: main[0] };
     }
 
     function prompt() {
@@ -837,7 +858,118 @@
     setScope("");
   }
 
-  /* ---------------------------------------------------------------- 9. small aids */
+  /* ---------------------------------------------------------------- 9. the learning paths: lines and highlight */
+  /* paths/index.html is complete without this: every card lists its prerequisites as links. With scripts on,
+     an SVG behind the cards draws a line from each prerequisite to the course that needs it, computed from
+     the cards' positions (so the right-to-left page needs nothing special), and hovering or focusing a card
+     lights its prerequisite chain and what it unlocks. Under 720px the lines are left out. */
+  function initFlow() {
+    var flow = document.getElementById("lp-flow");
+    if (!flow) { return; }
+    var cards = {}, needs = {}, unlocks = {};
+    Array.prototype.forEach.call(flow.querySelectorAll(".lp-card[data-code]"), function (card) {
+      cards[card.getAttribute("data-code")] = card;
+    });
+    Object.keys(cards).forEach(function (code) {
+      needs[code] = (cards[code].getAttribute("data-pre") || "").split(" ").filter(function (p) { return cards[p]; });
+      needs[code].forEach(function (p) { (unlocks[p] = unlocks[p] || []).push(code); });
+    });
+    function closure(code, map, out) {
+      (map[code] || []).forEach(function (x) { if (!out[x]) { out[x] = true; closure(x, map, out); } });
+      return out;
+    }
+    /* one line per direct prerequisite that another prerequisite of the same course does not already lead to */
+    var edges = [];
+    Object.keys(needs).forEach(function (code) {
+      needs[code].forEach(function (p) {
+        var implied = needs[code].some(function (q) { return q !== p && closure(q, needs, {})[p]; });
+        if (!implied) { edges.push([p, code]); }
+      });
+    });
+    var wide = window.matchMedia ? window.matchMedia("(min-width: 720px)") : null;
+    var svg = null, active = null;
+
+    function rel(node, box) {
+      var r = node.getBoundingClientRect();
+      var x = r.left - box.left, y = r.top - box.top;
+      return { l: x, r: x + r.width, t: y, b: y + r.height, cx: x + r.width / 2, cy: y + r.height / 2 };
+    }
+    function n(v) { return String(Math.round(v * 10) / 10); }
+    function curve(sx, sy, ex, ey, vertical) {
+      var c1x = sx, c1y = sy, c2x = ex, c2y = ey;
+      if (vertical) { c1y = sy + (ey - sy) / 2; c2y = ey - (ey - sy) / 2; } else { c1x = sx + (ex - sx) / 2; c2x = ex - (ex - sx) / 2; }
+      return "M" + n(sx) + " " + n(sy) + "C" + n(c1x) + " " + n(c1y) + " " + n(c2x) + " " + n(c2y) + " " + n(ex) + " " + n(ey);
+    }
+    function draw() {
+      if (svg && svg.parentNode) { svg.parentNode.removeChild(svg); }
+      svg = null;
+      if (wide && !wide.matches) { return; }
+      var box = flow.getBoundingClientRect();
+      var w = flow.clientWidth, h = flow.clientHeight;
+      var parts = [];
+      edges.forEach(function (edge) {
+        var a = rel(cards[edge[0]], box), b = rel(cards[edge[1]], box);
+        var d, ex, ey;
+        if (b.t >= a.b - 2) {                           /* the course sits below its prerequisite */
+          d = curve(a.cx, a.b, b.cx, b.t, true); ex = b.cx; ey = b.t;
+        } else if (b.b <= a.t + 2) {                    /* above it */
+          d = curve(a.cx, a.t, b.cx, b.b, true); ex = b.cx; ey = b.b;
+        } else if (b.l >= a.r) {                        /* on the same row, to the right */
+          d = curve(a.r, a.cy, b.l, b.cy, false); ex = b.l; ey = b.cy;
+        } else {                                        /* on the same row, to the left */
+          d = curve(a.l, a.cy, b.r, b.cy, false); ex = b.r; ey = b.cy;
+        }
+        var ends = ' data-from="' + edge[0] + '" data-to="' + edge[1] + '"';
+        parts.push('<path' + ends + ' d="' + d + '"></path><circle' + ends + ' cx="' + n(ex) + '" cy="' + n(ey) + '" r="3"></circle>');
+      });
+      var holder = document.createElement("div");
+      holder.innerHTML = '<svg class="lp-lines" aria-hidden="true" focusable="false" preserveAspectRatio="none" viewBox="0 0 ' + n(w) + " " + n(h) + '">' +
+        parts.join("") + "</svg>";
+      svg = holder.firstChild;
+      flow.insertBefore(svg, flow.firstChild);
+      flow.classList.add("lp-drawn");
+      mark();
+    }
+    function mark() {
+      var on = null;
+      if (active) {
+        on = closure(active, needs, {});
+        var down = closure(active, unlocks, {});
+        Object.keys(down).forEach(function (k) { on[k] = true; });
+        on[active] = true;
+      }
+      flow.classList.toggle("lp-dim", Boolean(on));
+      Object.keys(cards).forEach(function (code) {
+        cards[code].classList.toggle("lp-hot", Boolean(on && on[code]));
+        cards[code].classList.toggle("lp-here", code === active);
+      });
+      if (svg) {
+        Array.prototype.forEach.call(svg.querySelectorAll("[data-from]"), function (line) {
+          line.classList.toggle("lp-hot", Boolean(on && on[line.getAttribute("data-from")] && on[line.getAttribute("data-to")]));
+        });
+      }
+    }
+    function setActive(code) {
+      if (code !== active) { active = code; mark(); }
+    }
+    function cardOf(node) {
+      var card = node && node.closest ? node.closest(".lp-card[data-code]") : null;
+      return card ? card.getAttribute("data-code") : null;
+    }
+    flow.addEventListener("mouseover", function (event) { setActive(cardOf(event.target)); });
+    flow.addEventListener("mouseleave", function () { setActive(null); });
+    flow.addEventListener("focusin", function (event) { setActive(cardOf(event.target)); });
+    flow.addEventListener("focusout", function (event) { if (!flow.contains(event.relatedTarget)) { setActive(null); } });
+
+    var timer = null;
+    function later() { window.clearTimeout(timer); timer = window.setTimeout(draw, 60); }
+    if (window.ResizeObserver) { new window.ResizeObserver(later).observe(flow); }
+    window.addEventListener("resize", later);
+    if (document.fonts && document.fonts.ready) { document.fonts.ready.then(later); }
+    draw();
+  }
+
+  /* ---------------------------------------------------------------- 10. small aids */
   function initTables() {                                /* a table that scrolls sideways must be reachable by keyboard */
     function check() {
       Array.prototype.forEach.call(document.querySelectorAll(".table-wrap"), function (wrap) {
@@ -870,6 +1002,7 @@
     if (C) {
       [initPlanButtons, initExplorer, initPlan, initFinder, initAsk].forEach(run);
     }
+    run(initFlow);
     run(initTables);
   }
   if (document.readyState === "loading") {

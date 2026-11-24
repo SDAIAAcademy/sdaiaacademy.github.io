@@ -4,19 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="دليل مقررات أكاديمية سدايا: مقررات في البيانات والذكاء الاصطناعي في خمسة مسارات، ولكل مقرر صفحة.">
+<meta name="description" content="دليل مقررات أكاديمية سدايا: مسارات تعلم في هندسة الذكاء الاصطناعي وعلم البيانات فوق أساسيات مشتركة، مع صفحة لكل مقرر.">
 <title>دليل مقررات أكاديمية سدايا</title>
 <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
 <link rel="alternate" hreflang="en" href="../en/index.html">
 <link rel="stylesheet" href="../assets/site.css">
 <script src="../assets/site.js"></script>
 </head>
-<body data-page="home">
+<body data-page="home" data-tab="paths">
 <a class="skip" href="#main">الانتقال إلى المحتوى</a>
 <header class="site-header">
 <div class="wrap bar">
 <a class="brand" href="index.html"><img class="logo" src="../assets/logo.svg" alt="أكاديمية سدايا" width="171" height="40"></a>
-<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="courses/index.html">المقررات</a></li><li><a href="paths/index.html">المسارات</a></li><li><a href="path-finder/index.html">اعثر على مسارك</a></li><li><a class="plan-link" href="plan/index.html">خطتي<span class="plan-count" hidden></span></a></li></ul></nav>
+<nav class="site-nav" aria-label="التنقل الرئيسي"><ul><li><a href="paths/index.html">المسارات</a></li><li><a href="extras/index.html">مقررات إضافية</a></li><li><a href="path-finder/index.html">اعثر على مسارك</a></li><li><a class="plan-link" href="plan/index.html">خطتي<span class="plan-count" hidden></span></a></li></ul></nav>
 <div class="tools">
 <button type="button" class="btn-ai ask-ai-open" hidden><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg><span>اسأل الذكاء الاصطناعي</span></button>
 <a class="lang-switch" href="../en/index.html" lang="en" hreflang="en">English</a>
@@ -29,33 +29,22 @@
 <section class="hero">
 <h1>مقررات أكاديمية سدايا في البيانات والذكاء الاصطناعي، لكل دور، من الخطوة الأولى إلى عمل الخبراء.</h1>
 <form class="home-search" role="search" action="courses/index.html" method="get"><label for="home-q" class="visually-hidden">ابحث في الدليل</label><div class="search-row"><input type="search" id="home-q" name="q" data-slash placeholder="الرمز أو العنوان أو الموضوع" autocomplete="off"><kbd class="slash-hint" aria-hidden="true">/</kbd><button type="submit" class="btn btn-primary">بحث</button></div></form>
-<ul class="doors">
-<li class="door"><a href="path-finder/index.html"><span class="door-title">اعثر على مسارك</span><span class="door-text">حدّد ما تريد أن تفعله، وأجرِ اختبار تحديد مستوى قصيرًا مع مساعدك الذكي، واحصل على المقررات التي تأخذها بالترتيب.</span></a></li>
-<li class="door"><a href="courses/index.html"><span class="door-title">تصفّح المقررات</span><span class="door-text">جميع المقررات، وعددها 301، مع البحث والتصفية وخطة يمكنك مشاركتها.</span></a></li>
-<li class="door door-ai" hidden><button type="button" class="ask-ai-open" data-scope="catalog"><span class="door-title"><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg>اسأل الذكاء الاصطناعي</span><span class="door-text">اسأل مساعدك الذكي عن الدليل: أي مقرر يناسب دورك، وما الفرق بين مقررين.</span></button></li>
-</ul></section>
-<section aria-labelledby="h-tracks"><h2 id="h-tracks">المسارات الخمسة</h2><div class="track-rows">
-<ul class="track-cards track-cards-2">
-<li class="track-card acc-USE"><a href="paths/index.html#fluency"><span class="track-name">الطلاقة في البيانات والذكاء الاصطناعي</span><span class="track-blurb">لكل من يستخدم البيانات والذكاء الاصطناعي في عمله أو دراسته: حد أدنى من الإلمام لجميع العاملين، ومقررات للمهن والقطاعات، ومقررات للمتعلمين والمعلمين.</span><span class="track-count">44 مقررًا</span></a></li>
-<li class="track-card acc-LDS"><a href="paths/index.html#executives-and-leaders"><span class="track-name">التنفيذيون والقادة</span><span class="track-blurb">لمن يوجّهون أعمال البيانات والذكاء الاصطناعي ويشترون حلولها ويحوكمونها ويضمنون سلامتها: التنفيذيون، وقادة المنتجات والتسليم، والمستشارون، ومهن الحوكمة وإدارة البيانات.</span><span class="track-count">48 مقررًا</span></a></li>
-</ul>
-<ul class="track-cards track-cards-3">
-<li class="track-card acc-FND"><a href="paths/index.html#foundations"><span class="track-name">أساسيات البيانات والذكاء الاصطناعي</span><span class="track-blurb">القاعدة التي يُبنى عليها مسارا هندسة الذكاء الاصطناعي وعلم البيانات: البرمجة، والرياضيات والإحصاء، والتعامل مع البيانات، وطريقة عمل الذكاء الاصطناعي.</span><span class="track-count">26 مقررًا</span></a></li>
-<li class="track-card acc-DEV"><a href="paths/index.html#ai-engineering"><span class="track-name">هندسة الذكاء الاصطناعي</span><span class="track-blurb">لمن يبنون الأنظمة المعتمدة على الذكاء الاصطناعي ويشغّلونها: التطبيقات والوكلاء، والتقييم، وهندسة تعلم الآلة، والعمليات، والبنية التحتية، وهندسة البيانات، والأمن.</span><span class="track-count">102 مقررًا</span></a></li>
-<li class="track-card acc-SPC"><a href="paths/index.html#data-science"><span class="track-name">علم البيانات</span><span class="track-blurb">لمن ينتجون الأدلة والنماذج والأساليب: التحليل، والإحصاء، والتجارب والاستدلال السببي، والنمذجة، وتطوير النماذج، والذكاء الاصطناعي الموثوق.</span><span class="track-count">81 مقررًا</span></a></li>
-</ul>
-</div></section>
+</section>
+<section class="home-paths" aria-labelledby="h-lp"><h2 id="h-lp">مسارات التعلم</h2>
+<ol class="home-flow"><li class="hf-step"><a class="hf-card acc-S" href="paths/index.html#start"><span class="hf-kicker">ابدأ من هنا</span><span class="hf-name"><span class="code" dir="ltr">USE-FLU-202</span> <span>إنتاجية العمل المعرفي بالذكاء الاصطناعي</span></span><span class="hf-count">5 أيام · 30 ساعة</span></a></li><li class="hf-step"><a class="hf-card acc-FN" href="paths/index.html#foundations"><span class="hf-kicker">المستوى 100</span><span class="hf-name">الأساسيات</span><span class="hf-count">6 مقررات</span></a></li><li class="hf-step hf-split"><a class="hf-card acc-AE" href="paths/index.html#ai-engineering"><span class="hf-kicker">المستويات من 200 إلى 400</span><span class="hf-name">هندسة الذكاء الاصطناعي</span><span class="hf-count">25 مقررًا</span></a><a class="hf-card acc-DS" href="paths/index.html#data-science"><span class="hf-kicker">المستويات من 200 إلى 400</span><span class="hf-name">علم البيانات</span><span class="hf-count">24 مقررًا</span></a></li></ol>
+<p class="home-extras">تبحث عن مقرر آخر؟ <a href="extras/index.html">مقررات إضافية: الدليل كاملًا، 301 مقررًا</a></p>
+</section>
 </main>
 <footer class="site-footer">
 <div class="wrap">
-<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-USE"><a href="paths/index.html#fluency">الطلاقة في البيانات والذكاء الاصطناعي</a></li><li class="acc-LDS"><a href="paths/index.html#executives-and-leaders">التنفيذيون والقادة</a></li><li class="acc-FND"><a href="paths/index.html#foundations">أساسيات البيانات والذكاء الاصطناعي</a></li><li class="acc-DEV"><a href="paths/index.html#ai-engineering">هندسة الذكاء الاصطناعي</a></li><li class="acc-SPC"><a href="paths/index.html#data-science">علم البيانات</a></li></ul></nav>
+<nav aria-label="المسارات"><ul class="foot-tracks"><li class="acc-FN"><a href="paths/index.html#foundations">الأساسيات</a></li><li class="acc-AE"><a href="paths/index.html#ai-engineering">هندسة الذكاء الاصطناعي</a></li><li class="acc-DS"><a href="paths/index.html#data-science">علم البيانات</a></li><li><a href="extras/index.html">مقررات إضافية</a></li></ul></nav>
 </div>
 </footer>
 <dialog class="ai-dialog" id="ai-dialog" aria-labelledby="ai-title">
 <form method="dialog" class="ai-form">
 <div class="ai-head"><h2 id="ai-title"><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg>اسأل الذكاء الاصطناعي</h2><button type="submit" class="icon-btn" value="close" aria-label="إغلاق">&#215;</button></div>
 <p class="ai-note">يعمل الذكاء الاصطناعي في مساعدك أنت. تنسخ هذه الصفحة أمرًا ثم تفتح المساعد الذي تختاره: الصق الأمر إن كان المربع فارغًا. لا يُرسَل شيء من هذا الموقع.</p>
-<fieldset class="ai-scopes"><legend>عن</legend><ul><li data-scope="course"><input type="radio" name="ai-scope" id="ai-scope-course" value="course"><label for="ai-scope-course">هذا المقرر</label></li><li data-scope="path"><input type="radio" name="ai-scope" id="ai-scope-path" value="path"><label for="ai-scope-path">هذا المسار</label></li><li data-scope="plan"><input type="radio" name="ai-scope" id="ai-scope-plan" value="plan"><label for="ai-scope-plan">خطتي</label></li><li data-scope="catalog"><input type="radio" name="ai-scope" id="ai-scope-catalog" value="catalog"><label for="ai-scope-catalog">الدليل كله</label></li></ul></fieldset>
+<fieldset class="ai-scopes"><legend>عن</legend><ul><li data-scope="course"><input type="radio" name="ai-scope" id="ai-scope-course" value="course"><label for="ai-scope-course">هذا المقرر</label></li><li data-scope="path"><input type="radio" name="ai-scope" id="ai-scope-path" value="path"><label for="ai-scope-path">هذا المسار</label></li><li data-scope="plan"><input type="radio" name="ai-scope" id="ai-scope-plan" value="plan"><label for="ai-scope-plan">خطتي</label></li><li data-scope="catalog"><input type="radio" name="ai-scope" id="ai-scope-catalog" value="catalog"><label for="ai-scope-catalog">مسارات التعلم</label></li></ul></fieldset>
 <div class="field"><label for="ai-task">المهمة</label><select id="ai-task"><option value="ask" data-input="سؤالك">اطرح سؤالًا</option><option value="compare" data-input="المقررات التي تريد المقارنة بينها (الرموز أو العناوين)">قارن بين مقررات</option><option value="role" data-input="دورك وما تريد أن تستطيع فعله">أي مقرر يناسب دوري</option><option value="explain" data-input="ما تريد أن تفهمه (اختياري)">اشرح لي مقررًا</option><option value="placement" data-input="هدفك وخبرتك (اختياري)">اختبار تحديد المستوى</option><option value="review" data-input="الغرض من الخطة (اختياري)">راجع خطتي</option></select></div>
 <div class="field"><label for="ai-q" id="ai-q-label">سؤالك</label><textarea id="ai-q" rows="3"></textarea></div>
 <p class="ai-size" id="ai-size" aria-live="polite"></p>

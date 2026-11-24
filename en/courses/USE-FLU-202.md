@@ -2,6 +2,7 @@
 
 - Track: Data & AI Fluency
 - Path: [Fluency for Everyone](../paths/USE-FLU.md)
+- On the learning path: [Start here](../paths/index.md)
 - Level: Level 200 · Apply
 - Format: Intensive: 4 teaching days of four sessions and a capstone day, with guided pre-work and a tracked 30-day follow-up task
 - Total hours: 30 h
@@ -39,6 +40,7 @@ By the end, the participant can:
 - [USE-FLU-301 · Redesigning a Team Workflow with AI and Measuring the Gain](USE-FLU-301.md)
 - [USE-FLU-302 · Team Build-and-Own Studio: One Application for One Entity](USE-FLU-302.md)
 - [USE-FLU-303 · Leading AI Adoption in a Team: Champions and Trainers](USE-FLU-303.md)
+- [FN-101 · Python for Data and AI Work](FN-101.md)
 
 ## Format and days
 

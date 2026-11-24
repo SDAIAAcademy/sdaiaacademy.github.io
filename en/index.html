@@ -4,19 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<meta name="description" content="The SDAIA Academy course catalog: courses in data and artificial intelligence in five tracks, with a page for every course.">
+<meta name="description" content="The SDAIA Academy course catalog: learning paths in AI Engineering and Data Science over shared Foundations, with a page for every course.">
 <title>SDAIA Academy Course Catalog</title>
 <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
 <link rel="alternate" hreflang="ar" href="../ar/index.html">
 <link rel="stylesheet" href="../assets/site.css">
 <script src="../assets/site.js"></script>
 </head>
-<body data-page="home">
+<body data-page="home" data-tab="paths">
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="wrap bar">
 <a class="brand" href="index.html"><img class="logo" src="../assets/logo.svg" alt="SDAIA Academy" width="171" height="40"></a>
-<nav class="site-nav" aria-label="Main"><ul><li><a href="courses/index.html">Courses</a></li><li><a href="paths/index.html">Paths</a></li><li><a href="path-finder/index.html">Find my path</a></li><li><a class="plan-link" href="plan/index.html">My plan<span class="plan-count" hidden></span></a></li></ul></nav>
+<nav class="site-nav" aria-label="Main"><ul><li><a href="paths/index.html">Paths</a></li><li><a href="extras/index.html">Extras</a></li><li><a href="path-finder/index.html">Find my path</a></li><li><a class="plan-link" href="plan/index.html">My plan<span class="plan-count" hidden></span></a></li></ul></nav>
 <div class="tools">
 <button type="button" class="btn-ai ask-ai-open" hidden><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg><span>Ask AI</span></button>
 <a class="lang-switch" href="../ar/index.html" lang="ar" hreflang="ar">العربية</a>
@@ -29,33 +29,22 @@
 <section class="hero">
 <h1>SDAIA Academy courses in data and AI, for every role, from a first step to expert work.</h1>
 <form class="home-search" role="search" action="courses/index.html" method="get"><label for="home-q" class="visually-hidden">Search the catalog</label><div class="search-row"><input type="search" id="home-q" name="q" data-slash placeholder="Code, title or topic" autocomplete="off"><kbd class="slash-hint" aria-hidden="true">/</kbd><button type="submit" class="btn btn-primary">Search</button></div></form>
-<ul class="doors">
-<li class="door"><a href="path-finder/index.html"><span class="door-title">Find my path</span><span class="door-text">Say what you want to do, take a short placement test with your own AI assistant, and get the courses to take in order.</span></a></li>
-<li class="door"><a href="courses/index.html"><span class="door-title">Browse courses</span><span class="door-text">All 301 courses, with search, filters and a plan you can share.</span></a></li>
-<li class="door door-ai" hidden><button type="button" class="ask-ai-open" data-scope="catalog"><span class="door-title"><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg>Ask AI</span><span class="door-text">Ask your own AI assistant about the catalog: which course fits your role, how two courses differ.</span></button></li>
-</ul></section>
-<section aria-labelledby="h-tracks"><h2 id="h-tracks">Five tracks</h2><div class="track-rows">
-<ul class="track-cards track-cards-2">
-<li class="track-card acc-USE"><a href="paths/index.html#fluency"><span class="track-name">Data &amp; AI Fluency</span><span class="track-blurb">For everyone who uses data and AI in their own work or study: a baseline for all staff, courses for professions and sectors, and courses for learners and educators.</span><span class="track-count">44 courses</span></a></li>
-<li class="track-card acc-LDS"><a href="paths/index.html#executives-and-leaders"><span class="track-name">Executives &amp; Leaders</span><span class="track-blurb">For people who direct, buy, govern and assure data and AI: executives, product and delivery leads, advisers, and the governance and data management professions.</span><span class="track-count">48 courses</span></a></li>
-</ul>
-<ul class="track-cards track-cards-3">
-<li class="track-card acc-FND"><a href="paths/index.html#foundations"><span class="track-name">Data &amp; AI Foundations</span><span class="track-blurb">The base that the AI Engineering and Data Science tracks build on: programming, mathematics and statistics, handling data, and how AI works.</span><span class="track-count">26 courses</span></a></li>
-<li class="track-card acc-DEV"><a href="paths/index.html#ai-engineering"><span class="track-name">AI Engineering</span><span class="track-blurb">For people who build and run systems that use AI: applications and agents, evaluation, machine learning engineering, operations, infrastructure, data engineering and security.</span><span class="track-count">102 courses</span></a></li>
-<li class="track-card acc-SPC"><a href="paths/index.html#data-science"><span class="track-name">Data Science</span><span class="track-blurb">For people who produce evidence, models and methods: analysis, statistics, experiments and causal inference, modelling, model development and trustworthy AI.</span><span class="track-count">81 courses</span></a></li>
-</ul>
-</div></section>
+</section>
+<section class="home-paths" aria-labelledby="h-lp"><h2 id="h-lp">Learning paths</h2>
+<ol class="home-flow"><li class="hf-step"><a class="hf-card acc-S" href="paths/index.html#start"><span class="hf-kicker">Start here</span><span class="hf-name"><span class="code" dir="ltr">USE-FLU-202</span> <span>AI Productivity for Knowledge Work</span></span><span class="hf-count">5 days · 30 h</span></a></li><li class="hf-step"><a class="hf-card acc-FN" href="paths/index.html#foundations"><span class="hf-kicker">Level 100</span><span class="hf-name">Foundations</span><span class="hf-count">6 courses</span></a></li><li class="hf-step hf-split"><a class="hf-card acc-AE" href="paths/index.html#ai-engineering"><span class="hf-kicker">Levels 200 to 400</span><span class="hf-name">AI Engineering</span><span class="hf-count">25 courses</span></a><a class="hf-card acc-DS" href="paths/index.html#data-science"><span class="hf-kicker">Levels 200 to 400</span><span class="hf-name">Data Science</span><span class="hf-count">24 courses</span></a></li></ol>
+<p class="home-extras">Looking for another course? <a href="extras/index.html">Extras: the full catalog, 301 courses</a></p>
+</section>
 </main>
 <footer class="site-footer">
 <div class="wrap">
-<nav aria-label="Tracks"><ul class="foot-tracks"><li class="acc-USE"><a href="paths/index.html#fluency">Data &amp; AI Fluency</a></li><li class="acc-LDS"><a href="paths/index.html#executives-and-leaders">Executives &amp; Leaders</a></li><li class="acc-FND"><a href="paths/index.html#foundations">Data &amp; AI Foundations</a></li><li class="acc-DEV"><a href="paths/index.html#ai-engineering">AI Engineering</a></li><li class="acc-SPC"><a href="paths/index.html#data-science">Data Science</a></li></ul></nav>
+<nav aria-label="Paths"><ul class="foot-tracks"><li class="acc-FN"><a href="paths/index.html#foundations">Foundations</a></li><li class="acc-AE"><a href="paths/index.html#ai-engineering">AI Engineering</a></li><li class="acc-DS"><a href="paths/index.html#data-science">Data Science</a></li><li><a href="extras/index.html">Extras</a></li></ul></nav>
 </div>
 </footer>
 <dialog class="ai-dialog" id="ai-dialog" aria-labelledby="ai-title">
 <form method="dialog" class="ai-form">
 <div class="ai-head"><h2 id="ai-title"><svg class="spark" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" focusable="false" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"><path d="M4 5.5A2.5 2.5 0 016.5 3h11A2.5 2.5 0 0120 5.5v8A2.5 2.5 0 0117.5 16H11l-4.5 4v-4A2.5 2.5 0 014 13.5z"></path><g fill="currentColor" stroke="none"><circle cx="8.5" cy="9.5" r="1.25"></circle><circle cx="12" cy="9.5" r="1.25"></circle><circle cx="15.5" cy="9.5" r="1.25"></circle></g></svg>Ask AI</h2><button type="submit" class="icon-btn" value="close" aria-label="Close">&#215;</button></div>
 <p class="ai-note">The AI runs in your own assistant. This page copies a prompt, then opens the assistant you pick: paste the prompt if the box is empty. Nothing is sent from this site.</p>
-<fieldset class="ai-scopes"><legend>About</legend><ul><li data-scope="course"><input type="radio" name="ai-scope" id="ai-scope-course" value="course"><label for="ai-scope-course">This course</label></li><li data-scope="path"><input type="radio" name="ai-scope" id="ai-scope-path" value="path"><label for="ai-scope-path">This path</label></li><li data-scope="plan"><input type="radio" name="ai-scope" id="ai-scope-plan" value="plan"><label for="ai-scope-plan">My plan</label></li><li data-scope="catalog"><input type="radio" name="ai-scope" id="ai-scope-catalog" value="catalog"><label for="ai-scope-catalog">The whole catalog</label></li></ul></fieldset>
+<fieldset class="ai-scopes"><legend>About</legend><ul><li data-scope="course"><input type="radio" name="ai-scope" id="ai-scope-course" value="course"><label for="ai-scope-course">This course</label></li><li data-scope="path"><input type="radio" name="ai-scope" id="ai-scope-path" value="path"><label for="ai-scope-path">This path</label></li><li data-scope="plan"><input type="radio" name="ai-scope" id="ai-scope-plan" value="plan"><label for="ai-scope-plan">My plan</label></li><li data-scope="catalog"><input type="radio" name="ai-scope" id="ai-scope-catalog" value="catalog"><label for="ai-scope-catalog">The learning paths</label></li></ul></fieldset>
 <div class="field"><label for="ai-task">Task</label><select id="ai-task"><option value="ask" data-input="Your question">Ask a question</option><option value="compare" data-input="The courses to compare (codes or titles)">Compare courses</option><option value="role" data-input="Your role and what you want to be able to do">Which course fits my role</option><option value="explain" data-input="What you want to understand (optional)">Explain a course</option><option value="placement" data-input="Your goal and experience (optional)">Placement test</option><option value="review" data-input="What the plan is for (optional)">Review my plan</option></select></div>
 <div class="field"><label for="ai-q" id="ai-q-label">Your question</label><textarea id="ai-q" rows="3"></textarea></div>
 <p class="ai-size" id="ai-size" aria-live="polite"></p>

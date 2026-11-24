@@ -1,0 +1,376 @@
+[العودة إلى مسارات التعلم (llms.txt)](https://sdaiaacademy.github.io/ar/llms.txt)
+
+# دليل مقررات أكاديمية سدايا
+
+> دليل مقررات أكاديمية سدايا: مسارات تعلم في هندسة الذكاء الاصطناعي وعلم البيانات فوق أساسيات مشتركة، مع صفحة لكل مقرر.
+
+تنشر أكاديمية سدايا هذا الدليل لمقررات البيانات والذكاء الاصطناعي: خمسة مسارات ينقسم كل منها إلى مسارات فرعية، ولكل مقرر مستوى من 100 إلى 400. لكل مقرر ومسار صفحة بصيغة Markdown، وللمقررات المتاحة مواقع منشورة فيها مادتها كاملة.
+
+- [كل المقررات في ملف واحد](https://sdaiaacademy.github.io/ar/extras/llms-full.txt)
+
+## الطلاقة في البيانات والذكاء الاصطناعي
+
+- [الطلاقة في البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/paths/fluency.md): لكل من يستخدم البيانات والذكاء الاصطناعي في عمله أو دراسته: حد أدنى من الإلمام لجميع العاملين، ومقررات للمهن والقطاعات، ومقررات للمتعلمين والمعلمين.
+- [USE-FLU · الطلاقة للجميع](https://sdaiaacademy.github.io/ar/paths/USE-FLU.md): USE-FLU-101, USE-FLU-102, USE-FLU-103, USE-FLU-104, USE-FLU-201, USE-FLU-202, USE-FLU-203, USE-FLU-204, USE-FLU-205, USE-FLU-206, USE-FLU-207, USE-FLU-301, USE-FLU-302, USE-FLU-303
+- [USE-EDU · المتعلمون والمعلمون](https://sdaiaacademy.github.io/ar/paths/USE-EDU.md): USE-EDU-101, USE-EDU-102, USE-EDU-201, USE-EDU-202, USE-EDU-203, USE-EDU-204
+- [USE-PRO · الطلاقة للمهن](https://sdaiaacademy.github.io/ar/paths/USE-PRO.md): USE-PRO-201, USE-PRO-202, USE-PRO-203, USE-PRO-204, USE-PRO-205, USE-PRO-206, USE-PRO-207, USE-PRO-208, USE-PRO-209, USE-PRO-210, USE-PRO-211, USE-PRO-212
+- [USE-SEC · الذكاء الاصطناعي في القطاعات](https://sdaiaacademy.github.io/ar/paths/USE-SEC.md): USE-SEC-201, USE-SEC-202, USE-SEC-203, USE-SEC-204, USE-SEC-205, USE-SEC-206, USE-SEC-207, USE-SEC-208, USE-SEC-209, USE-SEC-210, USE-SEC-211, USE-SEC-212
+
+## التنفيذيون والقادة
+
+- [التنفيذيون والقادة](https://sdaiaacademy.github.io/ar/paths/executives-and-leaders.md): لمن يوجّهون أعمال البيانات والذكاء الاصطناعي ويشترون حلولها ويحوكمونها ويضمنون سلامتها: التنفيذيون، وقادة المنتجات والتسليم، والمستشارون، ومهن الحوكمة وإدارة البيانات.
+- [LDS-EXE · القيادة التنفيذية](https://sdaiaacademy.github.io/ar/paths/LDS-EXE.md): LDS-EXE-101, LDS-EXE-201, LDS-EXE-202, LDS-EXE-203, LDS-EXE-204, LDS-EXE-205, LDS-EXE-206, LDS-EXE-207, LDS-EXE-208, LDS-EXE-209, LDS-EXE-210, LDS-EXE-301, LDS-EXE-302, LDS-EXE-401, LDS-EXE-402
+- [LDS-PRD · منتجات الذكاء الاصطناعي وتسليمها](https://sdaiaacademy.github.io/ar/paths/LDS-PRD.md): LDS-PRD-201, LDS-PRD-202, LDS-PRD-203, LDS-PRD-204, LDS-PRD-205, LDS-PRD-301
+- [LDS-ADV · الاستشارات وتحقيق القيمة](https://sdaiaacademy.github.io/ar/paths/LDS-ADV.md): LDS-ADV-201, LDS-ADV-202, LDS-ADV-301, LDS-ADV-302
+- [LDS-AIG · حوكمة الذكاء الاصطناعي ومخاطره وضمانه](https://sdaiaacademy.github.io/ar/paths/LDS-AIG.md): LDS-AIG-201, LDS-AIG-202, LDS-AIG-203, LDS-AIG-204, LDS-AIG-301, LDS-AIG-302, LDS-AIG-303, LDS-AIG-304, LDS-AIG-305, LDS-AIG-306, LDS-AIG-307, LDS-AIG-401
+- [LDS-DMG · مهن إدارة البيانات وحوكمتها](https://sdaiaacademy.github.io/ar/paths/LDS-DMG.md): LDS-DMG-101, LDS-DMG-201, LDS-DMG-202, LDS-DMG-203, LDS-DMG-204, LDS-DMG-205, LDS-DMG-206, LDS-DMG-207, LDS-DMG-208, LDS-DMG-301, LDS-DMG-302
+
+## أساسيات البيانات والذكاء الاصطناعي
+
+- [أساسيات البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/paths/foundations.md): القاعدة التي يُبنى عليها مسارا هندسة الذكاء الاصطناعي وعلم البيانات: البرمجة، والرياضيات والإحصاء، والتعامل مع البيانات، وطريقة عمل الذكاء الاصطناعي.
+- [FND-PRG · البرمجة وممارسات تطوير البرمجيات](https://sdaiaacademy.github.io/ar/paths/FND-PRG.md): FND-PRG-101, FND-PRG-102, FND-PRG-103, FND-PRG-104, FND-PRG-105, FND-PRG-106
+- [FND-MTH · الرياضيات والإحصاء](https://sdaiaacademy.github.io/ar/paths/FND-MTH.md): FND-MTH-101, FND-MTH-102, FND-MTH-103, FND-MTH-104, FND-MTH-105
+- [FND-DAT · التعامل مع البيانات](https://sdaiaacademy.github.io/ar/paths/FND-DAT.md): FND-DAT-101, FND-DAT-102, FND-DAT-103
+- [FND-AIC · مفاهيم الذكاء الاصطناعي والممارسة المسؤولة](https://sdaiaacademy.github.io/ar/paths/FND-AIC.md): FND-AIC-101, FND-AIC-102, FND-AIC-103, FND-AIC-104, FND-AIC-105, FND-AIC-106
+- [FN-100 · الأساسيات المشتركة: مقررات الدخول إلى مساري الشارتين](https://sdaiaacademy.github.io/ar/paths/FN-100.md): FN-101, FN-102, FN-103, FN-104, FN-105, FN-106
+
+## هندسة الذكاء الاصطناعي
+
+- [هندسة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/paths/ai-engineering.md): لمن يبنون الأنظمة المعتمدة على الذكاء الاصطناعي ويشغّلونها: التطبيقات والوكلاء، والتقييم، وهندسة تعلم الآلة، والعمليات، والبنية التحتية، وهندسة البيانات، والأمن.
+- [DEV-SWE · هندسة البرمجيات لبناة أنظمة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/paths/DEV-SWE.md): DEV-SWE-201, DEV-SWE-202, DEV-SWE-203, DEV-SWE-204, DEV-SWE-301, DEV-SWE-302, DEV-SWE-303
+- [DEV-LLM · هندسة تطبيقات النماذج اللغوية](https://sdaiaacademy.github.io/ar/paths/DEV-LLM.md): DEV-LLM-201, DEV-LLM-202, DEV-LLM-203, DEV-LLM-204, DEV-LLM-205, DEV-LLM-301, DEV-LLM-302, DEV-LLM-303
+- [DEV-AGT · الأنظمة الوكيلية](https://sdaiaacademy.github.io/ar/paths/DEV-AGT.md): DEV-AGT-301, DEV-AGT-302, DEV-AGT-303, DEV-AGT-401, DEV-AGT-402, DEV-AGT-403
+- [DEV-EVL · هندسة التقييم والجودة لأنظمة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/paths/DEV-EVL.md): DEV-EVL-301, DEV-EVL-302, DEV-EVL-303, DEV-EVL-304, DEV-EVL-401
+- [DEV-MLE · هندسة تعلم الآلة](https://sdaiaacademy.github.io/ar/paths/DEV-MLE.md): DEV-MLE-201, DEV-MLE-202, DEV-MLE-203, DEV-MLE-301, DEV-MLE-302, DEV-MLE-303, DEV-MLE-304, DEV-MLE-305, DEV-MLE-306
+- [DEV-OPS · العمليات والاعتمادية](https://sdaiaacademy.github.io/ar/paths/DEV-OPS.md): DEV-OPS-201, DEV-OPS-301, DEV-OPS-302, DEV-OPS-303, DEV-OPS-304, DEV-OPS-401
+- [DEV-INF · البنية التحتية والأداء والمعمارية](https://sdaiaacademy.github.io/ar/paths/DEV-INF.md): DEV-INF-201, DEV-INF-301, DEV-INF-302, DEV-INF-303, DEV-INF-304, DEV-INF-401, DEV-INF-402, DEV-INF-403, DEV-INF-404, DEV-INF-405
+- [DEV-DAT · هندسة البيانات ومعماريتها](https://sdaiaacademy.github.io/ar/paths/DEV-DAT.md): DEV-DAT-201, DEV-DAT-202, DEV-DAT-203, DEV-DAT-204, DEV-DAT-301, DEV-DAT-302, DEV-DAT-303, DEV-DAT-304, DEV-DAT-401
+- [DEV-SEC · هندسة الأمن والخصوصية للذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/paths/DEV-SEC.md): DEV-SEC-201, DEV-SEC-301, DEV-SEC-302, DEV-SEC-303, DEV-SEC-304, DEV-SEC-305, DEV-SEC-401
+- [DEV-PHY · هندسة الذكاء الاصطناعي المادي والروبوتات](https://sdaiaacademy.github.io/ar/paths/DEV-PHY.md): DEV-PHY-201, DEV-PHY-301, DEV-PHY-302, DEV-PHY-401
+- [DEV-PRJ · التدريب التطبيقي](https://sdaiaacademy.github.io/ar/paths/DEV-PRJ.md): DEV-PRJ-301, DEV-PRJ-401
+- [AE-200 · هندسة الذكاء الاصطناعي: مقررات تساعد على التهيئة لمستوى مساعد](https://sdaiaacademy.github.io/ar/paths/AE-200.md): AE-201, AE-202, AE-203, AE-204, AE-205, AE-206, AE-207
+- [AE-300 · هندسة الذكاء الاصطناعي: مقررات تساعد على التهيئة لمستوى مشارك](https://sdaiaacademy.github.io/ar/paths/AE-300.md): AE-301, AE-302, AE-303, AE-304, AE-305, AE-306, AE-307, AE-308, AE-309, AE-310, AE-311, AE-312, AE-390
+- [AE-400 · هندسة الذكاء الاصطناعي: مقررات تساعد على التهيئة لمستوى خبير](https://sdaiaacademy.github.io/ar/paths/AE-400.md): AE-401, AE-402, AE-403, AE-404, AE-405, AE-406, AE-407, AE-408, AE-490
+
+## علم البيانات
+
+- [علم البيانات](https://sdaiaacademy.github.io/ar/paths/data-science.md): لمن ينتجون الأدلة والنماذج والأساليب: التحليل، والإحصاء، والتجارب والاستدلال السببي، والنمذجة، وتطوير النماذج، والذكاء الاصطناعي الموثوق.
+- [SPC-ANL · التحليل وذكاء الأعمال](https://sdaiaacademy.github.io/ar/paths/SPC-ANL.md): SPC-ANL-201, SPC-ANL-202, SPC-ANL-203, SPC-ANL-204, SPC-ANL-301, SPC-ANL-302, SPC-ANL-303
+- [SPC-STA · الإحصاء والاستدلال](https://sdaiaacademy.github.io/ar/paths/SPC-STA.md): SPC-STA-201, SPC-STA-301, SPC-STA-302, SPC-STA-401
+- [SPC-EXP · التجارب والاستدلال السببي](https://sdaiaacademy.github.io/ar/paths/SPC-EXP.md): SPC-EXP-201, SPC-EXP-301, SPC-EXP-302, SPC-EXP-303, SPC-EXP-401, SPC-EXP-402
+- [SPC-MOD · تعلم الآلة والنمذجة](https://sdaiaacademy.github.io/ar/paths/SPC-MOD.md): SPC-MOD-201, SPC-MOD-301, SPC-MOD-302, SPC-MOD-303, SPC-MOD-304, SPC-MOD-305, SPC-MOD-306, SPC-MOD-307, SPC-MOD-308, SPC-MOD-401, SPC-MOD-402
+- [SPC-DLR · التعلم العميق وتطوير النماذج](https://sdaiaacademy.github.io/ar/paths/SPC-DLR.md): SPC-DLR-301, SPC-DLR-302, SPC-DLR-303, SPC-DLR-304, SPC-DLR-305, SPC-DLR-306, SPC-DLR-401, SPC-DLR-402
+- [SPC-GEN · النماذج التوليدية ومتعددة الوسائط والمتجسدة](https://sdaiaacademy.github.io/ar/paths/SPC-GEN.md): SPC-GEN-301, SPC-GEN-302, SPC-GEN-303, SPC-GEN-304, SPC-GEN-401, SPC-GEN-402
+- [SPC-TRU · علم الذكاء الاصطناعي الموثوق](https://sdaiaacademy.github.io/ar/paths/SPC-TRU.md): SPC-TRU-301, SPC-TRU-302, SPC-TRU-303, SPC-TRU-304
+- [SPC-RSP · الممارسة البحثية وطليعة البحث](https://sdaiaacademy.github.io/ar/paths/SPC-RSP.md): SPC-RSP-101, SPC-RSP-301, SPC-RSP-302, SPC-RSP-401, SPC-RSP-402, SPC-RSP-403, SPC-RSP-404
+- [DS-200 · علم البيانات: مقررات تساعد على التهيئة لمستوى مساعد](https://sdaiaacademy.github.io/ar/paths/DS-200.md): DS-201, DS-202, DS-203, DS-204, DS-205, DS-206, DS-207
+- [DS-300 · علم البيانات: مقررات تساعد على التهيئة لمستوى مشارك](https://sdaiaacademy.github.io/ar/paths/DS-300.md): DS-301, DS-302, DS-303, DS-304, DS-305, DS-306, DS-307, DS-308, DS-309, DS-310, DS-311, DS-390
+- [DS-400 · علم البيانات: مقررات تساعد على التهيئة لمستوى خبير](https://sdaiaacademy.github.io/ar/paths/DS-400.md): DS-401, DS-402, DS-403, DS-404, DS-405, DS-406, DS-407, DS-408, DS-490
+
+## المقررات
+
+- [USE-FLU-101 · الحد الأدنى للإلمام بالبيانات والذكاء الاصطناعي لجميع العاملين](https://sdaiaacademy.github.io/ar/courses/USE-FLU-101.md): المستوى 100 · الشرح, 3 ساعات, متاح
+- [USE-FLU-102 · قراءة البيانات والرسوم البيانية والادعاءات في العمل](https://sdaiaacademy.github.io/ar/courses/USE-FLU-102.md): المستوى 100 · الشرح, 6 ساعات, متاح
+- [USE-FLU-103 · كيف تتعلم أنظمة الذكاء الاصطناعي وأين تخفق](https://sdaiaacademy.github.io/ar/courses/USE-FLU-103.md): المستوى 100 · الشرح, 6 ساعات, متاح
+- [USE-FLU-104 · الاستخدام الآمن للذكاء الاصطناعي في العمل: البيانات والخصوصية والخداع](https://sdaiaacademy.github.io/ar/courses/USE-FLU-104.md): المستوى 100 · الشرح, 4 ساعات, متاح
+- [USE-FLU-201 · العمل مع المساعدات الذكية: التفويض والوصف والحكم وتحمل المسؤولية](https://sdaiaacademy.github.io/ar/courses/USE-FLU-201.md): المستوى 200 · التطبيق, 8 ساعات, متاح
+- [USE-FLU-202 · إنتاجية العمل المعرفي بالذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/USE-FLU-202.md): المستوى 200 · التطبيق, 30 ساعة, متاح
+- [USE-FLU-203 · البحث والتحقق بالذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/USE-FLU-203.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-FLU-204 · الإشراف على وكلاء الذكاء الاصطناعي في العمل المعرفي](https://sdaiaacademy.github.io/ar/courses/USE-FLU-204.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-FLU-205 · بناء أدوات صغيرة دون برمجة](https://sdaiaacademy.github.io/ar/courses/USE-FLU-205.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-FLU-207 · الكتابة العربية والترجمة والعمل على اللهجات بالذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/USE-FLU-207.md): المستوى 200 · التطبيق, 8 ساعات, متاح
+- [USE-FLU-301 · إعادة تصميم مسار عمل الفريق بالذكاء الاصطناعي وقياس المكاسب](https://sdaiaacademy.github.io/ar/courses/USE-FLU-301.md): المستوى 300 · التطوير, 30 ساعة, متاح
+- [USE-FLU-303 · قيادة تبني الذكاء الاصطناعي في الفريق: السفراء والمدربون](https://sdaiaacademy.github.io/ar/courses/USE-FLU-303.md): المستوى 300 · التطوير, 16 ساعة, متاح
+- [USE-EDU-101 · الطلاقة في البيانات والذكاء الاصطناعي لطلبة الجامعات](https://sdaiaacademy.github.io/ar/courses/USE-EDU-101.md): المستوى 100 · الشرح, 40 ساعة, متاح
+- [USE-EDU-102 · التعلم بالذكاء الاصطناعي دون فقدان المهارة](https://sdaiaacademy.github.io/ar/courses/USE-EDU-102.md): المستوى 100 · الشرح, 4 ساعات, متاح
+- [USE-EDU-201 · التدريس والتقييم في عصر الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/USE-EDU-201.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-EDU-202 · تقديم منهج البيانات والذكاء الاصطناعي في مختلف التخصصات](https://sdaiaacademy.github.io/ar/courses/USE-EDU-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-EDU-203 · الإلمام بالذكاء الاصطناعي لمعلمي المدارس](https://sdaiaacademy.github.io/ar/courses/USE-EDU-203.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-201 · الذكاء الاصطناعي في الخدمة العامة وأعمال السياسات](https://sdaiaacademy.github.io/ar/courses/USE-PRO-201.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-202 · الذكاء الاصطناعي في أعمال الموارد البشرية والمواهب](https://sdaiaacademy.github.io/ar/courses/USE-PRO-202.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-203 · الذكاء الاصطناعي في أعمال المالية والمحاسبة والتدقيق](https://sdaiaacademy.github.io/ar/courses/USE-PRO-203.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-204 · الذكاء الاصطناعي في الأعمال القانونية والتنظيمية وأعمال الامتثال](https://sdaiaacademy.github.io/ar/courses/USE-PRO-204.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-205 · الذكاء الاصطناعي في أعمال الاتصال والإعلام والمحتوى](https://sdaiaacademy.github.io/ar/courses/USE-PRO-205.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-206 · الذكاء الاصطناعي في أعمال خدمة العملاء والمواطنين](https://sdaiaacademy.github.io/ar/courses/USE-PRO-206.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-207 · الذكاء الاصطناعي في أعمال المشروعات والمشتريات والعمليات](https://sdaiaacademy.github.io/ar/courses/USE-PRO-207.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-208 · الذكاء الاصطناعي للباحثين والعمل العلمي](https://sdaiaacademy.github.io/ar/courses/USE-PRO-208.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-209 · الذكاء الاصطناعي للعاملين في المهن السريرية والصحية](https://sdaiaacademy.github.io/ar/courses/USE-PRO-209.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-210 · الذكاء الاصطناعي في المبيعات والتسويق ورؤى السوق](https://sdaiaacademy.github.io/ar/courses/USE-PRO-210.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-211 · الذكاء الاصطناعي للمهندسين والعمليات الميدانية](https://sdaiaacademy.github.io/ar/courses/USE-PRO-211.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-PRO-212 · الذكاء الاصطناعي للعاملين في الأمن وعمليات تقنية المعلومات](https://sdaiaacademy.github.io/ar/courses/USE-PRO-212.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [USE-SEC-201 · الذكاء الاصطناعي في الأنظمة الصحية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-201.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-202 · الذكاء الاصطناعي في الطاقة والبتروكيماويات](https://sdaiaacademy.github.io/ar/courses/USE-SEC-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-203 · الذكاء الاصطناعي في الخدمات الحكومية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-203.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-205 · الذكاء الاصطناعي في التنقل والخدمات اللوجستية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-205.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-207 · الذكاء الاصطناعي في قطاع العدل والخدمات القانونية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-207.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-208 · الذكاء الاصطناعي في الإعلام والصناعات الإبداعية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-208.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-210 · الذكاء الاصطناعي في التجزئة والاتصالات](https://sdaiaacademy.github.io/ar/courses/USE-SEC-210.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-211 · الذكاء الاصطناعي في الزراعة والمياه والبيئة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-211.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [USE-SEC-212 · الذكاء الاصطناعي في المدن والسياحة والحج](https://sdaiaacademy.github.io/ar/courses/USE-SEC-212.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-EXE-101 · الذكاء الاصطناعي للتنفيذيين: إحاطة تطبيقية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-101.md): المستوى 100 · الشرح, 4 ساعات, متاح
+- [LDS-EXE-201 · استراتيجية الذكاء الاصطناعي ومحفظة حالات الاستخدام](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-EXE-202 · اقتصاديات الذكاء الاصطناعي والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-202.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [LDS-EXE-203 · إعادة تصميم العمل لفرق تجمع البشر والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-203.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-EXE-204 · قيادة تبني الذكاء الاصطناعي والتغيير](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-204.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [LDS-EXE-205 · شراء الذكاء الاصطناعي: المشتريات والتقييم والعقود](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-205.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-EXE-206 · حوكمة الذكاء الاصطناعي في الجهة: مجالس الإدارة والتنفيذيون](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-206.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-EXE-207 · توسيع نطاق الذكاء الاصطناعي من المشروعات التجريبية إلى بيئة الإنتاج](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-207.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [LDS-EXE-208 · قرارات السيادة والبنية التحتية والاعتماد على الموردين](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-208.md): المستوى 200 · التطبيق, 8 ساعات, متاح
+- [LDS-EXE-209 · محاكاة حوادث الذكاء الاصطناعي لفرق القيادة](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-209.md): المستوى 200 · التطبيق, 6 ساعات, متاح
+- [LDS-EXE-210 · مستجدات تنظيم الذكاء الاصطناعي: إحاطة وطنية وعالمية](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-210.md): المستوى 200 · التطبيق, 4 ساعات, متاح
+- [LDS-PRD-201 · استكشاف منتجات الذكاء الاصطناعي وإعداد مواصفاتها](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-PRD-202 · تقييم منتجات الذكاء الاصطناعي وتجاربها واقتصادياتها](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-202.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-PRD-203 · تصميم التفاعل بين الإنسان والذكاء الاصطناعي وتجربة المستخدم](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-203.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-PRD-204 · إدارة مشروعات الذكاء الاصطناعي وفرق التسليم](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-204.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-PRD-205 · بناء النماذج الأولية لمنتجات الذكاء الاصطناعي باستخدام وكلاء البرمجة](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-205.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-ADV-201 · تقييم جدوى حالات استخدام الذكاء الاصطناعي وإعداد دراسات الجدوى](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-ADV-202 · تقييم نضج البيانات والذكاء الاصطناعي وخرائط الطريق](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-ADV-302 · العمل الاستشاري في تكليفات البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-302.md): المستوى 300 · التطوير, 16 ساعة, متاح
+- [LDS-AIG-201 · أسس حوكمة الذكاء الاصطناعي: المبادئ والأدوار وضوابط دورة الحياة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-201.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-AIG-202 · تنظيمات الذكاء الاصطناعي ومعاييره في التطبيق العملي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-AIG-203 · الذكاء الاصطناعي من أطراف خارجية: التراخيص وسلسلة الإمداد والإيقاف](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-203.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [LDS-AIG-204 · إدارة مخاطر الذكاء الاصطناعي في التطبيق العملي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-204.md): المستوى 200 · التطبيق, 30 ساعة, متاح
+- [LDS-AIG-303 · تقييم أثر الذكاء الاصطناعي وتوثيق الأنظمة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-303.md): المستوى 300 · التطوير, 16 ساعة, متاح
+- [LDS-DMG-101 · أسس إدارة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-101.md): المستوى 100 · الشرح, 24 ساعة, متاح
+- [LDS-DMG-202 · البيانات الوصفية وكتالوجات البيانات وتتبع أصل البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-DMG-203 · إدارة جودة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-203.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-DMG-204 · تصنيف البيانات في التطبيق العملي](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-204.md): المستوى 200 · التطبيق, 12 ساعة, متاح
+- [LDS-DMG-205 · مشاركة البيانات والبيانات المفتوحة وحرية المعلومات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-205.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [LDS-DMG-206 · حماية البيانات الشخصية في التطبيق العملي](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-206.md): المستوى 200 · التطبيق, 30 ساعة, متاح
+- [LDS-DMG-207 · أدلة الامتثال وتقييم نضج البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-207.md): المستوى 200 · التطبيق, 24 ساعة, متاح
+- [LDS-DMG-208 · إدارة البيانات الرئيسة والبيانات المرجعية](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-208.md): المستوى 200 · التطبيق, 16 ساعة, متاح
+- [FN-101 · بايثون لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FN-101.md): المستوى 100 · الشرح, 26 ساعة, متاح
+- [FN-102 · سطر الأوامر وGit والمشاريع القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FN-102.md): المستوى 100 · الشرح, 21 ساعة, متاح
+- [FN-103 · الرياضيات لتعلم الآلة: المتجهات والتدرجات والاحتمالات](https://sdaiaacademy.github.io/ar/courses/FN-103.md): المستوى 100 · الشرح, 26 ساعة, متاح
+- [FN-104 · لغة SQL ومعالجة البيانات وتجهيزها](https://sdaiaacademy.github.io/ar/courses/FN-104.md): المستوى 100 · الشرح, 26 ساعة, متاح
+- [FN-105 · كيف يعمل تعلم الآلة والنماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/FN-105.md): المستوى 100 · الشرح, 21 ساعة, متاح
+- [FN-106 · الممارسة المسؤولة للبيانات والذكاء الاصطناعي في المملكة](https://sdaiaacademy.github.io/ar/courses/FN-106.md): المستوى 100 · الشرح, 21 ساعة, متاح
+- [AE-201 · أسس تعلم الآلة وتقييم النماذج](https://sdaiaacademy.github.io/ar/courses/AE-201.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [AE-202 · أساسيات التعلم العميق والذكاء الاصطناعي التوليدي](https://sdaiaacademy.github.io/ar/courses/AE-202.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [AE-203 · بناء التطبيقات القائمة على النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/AE-203.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [AE-204 · هندسة البرمجيات باستخدام وكلاء البرمجة](https://sdaiaacademy.github.io/ar/courses/AE-204.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [AE-205 · نشر خدمات الذكاء الاصطناعي: الحاويات وخدمة النماذج والمراقبة](https://sdaiaacademy.github.io/ar/courses/AE-205.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [AE-206 · أنظمة تعلم الآلة على جهاز واحد](https://sdaiaacademy.github.io/ar/courses/AE-206.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [AE-207 · الممارسة المسؤولة والآمنة في هندسة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/AE-207.md): المستوى 200 · التطبيق, 21 ساعة, متاح
+- [AE-301 · الهندسة التطبيقية لمعالجة اللغات الطبيعية](https://sdaiaacademy.github.io/ar/courses/AE-301.md): المستوى 300 · التطوير, 21 ساعة, متاح
+- [AE-302 · هندسة الأنظمة الوكيلية: الحلقات والسياق وأطر التشغيل](https://sdaiaacademy.github.io/ar/courses/AE-302.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-303 · التطوير المُوجَّه بالتقييم لتطبيقات النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/AE-303.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-304 · هندسة الاسترجاع والمعرفة لأنظمة النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/AE-304.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-305 · تشغيل أنظمة تعلم الآلة والنماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/AE-305.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-306 · هندسة البيانات الحديثة](https://sdaiaacademy.github.io/ar/courses/AE-306.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-307 · تنسيق الحاويات والبنية السحابية لأحمال عمل الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/AE-307.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-308 · تأمين تطبيقات النماذج اللغوية والوكلاء](https://sdaiaacademy.github.io/ar/courses/AE-308.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-309 · هندسة رؤية الحاسب](https://sdaiaacademy.github.io/ar/courses/AE-309.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-310 · تكييف النماذج: الضبط الدقيق والتقطير والنماذج الصغيرة](https://sdaiaacademy.github.io/ar/courses/AE-310.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [AE-311 · تحديد ما يُبنى: حسّ المنتج وممارسات التسليم](https://sdaiaacademy.github.io/ar/courses/AE-311.md): المستوى 300 · التطوير, 21 ساعة, متاح
+- [AE-312 · هندسة تكلفة الذكاء الاصطناعي وتوجيه النماذج](https://sdaiaacademy.github.io/ar/courses/AE-312.md): المستوى 300 · التطوير, 21 ساعة, متاح
+- [AE-401 · هندسة أداء الاستنتاج وتكلفته](https://sdaiaacademy.github.io/ar/courses/AE-401.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [AE-402 · معمارية حلول الذكاء الاصطناعي وتصميم المنصات](https://sdaiaacademy.github.io/ar/courses/AE-402.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [AE-403 · هندسة الاعتمادية لخدمات الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/AE-403.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [AE-404 · هندسة أطر التشغيل للأنظمة الوكيلية طويلة التشغيل ومتعددة الوكلاء](https://sdaiaacademy.github.io/ar/courses/AE-404.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [AE-405 · برامج التقييم وقرارات الإطلاق](https://sdaiaacademy.github.io/ar/courses/AE-405.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [AE-406 · التدريب اللاحق للنماذج المفتوحة على بيانات المجال](https://sdaiaacademy.github.io/ar/courses/AE-406.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [AE-407 · ضمان أنظمة الذكاء الاصطناعي وتمارين الفرق الحمراء والحوكمة لقادة الفرق الهندسية](https://sdaiaacademy.github.io/ar/courses/AE-407.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [AE-408 · هندسة الأنظمة متعددة الوسائط وأنظمة الكلام](https://sdaiaacademy.github.io/ar/courses/AE-408.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [DS-201 · الاستدلال الإحصائي بالمحاكاة](https://sdaiaacademy.github.io/ar/courses/DS-201.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [DS-202 · جمع البيانات وإعدادها وضمان جودتها](https://sdaiaacademy.github.io/ar/courses/DS-202.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [DS-203 · التحليل الاستكشافي وتصور البيانات](https://sdaiaacademy.github.io/ar/courses/DS-203.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [DS-204 · تعلم الآلة للبيانات الجدولية: خطوط الأساس والتحقق من الصحة](https://sdaiaacademy.github.io/ar/courses/DS-204.md): المستوى 200 · التطبيق, 26 ساعة, متاح
+- [DS-205 · تصميم التجارب وقراءة نتائجها](https://sdaiaacademy.github.io/ar/courses/DS-205.md): المستوى 200 · التطبيق, 21 ساعة, متاح
+- [DS-206 · تحليل البيانات مع المساعدات الذكية: التفويض والتحقق وقابلية إعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/DS-206.md): المستوى 200 · التطبيق, 21 ساعة, متاح
+- [DS-207 · الممارسة المسؤولة للبيانات وقواعد السلوك في العمل التحليلي](https://sdaiaacademy.github.io/ar/courses/DS-207.md): المستوى 200 · التطبيق, 21 ساعة, متاح
+- [DS-301 · الانحدار والنماذج الخطية المُعمَّمة](https://sdaiaacademy.github.io/ar/courses/DS-301.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-302 · التجارب عبر الإنترنت واختبارات أ/ب](https://sdaiaacademy.github.io/ar/courses/DS-302.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-303 · الاستدلال السببي من البيانات الرصدية](https://sdaiaacademy.github.io/ar/courses/DS-303.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-304 · التنبؤ والسلاسل الزمنية](https://sdaiaacademy.github.io/ar/courses/DS-304.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-305 · عدم اليقين وقابلية التفسير والتحقق من صحة النماذج](https://sdaiaacademy.github.io/ar/courses/DS-305.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-306 · النصوص والبيانات غير المهيكلة في علم البيانات](https://sdaiaacademy.github.io/ar/courses/DS-306.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-307 · المقاييس والنماذج الدلالية ولوحات المعلومات](https://sdaiaacademy.github.io/ar/courses/DS-307.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-308 · السرد القصصي للبيانات وإحاطات القرار](https://sdaiaacademy.github.io/ar/courses/DS-308.md): المستوى 300 · التطوير, 21 ساعة, متاح
+- [DS-309 · علم البيانات المسؤول: الخصوصية والإنصاف والتوثيق](https://sdaiaacademy.github.io/ar/courses/DS-309.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-310 · صياغة المشكلات التحليلية ومراجعة التحليلات](https://sdaiaacademy.github.io/ar/courses/DS-310.md): المستوى 300 · التطوير, 21 ساعة, متاح
+- [DS-311 · جودة البيانات والوسم ومسارات إعدادها للتحليل](https://sdaiaacademy.github.io/ar/courses/DS-311.md): المستوى 300 · التطوير, 26 ساعة, متاح
+- [DS-401 · النمذجة البايزية واتخاذ القرارات في ظل عدم اليقين](https://sdaiaacademy.github.io/ar/courses/DS-401.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [DS-402 · تعلم الآلة السببي وتقييم السياسات](https://sdaiaacademy.github.io/ar/courses/DS-402.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [DS-403 · التقييم الإحصائي لأنظمة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DS-403.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [DS-404 · النمذجة المتقدمة للبيانات المهيكلة](https://sdaiaacademy.github.io/ar/courses/DS-404.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [DS-405 · إعداد البيانات على نطاق واسع: عقود البيانات والبيانات الاصطناعية والخصوصية](https://sdaiaacademy.github.io/ar/courses/DS-405.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [DS-406 · قياس أثر برامج البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DS-406.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [DS-407 · قيادة العمل التحليلي: المراجعة والمعايير وأصحاب المصلحة](https://sdaiaacademy.github.io/ar/courses/DS-407.md): المستوى 400 · التقييم, 21 ساعة, متاح
+- [DS-408 · منتجات التحليلات: الطبقات الدلالية والتحليلات الحوارية](https://sdaiaacademy.github.io/ar/courses/DS-408.md): المستوى 400 · التقييم, 26 ساعة, متاح
+- [USE-FLU-206 · إنتاج الصور والصوت والفيديو بالذكاء الاصطناعي بمسؤولية](https://sdaiaacademy.github.io/ar/courses/USE-FLU-206.md): المستوى 200 · التطبيق, 8 ساعات, قيد التطوير
+- [USE-FLU-302 · إستديو الفريق للبناء وتولي الملكية: تطبيق واحد لجهة واحدة](https://sdaiaacademy.github.io/ar/courses/USE-FLU-302.md): المستوى 300 · التطوير, 40 ساعة, قيد التطوير
+- [USE-EDU-204 · تصميم المرشدين الذكيين والمساعدات الذكية للمقررات](https://sdaiaacademy.github.io/ar/courses/USE-EDU-204.md): المستوى 200 · التطبيق, 12 ساعة, قيد التطوير
+- [USE-SEC-204 · الذكاء الاصطناعي في منظومات التعليم](https://sdaiaacademy.github.io/ar/courses/USE-SEC-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [USE-SEC-206 · الذكاء الاصطناعي في الخدمات المالية](https://sdaiaacademy.github.io/ar/courses/USE-SEC-206.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [USE-SEC-209 · الذكاء الاصطناعي في التصنيع والصناعة](https://sdaiaacademy.github.io/ar/courses/USE-SEC-209.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [LDS-EXE-301 · الذكاء الاصطناعي في السياسات العامة وتقديم الخدمات العامة](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-301.md): المستوى 300 · التطوير, 25 ساعة, قيد التطوير
+- [LDS-EXE-302 · تقييم المهارات وإصدار شهاداتها في عصر الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-302.md): المستوى 300 · التطوير, 8 ساعات, قيد التطوير
+- [LDS-EXE-401 · قيادة مكتب الذكاء الاصطناعي المؤسسي](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-401.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [LDS-EXE-402 · قيادة مكتب البيانات المؤسسي](https://sdaiaacademy.github.io/ar/courses/LDS-EXE-402.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [LDS-PRD-301 · الذكاء الاصطناعي المسؤول بالتصميم لفرق المنتجات](https://sdaiaacademy.github.io/ar/courses/LDS-PRD-301.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [LDS-ADV-301 · منتجات البيانات وتقدير قيمتها وتحقيق الإيرادات منها](https://sdaiaacademy.github.io/ar/courses/LDS-ADV-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [LDS-AIG-301 · تقييم النماذج والأنظمة: أدلة الإنصاف والمتانة والسلامة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [LDS-AIG-302 · مختبر ضوابط الذكاء الاصطناعي التوليدي والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-302.md): المستوى 300 · التطوير, 24 ساعة, قيد التطوير
+- [LDS-AIG-304 · أنظمة إدارة الذكاء الاصطناعي والتدقيق الداخلي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-304.md): المستوى 300 · التطوير, 24 ساعة, قيد التطوير
+- [LDS-AIG-305 · الاستجابة لحوادث الذكاء الاصطناعي ومراقبة الامتثال](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-305.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [LDS-AIG-306 · الخصوصية والملكية الفكرية وتتبع منشأ المحتوى في الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-306.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [LDS-AIG-307 · تصميم الإشراف البشري ومراجعة الأخلاقيات](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-307.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [LDS-AIG-401 · تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-401.md): المستوى 400 · التقييم, 40 ساعة, قيد التطوير
+- [LDS-DMG-201 · نموذج تشغيل حوكمة البيانات والإشراف على البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
+- [LDS-DMG-301 · حوكمة البيانات للذكاء الاصطناعي: التدريب والاسترجاع ووصول الوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-301.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [LDS-DMG-302 · صياغة سياسات البيانات والذكاء الاصطناعي ومعاييرهما](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-302.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [FND-PRG-101 · البرمجة بلغة بايثون للبيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-PRG-101.md): المستوى 100 · الشرح, 60 ساعة, قيد التطوير
+- [FND-PRG-102 · سطر الأوامر وGit والبيئات القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FND-PRG-102.md): المستوى 100 · الشرح, 24 ساعة, قيد التطوير
+- [FND-PRG-103 · بنى البيانات والخوارزميات والتعقيد](https://sdaiaacademy.github.io/ar/courses/FND-PRG-103.md): المستوى 100 · الشرح, 60 ساعة, قيد التطوير
+- [FND-PRG-104 · اختبار البرمجيات ومراجعة الرموز البرمجية والتوثيق](https://sdaiaacademy.github.io/ar/courses/FND-PRG-104.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
+- [FND-PRG-105 · أساسيات أنظمة الحاسب والحوسبة السحابية لأعمال الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-PRG-105.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
+- [FND-PRG-106 · قراءة الرموز البرمجية وتصحيح أخطائها دون مساعدة](https://sdaiaacademy.github.io/ar/courses/FND-PRG-106.md): المستوى 100 · الشرح, 12 ساعة, قيد التطوير
+- [FND-MTH-101 · الجبر الخطي لتعلم الآلة](https://sdaiaacademy.github.io/ar/courses/FND-MTH-101.md): المستوى 100 · الشرح, 45 ساعة, قيد التطوير
+- [FND-MTH-102 · التفاضل والتكامل والأمثلة الرياضية لتعلم الآلة](https://sdaiaacademy.github.io/ar/courses/FND-MTH-102.md): المستوى 100 · الشرح, 45 ساعة, قيد التطوير
+- [FND-MTH-103 · الاحتمالات للبيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-MTH-103.md): المستوى 100 · الشرح, 45 ساعة, قيد التطوير
+- [FND-MTH-104 · الإحصاء بالمحاكاة: التفاوت والتقدير والاختبار](https://sdaiaacademy.github.io/ar/courses/FND-MTH-104.md): المستوى 100 · الشرح, 45 ساعة, قيد التطوير
+- [FND-MTH-105 · الرياضيات المتقطعة والمنطق للحوسبة](https://sdaiaacademy.github.io/ar/courses/FND-MTH-105.md): المستوى 100 · الشرح, 40 ساعة, قيد التطوير
+- [FND-DAT-101 · لغة SQL والبيانات العلائقية](https://sdaiaacademy.github.io/ar/courses/FND-DAT-101.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
+- [FND-DAT-102 · تجهيز البيانات باستخدام أطر البيانات](https://sdaiaacademy.github.io/ar/courses/FND-DAT-102.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
+- [FND-DAT-103 · صيغ البيانات وواجهاتها وفحوص جودتها](https://sdaiaacademy.github.io/ar/courses/FND-DAT-103.md): المستوى 100 · الشرح, 16 ساعة, قيد التطوير
+- [FND-AIC-101 · كيف يعمل تعلم الآلة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-101.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
+- [FND-AIC-102 · كيف تعمل النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/FND-AIC-102.md): المستوى 100 · الشرح, 16 ساعة, قيد التطوير
+- [FND-AIC-103 · قراءة أدلة الذكاء الاصطناعي: الاختبارات المرجعية والادعاءات والإحصاءات](https://sdaiaacademy.github.io/ar/courses/FND-AIC-103.md): المستوى 100 · الشرح, 8 ساعات, قيد التطوير
+- [FND-AIC-104 · الممارسة المسؤولة للبيانات والذكاء الاصطناعي لبناة الأنظمة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-104.md): المستوى 100 · الشرح, 12 ساعة, قيد التطوير
+- [FND-AIC-105 · الذكاء الاصطناعي التقليدي: البحث والتخطيط وتمثيل المعرفة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-105.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
+- [FND-AIC-106 · الكتابة التقنية لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-AIC-106.md): المستوى 100 · الشرح, 12 ساعة, قيد التطوير
+- [DEV-SWE-201 · هندسة البرمجيات باستخدام وكلاء البرمجة](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [DEV-SWE-202 · خدمات الواجهة الخلفية والواجهات البرمجية لتطبيقات الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-202.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [DEV-SWE-203 · الواجهات الأمامية لتطبيقات الذكاء الاصطناعي: البث التدفقي والمحادثة والواجهات التوليدية](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-203.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [DEV-SWE-204 · اختبار الرموز البرمجية المكتوبة بمساعدة الذكاء الاصطناعي والتحقق منها](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [DEV-SWE-301 · تصميم الأنظمة لمنتجات الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-SWE-302 · الجهات الهندسية الجاهزة للعمل مع الوكلاء: الوكلاء المتوازيون والمراجعة والحوكمة](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-SWE-303 · تشكيل ما يُبنى: حس المنتج وممارسة الهندسة المنتدبة لدى العملاء](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-LLM-201 · بناء التطبيقات على النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [DEV-LLM-202 · هندسة معالجة اللغات الطبيعية التطبيقية](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-202.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [DEV-LLM-203 · هندسة الاسترجاع والمعرفة لأنظمة النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-203.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [DEV-LLM-204 · ذكاء الوثائق: التحليل والاستخراج والاسترجاع متعدد الوسائط](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-204.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [DEV-LLM-205 · التطبيقات الصوتية والمحادثية](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-205.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [DEV-LLM-301 · تكييف النماذج للتطبيقات: الضبط الدقيق والتقطير والنماذج الصغيرة](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-301.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-LLM-302 · التطبيقات اللغوية العربية ومتعددة اللغات](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-302.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-LLM-303 · اختيار النماذج وتوجيهها واقتصاديات الاستنتاج](https://sdaiaacademy.github.io/ar/courses/DEV-LLM-303.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [DEV-AGT-301 · هندسة الأنظمة الوكيلية: الحلقات والسياق وأطر التشغيل](https://sdaiaacademy.github.io/ar/courses/DEV-AGT-301.md): المستوى 300 · التطوير, 40 ساعة, قيد التطوير
+- [DEV-AGT-302 · خوادم البروتوكول وتكاملات الوكلاء](https://sdaiaacademy.github.io/ar/courses/DEV-AGT-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-AGT-303 · وكلاء استخدام الحاسب والمتصفح](https://sdaiaacademy.github.io/ar/courses/DEV-AGT-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-AGT-401 · هندسة أطر التشغيل للأنظمة طويلة التشغيل ومتعددة الوكلاء](https://sdaiaacademy.github.io/ar/courses/DEV-AGT-401.md): المستوى 400 · التقييم, 36 ساعة, قيد التطوير
+- [DEV-AGT-402 · منصات الوكلاء: بيئات التشغيل المعزولة والتنفيذ الدائم والهوية](https://sdaiaacademy.github.io/ar/courses/DEV-AGT-402.md): المستوى 400 · التقييم, 30 ساعة, قيد التطوير
+- [DEV-AGT-403 · مراجعات تصميم الأنظمة الوكيلية](https://sdaiaacademy.github.io/ar/courses/DEV-AGT-403.md): المستوى 400 · التقييم, 30 ساعة, قيد التطوير
+- [DEV-EVL-301 · التطوير القائم على التقييم لتطبيقات النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/DEV-EVL-301.md): المستوى 300 · التطوير, 28 ساعة, قيد التطوير
+- [DEV-EVL-302 · تقييم الوكلاء: المسارات والمحاكاة والاتساق](https://sdaiaacademy.github.io/ar/courses/DEV-EVL-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-EVL-303 · تقييم الاسترجاع والتوليد المستند إلى المصادر](https://sdaiaacademy.github.io/ar/courses/DEV-EVL-303.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [DEV-EVL-304 · الوسم والبيانات المرجعية وعمليات المراجعة البشرية](https://sdaiaacademy.github.io/ar/courses/DEV-EVL-304.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-EVL-401 · برامج التقييم وبوابات الإطلاق](https://sdaiaacademy.github.io/ar/courses/DEV-EVL-401.md): المستوى 400 · التقييم, 30 ساعة, قيد التطوير
+- [DEV-MLE-201 · هندسة تعلم الآلة: خطوط الأساس والتحقق ومسارات المعالجة](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [DEV-MLE-202 · هندسة التعلم العميق](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-202.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [DEV-MLE-203 · مسارات معالجة الخصائص وبيانات التدريب والوسم](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-203.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [DEV-MLE-301 · هندسة رؤية الحاسب](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-301.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-MLE-302 · هندسة أنظمة الكلام والصوت](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-302.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-MLE-303 · هندسة أنظمة التوصية والترتيب](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-303.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-MLE-304 · هندسة الأنظمة متعددة الوسائط](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-304.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-MLE-305 · هندسة الذكاء الاصطناعي الجغرافي المكاني ورصد الأرض](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-305.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-MLE-306 · أنظمة التنبؤ في بيئة الإنتاج](https://sdaiaacademy.github.io/ar/courses/DEV-MLE-306.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-OPS-201 · نشر خدمات الذكاء الاصطناعي: الحاويات وخدمة النماذج والمراقبة](https://sdaiaacademy.github.io/ar/courses/DEV-OPS-201.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [DEV-OPS-301 · عمليات تعلم الآلة: مسارات المعالجة وسجلات النماذج والتسليم](https://sdaiaacademy.github.io/ar/courses/DEV-OPS-301.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-OPS-302 · تشغيل تطبيقات النماذج اللغوية: التتبع وبوابات التقييم والإطلاق الآمن](https://sdaiaacademy.github.io/ar/courses/DEV-OPS-302.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-OPS-303 · تشغيل وكلاء الذكاء الاصطناعي: التنفيذ الدائم والعزل وإعادة تشغيل آثار التنفيذ](https://sdaiaacademy.github.io/ar/courses/DEV-OPS-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-OPS-304 · هندسة تكلفة الذكاء الاصطناعي: البوابات والتوجيه والتخزين المؤقت واقتصاديات الوحدة](https://sdaiaacademy.github.io/ar/courses/DEV-OPS-304.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-OPS-401 · هندسة الاعتمادية لخدمات الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-OPS-401.md): المستوى 400 · التقييم, 36 ساعة, قيد التطوير
+- [DEV-INF-201 · أنظمة تعلم الآلة على جهاز واحد](https://sdaiaacademy.github.io/ar/courses/DEV-INF-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [DEV-INF-301 · تنسيق الحاويات لأعباء عمل الذكاء الاصطناعي: المسرِّعات والجدولة والتوسع التلقائي](https://sdaiaacademy.github.io/ar/courses/DEV-INF-301.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-INF-302 · البنية التحتية للذكاء الاصطناعي وتخطيط السعة](https://sdaiaacademy.github.io/ar/courses/DEV-INF-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-INF-303 · الذكاء الاصطناعي على الأجهزة الطرفية: النماذج الصغيرة والمعالجات العصبية](https://sdaiaacademy.github.io/ar/courses/DEV-INF-303.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-INF-304 · تعلم الآلة المدمج على المتحكمات الدقيقة](https://sdaiaacademy.github.io/ar/courses/DEV-INF-304.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-INF-401 · هندسة أداء الاستنتاج وتكلفته](https://sdaiaacademy.github.io/ar/courses/DEV-INF-401.md): المستوى 400 · التقييم, 40 ساعة, قيد التطوير
+- [DEV-INF-402 · توسيع أنظمة تعلم الآلة: التدريب الموزع وأساطيل الحوسبة](https://sdaiaacademy.github.io/ar/courses/DEV-INF-402.md): المستوى 400 · التقييم, 36 ساعة, قيد التطوير
+- [DEV-INF-403 · تصميم منصة داخلية للذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-INF-403.md): المستوى 400 · التقييم, 40 ساعة, قيد التطوير
+- [DEV-INF-404 · معمارية حلول الذكاء الاصطناعي وسجلات القرار](https://sdaiaacademy.github.io/ar/courses/DEV-INF-404.md): المستوى 400 · التقييم, 36 ساعة, قيد التطوير
+- [DEV-INF-405 · معمارية النشر في البيئات الخاضعة للتنظيم والبيئات السيادية](https://sdaiaacademy.github.io/ar/courses/DEV-INF-405.md): المستوى 400 · التقييم, 16 ساعة, قيد التطوير
+- [DEV-DAT-201 · هندسة البيانات الحديثة](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [DEV-DAT-202 · هندسة التحليلات والطبقات الدلالية](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-202.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [DEV-DAT-203 · المعالجة التدفقية والتقاط تغيرات البيانات](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-203.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [DEV-DAT-204 · جودة البيانات والعقود وقابلية المراقبة](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-204.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
+- [DEV-DAT-301 · نمذجة البيانات: من النموذج المفاهيمي إلى النموذج الدلالي](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-DAT-302 · البنية التحتية للبيانات لأنظمة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-302.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-DAT-303 · تشغيل منصات البيانات: الاعتمادية والأمن والتكلفة](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-303.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-DAT-304 · الرسوم البيانية المعرفية وهندسة الأنطولوجيا](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-304.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-DAT-401 · معمارية البيانات](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-401.md): المستوى 400 · التقييم, 36 ساعة, قيد التطوير
+- [DEV-SEC-201 · التطوير الآمن لتطبيقات الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-SEC-201.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [DEV-SEC-301 · تأمين تطبيقات النماذج اللغوية والوكلاء](https://sdaiaacademy.github.io/ar/courses/DEV-SEC-301.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-SEC-302 · تمارين الفرق الحمراء والاختبارات الهجومية للذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-SEC-302.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-SEC-303 · هندسة الخصوصية وتقنيات تعزيز الخصوصية](https://sdaiaacademy.github.io/ar/courses/DEV-SEC-303.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-SEC-304 · أمن سلسلة إمداد الذكاء الاصطناعي: التوقيع وقوائم المكونات وتتبع المنشأ](https://sdaiaacademy.github.io/ar/courses/DEV-SEC-304.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
+- [DEV-SEC-305 · الذكاء الاصطناعي لعمليات الأمن السيبراني](https://sdaiaacademy.github.io/ar/courses/DEV-SEC-305.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [DEV-SEC-401 · المعمارية الأمنية لمنصات الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-SEC-401.md): المستوى 400 · التقييم, 24 ساعة, قيد التطوير
+- [DEV-PHY-201 · المستشعرات والإدراك والحوسبة للذكاء الاصطناعي المادي](https://sdaiaacademy.github.io/ar/courses/DEV-PHY-201.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [DEV-PHY-301 · المحاكاة والتوائم الرقمية لأنظمة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-PHY-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [DEV-PHY-302 · أنظمة تعلم الروبوتات: البيانات والسياسات والنشر](https://sdaiaacademy.github.io/ar/courses/DEV-PHY-302.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [DEV-PHY-401 · هندسة السلامة للأنظمة ذاتية التحكم](https://sdaiaacademy.github.io/ar/courses/DEV-PHY-401.md): المستوى 400 · التقييم, 16 ساعة, قيد التطوير
+- [DEV-PRJ-301 · التدريب التطبيقي في هندسة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-PRJ-301.md): المستوى 300 · التطوير, 100 ساعة, قيد التطوير
+- [DEV-PRJ-401 · المشروع الختامي لأنظمة الذكاء الاصطناعي: مراجعة الجاهزية للإنتاج](https://sdaiaacademy.github.io/ar/courses/DEV-PRJ-401.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [AE-390 · التدريب التطبيقي في هندسة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/AE-390.md): المستوى 300 · التطوير, 100 ساعة, قيد التطوير
+- [AE-490 · المشروع الختامي لأنظمة الذكاء الاصطناعي: مراجعة الجاهزية للإنتاج](https://sdaiaacademy.github.io/ar/courses/AE-490.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [SPC-ANL-201 · التحليل الاستكشافي وتصور البيانات](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-201.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [SPC-ANL-202 · التحليل مع المساعدات الذكية: التفويض والتحقق وإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-202.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [SPC-ANL-203 · المقاييس والنماذج الدلالية ولوحات المعلومات](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-203.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [SPC-ANL-204 · جمع البيانات وإعدادها وضمان جودتها للتحليل](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-204.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
+- [SPC-ANL-301 · السرد القصصي للبيانات وإحاطات القرار](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-301.md): المستوى 300 · التطوير, 24 ساعة, قيد التطوير
+- [SPC-ANL-302 · التحليلات الجغرافية المكانية](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [SPC-ANL-303 · ممارسات منصات ذكاء الأعمال: الحوكمة والأداء وتهيئة المستخدمين](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [SPC-STA-201 · الاستدلال الإحصائي بالمحاكاة](https://sdaiaacademy.github.io/ar/courses/SPC-STA-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [SPC-STA-301 · الانحدار والنماذج الخطية المعممة](https://sdaiaacademy.github.io/ar/courses/SPC-STA-301.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [SPC-STA-302 · تصميم المسوح والمعاينة والقياس](https://sdaiaacademy.github.io/ar/courses/SPC-STA-302.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [SPC-STA-401 · النمذجة البايزية واتخاذ القرار في حالة عدم اليقين](https://sdaiaacademy.github.io/ar/courses/SPC-STA-401.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [SPC-EXP-201 · تصميم التجارب وقراءة نتائجها](https://sdaiaacademy.github.io/ar/courses/SPC-EXP-201.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
+- [SPC-EXP-301 · التجارب الإلكترونية على نطاق واسع](https://sdaiaacademy.github.io/ar/courses/SPC-EXP-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [SPC-EXP-302 · الاستدلال السببي من البيانات الرصدية](https://sdaiaacademy.github.io/ar/courses/SPC-EXP-302.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [SPC-EXP-303 · قياس أثر عمليات نشر الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/SPC-EXP-303.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [SPC-EXP-401 · تعلم الآلة السببي وتقييم السياسات](https://sdaiaacademy.github.io/ar/courses/SPC-EXP-401.md): المستوى 400 · التقييم, 36 ساعة, قيد التطوير
+- [SPC-EXP-402 · التقييم الإحصائي لأنظمة الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/SPC-EXP-402.md): المستوى 400 · التقييم, 30 ساعة, قيد التطوير
+- [SPC-MOD-201 · تعلم الآلة للبيانات الجدولية: خطوط الأساس والتحقق](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
+- [SPC-MOD-301 · عدم اليقين وقابلية التفسير والتحقق من صحة النماذج](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [SPC-MOD-302 · التنبؤ والسلاسل الزمنية](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-302.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [SPC-MOD-303 · النصوص والبيانات غير المهيكلة في علم البيانات](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-303.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
+- [SPC-MOD-304 · الأمثلة الرياضية وبحوث العمليات لدعم القرار](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-304.md): المستوى 300 · التطوير, 36 ساعة, قيد التطوير
+- [SPC-MOD-305 · التجميع واكتشاف الشذوذ وتقليل الأبعاد](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-305.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [SPC-MOD-306 · علم البيانات المسؤول: الخصوصية والإنصاف والتوثيق](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-306.md): المستوى 300 · التطوير, 24 ساعة, قيد التطوير
+- [SPC-MOD-307 · صياغة المشكلات وحس المنتج والمراجعة التحليلية](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-307.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [SPC-MOD-308 · تحليل البيانات الشبكية والعلائقية](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-308.md): المستوى 300 · التطوير, 16 ساعة, قيد التطوير
+- [SPC-MOD-401 · نماذج الأساس للبيانات المهيكلة](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-401.md): المستوى 400 · التقييم, 16 ساعة, قيد التطوير
+- [SPC-MOD-402 · المحاكاة والنمذجة القائمة على الوكلاء](https://sdaiaacademy.github.io/ar/courses/SPC-MOD-402.md): المستوى 400 · التقييم, 16 ساعة, قيد التطوير
+- [SPC-DLR-301 · الرياضيات لبناة النماذج](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-301.md): المستوى 300 · التطوير, 45 ساعة, قيد التطوير
+- [SPC-DLR-302 · التعلم العميق من المبادئ الأولى](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-302.md): المستوى 300 · التطوير, 80 ساعة, قيد التطوير
+- [SPC-DLR-303 · بناء نموذج لغوي من الصفر](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-303.md): المستوى 300 · التطوير, 80 ساعة, قيد التطوير
+- [SPC-DLR-304 · أنظمة تدريب النماذج الكبيرة](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-304.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-DLR-305 · البيانات والتوسع لنماذج الأساس](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-305.md): المستوى 300 · التطوير, 40 ساعة, قيد التطوير
+- [SPC-DLR-306 · التدريب اللاحق 1: الضبط الدقيق وتحسين التفضيلات والتقطير](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-306.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-DLR-401 · التدريب اللاحق 2: التعلم التعزيزي للنماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-401.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [SPC-DLR-402 · التعلم العميق الكفؤ: الضغط والتجزيء الكمي والسياق الطويل](https://sdaiaacademy.github.io/ar/courses/SPC-DLR-402.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [SPC-GEN-301 · نماذج الانتشار ومطابقة التدفق من الصفر](https://sdaiaacademy.github.io/ar/courses/SPC-GEN-301.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-GEN-302 · نماذج الأساس البصرية ومتعددة الوسائط](https://sdaiaacademy.github.io/ar/courses/SPC-GEN-302.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-GEN-303 · نمذجة الكلام واللغة العربية](https://sdaiaacademy.github.io/ar/courses/SPC-GEN-303.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-GEN-304 · التعلم التعزيزي واتخاذ القرار](https://sdaiaacademy.github.io/ar/courses/SPC-GEN-304.md): المستوى 300 · التطوير, 80 ساعة, قيد التطوير
+- [SPC-GEN-401 · تعلم الروبوتات ونماذج الرؤية واللغة والفعل](https://sdaiaacademy.github.io/ar/courses/SPC-GEN-401.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+- [SPC-GEN-402 · نماذج العالم وتوليد الفيديو والمحتوى ثلاثي الأبعاد](https://sdaiaacademy.github.io/ar/courses/SPC-GEN-402.md): المستوى 400 · التقييم, 30 ساعة, قيد التطوير
+- [SPC-TRU-301 · علم تقييم نماذج الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/SPC-TRU-301.md): المستوى 300 · التطوير, 40 ساعة, قيد التطوير
+- [SPC-TRU-302 · قابلية تفسير الشبكات العصبية](https://sdaiaacademy.github.io/ar/courses/SPC-TRU-302.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-TRU-303 · هندسة سلامة الذكاء الاصطناعي ومواءمته](https://sdaiaacademy.github.io/ar/courses/SPC-TRU-303.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-TRU-304 · تعلم الآلة الموثوق: المتانة والخصوصية والإنصاف](https://sdaiaacademy.github.io/ar/courses/SPC-TRU-304.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-RSP-101 · أنماط الحوسبة الناشئة للذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/SPC-RSP-101.md): المستوى 100 · الشرح, 12 ساعة, قيد التطوير
+- [SPC-RSP-301 · إستديو الممارسة البحثية](https://sdaiaacademy.github.io/ar/courses/SPC-RSP-301.md): المستوى 300 · التطوير, 60 ساعة, قيد التطوير
+- [SPC-RSP-302 · التدريب التطبيقي في علم البيانات](https://sdaiaacademy.github.io/ar/courses/SPC-RSP-302.md): المستوى 300 · التطوير, 100 ساعة, قيد التطوير
+- [SPC-RSP-401 · مشروع إعادة الإنتاج الختامي: إعادة إنتاج نتيجة منشورة وتوسيعها](https://sdaiaacademy.github.io/ar/courses/SPC-RSP-401.md): المستوى 400 · التقييم, 100 ساعة, قيد التطوير
+- [SPC-RSP-402 · حلقة نقاش طليعية: أبحاث الوكلاء والأنظمة متعددة الوكلاء](https://sdaiaacademy.github.io/ar/courses/SPC-RSP-402.md): المستوى 400 · التقييم, 24 ساعة, قيد التطوير
+- [SPC-RSP-403 · حلقة نقاش طليعية: الذكاء الاصطناعي للعلوم](https://sdaiaacademy.github.io/ar/courses/SPC-RSP-403.md): المستوى 400 · التقييم, 24 ساعة, قيد التطوير
+- [SPC-RSP-404 · حلقة نقاش طليعية: الأساليب العصبية الرمزية والذكاء الاصطناعي للرياضيات](https://sdaiaacademy.github.io/ar/courses/SPC-RSP-404.md): المستوى 400 · التقييم, 24 ساعة, قيد التطوير
+- [DS-390 · التدريب التطبيقي في علم البيانات](https://sdaiaacademy.github.io/ar/courses/DS-390.md): المستوى 300 · التطوير, 100 ساعة, قيد التطوير
+- [DS-490 · المشروع الختامي في علم البيانات: تحليل خاضع للمناقشة](https://sdaiaacademy.github.io/ar/courses/DS-490.md): المستوى 400 · التقييم, 60 ساعة, قيد التطوير
+
+## Optional
+
+- [SDAIA Academy Course Catalog](https://sdaiaacademy.github.io/extras/llms.txt)

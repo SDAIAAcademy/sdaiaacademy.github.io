@@ -150,7 +150,7 @@ The base that the AI Engineering and Data Science tracks build on: programming, 
 
 ## [FN-100 · Shared Foundations: the entry courses for both badge tracks](FN-100.md)
 
-- [FN-101 · Python for Data and AI Work](../courses/FN-101.md): Level 100 · Explain, 26 h
+- [FN-101 · Python for Data and AI Work](../courses/FN-101.md): Level 100 · Explain, 26 h; Needs: USE-FLU-202
   - Explain what a short program prints, step by step, including name binding, shared mutable lists and dictionaries, and scope.
   - Distinguish when a notebook, a script or an importable module is the right home for a piece of code.
   - Implement typed functions that load, validate and aggregate records with lists, dictionaries, sets and comprehensions.

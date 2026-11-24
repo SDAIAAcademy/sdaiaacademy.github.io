@@ -1,373 +1,83 @@
 # SDAIA Academy Course Catalog
 
-> The SDAIA Academy course catalog: courses in data and artificial intelligence in five tracks, with a page for every course.
+> The SDAIA Academy course catalog: learning paths in AI Engineering and Data Science over shared Foundations, with a page for every course.
 
-SDAIA Academy publishes this catalog of courses in data and artificial intelligence: five tracks, each divided into paths (streams), each course with a level from 100 to 400. Every course and path has a Markdown page; courses marked available have a published course site with their full material.
+SDAIA Academy publishes this catalog of courses in data and artificial intelligence. This file lists the learning paths: a first course, then the Foundations, then two tracks, AI Engineering and Data Science, from level 200 to level 400. Each line gives a course's level, hours and status, and the courses it needs first. Every course has a Markdown page; courses marked available have a published course site with their full material. The other courses of the catalog are in the Extras file linked at the end.
 
-- [Every course in one file](https://sdaiaacademy.github.io/llms-full.txt)
+- [The courses of the learning paths in one file](https://sdaiaacademy.github.io/llms-full.txt)
+- [Learning paths](https://sdaiaacademy.github.io/en/paths/index.md)
 
-## Data & AI Fluency
+## Start here
 
-- [Data & AI Fluency](https://sdaiaacademy.github.io/en/paths/fluency.md): For everyone who uses data and AI in their own work or study: a baseline for all staff, courses for professions and sectors, and courses for learners and educators.
-- [USE-FLU · Fluency for Everyone](https://sdaiaacademy.github.io/en/paths/USE-FLU.md): USE-FLU-101, USE-FLU-102, USE-FLU-103, USE-FLU-104, USE-FLU-201, USE-FLU-202, USE-FLU-203, USE-FLU-204, USE-FLU-205, USE-FLU-206, USE-FLU-207, USE-FLU-301, USE-FLU-302, USE-FLU-303
-- [USE-EDU · Learners and Educators](https://sdaiaacademy.github.io/en/paths/USE-EDU.md): USE-EDU-101, USE-EDU-102, USE-EDU-201, USE-EDU-202, USE-EDU-203, USE-EDU-204
-- [USE-PRO · Fluency for Professions](https://sdaiaacademy.github.io/en/paths/USE-PRO.md): USE-PRO-201, USE-PRO-202, USE-PRO-203, USE-PRO-204, USE-PRO-205, USE-PRO-206, USE-PRO-207, USE-PRO-208, USE-PRO-209, USE-PRO-210, USE-PRO-211, USE-PRO-212
-- [USE-SEC · AI in Sectors](https://sdaiaacademy.github.io/en/paths/USE-SEC.md): USE-SEC-201, USE-SEC-202, USE-SEC-203, USE-SEC-204, USE-SEC-205, USE-SEC-206, USE-SEC-207, USE-SEC-208, USE-SEC-209, USE-SEC-210, USE-SEC-211, USE-SEC-212
+- [USE-FLU-202 · AI Productivity for Knowledge Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-202.md): Level 200 · Apply, 30 h, Available
 
-## Executives & Leaders
+## Foundations
 
-- [Executives & Leaders](https://sdaiaacademy.github.io/en/paths/executives-and-leaders.md): For people who direct, buy, govern and assure data and AI: executives, product and delivery leads, advisers, and the governance and data management professions.
-- [LDS-EXE · Executive Leadership](https://sdaiaacademy.github.io/en/paths/LDS-EXE.md): LDS-EXE-101, LDS-EXE-201, LDS-EXE-202, LDS-EXE-203, LDS-EXE-204, LDS-EXE-205, LDS-EXE-206, LDS-EXE-207, LDS-EXE-208, LDS-EXE-209, LDS-EXE-210, LDS-EXE-301, LDS-EXE-302, LDS-EXE-401, LDS-EXE-402
-- [LDS-PRD · AI Product and Delivery](https://sdaiaacademy.github.io/en/paths/LDS-PRD.md): LDS-PRD-201, LDS-PRD-202, LDS-PRD-203, LDS-PRD-204, LDS-PRD-205, LDS-PRD-301
-- [LDS-ADV · Advisory and Value](https://sdaiaacademy.github.io/en/paths/LDS-ADV.md): LDS-ADV-201, LDS-ADV-202, LDS-ADV-301, LDS-ADV-302
-- [LDS-AIG · AI Governance, Risk and Assurance](https://sdaiaacademy.github.io/en/paths/LDS-AIG.md): LDS-AIG-201, LDS-AIG-202, LDS-AIG-203, LDS-AIG-204, LDS-AIG-301, LDS-AIG-302, LDS-AIG-303, LDS-AIG-304, LDS-AIG-305, LDS-AIG-306, LDS-AIG-307, LDS-AIG-401
-- [LDS-DMG · Data Management and Governance Professions](https://sdaiaacademy.github.io/en/paths/LDS-DMG.md): LDS-DMG-101, LDS-DMG-201, LDS-DMG-202, LDS-DMG-203, LDS-DMG-204, LDS-DMG-205, LDS-DMG-206, LDS-DMG-207, LDS-DMG-208, LDS-DMG-301, LDS-DMG-302
-
-## Data & AI Foundations
-
-- [Data & AI Foundations](https://sdaiaacademy.github.io/en/paths/foundations.md): The base that the AI Engineering and Data Science tracks build on: programming, mathematics and statistics, handling data, and how AI works.
-- [FND-PRG · Programming and Software Practice](https://sdaiaacademy.github.io/en/paths/FND-PRG.md): FND-PRG-101, FND-PRG-102, FND-PRG-103, FND-PRG-104, FND-PRG-105, FND-PRG-106
-- [FND-MTH · Mathematics and Statistics](https://sdaiaacademy.github.io/en/paths/FND-MTH.md): FND-MTH-101, FND-MTH-102, FND-MTH-103, FND-MTH-104, FND-MTH-105
-- [FND-DAT · Data Handling](https://sdaiaacademy.github.io/en/paths/FND-DAT.md): FND-DAT-101, FND-DAT-102, FND-DAT-103
-- [FND-AIC · AI Concepts and Responsible Practice](https://sdaiaacademy.github.io/en/paths/FND-AIC.md): FND-AIC-101, FND-AIC-102, FND-AIC-103, FND-AIC-104, FND-AIC-105, FND-AIC-106
-- [FN-100 · Shared Foundations: the entry courses for both badge tracks](https://sdaiaacademy.github.io/en/paths/FN-100.md): FN-101, FN-102, FN-103, FN-104, FN-105, FN-106
+- [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available; Needs: USE-FLU-202
+- [FN-102 · Command Line, Git and Reproducible Projects](https://sdaiaacademy.github.io/en/courses/FN-102.md): Level 100 · Explain, 21 h, Available; Needs: FN-101
+- [FN-103 · Mathematics for Machine Learning: Vectors, Gradients and Probability](https://sdaiaacademy.github.io/en/courses/FN-103.md): Level 100 · Explain, 26 h, Available; Needs: FN-101
+- [FN-104 · SQL and Data Wrangling](https://sdaiaacademy.github.io/en/courses/FN-104.md): Level 100 · Explain, 26 h, Available; Needs: FN-101
+- [FN-105 · How Machine Learning and Language Models Work](https://sdaiaacademy.github.io/en/courses/FN-105.md): Level 100 · Explain, 21 h, Available; Needs: FN-101, FN-103
+- [FN-106 · Responsible Data and AI Practice in the Kingdom](https://sdaiaacademy.github.io/en/courses/FN-106.md): Level 100 · Explain, 21 h, Available; Needs: FN-101, FN-105
 
 ## AI Engineering
 
-- [AI Engineering](https://sdaiaacademy.github.io/en/paths/ai-engineering.md): For people who build and run systems that use AI: applications and agents, evaluation, machine learning engineering, operations, infrastructure, data engineering and security.
-- [DEV-SWE · Software Engineering for AI Builders](https://sdaiaacademy.github.io/en/paths/DEV-SWE.md): DEV-SWE-201, DEV-SWE-202, DEV-SWE-203, DEV-SWE-204, DEV-SWE-301, DEV-SWE-302, DEV-SWE-303
-- [DEV-LLM · Language Model Application Engineering](https://sdaiaacademy.github.io/en/paths/DEV-LLM.md): DEV-LLM-201, DEV-LLM-202, DEV-LLM-203, DEV-LLM-204, DEV-LLM-205, DEV-LLM-301, DEV-LLM-302, DEV-LLM-303
-- [DEV-AGT · Agentic Systems](https://sdaiaacademy.github.io/en/paths/DEV-AGT.md): DEV-AGT-301, DEV-AGT-302, DEV-AGT-303, DEV-AGT-401, DEV-AGT-402, DEV-AGT-403
-- [DEV-EVL · Evaluation and Quality Engineering for AI Systems](https://sdaiaacademy.github.io/en/paths/DEV-EVL.md): DEV-EVL-301, DEV-EVL-302, DEV-EVL-303, DEV-EVL-304, DEV-EVL-401
-- [DEV-MLE · Machine Learning Engineering](https://sdaiaacademy.github.io/en/paths/DEV-MLE.md): DEV-MLE-201, DEV-MLE-202, DEV-MLE-203, DEV-MLE-301, DEV-MLE-302, DEV-MLE-303, DEV-MLE-304, DEV-MLE-305, DEV-MLE-306
-- [DEV-OPS · Operations and Reliability](https://sdaiaacademy.github.io/en/paths/DEV-OPS.md): DEV-OPS-201, DEV-OPS-301, DEV-OPS-302, DEV-OPS-303, DEV-OPS-304, DEV-OPS-401
-- [DEV-INF · Infrastructure, Performance and Architecture](https://sdaiaacademy.github.io/en/paths/DEV-INF.md): DEV-INF-201, DEV-INF-301, DEV-INF-302, DEV-INF-303, DEV-INF-304, DEV-INF-401, DEV-INF-402, DEV-INF-403, DEV-INF-404, DEV-INF-405
-- [DEV-DAT · Data Engineering and Architecture](https://sdaiaacademy.github.io/en/paths/DEV-DAT.md): DEV-DAT-201, DEV-DAT-202, DEV-DAT-203, DEV-DAT-204, DEV-DAT-301, DEV-DAT-302, DEV-DAT-303, DEV-DAT-304, DEV-DAT-401
-- [DEV-SEC · Security and Privacy Engineering for AI](https://sdaiaacademy.github.io/en/paths/DEV-SEC.md): DEV-SEC-201, DEV-SEC-301, DEV-SEC-302, DEV-SEC-303, DEV-SEC-304, DEV-SEC-305, DEV-SEC-401
-- [DEV-PHY · Physical AI and Robotics Engineering](https://sdaiaacademy.github.io/en/paths/DEV-PHY.md): DEV-PHY-201, DEV-PHY-301, DEV-PHY-302, DEV-PHY-401
-- [DEV-PRJ · Practicums](https://sdaiaacademy.github.io/en/paths/DEV-PRJ.md): DEV-PRJ-301, DEV-PRJ-401
-- [AE-200 · AI Engineering: courses that help prepare for the Assistant level](https://sdaiaacademy.github.io/en/paths/AE-200.md): AE-201, AE-202, AE-203, AE-204, AE-205, AE-206, AE-207
-- [AE-300 · AI Engineering: courses that help prepare for the Associate level](https://sdaiaacademy.github.io/en/paths/AE-300.md): AE-301, AE-302, AE-303, AE-304, AE-305, AE-306, AE-307, AE-308, AE-309, AE-310, AE-311, AE-312, AE-390
-- [AE-400 · AI Engineering: courses that help prepare for the Expert level](https://sdaiaacademy.github.io/en/paths/AE-400.md): AE-401, AE-402, AE-403, AE-404, AE-405, AE-406, AE-407, AE-408, AE-490
+- [AE-201 · Machine Learning Foundations and Model Evaluation](https://sdaiaacademy.github.io/en/courses/AE-201.md): Level 200 · Apply, 26 h, Available; Needs: FN-101, FN-103, FN-104, FN-105
+- [AE-202 · Deep Learning and Generative AI Fundamentals](https://sdaiaacademy.github.io/en/courses/AE-202.md): Level 200 · Apply, 26 h, Available; Needs: AE-201, FN-103
+- [AE-203 · Building Applications on Language Models](https://sdaiaacademy.github.io/en/courses/AE-203.md): Level 200 · Apply, 26 h, Available; Needs: FN-101, FN-102, FN-105
+- [AE-204 · Software Engineering with Coding Agents](https://sdaiaacademy.github.io/en/courses/AE-204.md): Level 200 · Apply, 26 h, Available; Needs: FN-101, FN-102
+- [AE-205 · Deploying AI Services: Containers, Serving and Monitoring](https://sdaiaacademy.github.io/en/courses/AE-205.md): Level 200 · Apply, 26 h, Available; Needs: FN-102, AE-201
+- [AE-206 · Machine Learning Systems on One Machine](https://sdaiaacademy.github.io/en/courses/AE-206.md): Level 200 · Apply, 26 h, Available; Needs: AE-202
+- [AE-207 · Responsible and Secure AI Engineering Practice](https://sdaiaacademy.github.io/en/courses/AE-207.md): Level 200 · Apply, 21 h, Available; Needs: FN-106, AE-203
+- [AE-301 · Applied Natural Language Processing Engineering](https://sdaiaacademy.github.io/en/courses/AE-301.md): Level 300 · Develop, 21 h, Available; Needs: AE-202
+- [AE-302 · Agentic Systems Engineering: Loops, Context and Harnesses](https://sdaiaacademy.github.io/en/courses/AE-302.md): Level 300 · Develop, 26 h, Available; Needs: AE-203
+- [AE-303 · Evaluation-Driven Development for Language Model Applications](https://sdaiaacademy.github.io/en/courses/AE-303.md): Level 300 · Develop, 26 h, Available; Needs: AE-203
+- [AE-304 · Retrieval and Knowledge Engineering for Language Model Systems](https://sdaiaacademy.github.io/en/courses/AE-304.md): Level 300 · Develop, 26 h, Available; Needs: AE-202, AE-203
+- [AE-305 · Operating Machine Learning and Language Model Systems](https://sdaiaacademy.github.io/en/courses/AE-305.md): Level 300 · Develop, 26 h, Available; Needs: AE-205, AE-203
+- [AE-306 · Modern Data Engineering](https://sdaiaacademy.github.io/en/courses/AE-306.md): Level 300 · Develop, 26 h, Available; Needs: FN-102, FN-104
+- [AE-307 · Container Orchestration and Cloud Infrastructure for AI Workloads](https://sdaiaacademy.github.io/en/courses/AE-307.md): Level 300 · Develop, 26 h, Available; Needs: AE-205, AE-206
+- [AE-308 · Securing Language Model and Agent Applications](https://sdaiaacademy.github.io/en/courses/AE-308.md): Level 300 · Develop, 26 h, Available; Needs: AE-207, AE-302
+- [AE-310 · Model Adaptation: Fine-Tuning, Distillation and Small Models](https://sdaiaacademy.github.io/en/courses/AE-310.md): Level 300 · Develop, 26 h, Available; Needs: AE-202, AE-203
+- [AE-311 · Shaping the Build: Product Sense and Delivery Practice](https://sdaiaacademy.github.io/en/courses/AE-311.md): Level 300 · Develop, 21 h, Available; Needs: AE-203, AE-204
+- [AE-312 · AI Cost Engineering and Model Routing](https://sdaiaacademy.github.io/en/courses/AE-312.md): Level 300 · Develop, 21 h, Available; Needs: AE-203, AE-205
+- [AE-401 · Inference Performance and Cost Engineering](https://sdaiaacademy.github.io/en/courses/AE-401.md): Level 400 · Evaluate, 26 h, Available; Needs: AE-305, AE-307
+- [AE-402 · AI Solution Architecture and Platform Design](https://sdaiaacademy.github.io/en/courses/AE-402.md): Level 400 · Evaluate, 26 h, Available; Needs: AE-305, AE-308, AE-311
+- [AE-403 · Reliability Engineering for AI Services](https://sdaiaacademy.github.io/en/courses/AE-403.md): Level 400 · Evaluate, 26 h, Available; Needs: AE-305, AE-307
+- [AE-405 · Evaluation Programmes and Release Decisions](https://sdaiaacademy.github.io/en/courses/AE-405.md): Level 400 · Evaluate, 26 h, Available; Needs: AE-303, AE-305
+- [AE-406 · Post-Training Open Models on Domain Data](https://sdaiaacademy.github.io/en/courses/AE-406.md): Level 400 · Evaluate, 26 h, Available; Needs: AE-310, AE-303
+- [AE-407 · AI Assurance, Red Teaming and Governance for Engineering Leads](https://sdaiaacademy.github.io/en/courses/AE-407.md): Level 400 · Evaluate, 26 h, Available; Needs: AE-308, AE-303
+- [AE-408 · Multimodal and Speech Systems Engineering](https://sdaiaacademy.github.io/en/courses/AE-408.md): Level 400 · Evaluate, 26 h, Available; Needs: AE-301, AE-303
 
 ## Data Science
 
-- [Data Science](https://sdaiaacademy.github.io/en/paths/data-science.md): For people who produce evidence, models and methods: analysis, statistics, experiments and causal inference, modelling, model development and trustworthy AI.
-- [SPC-ANL · Analysis and Business Intelligence](https://sdaiaacademy.github.io/en/paths/SPC-ANL.md): SPC-ANL-201, SPC-ANL-202, SPC-ANL-203, SPC-ANL-204, SPC-ANL-301, SPC-ANL-302, SPC-ANL-303
-- [SPC-STA · Statistics and Inference](https://sdaiaacademy.github.io/en/paths/SPC-STA.md): SPC-STA-201, SPC-STA-301, SPC-STA-302, SPC-STA-401
-- [SPC-EXP · Experimentation and Causal Inference](https://sdaiaacademy.github.io/en/paths/SPC-EXP.md): SPC-EXP-201, SPC-EXP-301, SPC-EXP-302, SPC-EXP-303, SPC-EXP-401, SPC-EXP-402
-- [SPC-MOD · Machine Learning and Modelling](https://sdaiaacademy.github.io/en/paths/SPC-MOD.md): SPC-MOD-201, SPC-MOD-301, SPC-MOD-302, SPC-MOD-303, SPC-MOD-304, SPC-MOD-305, SPC-MOD-306, SPC-MOD-307, SPC-MOD-308, SPC-MOD-401, SPC-MOD-402
-- [SPC-DLR · Deep Learning and Model Development](https://sdaiaacademy.github.io/en/paths/SPC-DLR.md): SPC-DLR-301, SPC-DLR-302, SPC-DLR-303, SPC-DLR-304, SPC-DLR-305, SPC-DLR-306, SPC-DLR-401, SPC-DLR-402
-- [SPC-GEN · Generative, Multimodal and Embodied Models](https://sdaiaacademy.github.io/en/paths/SPC-GEN.md): SPC-GEN-301, SPC-GEN-302, SPC-GEN-303, SPC-GEN-304, SPC-GEN-401, SPC-GEN-402
-- [SPC-TRU · Trustworthy AI Science](https://sdaiaacademy.github.io/en/paths/SPC-TRU.md): SPC-TRU-301, SPC-TRU-302, SPC-TRU-303, SPC-TRU-304
-- [SPC-RSP · Research Practice and Frontier](https://sdaiaacademy.github.io/en/paths/SPC-RSP.md): SPC-RSP-101, SPC-RSP-301, SPC-RSP-302, SPC-RSP-401, SPC-RSP-402, SPC-RSP-403, SPC-RSP-404
-- [DS-200 · Data Science: courses that help prepare for the Assistant level](https://sdaiaacademy.github.io/en/paths/DS-200.md): DS-201, DS-202, DS-203, DS-204, DS-205, DS-206, DS-207
-- [DS-300 · Data Science: courses that help prepare for the Associate level](https://sdaiaacademy.github.io/en/paths/DS-300.md): DS-301, DS-302, DS-303, DS-304, DS-305, DS-306, DS-307, DS-308, DS-309, DS-310, DS-311, DS-390
-- [DS-400 · Data Science: courses that help prepare for the Expert level](https://sdaiaacademy.github.io/en/paths/DS-400.md): DS-401, DS-402, DS-403, DS-404, DS-405, DS-406, DS-407, DS-408, DS-490
+- [DS-201 · Statistical Inference by Simulation](https://sdaiaacademy.github.io/en/courses/DS-201.md): Level 200 · Apply, 26 h, Available; Needs: FN-101, FN-103
+- [DS-202 · Data Acquisition, Preparation and Quality](https://sdaiaacademy.github.io/en/courses/DS-202.md): Level 200 · Apply, 26 h, Available; Needs: FN-101, FN-104, FN-106
+- [DS-203 · Exploratory Analysis and Visualisation](https://sdaiaacademy.github.io/en/courses/DS-203.md): Level 200 · Apply, 26 h, Available; Needs: FN-101, FN-104, DS-201
+- [DS-204 · Machine Learning for Tabular Data: Baselines and Validation](https://sdaiaacademy.github.io/en/courses/DS-204.md): Level 200 · Apply, 26 h, Available; Needs: FN-101, FN-103, FN-105, DS-201
+- [DS-205 · Designing and Reading Experiments](https://sdaiaacademy.github.io/en/courses/DS-205.md): Level 200 · Apply, 21 h, Available; Needs: DS-201
+- [DS-206 · Analysis with AI Assistants: Delegate, Verify, Reproduce](https://sdaiaacademy.github.io/en/courses/DS-206.md): Level 200 · Apply, 21 h, Available; Needs: FN-101, FN-104, FN-106
+- [DS-207 · Responsible Data Practice and Conduct in Analytical Work](https://sdaiaacademy.github.io/en/courses/DS-207.md): Level 200 · Apply, 21 h, Available; Needs: FN-106
+- [DS-301 · Regression and Generalised Linear Modelling](https://sdaiaacademy.github.io/en/courses/DS-301.md): Level 300 · Develop, 26 h, Available; Needs: DS-201
+- [DS-302 · Online Experiments and A/B Testing](https://sdaiaacademy.github.io/en/courses/DS-302.md): Level 300 · Develop, 26 h, Available; Needs: DS-201, DS-205
+- [DS-303 · Causal Inference from Observational Data](https://sdaiaacademy.github.io/en/courses/DS-303.md): Level 300 · Develop, 26 h, Available; Needs: DS-205, DS-301
+- [DS-304 · Forecasting and Time Series](https://sdaiaacademy.github.io/en/courses/DS-304.md): Level 300 · Develop, 26 h, Available; Needs: DS-201, DS-204
+- [DS-305 · Uncertainty, Interpretability and Model Validation](https://sdaiaacademy.github.io/en/courses/DS-305.md): Level 300 · Develop, 26 h, Available; Needs: DS-204, DS-301
+- [DS-306 · Text and Unstructured Data for Data Science](https://sdaiaacademy.github.io/en/courses/DS-306.md): Level 300 · Develop, 26 h, Available; Needs: DS-202, DS-204
+- [DS-307 · Metrics, Semantic Models and Dashboards](https://sdaiaacademy.github.io/en/courses/DS-307.md): Level 300 · Develop, 26 h, Available; Needs: FN-104, DS-203
+- [DS-308 · Data Storytelling and Decision Briefings](https://sdaiaacademy.github.io/en/courses/DS-308.md): Level 300 · Develop, 21 h, Available; Needs: DS-203, DS-201
+- [DS-309 · Responsible Data Science: Privacy, Fairness and Documentation](https://sdaiaacademy.github.io/en/courses/DS-309.md): Level 300 · Develop, 26 h, Available; Needs: DS-204, DS-207
+- [DS-310 · Problem Framing and Analytical Review](https://sdaiaacademy.github.io/en/courses/DS-310.md): Level 300 · Develop, 21 h, Available; Needs: DS-204, DS-205
+- [DS-311 · Data Quality, Labelling and Pipelines for Analysis](https://sdaiaacademy.github.io/en/courses/DS-311.md): Level 300 · Develop, 26 h, Available; Needs: DS-202, FN-102
+- [DS-401 · Bayesian Modelling and Decisions under Uncertainty](https://sdaiaacademy.github.io/en/courses/DS-401.md): Level 400 · Evaluate, 26 h, Available; Needs: DS-301
+- [DS-403 · Statistical Evaluation of AI Systems](https://sdaiaacademy.github.io/en/courses/DS-403.md): Level 400 · Evaluate, 26 h, Available; Needs: DS-302, DS-305
+- [DS-404 · Advanced Modelling for Structured Data](https://sdaiaacademy.github.io/en/courses/DS-404.md): Level 400 · Evaluate, 26 h, Available; Needs: DS-304, DS-305
+- [DS-405 · Data Preparation at Scale: Contracts, Synthetic Data and Privacy](https://sdaiaacademy.github.io/en/courses/DS-405.md): Level 400 · Evaluate, 26 h, Available; Needs: DS-309
+- [DS-406 · Measuring the Impact of Data and AI Programmes](https://sdaiaacademy.github.io/en/courses/DS-406.md): Level 400 · Evaluate, 26 h, Available; Needs: DS-302, DS-303
+- [DS-407 · Leading Analytical Work: Review, Standards and Stakeholders](https://sdaiaacademy.github.io/en/courses/DS-407.md): Level 400 · Evaluate, 21 h, Available; Needs: DS-310
 
-## Courses
+## Extras
 
-- [USE-FLU-101 · Data and AI Literacy Baseline for Everyone at Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-101.md): Level 100 · Explain, 3 h, Available
-- [USE-FLU-102 · Reading Data, Charts and Claims at Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-102.md): Level 100 · Explain, 6 h, Available
-- [USE-FLU-103 · How AI Systems Learn and Where They Fail](https://sdaiaacademy.github.io/en/courses/USE-FLU-103.md): Level 100 · Explain, 6 h, Available
-- [USE-FLU-104 · Safe Use of AI at Work: Data, Privacy and Deception](https://sdaiaacademy.github.io/en/courses/USE-FLU-104.md): Level 100 · Explain, 4 h, Available
-- [USE-FLU-201 · Working with AI Assistants: Delegate, Describe, Judge, Own](https://sdaiaacademy.github.io/en/courses/USE-FLU-201.md): Level 200 · Apply, 8 h, Available
-- [USE-FLU-202 · AI Productivity for Knowledge Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-202.md): Level 200 · Apply, 30 h, Available
-- [USE-FLU-203 · Research and Verification with AI](https://sdaiaacademy.github.io/en/courses/USE-FLU-203.md): Level 200 · Apply, 12 h, Available
-- [USE-FLU-204 · Supervising AI Agents in Knowledge Work](https://sdaiaacademy.github.io/en/courses/USE-FLU-204.md): Level 200 · Apply, 16 h, Available
-- [USE-FLU-205 · Building Small Tools without Code](https://sdaiaacademy.github.io/en/courses/USE-FLU-205.md): Level 200 · Apply, 16 h, Available
-- [USE-FLU-207 · Arabic Writing, Translation and Dialect Work with AI](https://sdaiaacademy.github.io/en/courses/USE-FLU-207.md): Level 200 · Apply, 8 h, Available
-- [USE-FLU-301 · Redesigning a Team Workflow with AI and Measuring the Gain](https://sdaiaacademy.github.io/en/courses/USE-FLU-301.md): Level 300 · Develop, 30 h, Available
-- [USE-FLU-303 · Leading AI Adoption in a Team: Champions and Trainers](https://sdaiaacademy.github.io/en/courses/USE-FLU-303.md): Level 300 · Develop, 16 h, Available
-- [USE-EDU-101 · Data and AI Fluency for University Students](https://sdaiaacademy.github.io/en/courses/USE-EDU-101.md): Level 100 · Explain, 40 h, Available
-- [USE-EDU-102 · Learning with AI without Losing the Skill](https://sdaiaacademy.github.io/en/courses/USE-EDU-102.md): Level 100 · Explain, 4 h, Available
-- [USE-EDU-201 · Teaching and Assessing in the AI Era](https://sdaiaacademy.github.io/en/courses/USE-EDU-201.md): Level 200 · Apply, 16 h, Available
-- [USE-EDU-202 · Delivering the Cross-Disciplinary Data and AI Curriculum](https://sdaiaacademy.github.io/en/courses/USE-EDU-202.md): Level 200 · Apply, 16 h, Available
-- [USE-EDU-203 · AI Literacy for School Teachers](https://sdaiaacademy.github.io/en/courses/USE-EDU-203.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-201 · AI for Public Servants and Policy Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-201.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-202 · AI for Human Resources and Talent Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-202.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-203 · AI for Finance, Accounting and Audit Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-203.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-204 · AI for Legal, Regulatory and Compliance Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-204.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-205 · AI for Communications, Media and Content Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-205.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-206 · AI for Customer and Citizen Service Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-206.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-207 · AI for Project, Procurement and Operations Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-207.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-208 · AI for Researchers and Scientific Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-208.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-209 · AI for Clinical and Health Professionals](https://sdaiaacademy.github.io/en/courses/USE-PRO-209.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-210 · AI for Sales, Marketing and Market Insight](https://sdaiaacademy.github.io/en/courses/USE-PRO-210.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-211 · AI for Engineers and Field Operations](https://sdaiaacademy.github.io/en/courses/USE-PRO-211.md): Level 200 · Apply, 12 h, Available
-- [USE-PRO-212 · AI for Security and IT Operations Staff](https://sdaiaacademy.github.io/en/courses/USE-PRO-212.md): Level 200 · Apply, 12 h, Available
-- [USE-SEC-201 · AI in Health Systems](https://sdaiaacademy.github.io/en/courses/USE-SEC-201.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-202 · AI in Energy and Petrochemicals](https://sdaiaacademy.github.io/en/courses/USE-SEC-202.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-203 · AI in Government Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-203.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-205 · AI in Mobility and Logistics](https://sdaiaacademy.github.io/en/courses/USE-SEC-205.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-207 · AI in Justice and Legal Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-207.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-208 · AI in Media and Creative Industries](https://sdaiaacademy.github.io/en/courses/USE-SEC-208.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-210 · AI in Retail and Telecommunications](https://sdaiaacademy.github.io/en/courses/USE-SEC-210.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-211 · AI in Agriculture, Water and Environment](https://sdaiaacademy.github.io/en/courses/USE-SEC-211.md): Level 200 · Apply, 16 h, Available
-- [USE-SEC-212 · AI in Cities, Tourism and Pilgrimage](https://sdaiaacademy.github.io/en/courses/USE-SEC-212.md): Level 200 · Apply, 16 h, Available
-- [LDS-EXE-101 · AI for Executives: A Hands-On Briefing](https://sdaiaacademy.github.io/en/courses/LDS-EXE-101.md): Level 100 · Explain, 4 h, Available
-- [LDS-EXE-201 · AI Strategy and Use-Case Portfolio](https://sdaiaacademy.github.io/en/courses/LDS-EXE-201.md): Level 200 · Apply, 24 h, Available
-- [LDS-EXE-202 · Economics of AI and Agents](https://sdaiaacademy.github.io/en/courses/LDS-EXE-202.md): Level 200 · Apply, 12 h, Available
-- [LDS-EXE-203 · Redesigning Work for Human and Agent Teams](https://sdaiaacademy.github.io/en/courses/LDS-EXE-203.md): Level 200 · Apply, 16 h, Available
-- [LDS-EXE-204 · Leading AI Adoption and Change](https://sdaiaacademy.github.io/en/courses/LDS-EXE-204.md): Level 200 · Apply, 12 h, Available
-- [LDS-EXE-205 · Buying AI: Procurement, Evaluation and Contracts](https://sdaiaacademy.github.io/en/courses/LDS-EXE-205.md): Level 200 · Apply, 24 h, Available
-- [LDS-EXE-206 · Governing AI in the Organisation: Boards and Executives](https://sdaiaacademy.github.io/en/courses/LDS-EXE-206.md): Level 200 · Apply, 16 h, Available
-- [LDS-EXE-207 · Scaling AI from Pilots to Production](https://sdaiaacademy.github.io/en/courses/LDS-EXE-207.md): Level 200 · Apply, 12 h, Available
-- [LDS-EXE-208 · Sovereignty, Infrastructure and Dependency Decisions](https://sdaiaacademy.github.io/en/courses/LDS-EXE-208.md): Level 200 · Apply, 8 h, Available
-- [LDS-EXE-209 · AI Incident Simulation for Leadership Teams](https://sdaiaacademy.github.io/en/courses/LDS-EXE-209.md): Level 200 · Apply, 6 h, Available
-- [LDS-EXE-210 · AI Regulation Update: National and Global Briefing](https://sdaiaacademy.github.io/en/courses/LDS-EXE-210.md): Level 200 · Apply, 4 h, Available
-- [LDS-PRD-201 · AI Product Discovery and Specification](https://sdaiaacademy.github.io/en/courses/LDS-PRD-201.md): Level 200 · Apply, 24 h, Available
-- [LDS-PRD-202 · Evaluation, Experiments and Economics for AI Products](https://sdaiaacademy.github.io/en/courses/LDS-PRD-202.md): Level 200 · Apply, 24 h, Available
-- [LDS-PRD-203 · Human-AI Interaction and Experience Design](https://sdaiaacademy.github.io/en/courses/LDS-PRD-203.md): Level 200 · Apply, 24 h, Available
-- [LDS-PRD-204 · Managing AI Projects and Delivery Teams](https://sdaiaacademy.github.io/en/courses/LDS-PRD-204.md): Level 200 · Apply, 16 h, Available
-- [LDS-PRD-205 · Prototyping AI Products with Coding Agents](https://sdaiaacademy.github.io/en/courses/LDS-PRD-205.md): Level 200 · Apply, 16 h, Available
-- [LDS-ADV-201 · AI Use-Case Feasibility and Business Cases](https://sdaiaacademy.github.io/en/courses/LDS-ADV-201.md): Level 200 · Apply, 24 h, Available
-- [LDS-ADV-202 · Data and AI Maturity Assessment and Roadmaps](https://sdaiaacademy.github.io/en/courses/LDS-ADV-202.md): Level 200 · Apply, 16 h, Available
-- [LDS-ADV-302 · Advisory Practice for Data and AI Engagements](https://sdaiaacademy.github.io/en/courses/LDS-ADV-302.md): Level 300 · Develop, 16 h, Available
-- [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](https://sdaiaacademy.github.io/en/courses/LDS-AIG-201.md): Level 200 · Apply, 24 h, Available
-- [LDS-AIG-202 · AI Regulation and Standards in Practice](https://sdaiaacademy.github.io/en/courses/LDS-AIG-202.md): Level 200 · Apply, 16 h, Available
-- [LDS-AIG-203 · Third-Party AI: Licences, Supply Chain and Retirement](https://sdaiaacademy.github.io/en/courses/LDS-AIG-203.md): Level 200 · Apply, 12 h, Available
-- [LDS-AIG-204 · AI Risk Management in Practice](https://sdaiaacademy.github.io/en/courses/LDS-AIG-204.md): Level 200 · Apply, 30 h, Available
-- [LDS-AIG-303 · AI Impact Assessment and System Documentation](https://sdaiaacademy.github.io/en/courses/LDS-AIG-303.md): Level 300 · Develop, 16 h, Available
-- [LDS-DMG-101 · Data Management Foundations](https://sdaiaacademy.github.io/en/courses/LDS-DMG-101.md): Level 100 · Explain, 24 h, Available
-- [LDS-DMG-202 · Metadata, Catalogues and Lineage](https://sdaiaacademy.github.io/en/courses/LDS-DMG-202.md): Level 200 · Apply, 16 h, Available
-- [LDS-DMG-203 · Data Quality Management](https://sdaiaacademy.github.io/en/courses/LDS-DMG-203.md): Level 200 · Apply, 24 h, Available
-- [LDS-DMG-204 · Data Classification in Practice](https://sdaiaacademy.github.io/en/courses/LDS-DMG-204.md): Level 200 · Apply, 12 h, Available
-- [LDS-DMG-205 · Data Sharing, Open Data and Freedom of Information](https://sdaiaacademy.github.io/en/courses/LDS-DMG-205.md): Level 200 · Apply, 16 h, Available
-- [LDS-DMG-206 · Personal Data Protection in Practice](https://sdaiaacademy.github.io/en/courses/LDS-DMG-206.md): Level 200 · Apply, 30 h, Available
-- [LDS-DMG-207 · Compliance Evidence and Data Maturity Assessment](https://sdaiaacademy.github.io/en/courses/LDS-DMG-207.md): Level 200 · Apply, 24 h, Available
-- [LDS-DMG-208 · Master and Reference Data Management](https://sdaiaacademy.github.io/en/courses/LDS-DMG-208.md): Level 200 · Apply, 16 h, Available
-- [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available
-- [FN-102 · Command Line, Git and Reproducible Projects](https://sdaiaacademy.github.io/en/courses/FN-102.md): Level 100 · Explain, 21 h, Available
-- [FN-103 · Mathematics for Machine Learning: Vectors, Gradients and Probability](https://sdaiaacademy.github.io/en/courses/FN-103.md): Level 100 · Explain, 26 h, Available
-- [FN-104 · SQL and Data Wrangling](https://sdaiaacademy.github.io/en/courses/FN-104.md): Level 100 · Explain, 26 h, Available
-- [FN-105 · How Machine Learning and Language Models Work](https://sdaiaacademy.github.io/en/courses/FN-105.md): Level 100 · Explain, 21 h, Available
-- [FN-106 · Responsible Data and AI Practice in the Kingdom](https://sdaiaacademy.github.io/en/courses/FN-106.md): Level 100 · Explain, 21 h, Available
-- [AE-201 · Machine Learning Foundations and Model Evaluation](https://sdaiaacademy.github.io/en/courses/AE-201.md): Level 200 · Apply, 26 h, Available
-- [AE-202 · Deep Learning and Generative AI Fundamentals](https://sdaiaacademy.github.io/en/courses/AE-202.md): Level 200 · Apply, 26 h, Available
-- [AE-203 · Building Applications on Language Models](https://sdaiaacademy.github.io/en/courses/AE-203.md): Level 200 · Apply, 26 h, Available
-- [AE-204 · Software Engineering with Coding Agents](https://sdaiaacademy.github.io/en/courses/AE-204.md): Level 200 · Apply, 26 h, Available
-- [AE-205 · Deploying AI Services: Containers, Serving and Monitoring](https://sdaiaacademy.github.io/en/courses/AE-205.md): Level 200 · Apply, 26 h, Available
-- [AE-206 · Machine Learning Systems on One Machine](https://sdaiaacademy.github.io/en/courses/AE-206.md): Level 200 · Apply, 26 h, Available
-- [AE-207 · Responsible and Secure AI Engineering Practice](https://sdaiaacademy.github.io/en/courses/AE-207.md): Level 200 · Apply, 21 h, Available
-- [AE-301 · Applied Natural Language Processing Engineering](https://sdaiaacademy.github.io/en/courses/AE-301.md): Level 300 · Develop, 21 h, Available
-- [AE-302 · Agentic Systems Engineering: Loops, Context and Harnesses](https://sdaiaacademy.github.io/en/courses/AE-302.md): Level 300 · Develop, 26 h, Available
-- [AE-303 · Evaluation-Driven Development for Language Model Applications](https://sdaiaacademy.github.io/en/courses/AE-303.md): Level 300 · Develop, 26 h, Available
-- [AE-304 · Retrieval and Knowledge Engineering for Language Model Systems](https://sdaiaacademy.github.io/en/courses/AE-304.md): Level 300 · Develop, 26 h, Available
-- [AE-305 · Operating Machine Learning and Language Model Systems](https://sdaiaacademy.github.io/en/courses/AE-305.md): Level 300 · Develop, 26 h, Available
-- [AE-306 · Modern Data Engineering](https://sdaiaacademy.github.io/en/courses/AE-306.md): Level 300 · Develop, 26 h, Available
-- [AE-307 · Container Orchestration and Cloud Infrastructure for AI Workloads](https://sdaiaacademy.github.io/en/courses/AE-307.md): Level 300 · Develop, 26 h, Available
-- [AE-308 · Securing Language Model and Agent Applications](https://sdaiaacademy.github.io/en/courses/AE-308.md): Level 300 · Develop, 26 h, Available
-- [AE-309 · Computer Vision Engineering](https://sdaiaacademy.github.io/en/courses/AE-309.md): Level 300 · Develop, 26 h, Available
-- [AE-310 · Model Adaptation: Fine-Tuning, Distillation and Small Models](https://sdaiaacademy.github.io/en/courses/AE-310.md): Level 300 · Develop, 26 h, Available
-- [AE-311 · Shaping the Build: Product Sense and Delivery Practice](https://sdaiaacademy.github.io/en/courses/AE-311.md): Level 300 · Develop, 21 h, Available
-- [AE-312 · AI Cost Engineering and Model Routing](https://sdaiaacademy.github.io/en/courses/AE-312.md): Level 300 · Develop, 21 h, Available
-- [AE-401 · Inference Performance and Cost Engineering](https://sdaiaacademy.github.io/en/courses/AE-401.md): Level 400 · Evaluate, 26 h, Available
-- [AE-402 · AI Solution Architecture and Platform Design](https://sdaiaacademy.github.io/en/courses/AE-402.md): Level 400 · Evaluate, 26 h, Available
-- [AE-403 · Reliability Engineering for AI Services](https://sdaiaacademy.github.io/en/courses/AE-403.md): Level 400 · Evaluate, 26 h, Available
-- [AE-404 · Harness Engineering for Long-Running and Multi-Agent Systems](https://sdaiaacademy.github.io/en/courses/AE-404.md): Level 400 · Evaluate, 26 h, Available
-- [AE-405 · Evaluation Programmes and Release Decisions](https://sdaiaacademy.github.io/en/courses/AE-405.md): Level 400 · Evaluate, 26 h, Available
-- [AE-406 · Post-Training Open Models on Domain Data](https://sdaiaacademy.github.io/en/courses/AE-406.md): Level 400 · Evaluate, 26 h, Available
-- [AE-407 · AI Assurance, Red Teaming and Governance for Engineering Leads](https://sdaiaacademy.github.io/en/courses/AE-407.md): Level 400 · Evaluate, 26 h, Available
-- [AE-408 · Multimodal and Speech Systems Engineering](https://sdaiaacademy.github.io/en/courses/AE-408.md): Level 400 · Evaluate, 26 h, Available
-- [DS-201 · Statistical Inference by Simulation](https://sdaiaacademy.github.io/en/courses/DS-201.md): Level 200 · Apply, 26 h, Available
-- [DS-202 · Data Acquisition, Preparation and Quality](https://sdaiaacademy.github.io/en/courses/DS-202.md): Level 200 · Apply, 26 h, Available
-- [DS-203 · Exploratory Analysis and Visualisation](https://sdaiaacademy.github.io/en/courses/DS-203.md): Level 200 · Apply, 26 h, Available
-- [DS-204 · Machine Learning for Tabular Data: Baselines and Validation](https://sdaiaacademy.github.io/en/courses/DS-204.md): Level 200 · Apply, 26 h, Available
-- [DS-205 · Designing and Reading Experiments](https://sdaiaacademy.github.io/en/courses/DS-205.md): Level 200 · Apply, 21 h, Available
-- [DS-206 · Analysis with AI Assistants: Delegate, Verify, Reproduce](https://sdaiaacademy.github.io/en/courses/DS-206.md): Level 200 · Apply, 21 h, Available
-- [DS-207 · Responsible Data Practice and Conduct in Analytical Work](https://sdaiaacademy.github.io/en/courses/DS-207.md): Level 200 · Apply, 21 h, Available
-- [DS-301 · Regression and Generalised Linear Modelling](https://sdaiaacademy.github.io/en/courses/DS-301.md): Level 300 · Develop, 26 h, Available
-- [DS-302 · Online Experiments and A/B Testing](https://sdaiaacademy.github.io/en/courses/DS-302.md): Level 300 · Develop, 26 h, Available
-- [DS-303 · Causal Inference from Observational Data](https://sdaiaacademy.github.io/en/courses/DS-303.md): Level 300 · Develop, 26 h, Available
-- [DS-304 · Forecasting and Time Series](https://sdaiaacademy.github.io/en/courses/DS-304.md): Level 300 · Develop, 26 h, Available
-- [DS-305 · Uncertainty, Interpretability and Model Validation](https://sdaiaacademy.github.io/en/courses/DS-305.md): Level 300 · Develop, 26 h, Available
-- [DS-306 · Text and Unstructured Data for Data Science](https://sdaiaacademy.github.io/en/courses/DS-306.md): Level 300 · Develop, 26 h, Available
-- [DS-307 · Metrics, Semantic Models and Dashboards](https://sdaiaacademy.github.io/en/courses/DS-307.md): Level 300 · Develop, 26 h, Available
-- [DS-308 · Data Storytelling and Decision Briefings](https://sdaiaacademy.github.io/en/courses/DS-308.md): Level 300 · Develop, 21 h, Available
-- [DS-309 · Responsible Data Science: Privacy, Fairness and Documentation](https://sdaiaacademy.github.io/en/courses/DS-309.md): Level 300 · Develop, 26 h, Available
-- [DS-310 · Problem Framing and Analytical Review](https://sdaiaacademy.github.io/en/courses/DS-310.md): Level 300 · Develop, 21 h, Available
-- [DS-311 · Data Quality, Labelling and Pipelines for Analysis](https://sdaiaacademy.github.io/en/courses/DS-311.md): Level 300 · Develop, 26 h, Available
-- [DS-401 · Bayesian Modelling and Decisions under Uncertainty](https://sdaiaacademy.github.io/en/courses/DS-401.md): Level 400 · Evaluate, 26 h, Available
-- [DS-402 · Causal Machine Learning and Policy Evaluation](https://sdaiaacademy.github.io/en/courses/DS-402.md): Level 400 · Evaluate, 26 h, Available
-- [DS-403 · Statistical Evaluation of AI Systems](https://sdaiaacademy.github.io/en/courses/DS-403.md): Level 400 · Evaluate, 26 h, Available
-- [DS-404 · Advanced Modelling for Structured Data](https://sdaiaacademy.github.io/en/courses/DS-404.md): Level 400 · Evaluate, 26 h, Available
-- [DS-405 · Data Preparation at Scale: Contracts, Synthetic Data and Privacy](https://sdaiaacademy.github.io/en/courses/DS-405.md): Level 400 · Evaluate, 26 h, Available
-- [DS-406 · Measuring the Impact of Data and AI Programmes](https://sdaiaacademy.github.io/en/courses/DS-406.md): Level 400 · Evaluate, 26 h, Available
-- [DS-407 · Leading Analytical Work: Review, Standards and Stakeholders](https://sdaiaacademy.github.io/en/courses/DS-407.md): Level 400 · Evaluate, 21 h, Available
-- [DS-408 · Analytics Products: Semantic Layers and Conversational Analytics](https://sdaiaacademy.github.io/en/courses/DS-408.md): Level 400 · Evaluate, 26 h, Available
-- [USE-FLU-206 · Creating Images, Audio and Video with AI Responsibly](https://sdaiaacademy.github.io/en/courses/USE-FLU-206.md): Level 200 · Apply, 8 h, In development
-- [USE-FLU-302 · Team Build-and-Own Studio: One Application for One Entity](https://sdaiaacademy.github.io/en/courses/USE-FLU-302.md): Level 300 · Develop, 40 h, In development
-- [USE-EDU-204 · Designing AI Tutors and Course Assistants](https://sdaiaacademy.github.io/en/courses/USE-EDU-204.md): Level 200 · Apply, 12 h, In development
-- [USE-SEC-204 · AI in Education Systems](https://sdaiaacademy.github.io/en/courses/USE-SEC-204.md): Level 200 · Apply, 16 h, In development
-- [USE-SEC-206 · AI in Financial Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-206.md): Level 200 · Apply, 16 h, In development
-- [USE-SEC-209 · AI in Manufacturing and Industry](https://sdaiaacademy.github.io/en/courses/USE-SEC-209.md): Level 200 · Apply, 16 h, In development
-- [LDS-EXE-301 · AI in Public Policy and Public Service Delivery](https://sdaiaacademy.github.io/en/courses/LDS-EXE-301.md): Level 300 · Develop, 25 h, In development
-- [LDS-EXE-302 · Assessing and Certifying Skills in the AI Era](https://sdaiaacademy.github.io/en/courses/LDS-EXE-302.md): Level 300 · Develop, 8 h, In development
-- [LDS-EXE-401 · Leading the Enterprise AI Office](https://sdaiaacademy.github.io/en/courses/LDS-EXE-401.md): Level 400 · Evaluate, 60 h, In development
-- [LDS-EXE-402 · Leading the Enterprise Data Office](https://sdaiaacademy.github.io/en/courses/LDS-EXE-402.md): Level 400 · Evaluate, 60 h, In development
-- [LDS-PRD-301 · Responsible AI by Design for Product Teams](https://sdaiaacademy.github.io/en/courses/LDS-PRD-301.md): Level 300 · Develop, 12 h, In development
-- [LDS-ADV-301 · Data Products, Valuation and Monetisation](https://sdaiaacademy.github.io/en/courses/LDS-ADV-301.md): Level 300 · Develop, 30 h, In development
-- [LDS-AIG-301 · Assessing Models and Systems: Fairness, Robustness and Safety Evidence](https://sdaiaacademy.github.io/en/courses/LDS-AIG-301.md): Level 300 · Develop, 30 h, In development
-- [LDS-AIG-302 · Generative AI and Agent Controls Laboratory](https://sdaiaacademy.github.io/en/courses/LDS-AIG-302.md): Level 300 · Develop, 24 h, In development
-- [LDS-AIG-304 · AI Management Systems and Internal Audit](https://sdaiaacademy.github.io/en/courses/LDS-AIG-304.md): Level 300 · Develop, 24 h, In development
-- [LDS-AIG-305 · AI Incident Response and Compliance Monitoring](https://sdaiaacademy.github.io/en/courses/LDS-AIG-305.md): Level 300 · Develop, 12 h, In development
-- [LDS-AIG-306 · Privacy, Intellectual Property and Content Provenance in AI](https://sdaiaacademy.github.io/en/courses/LDS-AIG-306.md): Level 300 · Develop, 12 h, In development
-- [LDS-AIG-307 · Human Oversight and Ethics Review Design](https://sdaiaacademy.github.io/en/courses/LDS-AIG-307.md): Level 300 · Develop, 12 h, In development
-- [LDS-AIG-401 · Designing and Running an AI Governance Programme](https://sdaiaacademy.github.io/en/courses/LDS-AIG-401.md): Level 400 · Evaluate, 40 h, In development
-- [LDS-DMG-201 · Data Governance Operating Model and Stewardship](https://sdaiaacademy.github.io/en/courses/LDS-DMG-201.md): Level 200 · Apply, 24 h, In development
-- [LDS-DMG-301 · Governing Data for AI: Training, Retrieval and Agent Access](https://sdaiaacademy.github.io/en/courses/LDS-DMG-301.md): Level 300 · Develop, 16 h, In development
-- [LDS-DMG-302 · Drafting Data and AI Policies and Standards](https://sdaiaacademy.github.io/en/courses/LDS-DMG-302.md): Level 300 · Develop, 12 h, In development
-- [FND-PRG-101 · Python Programming for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-PRG-101.md): Level 100 · Explain, 60 h, In development
-- [FND-PRG-102 · Command Line, Git and Reproducible Environments](https://sdaiaacademy.github.io/en/courses/FND-PRG-102.md): Level 100 · Explain, 24 h, In development
-- [FND-PRG-103 · Data Structures, Algorithms and Complexity](https://sdaiaacademy.github.io/en/courses/FND-PRG-103.md): Level 100 · Explain, 60 h, In development
-- [FND-PRG-104 · Software Testing, Code Review and Documentation](https://sdaiaacademy.github.io/en/courses/FND-PRG-104.md): Level 100 · Explain, 30 h, In development
-- [FND-PRG-105 · Computer Systems and Cloud Essentials for AI Work](https://sdaiaacademy.github.io/en/courses/FND-PRG-105.md): Level 100 · Explain, 30 h, In development
-- [FND-PRG-106 · Code Reading and Debugging without Assistance](https://sdaiaacademy.github.io/en/courses/FND-PRG-106.md): Level 100 · Explain, 12 h, In development
-- [FND-MTH-101 · Linear Algebra for Machine Learning](https://sdaiaacademy.github.io/en/courses/FND-MTH-101.md): Level 100 · Explain, 45 h, In development
-- [FND-MTH-102 · Calculus and Optimisation for Machine Learning](https://sdaiaacademy.github.io/en/courses/FND-MTH-102.md): Level 100 · Explain, 45 h, In development
-- [FND-MTH-103 · Probability for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-MTH-103.md): Level 100 · Explain, 45 h, In development
-- [FND-MTH-104 · Statistics by Simulation: Variation, Estimation and Testing](https://sdaiaacademy.github.io/en/courses/FND-MTH-104.md): Level 100 · Explain, 45 h, In development
-- [FND-MTH-105 · Discrete Mathematics and Logic for Computing](https://sdaiaacademy.github.io/en/courses/FND-MTH-105.md): Level 100 · Explain, 40 h, In development
-- [FND-DAT-101 · SQL and Relational Data](https://sdaiaacademy.github.io/en/courses/FND-DAT-101.md): Level 100 · Explain, 30 h, In development
-- [FND-DAT-102 · Data Wrangling with DataFrames](https://sdaiaacademy.github.io/en/courses/FND-DAT-102.md): Level 100 · Explain, 30 h, In development
-- [FND-DAT-103 · Data Formats, Interfaces and Quality Checks](https://sdaiaacademy.github.io/en/courses/FND-DAT-103.md): Level 100 · Explain, 16 h, In development
-- [FND-AIC-101 · How Machine Learning Works](https://sdaiaacademy.github.io/en/courses/FND-AIC-101.md): Level 100 · Explain, 30 h, In development
-- [FND-AIC-102 · How Language Models Work](https://sdaiaacademy.github.io/en/courses/FND-AIC-102.md): Level 100 · Explain, 16 h, In development
-- [FND-AIC-103 · Reading AI Evidence: Benchmarks, Claims and Statistics](https://sdaiaacademy.github.io/en/courses/FND-AIC-103.md): Level 100 · Explain, 8 h, In development
-- [FND-AIC-104 · Responsible Data and AI Practice for Builders](https://sdaiaacademy.github.io/en/courses/FND-AIC-104.md): Level 100 · Explain, 12 h, In development
-- [FND-AIC-105 · Classical AI: Search, Planning and Knowledge Representation](https://sdaiaacademy.github.io/en/courses/FND-AIC-105.md): Level 100 · Explain, 30 h, In development
-- [FND-AIC-106 · Technical Writing for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FND-AIC-106.md): Level 100 · Explain, 12 h, In development
-- [DEV-SWE-201 · Software Engineering with Coding Agents](https://sdaiaacademy.github.io/en/courses/DEV-SWE-201.md): Level 200 · Apply, 36 h, In development
-- [DEV-SWE-202 · Back-End Services and Interfaces for AI Applications](https://sdaiaacademy.github.io/en/courses/DEV-SWE-202.md): Level 200 · Apply, 30 h, In development
-- [DEV-SWE-203 · Front Ends for AI Applications: Streaming, Chat and Generative Interfaces](https://sdaiaacademy.github.io/en/courses/DEV-SWE-203.md): Level 200 · Apply, 16 h, In development
-- [DEV-SWE-204 · Testing and Verification of AI-Assisted Code](https://sdaiaacademy.github.io/en/courses/DEV-SWE-204.md): Level 200 · Apply, 16 h, In development
-- [DEV-SWE-301 · System Design for AI Products](https://sdaiaacademy.github.io/en/courses/DEV-SWE-301.md): Level 300 · Develop, 30 h, In development
-- [DEV-SWE-302 · Agent-Ready Engineering Organisations: Parallel Agents, Review and Governance](https://sdaiaacademy.github.io/en/courses/DEV-SWE-302.md): Level 300 · Develop, 16 h, In development
-- [DEV-SWE-303 · Shaping the Build: Product Sense and Forward-Deployed Practice](https://sdaiaacademy.github.io/en/courses/DEV-SWE-303.md): Level 300 · Develop, 16 h, In development
-- [DEV-LLM-201 · Building Applications on Language Models](https://sdaiaacademy.github.io/en/courses/DEV-LLM-201.md): Level 200 · Apply, 36 h, In development
-- [DEV-LLM-202 · Applied Natural Language Processing Engineering](https://sdaiaacademy.github.io/en/courses/DEV-LLM-202.md): Level 200 · Apply, 30 h, In development
-- [DEV-LLM-203 · Retrieval and Knowledge Engineering for Language Model Systems](https://sdaiaacademy.github.io/en/courses/DEV-LLM-203.md): Level 200 · Apply, 36 h, In development
-- [DEV-LLM-204 · Document Intelligence: Parsing, Extraction and Multimodal Retrieval](https://sdaiaacademy.github.io/en/courses/DEV-LLM-204.md): Level 200 · Apply, 16 h, In development
-- [DEV-LLM-205 · Voice and Conversational Applications](https://sdaiaacademy.github.io/en/courses/DEV-LLM-205.md): Level 200 · Apply, 16 h, In development
-- [DEV-LLM-301 · Model Adaptation for Applications: Fine-Tuning, Distillation and Small Models](https://sdaiaacademy.github.io/en/courses/DEV-LLM-301.md): Level 300 · Develop, 36 h, In development
-- [DEV-LLM-302 · Arabic and Multilingual Language Applications](https://sdaiaacademy.github.io/en/courses/DEV-LLM-302.md): Level 300 · Develop, 30 h, In development
-- [DEV-LLM-303 · Model Choice, Routing and Inference Economics](https://sdaiaacademy.github.io/en/courses/DEV-LLM-303.md): Level 300 · Develop, 12 h, In development
-- [DEV-AGT-301 · Agentic Systems Engineering: Loops, Context and Harnesses](https://sdaiaacademy.github.io/en/courses/DEV-AGT-301.md): Level 300 · Develop, 40 h, In development
-- [DEV-AGT-302 · Protocol Servers and Agent Integrations](https://sdaiaacademy.github.io/en/courses/DEV-AGT-302.md): Level 300 · Develop, 16 h, In development
-- [DEV-AGT-303 · Computer-Use and Browser Agents](https://sdaiaacademy.github.io/en/courses/DEV-AGT-303.md): Level 300 · Develop, 16 h, In development
-- [DEV-AGT-401 · Harness Engineering for Long-Running and Multi-Agent Systems](https://sdaiaacademy.github.io/en/courses/DEV-AGT-401.md): Level 400 · Evaluate, 36 h, In development
-- [DEV-AGT-402 · Agent Platforms: Sandboxes, Durable Execution and Identity](https://sdaiaacademy.github.io/en/courses/DEV-AGT-402.md): Level 400 · Evaluate, 30 h, In development
-- [DEV-AGT-403 · Agent System Design Reviews](https://sdaiaacademy.github.io/en/courses/DEV-AGT-403.md): Level 400 · Evaluate, 30 h, In development
-- [DEV-EVL-301 · Evaluation-Driven Development for Language Model Applications](https://sdaiaacademy.github.io/en/courses/DEV-EVL-301.md): Level 300 · Develop, 28 h, In development
-- [DEV-EVL-302 · Evaluating Agents: Trajectories, Simulation and Consistency](https://sdaiaacademy.github.io/en/courses/DEV-EVL-302.md): Level 300 · Develop, 16 h, In development
-- [DEV-EVL-303 · Evaluating Retrieval and Grounded Generation](https://sdaiaacademy.github.io/en/courses/DEV-EVL-303.md): Level 300 · Develop, 12 h, In development
-- [DEV-EVL-304 · Annotation, Golden Data and Human Review Operations](https://sdaiaacademy.github.io/en/courses/DEV-EVL-304.md): Level 300 · Develop, 16 h, In development
-- [DEV-EVL-401 · Evaluation Programmes and Release Gates](https://sdaiaacademy.github.io/en/courses/DEV-EVL-401.md): Level 400 · Evaluate, 30 h, In development
-- [DEV-MLE-201 · Machine Learning Engineering: Baselines, Validation and Pipelines](https://sdaiaacademy.github.io/en/courses/DEV-MLE-201.md): Level 200 · Apply, 36 h, In development
-- [DEV-MLE-202 · Deep Learning Engineering](https://sdaiaacademy.github.io/en/courses/DEV-MLE-202.md): Level 200 · Apply, 36 h, In development
-- [DEV-MLE-203 · Feature, Training-Data and Labelling Pipelines](https://sdaiaacademy.github.io/en/courses/DEV-MLE-203.md): Level 200 · Apply, 16 h, In development
-- [DEV-MLE-301 · Computer Vision Engineering](https://sdaiaacademy.github.io/en/courses/DEV-MLE-301.md): Level 300 · Develop, 36 h, In development
-- [DEV-MLE-302 · Speech and Audio Systems Engineering](https://sdaiaacademy.github.io/en/courses/DEV-MLE-302.md): Level 300 · Develop, 30 h, In development
-- [DEV-MLE-303 · Recommender and Ranking Systems Engineering](https://sdaiaacademy.github.io/en/courses/DEV-MLE-303.md): Level 300 · Develop, 30 h, In development
-- [DEV-MLE-304 · Multimodal Systems Engineering](https://sdaiaacademy.github.io/en/courses/DEV-MLE-304.md): Level 300 · Develop, 16 h, In development
-- [DEV-MLE-305 · Geospatial and Earth-Observation AI Engineering](https://sdaiaacademy.github.io/en/courses/DEV-MLE-305.md): Level 300 · Develop, 16 h, In development
-- [DEV-MLE-306 · Forecasting Systems in Production](https://sdaiaacademy.github.io/en/courses/DEV-MLE-306.md): Level 300 · Develop, 16 h, In development
-- [DEV-OPS-201 · Deploying AI Services: Containers, Serving and Monitoring](https://sdaiaacademy.github.io/en/courses/DEV-OPS-201.md): Level 200 · Apply, 30 h, In development
-- [DEV-OPS-301 · Machine Learning Operations: Pipelines, Registries and Delivery](https://sdaiaacademy.github.io/en/courses/DEV-OPS-301.md): Level 300 · Develop, 36 h, In development
-- [DEV-OPS-302 · Operating Language Model Applications: Tracing, Evaluation Gates and Safe Releases](https://sdaiaacademy.github.io/en/courses/DEV-OPS-302.md): Level 300 · Develop, 36 h, In development
-- [DEV-OPS-303 · Operating AI Agents: Durable Execution, Sandboxing and Replay](https://sdaiaacademy.github.io/en/courses/DEV-OPS-303.md): Level 300 · Develop, 16 h, In development
-- [DEV-OPS-304 · AI Cost Engineering: Gateways, Routing, Caching and Unit Economics](https://sdaiaacademy.github.io/en/courses/DEV-OPS-304.md): Level 300 · Develop, 16 h, In development
-- [DEV-OPS-401 · Reliability Engineering for AI Services](https://sdaiaacademy.github.io/en/courses/DEV-OPS-401.md): Level 400 · Evaluate, 36 h, In development
-- [DEV-INF-201 · Machine Learning Systems on One Machine](https://sdaiaacademy.github.io/en/courses/DEV-INF-201.md): Level 200 · Apply, 36 h, In development
-- [DEV-INF-301 · Container Orchestration for AI Workloads: Accelerators, Scheduling and Autoscaling](https://sdaiaacademy.github.io/en/courses/DEV-INF-301.md): Level 300 · Develop, 36 h, In development
-- [DEV-INF-302 · AI Infrastructure and Capacity Planning](https://sdaiaacademy.github.io/en/courses/DEV-INF-302.md): Level 300 · Develop, 16 h, In development
-- [DEV-INF-303 · Edge and On-Device AI: Small Models and Neural Processors](https://sdaiaacademy.github.io/en/courses/DEV-INF-303.md): Level 300 · Develop, 30 h, In development
-- [DEV-INF-304 · Embedded Machine Learning on Microcontrollers](https://sdaiaacademy.github.io/en/courses/DEV-INF-304.md): Level 300 · Develop, 16 h, In development
-- [DEV-INF-401 · Inference Performance and Cost Engineering](https://sdaiaacademy.github.io/en/courses/DEV-INF-401.md): Level 400 · Evaluate, 40 h, In development
-- [DEV-INF-402 · Scaling Machine Learning Systems: Distributed Training and Fleets](https://sdaiaacademy.github.io/en/courses/DEV-INF-402.md): Level 400 · Evaluate, 36 h, In development
-- [DEV-INF-403 · Designing an Internal AI Platform](https://sdaiaacademy.github.io/en/courses/DEV-INF-403.md): Level 400 · Evaluate, 40 h, In development
-- [DEV-INF-404 · AI Solution Architecture and Decision Records](https://sdaiaacademy.github.io/en/courses/DEV-INF-404.md): Level 400 · Evaluate, 36 h, In development
-- [DEV-INF-405 · Regulated and Sovereign Deployment Architecture](https://sdaiaacademy.github.io/en/courses/DEV-INF-405.md): Level 400 · Evaluate, 16 h, In development
-- [DEV-DAT-201 · Modern Data Engineering](https://sdaiaacademy.github.io/en/courses/DEV-DAT-201.md): Level 200 · Apply, 36 h, In development
-- [DEV-DAT-202 · Analytics Engineering and Semantic Layers](https://sdaiaacademy.github.io/en/courses/DEV-DAT-202.md): Level 200 · Apply, 30 h, In development
-- [DEV-DAT-203 · Streaming and Change Data Capture](https://sdaiaacademy.github.io/en/courses/DEV-DAT-203.md): Level 200 · Apply, 30 h, In development
-- [DEV-DAT-204 · Data Quality, Contracts and Observability](https://sdaiaacademy.github.io/en/courses/DEV-DAT-204.md): Level 200 · Apply, 24 h, In development
-- [DEV-DAT-301 · Data Modelling: Conceptual to Semantic](https://sdaiaacademy.github.io/en/courses/DEV-DAT-301.md): Level 300 · Develop, 30 h, In development
-- [DEV-DAT-302 · Data Infrastructure for AI](https://sdaiaacademy.github.io/en/courses/DEV-DAT-302.md): Level 300 · Develop, 36 h, In development
-- [DEV-DAT-303 · Data Platform Operations: Reliability, Security and Cost](https://sdaiaacademy.github.io/en/courses/DEV-DAT-303.md): Level 300 · Develop, 30 h, In development
-- [DEV-DAT-304 · Knowledge Graphs and Ontology Engineering](https://sdaiaacademy.github.io/en/courses/DEV-DAT-304.md): Level 300 · Develop, 16 h, In development
-- [DEV-DAT-401 · Data Architecture](https://sdaiaacademy.github.io/en/courses/DEV-DAT-401.md): Level 400 · Evaluate, 36 h, In development
-- [DEV-SEC-201 · Secure Development of AI Applications](https://sdaiaacademy.github.io/en/courses/DEV-SEC-201.md): Level 200 · Apply, 16 h, In development
-- [DEV-SEC-301 · Securing Language Model and Agent Applications](https://sdaiaacademy.github.io/en/courses/DEV-SEC-301.md): Level 300 · Develop, 36 h, In development
-- [DEV-SEC-302 · AI Red Teaming and Adversarial Testing](https://sdaiaacademy.github.io/en/courses/DEV-SEC-302.md): Level 300 · Develop, 30 h, In development
-- [DEV-SEC-303 · Privacy Engineering and Privacy-Enhancing Technologies](https://sdaiaacademy.github.io/en/courses/DEV-SEC-303.md): Level 300 · Develop, 30 h, In development
-- [DEV-SEC-304 · AI Supply Chain Security: Signing, Bills of Materials and Provenance](https://sdaiaacademy.github.io/en/courses/DEV-SEC-304.md): Level 300 · Develop, 12 h, In development
-- [DEV-SEC-305 · AI for Security Operations](https://sdaiaacademy.github.io/en/courses/DEV-SEC-305.md): Level 300 · Develop, 16 h, In development
-- [DEV-SEC-401 · Security Architecture for AI Platforms](https://sdaiaacademy.github.io/en/courses/DEV-SEC-401.md): Level 400 · Evaluate, 24 h, In development
-- [DEV-PHY-201 · Sensors, Perception and Compute for Physical AI](https://sdaiaacademy.github.io/en/courses/DEV-PHY-201.md): Level 200 · Apply, 16 h, In development
-- [DEV-PHY-301 · Simulation and Digital Twins for AI Systems](https://sdaiaacademy.github.io/en/courses/DEV-PHY-301.md): Level 300 · Develop, 30 h, In development
-- [DEV-PHY-302 · Robot Learning Systems: Data, Policies and Deployment](https://sdaiaacademy.github.io/en/courses/DEV-PHY-302.md): Level 300 · Develop, 36 h, In development
-- [DEV-PHY-401 · Safety Engineering for Autonomous Systems](https://sdaiaacademy.github.io/en/courses/DEV-PHY-401.md): Level 400 · Evaluate, 16 h, In development
-- [DEV-PRJ-301 · AI Engineering Practicum](https://sdaiaacademy.github.io/en/courses/DEV-PRJ-301.md): Level 300 · Develop, 100 h, In development
-- [DEV-PRJ-401 · AI Systems Capstone: Production Readiness Review](https://sdaiaacademy.github.io/en/courses/DEV-PRJ-401.md): Level 400 · Evaluate, 60 h, In development
-- [AE-390 · AI Engineering Practicum](https://sdaiaacademy.github.io/en/courses/AE-390.md): Level 300 · Develop, 100 h, In development
-- [AE-490 · AI Systems Capstone: Production Readiness Review](https://sdaiaacademy.github.io/en/courses/AE-490.md): Level 400 · Evaluate, 60 h, In development
-- [SPC-ANL-201 · Exploratory Analysis and Visualisation](https://sdaiaacademy.github.io/en/courses/SPC-ANL-201.md): Level 200 · Apply, 30 h, In development
-- [SPC-ANL-202 · Analysis with AI Assistants: Delegate, Verify, Reproduce](https://sdaiaacademy.github.io/en/courses/SPC-ANL-202.md): Level 200 · Apply, 16 h, In development
-- [SPC-ANL-203 · Metrics, Semantic Models and Dashboards](https://sdaiaacademy.github.io/en/courses/SPC-ANL-203.md): Level 200 · Apply, 30 h, In development
-- [SPC-ANL-204 · Data Acquisition, Preparation and Quality for Analysis](https://sdaiaacademy.github.io/en/courses/SPC-ANL-204.md): Level 200 · Apply, 30 h, In development
-- [SPC-ANL-301 · Data Storytelling and Decision Briefings](https://sdaiaacademy.github.io/en/courses/SPC-ANL-301.md): Level 300 · Develop, 24 h, In development
-- [SPC-ANL-302 · Geospatial Analytics](https://sdaiaacademy.github.io/en/courses/SPC-ANL-302.md): Level 300 · Develop, 16 h, In development
-- [SPC-ANL-303 · Business Intelligence Platform Practice: Governance, Performance and Enablement](https://sdaiaacademy.github.io/en/courses/SPC-ANL-303.md): Level 300 · Develop, 16 h, In development
-- [SPC-STA-201 · Statistical Inference by Simulation](https://sdaiaacademy.github.io/en/courses/SPC-STA-201.md): Level 200 · Apply, 36 h, In development
-- [SPC-STA-301 · Regression and Generalised Linear Modelling](https://sdaiaacademy.github.io/en/courses/SPC-STA-301.md): Level 300 · Develop, 36 h, In development
-- [SPC-STA-302 · Survey, Sampling and Measurement Design](https://sdaiaacademy.github.io/en/courses/SPC-STA-302.md): Level 300 · Develop, 16 h, In development
-- [SPC-STA-401 · Bayesian Modelling and Decisions under Uncertainty](https://sdaiaacademy.github.io/en/courses/SPC-STA-401.md): Level 400 · Evaluate, 60 h, In development
-- [SPC-EXP-201 · Designing and Reading Experiments](https://sdaiaacademy.github.io/en/courses/SPC-EXP-201.md): Level 200 · Apply, 16 h, In development
-- [SPC-EXP-301 · Online Experiments at Scale](https://sdaiaacademy.github.io/en/courses/SPC-EXP-301.md): Level 300 · Develop, 30 h, In development
-- [SPC-EXP-302 · Causal Inference from Observational Data](https://sdaiaacademy.github.io/en/courses/SPC-EXP-302.md): Level 300 · Develop, 36 h, In development
-- [SPC-EXP-303 · Measuring the Impact of AI Deployments](https://sdaiaacademy.github.io/en/courses/SPC-EXP-303.md): Level 300 · Develop, 16 h, In development
-- [SPC-EXP-401 · Causal Machine Learning and Policy Evaluation](https://sdaiaacademy.github.io/en/courses/SPC-EXP-401.md): Level 400 · Evaluate, 36 h, In development
-- [SPC-EXP-402 · Statistical Evaluation of AI Systems](https://sdaiaacademy.github.io/en/courses/SPC-EXP-402.md): Level 400 · Evaluate, 30 h, In development
-- [SPC-MOD-201 · Machine Learning for Tabular Data: Baselines and Validation](https://sdaiaacademy.github.io/en/courses/SPC-MOD-201.md): Level 200 · Apply, 36 h, In development
-- [SPC-MOD-301 · Uncertainty, Interpretability and Model Validation](https://sdaiaacademy.github.io/en/courses/SPC-MOD-301.md): Level 300 · Develop, 30 h, In development
-- [SPC-MOD-302 · Forecasting and Time Series](https://sdaiaacademy.github.io/en/courses/SPC-MOD-302.md): Level 300 · Develop, 36 h, In development
-- [SPC-MOD-303 · Text and Unstructured Data for Data Science](https://sdaiaacademy.github.io/en/courses/SPC-MOD-303.md): Level 300 · Develop, 30 h, In development
-- [SPC-MOD-304 · Optimisation and Operations Research for Decisions](https://sdaiaacademy.github.io/en/courses/SPC-MOD-304.md): Level 300 · Develop, 36 h, In development
-- [SPC-MOD-305 · Clustering, Anomaly Detection and Dimensionality Reduction](https://sdaiaacademy.github.io/en/courses/SPC-MOD-305.md): Level 300 · Develop, 16 h, In development
-- [SPC-MOD-306 · Responsible Data Science: Privacy, Fairness and Documentation](https://sdaiaacademy.github.io/en/courses/SPC-MOD-306.md): Level 300 · Develop, 24 h, In development
-- [SPC-MOD-307 · Problem Framing, Product Sense and Analytical Review](https://sdaiaacademy.github.io/en/courses/SPC-MOD-307.md): Level 300 · Develop, 16 h, In development
-- [SPC-MOD-308 · Graph, Network and Relational Data Analysis](https://sdaiaacademy.github.io/en/courses/SPC-MOD-308.md): Level 300 · Develop, 16 h, In development
-- [SPC-MOD-401 · Foundation Models for Structured Data](https://sdaiaacademy.github.io/en/courses/SPC-MOD-401.md): Level 400 · Evaluate, 16 h, In development
-- [SPC-MOD-402 · Simulation and Agent-Based Modelling](https://sdaiaacademy.github.io/en/courses/SPC-MOD-402.md): Level 400 · Evaluate, 16 h, In development
-- [SPC-DLR-301 · Mathematics for Model Builders](https://sdaiaacademy.github.io/en/courses/SPC-DLR-301.md): Level 300 · Develop, 45 h, In development
-- [SPC-DLR-302 · Deep Learning from First Principles](https://sdaiaacademy.github.io/en/courses/SPC-DLR-302.md): Level 300 · Develop, 80 h, In development
-- [SPC-DLR-303 · Building a Language Model from Scratch](https://sdaiaacademy.github.io/en/courses/SPC-DLR-303.md): Level 300 · Develop, 80 h, In development
-- [SPC-DLR-304 · Training Systems for Large Models](https://sdaiaacademy.github.io/en/courses/SPC-DLR-304.md): Level 300 · Develop, 60 h, In development
-- [SPC-DLR-305 · Data and Scaling for Foundation Models](https://sdaiaacademy.github.io/en/courses/SPC-DLR-305.md): Level 300 · Develop, 40 h, In development
-- [SPC-DLR-306 · Post-Training I: Fine-Tuning, Preference Optimisation and Distillation](https://sdaiaacademy.github.io/en/courses/SPC-DLR-306.md): Level 300 · Develop, 60 h, In development
-- [SPC-DLR-401 · Post-Training II: Reinforcement Learning for Language Models](https://sdaiaacademy.github.io/en/courses/SPC-DLR-401.md): Level 400 · Evaluate, 60 h, In development
-- [SPC-DLR-402 · Efficient Deep Learning: Compression, Quantisation and Long Context](https://sdaiaacademy.github.io/en/courses/SPC-DLR-402.md): Level 400 · Evaluate, 60 h, In development
-- [SPC-GEN-301 · Diffusion and Flow Matching from Scratch](https://sdaiaacademy.github.io/en/courses/SPC-GEN-301.md): Level 300 · Develop, 60 h, In development
-- [SPC-GEN-302 · Vision and Multimodal Foundation Models](https://sdaiaacademy.github.io/en/courses/SPC-GEN-302.md): Level 300 · Develop, 60 h, In development
-- [SPC-GEN-303 · Speech and Arabic Language Modelling](https://sdaiaacademy.github.io/en/courses/SPC-GEN-303.md): Level 300 · Develop, 60 h, In development
-- [SPC-GEN-304 · Reinforcement Learning and Decision Making](https://sdaiaacademy.github.io/en/courses/SPC-GEN-304.md): Level 300 · Develop, 80 h, In development
-- [SPC-GEN-401 · Robot Learning and Vision-Language-Action Models](https://sdaiaacademy.github.io/en/courses/SPC-GEN-401.md): Level 400 · Evaluate, 60 h, In development
-- [SPC-GEN-402 · World Models, Video and 3D Generation](https://sdaiaacademy.github.io/en/courses/SPC-GEN-402.md): Level 400 · Evaluate, 30 h, In development
-- [SPC-TRU-301 · Evaluation Science for AI Models](https://sdaiaacademy.github.io/en/courses/SPC-TRU-301.md): Level 300 · Develop, 40 h, In development
-- [SPC-TRU-302 · Interpretability of Neural Networks](https://sdaiaacademy.github.io/en/courses/SPC-TRU-302.md): Level 300 · Develop, 60 h, In development
-- [SPC-TRU-303 · AI Safety and Alignment Engineering](https://sdaiaacademy.github.io/en/courses/SPC-TRU-303.md): Level 300 · Develop, 60 h, In development
-- [SPC-TRU-304 · Trustworthy Machine Learning: Robustness, Privacy and Fairness](https://sdaiaacademy.github.io/en/courses/SPC-TRU-304.md): Level 300 · Develop, 60 h, In development
-- [SPC-RSP-101 · Emerging Computing Paradigms for AI](https://sdaiaacademy.github.io/en/courses/SPC-RSP-101.md): Level 100 · Explain, 12 h, In development
-- [SPC-RSP-301 · Research Practice Studio](https://sdaiaacademy.github.io/en/courses/SPC-RSP-301.md): Level 300 · Develop, 60 h, In development
-- [SPC-RSP-302 · Data Science Practicum](https://sdaiaacademy.github.io/en/courses/SPC-RSP-302.md): Level 300 · Develop, 100 h, In development
-- [SPC-RSP-401 · Reproduction Capstone: Reproduce and Extend a Published Result](https://sdaiaacademy.github.io/en/courses/SPC-RSP-401.md): Level 400 · Evaluate, 100 h, In development
-- [SPC-RSP-402 · Frontier Seminar: Agent Research and Multi-Agent Systems](https://sdaiaacademy.github.io/en/courses/SPC-RSP-402.md): Level 400 · Evaluate, 24 h, In development
-- [SPC-RSP-403 · Frontier Seminar: AI for Science](https://sdaiaacademy.github.io/en/courses/SPC-RSP-403.md): Level 400 · Evaluate, 24 h, In development
-- [SPC-RSP-404 · Frontier Seminar: Neurosymbolic Methods and AI for Mathematics](https://sdaiaacademy.github.io/en/courses/SPC-RSP-404.md): Level 400 · Evaluate, 24 h, In development
-- [DS-390 · Data Science Practicum](https://sdaiaacademy.github.io/en/courses/DS-390.md): Level 300 · Develop, 100 h, In development
-- [DS-490 · Data Science Capstone: Defended Analysis](https://sdaiaacademy.github.io/en/courses/DS-490.md): Level 400 · Evaluate, 60 h, In development
+- [Extras: the full catalog, with every track, stream and course](https://sdaiaacademy.github.io/extras/llms.txt)
 
 ## Optional
 

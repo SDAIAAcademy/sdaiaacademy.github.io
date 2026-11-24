@@ -40,7 +40,7 @@ a { color: var(--link); text-underline-offset: .25em; }
 (function () {
   if (!/^https?:$/.test(window.location.protocol)) { return; }
   var path = window.location.pathname;
-  var at = path.search(/\/(en|ar|tracks|courses|paths|plan|path-finder|assets)(\/|$)/);
+  var at = path.search(/\/(en|ar|tracks|courses|paths|extras|plan|path-finder|assets)(\/|$)/);
   var base = at === -1 ? "/" : path.slice(0, at + 1);
   Array.prototype.forEach.call(document.querySelectorAll("a[data-to]"), function (a) {
     a.setAttribute("href", base + a.getAttribute("data-to"));
