@@ -125,6 +125,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-PRD-203 · Human-AI Interaction and Experience Design](https://sdaiaacademy.github.io/en/courses/LDS-PRD-203.md): Level 200 · Apply, 24 h, Available
 - [LDS-PRD-204 · Managing AI Projects and Delivery Teams](https://sdaiaacademy.github.io/en/courses/LDS-PRD-204.md): Level 200 · Apply, 16 h, Available
 - [LDS-PRD-205 · Prototyping AI Products with Coding Agents](https://sdaiaacademy.github.io/en/courses/LDS-PRD-205.md): Level 200 · Apply, 16 h, Available
+- [LDS-PRD-301 · Responsible AI by Design for Product Teams](https://sdaiaacademy.github.io/en/courses/LDS-PRD-301.md): Level 300 · Develop, 12 h, Available
 - [LDS-ADV-201 · AI Use-Case Feasibility and Business Cases](https://sdaiaacademy.github.io/en/courses/LDS-ADV-201.md): Level 200 · Apply, 24 h, Available
 - [LDS-ADV-202 · Data and AI Maturity Assessment and Roadmaps](https://sdaiaacademy.github.io/en/courses/LDS-ADV-202.md): Level 200 · Apply, 16 h, Available
 - [LDS-ADV-302 · Advisory Practice for Data and AI Engagements](https://sdaiaacademy.github.io/en/courses/LDS-ADV-302.md): Level 300 · Develop, 16 h, Available
@@ -213,7 +214,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-EXE-301 · AI in Public Policy and Public Service Delivery](https://sdaiaacademy.github.io/en/courses/LDS-EXE-301.md): Level 300 · Develop, 25 h, In development
 - [LDS-EXE-401 · Leading the Enterprise AI Office](https://sdaiaacademy.github.io/en/courses/LDS-EXE-401.md): Level 400 · Evaluate, 60 h, In development
 - [LDS-EXE-402 · Leading the Enterprise Data Office](https://sdaiaacademy.github.io/en/courses/LDS-EXE-402.md): Level 400 · Evaluate, 60 h, In development
-- [LDS-PRD-301 · Responsible AI by Design for Product Teams](https://sdaiaacademy.github.io/en/courses/LDS-PRD-301.md): Level 300 · Develop, 12 h, In development
 - [LDS-ADV-301 · Data Products, Valuation and Monetisation](https://sdaiaacademy.github.io/en/courses/LDS-ADV-301.md): Level 300 · Develop, 30 h, In development
 - [LDS-AIG-301 · Assessing Models and Systems: Fairness, Robustness and Safety Evidence](https://sdaiaacademy.github.io/en/courses/LDS-AIG-301.md): Level 300 · Develop, 30 h, In development
 - [LDS-AIG-302 · Generative AI and Agent Controls Laboratory](https://sdaiaacademy.github.io/en/courses/LDS-AIG-302.md): Level 300 · Develop, 24 h, In development

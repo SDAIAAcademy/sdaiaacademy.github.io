@@ -67,7 +67,7 @@ In the order their prerequisites suggest.
 
 ### 6. [LDS-PRD-301 · Responsible AI by Design for Product Teams](../courses/LDS-PRD-301.md)
 
-- Level 300 · Develop · Workshop · 12 h · In development
+- Level 300 · Develop · Workshop · 12 h · Available
 - Needs: LDS-PRD-201
 - Analyse harms across affected groups, failure, misuse and scale, ranked by severity, likelihood and reversibility.
 - Draft safeguards as requirements with owners, pass or fail tests and subgroup release slices.

@@ -6,7 +6,10 @@
 - Format: Workshop: one and a half days with a simulated launch review
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-prd-301/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-prd-301/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-prd-301/practice.html
 
 ## Description
 
@@ -27,6 +30,21 @@ By the end, the participant can:
 - [LDS-PRD-201 · AI Product Discovery and Specification](LDS-PRD-201.md)
 - Has worked on an AI feature in a pilot or live service
 - Reads evaluation results broken down by user group
+
+## Format and days
+
+### Day 1: من الأضرار إلى الضوابط والإشعارات
+
+- الأضرار عبر الفئات، وفيها من لا يستخدم المنتج
+- ضوابط الحماية متطلبات لها اختبارات ومالكون
+- الإفصاح والتفسير والتظلم
+
+### Day 2: الإشراف المقيس وقرار الإطلاق
+
+- الإشراف المقيس ومراجعة الإطلاق
+
+### Day 3: الدفاع عن حزمة مراجعة الإطلاق
+
 
 ## Topics
 
