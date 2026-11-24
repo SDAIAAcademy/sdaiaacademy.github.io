@@ -86,6 +86,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [USE-EDU-201 · Teaching and Assessing in the AI Era](https://sdaiaacademy.github.io/en/courses/USE-EDU-201.md): Level 200 · Apply, 16 h, Available
 - [USE-EDU-202 · Delivering the Cross-Disciplinary Data and AI Curriculum](https://sdaiaacademy.github.io/en/courses/USE-EDU-202.md): Level 200 · Apply, 16 h, Available
 - [USE-EDU-203 · AI Literacy for School Teachers](https://sdaiaacademy.github.io/en/courses/USE-EDU-203.md): Level 200 · Apply, 12 h, Available
+- [USE-EDU-204 · Designing AI Tutors and Course Assistants](https://sdaiaacademy.github.io/en/courses/USE-EDU-204.md): Level 200 · Apply, 12 h, Available
 - [USE-PRO-201 · AI for Public Servants and Policy Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-201.md): Level 200 · Apply, 12 h, Available
 - [USE-PRO-202 · AI for Human Resources and Talent Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-202.md): Level 200 · Apply, 12 h, Available
 - [USE-PRO-203 · AI for Finance, Accounting and Audit Work](https://sdaiaacademy.github.io/en/courses/USE-PRO-203.md): Level 200 · Apply, 12 h, Available
@@ -202,7 +203,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [DS-408 · Analytics Products: Semantic Layers and Conversational Analytics](https://sdaiaacademy.github.io/en/courses/DS-408.md): Level 400 · Evaluate, 26 h, Available
 - [USE-FLU-206 · Creating Images, Audio and Video with AI Responsibly](https://sdaiaacademy.github.io/en/courses/USE-FLU-206.md): Level 200 · Apply, 8 h, In development
 - [USE-FLU-302 · Team Build-and-Own Studio: One Application for One Entity](https://sdaiaacademy.github.io/en/courses/USE-FLU-302.md): Level 300 · Develop, 40 h, In development
-- [USE-EDU-204 · Designing AI Tutors and Course Assistants](https://sdaiaacademy.github.io/en/courses/USE-EDU-204.md): Level 200 · Apply, 12 h, In development
 - [USE-SEC-204 · AI in Education Systems](https://sdaiaacademy.github.io/en/courses/USE-SEC-204.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-206 · AI in Financial Services](https://sdaiaacademy.github.io/en/courses/USE-SEC-206.md): Level 200 · Apply, 16 h, In development
 - [USE-SEC-209 · AI in Manufacturing and Industry](https://sdaiaacademy.github.io/en/courses/USE-SEC-209.md): Level 200 · Apply, 16 h, In development

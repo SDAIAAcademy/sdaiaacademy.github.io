@@ -6,7 +6,10 @@
 - Format: Workshop: two half-days with labs, guided pre-work and a tracked pilot
 - Total hours: 12 h
 - Audience: practitioner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/use-edu-204/
+- The whole course in one file: https://sdaiaacademy.github.io/use-edu-204/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/use-edu-204/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - Can supply a course's worked solutions, rubric and practice problems
 - Has written standing instructions for an assistant, or completed USE-FLU-201
+
+## Format and days
+
+### Day 1: من محرك الإجابات إلى المرشد
+
+- مرشد لا محرك إجابات
+- اختبره قبل أن يراه طلبتك
+
+### Day 2: ضوابط الحماية وأدلة الأثر
+
+- تمرين الفرق الحمراء وضوابط الحماية
+- قياس أثر التعلم
+
+### Day 3: مراجعة المرشد المختبَر وخطة التقييم
+
 
 ## Topics
 

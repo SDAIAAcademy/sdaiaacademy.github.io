@@ -65,7 +65,7 @@ In the order their prerequisites suggest.
 
 ### 6. [USE-EDU-204 · Designing AI Tutors and Course Assistants](../courses/USE-EDU-204.md)
 
-- Level 200 · Apply · Workshop · 12 h · In development
+- Level 200 · Apply · Workshop · 12 h · Available
 - Explain what separates a tutor from an answer engine.
 - Configure a hint-only tutor with standing instructions, worked solutions and a rubric.
 - Test the tutor with learner-style questions, including answer-extraction attempts.
