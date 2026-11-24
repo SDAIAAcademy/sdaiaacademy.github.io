@@ -111,7 +111,7 @@ In the order their prerequisites suggest.
 
 ### 10. [LDS-DMG-301 · Governing Data for AI: Training, Retrieval and Agent Access](../courses/LDS-DMG-301.md)
 
-- Level 300 · Develop · Workshop · 16 h · In development
+- Level 300 · Develop · Workshop · 16 h · Available
 - Needs: LDS-DMG-204
 - Classify proposed AI data uses by data class, purpose and hosting as allowed, conditional or prohibited.
 - Test a retrieval assistant for permission leaks and specify the label filter that closes them.

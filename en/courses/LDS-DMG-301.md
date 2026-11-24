@@ -6,7 +6,10 @@
 - Format: Workshop: 2 days with labs on provided AI systems
 - Total hours: 16 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-dmg-301/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-dmg-301/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-dmg-301/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [LDS-DMG-204 · Data Classification in Practice](LDS-DMG-204.md)
 - Explains how an assistant retrieves documents and calls tools (FND-AIC-102 or equivalent)
+
+## Format and days
+
+### Day 1: من الطلب إلى الفهرس
+
+- ما الذي يجوز أن يأخذه الذكاء الاصطناعي
+- الوسوم تسافر إلى الإجابة
+
+### Day 2: الوكلاء والمزوّدون والأدلة
+
+- أقل الصلاحيات لكل أداة
+- المزوّد الخارجي والسجل الذي يبقى
+
+### Day 3: وكيل الرد على المواطنين أمام اللجنة
+
 
 ## Topics
 
