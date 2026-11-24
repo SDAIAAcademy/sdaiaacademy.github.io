@@ -6328,7 +6328,10 @@ By the end, the participant can:
 - Format: Workshop: one and a half days with labs, a mock review board and a tracked follow-up task
 - Total hours: 12 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-307/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-307/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-307/practice.html
 
 ## Description
 
@@ -6348,6 +6351,21 @@ By the end, the participant can:
 
 - [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](https://sdaiaacademy.github.io/en/courses/LDS-AIG-201.md)
 - Describes where people intervene when an AI system recommends or acts
+
+## Format and days
+
+### Day 1: قياس المراجعة البشرية وضبط عتبات الوكيل
+
+- نماذج الإشراف والتحيز للأتمتة
+- الإشراف الشكلي وإعادة تصميم خطوة المراجعة
+- بوابات الموافقة وحق الإيقاف على الوكلاء
+
+### Day 2: قابلية الاعتراض ولجنة مراجعة الأخلاقيات
+
+- قابلية الاعتراض ومراجعة الأخلاقيات
+
+### Day 3: مراجعة التصميم أمام اللجنة ومهمة المتابعة
+
 
 ## Topics
 

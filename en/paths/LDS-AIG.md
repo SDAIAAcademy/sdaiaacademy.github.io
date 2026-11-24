@@ -126,7 +126,7 @@ In the order their prerequisites suggest.
 
 ### 11. [LDS-AIG-307 · Human Oversight and Ethics Review Design](../courses/LDS-AIG-307.md)
 
-- Level 300 · Develop · Workshop · 12 h · In development
+- Level 300 · Develop · Workshop · 12 h · Available
 - Needs: LDS-AIG-201
 - Measure the effectiveness of a human review step with seeded errors and review time.
 - Configure approval thresholds for an agent's actions by impact and reversibility.
