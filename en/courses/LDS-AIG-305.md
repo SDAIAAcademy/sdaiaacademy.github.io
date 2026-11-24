@@ -6,7 +6,10 @@
 - Format: Workshop: one and a half days with labs and a follow-up control test
 - Total hours: 12 h
 - Audience: specialist
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-305/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-305/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-305/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [LDS-AIG-201 · AI Governance Foundations: Principles, Roles and Lifecycle Controls](LDS-AIG-201.md)
 - Reads a log or trace table and filters it by time and identifier
+
+## Format and days
+
+### Day 1: من البلاغ إلى الإشعار
+
+- الحوادث والفرز
+- الأدلة وإعادة بناء الحادثة
+- الإشعار بالتسرب
+
+### Day 2: من المراجعة إلى المراقبة
+
+- التعلم من الحادثة ومراقبة الضوابط
+
+### Day 3: التمرين المراقَب واختبار المتابعة
+
 
 ## Topics
 

@@ -106,7 +106,7 @@ In the order their prerequisites suggest.
 
 ### 9. [LDS-AIG-305 · AI Incident Response and Compliance Monitoring](../courses/LDS-AIG-305.md)
 
-- Level 300 · Develop · Workshop · 12 h · In development
+- Level 300 · Develop · Workshop · 12 h · Available
 - Needs: LDS-AIG-201
 - Classify incident reports by type, harm, severity and failed component.
 - Analyse traces and change records to reconstruct an incident and the controls that failed.

@@ -132,6 +132,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-AIG-204 · AI Risk Management in Practice](https://sdaiaacademy.github.io/en/courses/LDS-AIG-204.md): Level 200 · Apply, 30 h, Available
 - [LDS-AIG-303 · AI Impact Assessment and System Documentation](https://sdaiaacademy.github.io/en/courses/LDS-AIG-303.md): Level 300 · Develop, 16 h, Available
 - [LDS-AIG-304 · AI Management Systems and Internal Audit](https://sdaiaacademy.github.io/en/courses/LDS-AIG-304.md): Level 300 · Develop, 24 h, Available
+- [LDS-AIG-305 · AI Incident Response and Compliance Monitoring](https://sdaiaacademy.github.io/en/courses/LDS-AIG-305.md): Level 300 · Develop, 12 h, Available
 - [LDS-DMG-101 · Data Management Foundations](https://sdaiaacademy.github.io/en/courses/LDS-DMG-101.md): Level 100 · Explain, 24 h, Available
 - [LDS-DMG-202 · Metadata, Catalogues and Lineage](https://sdaiaacademy.github.io/en/courses/LDS-DMG-202.md): Level 200 · Apply, 16 h, Available
 - [LDS-DMG-203 · Data Quality Management](https://sdaiaacademy.github.io/en/courses/LDS-DMG-203.md): Level 200 · Apply, 24 h, Available
@@ -213,7 +214,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-ADV-301 · Data Products, Valuation and Monetisation](https://sdaiaacademy.github.io/en/courses/LDS-ADV-301.md): Level 300 · Develop, 30 h, In development
 - [LDS-AIG-301 · Assessing Models and Systems: Fairness, Robustness and Safety Evidence](https://sdaiaacademy.github.io/en/courses/LDS-AIG-301.md): Level 300 · Develop, 30 h, In development
 - [LDS-AIG-302 · Generative AI and Agent Controls Laboratory](https://sdaiaacademy.github.io/en/courses/LDS-AIG-302.md): Level 300 · Develop, 24 h, In development
-- [LDS-AIG-305 · AI Incident Response and Compliance Monitoring](https://sdaiaacademy.github.io/en/courses/LDS-AIG-305.md): Level 300 · Develop, 12 h, In development
 - [LDS-AIG-306 · Privacy, Intellectual Property and Content Provenance in AI](https://sdaiaacademy.github.io/en/courses/LDS-AIG-306.md): Level 300 · Develop, 12 h, In development
 - [LDS-AIG-307 · Human Oversight and Ethics Review Design](https://sdaiaacademy.github.io/en/courses/LDS-AIG-307.md): Level 300 · Develop, 12 h, In development
 - [LDS-AIG-401 · Designing and Running an AI Governance Programme](https://sdaiaacademy.github.io/en/courses/LDS-AIG-401.md): Level 400 · Evaluate, 40 h, In development
