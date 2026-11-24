@@ -14157,6 +14157,8 @@ By the end, the participant can:
 - Date, lag and history features
 - Pipelines that fit only on training folds
 - Data checks before training
+- Missingness indicators beside imputation
+- Categories unseen in training, with a fixed feature-matrix shape at serving time
 
 ### Model families
 
@@ -14184,6 +14186,8 @@ By the end, the participant can:
 - Calibration
 - Cost-based thresholds
 - Regression metrics
+- From logits to probabilities: sigmoid and softmax before a threshold
+- Monthly forecasting per category: seasonal-naive baseline, time-ordered split and error per category
 
 ### Error analysis and comparison
 
@@ -14294,6 +14298,8 @@ By the end, the participant can:
 - Dropout, weight decay and augmentation
 - Learning curves and early stopping
 - Debugging training
+- Representative shuffling: diagnosing batches ordered by class
+- Multilabel outputs: independent sigmoids with binary cross-entropy against a softmax head
 
 ### Convolutional networks and transfer learning
 
@@ -14301,6 +14307,7 @@ By the end, the participant can:
 - Pretrained backbones
 - Freezing and fine-tuning
 - Evaluating a deep model and checking for near-duplicates
+- Global-average pooling against flattening: counting the parameters of the layer that follows
 
 ### Sequence models and transformers
 
@@ -14426,6 +14433,8 @@ By the end, the participant can:
 - Prompt caching and stable context order
 - Streaming, timeouts and retries
 - Choosing a model per task
+- Telling a reply cut off by the output limit from a request too large for the context window
+- Reusing persistent connections and a connection pool across model calls
 
 ### Prompts as code
 
@@ -14476,6 +14485,9 @@ By the end, the participant can:
 - A web API around the assistant
 - Tests with recorded model responses
 - Configuration and secrets
+- Passing the caller's deadline down a chain of calls and stopping work the caller no longer waits for
+- Answering malformed client requests with a 4xx status, never a 5xx, and saying what the client should fix
+- Finding the proxy or gateway that buffers a streamed reply from first-byte and chunk timings
 
 ---
 
@@ -14722,6 +14734,7 @@ By the end, the participant can:
 - Vulnerability scanning
 - Resource limits
 - Configuration and secrets
+- Settings bound at start-up or read at run time, and diagnosing a change that did not take effect
 
 ### Running on a cluster
 
@@ -14870,6 +14883,7 @@ By the end, the participant can:
 - Gradient accumulation
 - Activation checkpointing
 - Compilation and operator fusion
+- Diagnosing float16 gradient underflow and fixing it with loss scaling
 
 ### Inference
 
@@ -15003,6 +15017,8 @@ By the end, the participant can:
 - Least-privilege tools
 - Human approval for decisions about people
 - Logging for audit without personal data
+- Remediate personal data a tuned model has memorised at the training data (remove, re-tune from a clean base, probe again, record), not only with an output filter
+- Write a sensitive rule in policy, enforce it in code outside the prompt and prove it with a test
 
 ### Fairness and risk management
 
@@ -15019,6 +15035,7 @@ By the end, the participant can:
 - Data-processing terms
 - Data residency
 - Build or buy notes
+- Allocate duties between a model or cloud provider and the customer from the clauses of a contract (shared responsibility)
 
 ### Documentation and communication
 
@@ -15124,6 +15141,7 @@ By the end, the participant can:
 - Full fine-tuning against low-rank and quantised adapters
 - CPU latency, a small API and a demo
 - Model cards with subgroup results
+- Agreement between labellers (kappa) and revising the labelling guideline before training
 
 ---
 
@@ -15208,6 +15226,7 @@ By the end, the participant can:
 - Typed tool schemas and useful tool errors
 - The loop written from scratch
 - Completion criteria and step budgets
+- Disambiguate overlapping tool descriptions and measure tool-routing errors on labelled requests
 
 ### Context and protocols
 
@@ -15215,6 +15234,7 @@ By the end, the participant can:
 - Compaction, offloading and cache-aware layout
 - Context files, skills and memory files
 - Model Context Protocol, current revision; agent-to-agent delegation as a concept
+- Diagnose an answer that ignores evidence in the middle of a long context while retrieval is healthy, with a position ablation
 
 ### Harness and loop
 
@@ -15446,6 +15466,8 @@ By the end, the participant can:
 - Arabic normalisation and light stemming
 - Multilingual embeddings and approximate nearest-neighbour indexes
 - Rank fusion and cross-encoder reranking
+- Query rewriting into the corpus vocabulary when users and documents use different words
+- Re-embedding the whole corpus when the embedding model changes, never mixing vector spaces
 
 ### Preparing a corpus
 
@@ -15563,12 +15585,15 @@ By the end, the participant can:
 - Champion, challenger and subgroup gates
 - Shadow, canary and rollback triggers
 - Knowledge-base refresh and retraining as releases
+- Randomised live comparisons when an offline gain does not transfer
+- Retraining interval: the cost of runs against the loss from a stale model
 
 ### Observation
 
 - Spans for model, retrieval, tool and agent calls
 - Drift, skew and delayed labels
 - Online evaluation, retention and redaction
+- Validation evidence for a model scored in shadow while outcomes arrive late
 
 ### Operating agents
 
@@ -15674,6 +15699,7 @@ By the end, the participant can:
 - Tests, environments and state-aware builds
 - Data contracts in an open standard
 - Verifying agent-written transformations
+- Backward-compatible contract changes: expand, migrate consumers with both fields in parallel, then contract
 
 ### Orchestration, scale and streaming
 
@@ -15913,6 +15939,7 @@ By the end, the participant can:
 - Approval fatigue and where a person adds safety
 - Rate limits, spend caps and a kill switch
 - Action logs and security regression suites
+- Signs of model extraction in service logs, with monitoring and rate controls
 
 ---
 
@@ -16328,6 +16355,7 @@ By the end, the participant can:
 - Batch versus interactive tiers
 - Cost per successful outcome
 - Energy beside money
+- Committed capacity against on-demand hours, with the break-even
 
 ---
 
@@ -16491,6 +16519,7 @@ By the end, the participant can:
 - Profiling where a request's time goes
 - Trace replay and load patterns
 - Pareto curves and benchmark validity
+- Stage timings from the client: when large image uploads dominate latency, resizing on the client
 
 ### Inside the engine
 
@@ -16601,6 +16630,7 @@ By the end, the participant can:
 - Views as code
 - Retrieval, agentic, fine-tuned, classical, batch and event-driven patterns
 - Integration through APIs and events
+- Incremental migration from a legacy system behind a routing facade: route by capability, keep the way back, retire in steps
 
 ### Options and decisions
 
@@ -16615,6 +16645,7 @@ By the end, the participant can:
 - Model admission on evaluation and licence evidence
 - Gateway: credentials, quotas, fallback, tool mediation, audit
 - Tenancy and showback before chargeback
+- Infrastructure declared as code under version control and review, and drift from manual changes
 
 ### Reference designs and reviews
 
@@ -16707,6 +16738,7 @@ By the end, the participant can:
 - Answer quality from sampled online grading
 - Error budgets and release policy
 - Objectives for multi-step tasks
+- Success rate and end-to-end latency of a chain of dependent steps, and the step to improve
 
 ### Capacity under load
 
@@ -21017,6 +21049,8 @@ By the end, the participant can:
 - Population, sample, parameter and statistic
 - Sampling distributions and standard error
 - Skew, outliers and the median
+- Oversampling a rare group and restoring population estimates with design weights
+- Correcting precision and prevalence for the population after classes were sampled unequally
 
 ### Bootstrap intervals
 
@@ -21030,6 +21064,7 @@ By the end, the participant can:
 - Classical tests as approximations
 - What a p-value is and is not
 - Effect size, Type I and Type II errors
+- Regression to the mean after targeting extreme units, and the comparison that removes it
 
 ### Many comparisons
 
@@ -21126,6 +21161,8 @@ By the end, the participant can:
 - Starting from the question
 - Files, databases, APIs and open data
 - Provenance, licences and coverage
+- Complete API retrieval: cursors, counts and completeness checks
+- Retries with bounded backoff, and alerts when an ingestion fails
 
 ### Joining and cleaning
 
@@ -21133,12 +21170,15 @@ By the end, the participant can:
 - Keys, cardinality and reconciliation
 - Matching without a clean key
 - Types, units and dates
+- One reference record from conflicting sources: source precedence and field-by-field survivorship
 
 ### Missing data and measurement error
 
 - Missingness mechanisms
 - Imputation and sensitivity ranges
 - Self-report error and proxies
+- Follow-up of survey nonrespondents and weighting for nonresponse
+- Linking a series across a changed instrument with an overlap period, and when comparability breaks
 
 ### Validation and personal data
 
@@ -21237,6 +21277,7 @@ By the end, the participant can:
 - Scatter plots and overplotting
 - Rates and denominators
 - Change over time and seasonality
+- Choropleth maps coloured by a rate on the exposure (population or base), not by counts that only show where people are
 
 ### Grammar of graphics
 
@@ -21350,6 +21391,7 @@ By the end, the participant can:
 - Constant, rule and linear baselines
 - Boosted trees under a tuning budget
 - Automated and pretrained challengers and licences
+- Segments by unsupervised clustering, and scaling before k-means
 
 ### Validation and leakage
 
@@ -21458,6 +21500,7 @@ By the end, the participant can:
 - Minimum effect of interest
 - Formula and simulation
 - Run time and weekly cycles
+- Non-inferiority tests: a margin fixed in advance and the power to show it
 
 ### Reading a result
 
@@ -21566,6 +21609,7 @@ By the end, the participant can:
 
 - What may go to which assistant
 - Disclosing assistance in a report
+- Screening assistant replies for personal data, with alerts on blocked replies, tested on known cases
 
 ---
 
@@ -21754,6 +21798,8 @@ By the end, the participant can:
 - Links and families
 - Logistic, Poisson and negative binomial models
 - Offsets and exposure
+- Time-to-event data and right-censoring: Kaplan-Meier curves and a first hazard model
+- Log-transformed predictors and reading their coefficients
 
 ### Checking models
 
@@ -21877,6 +21923,7 @@ By the end, the participant can:
 - False discovery rate
 - Cluster and switchback designs
 - Review boards
+- Persistent holdouts for the long-run effect of launched features
 
 ---
 
@@ -22068,6 +22115,7 @@ By the end, the participant can:
 - Rolling-origin cross-validation
 - Scaled errors and pinball loss
 - Leakage across time
+- Retraining schedules and model age
 
 ### Forecasters
 
@@ -22191,6 +22239,7 @@ By the end, the participant can:
 - Subgroup performance as validation evidence
 - Diagnosing degradation
 - Conditions of use and human review
+- Training-serving skew: replaying the same records through both feature paths
 
 ---
 
@@ -22576,6 +22625,7 @@ By the end, the participant can:
 - k-anonymity and its limits
 - Generalisation, suppression and aggregation
 - When de-identified data are still personal data
+- Disclosure by differencing overlapping aggregate releases, and choosing a defence: a differencing audit or noise on one privacy budget
 
 ### Differential privacy basics
 
@@ -22589,6 +22639,7 @@ By the end, the participant can:
 - Intersectional slices and small-group uncertainty
 - Bias types across the lifecycle
 - Mitigation and its cost
+- Feedback loops when inspections follow past predictions: finds per visit against finds per file, and an independent sample drawn by lot
 
 ### Documentation and impact assessment
 
@@ -23329,6 +23380,8 @@ By the end, the participant can:
 - Idempotent, incremental loads
 - Snapshots in open table formats
 - Quality gates and lineage events
+- Partition metadata: registering new data and diagnosing data written but not found
+- Log-based change data capture or a full reload for sources refreshed often
 
 ### Synthetic data
 
