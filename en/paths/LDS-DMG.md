@@ -121,7 +121,7 @@ In the order their prerequisites suggest.
 
 ### 11. [LDS-DMG-302 · Drafting Data and AI Policies and Standards](../courses/LDS-DMG-302.md)
 
-- Level 300 · Develop · Workshop · 12 h · In development
+- Level 300 · Develop · Workshop · 12 h · Available
 - Needs: LDS-DMG-201
 - Classify statements as policy, standard, procedure or guidance, and record gaps and conflicts.
 - Draft testable requirements, each with one obligation, an owner and evidence of compliance.
