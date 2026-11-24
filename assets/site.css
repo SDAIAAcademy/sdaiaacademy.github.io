@@ -335,10 +335,13 @@ html[lang="ar"] .chip { line-height: 1.75; }
 .home-paths { margin-block-start: 2.5rem; }
 .home-flow { list-style: none; margin: 1rem 0 0; padding: 0; display: grid; gap: 2.25rem; grid-template-columns: minmax(0, 1fr); }
 .hf-step { position: relative; display: grid; gap: .9rem; }
-.hf-split { grid-template-columns: repeat(auto-fit, minmax(min(100%, 12rem), 1fr)); }
+/* the two tracks are parallel choices: side by side under Foundations when the flow runs down, one above the other when it runs across */
+.hf-split { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .hf-step + .hf-step::before { content: "↓"; position: absolute; inset-inline: 0; inset-block-start: -2rem; text-align: center; color: var(--muted); font-size: 1.1rem; line-height: 1.75rem; }
 @media (min-width: 52rem) {
-  .home-flow { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1.7fr); gap: 2.25rem; }
+  .home-flow { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.25rem; }
+  .hf-split { grid-template-columns: minmax(0, 1fr); }
+  .hf-step:not(.hf-split) { align-self: center; }
   .hf-step + .hf-step::before { content: "→"; inset-inline: -2.25rem auto; inset-block-start: 50%; inline-size: 2.25rem; transform: translateY(-50%); }
   html[dir="rtl"] .hf-step + .hf-step::before { content: "←"; }
 }
@@ -419,7 +422,7 @@ html[lang="ar"] .chip { line-height: 1.75; }
 .lp-flow { position: relative; display: grid; gap: 1.75rem; }
 .lp-start, .lp-path { min-inline-size: 0; padding: 1.25rem 1.35rem 1.4rem; background: var(--surface-2); border-radius: 16px; scroll-margin-block-start: 1rem; }
 .lp-tracks { display: grid; gap: 1.75rem; grid-template-columns: minmax(0, 1fr); }
-@media (min-width: 60rem) { .lp-tracks { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 44rem) { .lp-tracks { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 .lp-head h2 { margin-block-end: .3rem; }
 .lp-head .section-lead { margin-block-end: .35rem; }
 .lp-head .path-total { margin: 0; font-size: .9375rem; }
@@ -486,6 +489,18 @@ pre { overflow-x: auto; padding: .7rem .9rem; background: var(--surface-2); bord
 .redirect { padding-block: 4rem; }
 .redirect-ar { font-size: 1.25rem; }
 .lang-choice { list-style: none; padding: 0; display: flex; gap: 1rem; }
+
+/* the prompt after Add to plan: prerequisites the plan lacks */
+.plan-pre { inline-size: min(30rem, calc(100vw - 1.5rem)); max-block-size: calc(100vh - 2rem); padding: 1.25rem 1.35rem; border: 1px solid var(--line); border-radius: 16px;
+  background: var(--surface); color: var(--text); }
+.plan-pre::backdrop { background: rgba(10, 16, 24, .55); }
+.plan-pre h2 { margin: 0 0 .4rem; font-size: 1.125rem; line-height: 1.4; }
+.plan-pre-lead { margin: 0 0 .8rem; color: var(--muted); font-size: .9375rem; }
+.plan-pre-list { list-style: none; margin: 0 0 1rem; padding: 0; display: grid; gap: .15rem; }
+.plan-pre-list label { display: grid; grid-template-columns: auto auto minmax(0, 1fr); align-items: baseline; gap: .55rem; padding: .35rem .25rem; border-radius: 8px; cursor: pointer; }
+.plan-pre-list label:hover { background: var(--surface-2); }
+.plan-pre-list .code { font-size: .8rem; }
+.plan-pre-actions { display: flex; flex-wrap: wrap; gap: .6rem; margin: 0; }
 
 /* ------------------------------------------------------------------ 6. the Ask AI dialog */
 .ai-dialog { inline-size: min(40rem, calc(100vw - 1.5rem)); max-block-size: calc(100vh - 2rem); padding: 0; border: 1px solid var(--line); border-radius: 16px;

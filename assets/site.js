@@ -194,6 +194,49 @@
     setPlan(getPlan().filter(function (c) { return c !== code; }));
   }
 
+  /* every course that leads to this one and is not in the plan yet, prerequisites first */
+  function missingBefore(code) {
+    var seen = {}, plan = getPlan();
+    (function walk(c) {
+      ((byCode[c] && byCode[c].p) || []).forEach(function (p) {
+        if (byCode[p] && !seen[p]) { seen[p] = true; walk(p); }
+      });
+    })(code);
+    return pathOrder(Object.keys(seen).filter(function (p) { return plan.indexOf(p) === -1; }));
+  }
+  /* After a course is added: offer its prerequisites that the plan lacks, each one optional. */
+  function askPrerequisites(code, opener) {
+    var missing = missingBefore(code);
+    if (!missing.length || typeof window.HTMLDialogElement !== "function") { return; }
+    var boxes = missing.map(function (p) {
+      var box = el("input", { type: "checkbox", value: p });
+      box.checked = true;
+      return el("li", {}, [el("label", {}, [box, el("span", { cls: "code", dir: "ltr", text: p }), el("span", { text: byCode[p].n })])]);
+    });
+    var addButton = el("button", { type: "submit", cls: "btn btn-primary", value: "add", text: ui("plan.pre_add") });
+    var form = el("form", { method: "dialog" }, [
+      el("h2", { id: "plan-pre-title", text: ui("plan.pre_title", { code: code }) }),
+      el("p", { cls: "plan-pre-lead", text: ui("plan.pre_lead") }),
+      el("ul", { cls: "plan-pre-list" }, boxes),
+      el("p", { cls: "plan-pre-actions" }, [addButton, el("button", { type: "submit", cls: "btn", value: "skip", text: ui("plan.pre_skip") })])
+    ]);
+    var dialog = el("dialog", { cls: "plan-pre", "aria-labelledby": "plan-pre-title" }, [form]);
+    dialog.addEventListener("close", function () {
+      if (dialog.returnValue === "add") {
+        var chosen = Array.prototype.filter.call(dialog.querySelectorAll("input:checked"), function () { return true; })
+          .map(function (box) { return box.value; });
+        if (chosen.length) {
+          addToPlan(chosen);
+          toast(ui("plan.count_aria", { n: count("course", getPlan().length) }));
+        }
+      }
+      if (dialog.parentNode) { dialog.parentNode.removeChild(dialog); }
+      if (opener && opener.focus) { opener.focus(); }
+    });
+    document.body.appendChild(dialog);
+    dialog.showModal();
+  }
+
   var planListeners = [];
   function refreshPlanUi() {
     var plan = getPlan();
@@ -215,7 +258,7 @@
       var add = event.target.closest ? event.target.closest("[data-add]") : null;
       if (add) {
         var code = add.getAttribute("data-add");
-        if (inPlan(code)) { removeFromPlan(code); } else { addToPlan([code]); }
+        if (inPlan(code)) { removeFromPlan(code); } else { addToPlan([code]); askPrerequisites(code, add); }
         return;
       }
       var all = event.target.closest ? event.target.closest("[data-add-all]") : null;
@@ -878,12 +921,15 @@
       (map[code] || []).forEach(function (x) { if (!out[x]) { out[x] = true; closure(x, map, out); } });
       return out;
     }
-    /* one line per direct prerequisite that another prerequisite of the same course does not already lead to */
+    /* As few lines as possible. A line is drawn only between two courses of the same level band, and only for a
+       direct prerequisite that another prerequisite of the same course does not already lead to. The order
+       start, Foundations, track and level 200, 300, 400 is the layout itself, so nothing is drawn across it. */
+    function band(code) { return cards[code].closest ? cards[code].closest(".lp-band") : null; }
     var edges = [];
     Object.keys(needs).forEach(function (code) {
       needs[code].forEach(function (p) {
         var implied = needs[code].some(function (q) { return q !== p && closure(q, needs, {})[p]; });
-        if (!implied) { edges.push([p, code]); }
+        if (!implied && band(p) && band(p) === band(code)) { edges.push([p, code]); }
       });
     });
     var wide = window.matchMedia ? window.matchMedia("(min-width: 720px)") : null;
