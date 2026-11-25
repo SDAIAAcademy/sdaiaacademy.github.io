@@ -6,7 +6,10 @@
 - Format: Extended: 12 weekly three-hour sessions with labs, graded assignments and a final project
 - Total hours: 60 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-prg-101/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-prg-101/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-prg-101/practice.html
 
 ## Description
 
@@ -36,6 +39,59 @@ By the end, the participant can:
 - [FND-AIC-101 · How Machine Learning Works](FND-AIC-101.md)
 - [FND-AIC-105 · Classical AI: Search, Planning and Knowledge Representation](FND-AIC-105.md)
 - [DEV-INF-201 · Machine Learning Systems on One Machine](DEV-INF-201.md)
+
+## Format and days
+
+### Day 1: Values, types and expressions
+
+- Values, types and expressions, traced by hand
+
+### Day 2: Names, conditions and loops
+
+- Names, references, conditions and loops
+
+### Day 3: Functions and decomposition
+
+- Functions: parameters, return values and scope
+
+### Day 4: Modules, docstrings and type hints
+
+- Modules, docstrings and type hints
+
+### Day 5: Choosing a collection
+
+- Choosing a collection: lists, tuples, dictionaries and sets
+
+### Day 6: Comprehensions, generators and sorting
+
+- Comprehensions, generators and sorting with keys
+
+### Day 7: Files, encodings and Arabic text
+
+- Files, encodings and Arabic text
+
+### Day 8: Exceptions and tracebacks
+
+- Exceptions, validation and reading tracebacks
+
+### Day 9: Classes and data classes
+
+- Classes and data classes
+
+### Day 10: Notebooks, scripts and modules
+
+- Notebooks, scripts and modules
+
+### Day 11: A command-line program
+
+- A command-line program, committed
+
+### Day 12: Learning with an AI tutor
+
+- Learning with an AI tutor, and the capstone brief
+
+### Day 13: Capstone walkthroughs
+
 
 ## Topics
 

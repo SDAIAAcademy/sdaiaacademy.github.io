@@ -8,7 +8,10 @@ Python Programming for Data and AI
 - الصيغة: برنامج ممتد: 12 جلسة أسبوعية مدة كل منها ثلاث ساعات، مع مختبرات وواجبات مقيَّمة ومشروع نهائي
 - إجمالي الساعات: 60 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-prg-101/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-prg-101/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-prg-101/practice.html
 
 ## الوصف
 
@@ -38,6 +41,59 @@ Python Programming for Data and AI
 - [FND-AIC-101 · كيف يعمل تعلم الآلة](FND-AIC-101.md)
 - [FND-AIC-105 · الذكاء الاصطناعي التقليدي: البحث والتخطيط وتمثيل المعرفة](FND-AIC-105.md)
 - [DEV-INF-201 · أنظمة تعلم الآلة على جهاز واحد](DEV-INF-201.md)
+
+## الصيغة والأيام
+
+### اليوم 1: Values, types and expressions
+
+- Values, types and expressions, traced by hand
+
+### اليوم 2: Names, conditions and loops
+
+- Names, references, conditions and loops
+
+### اليوم 3: Functions and decomposition
+
+- Functions: parameters, return values and scope
+
+### اليوم 4: Modules, docstrings and type hints
+
+- Modules, docstrings and type hints
+
+### اليوم 5: Choosing a collection
+
+- Choosing a collection: lists, tuples, dictionaries and sets
+
+### اليوم 6: Comprehensions, generators and sorting
+
+- Comprehensions, generators and sorting with keys
+
+### اليوم 7: Files, encodings and Arabic text
+
+- Files, encodings and Arabic text
+
+### اليوم 8: Exceptions and tracebacks
+
+- Exceptions, validation and reading tracebacks
+
+### اليوم 9: Classes and data classes
+
+- Classes and data classes
+
+### اليوم 10: Notebooks, scripts and modules
+
+- Notebooks, scripts and modules
+
+### اليوم 11: A command-line program
+
+- A command-line program, committed
+
+### اليوم 12: Learning with an AI tutor
+
+- Learning with an AI tutor, and the capstone brief
+
+### اليوم 13: Capstone walkthroughs
+
 
 ## الموضوعات
 

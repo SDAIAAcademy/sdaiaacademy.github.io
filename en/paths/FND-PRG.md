@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [FND-PRG-101 · Python Programming for Data and AI](../courses/FND-PRG-101.md)
 
-- Level 100 · Explain · Extended · 60 h · In development
+- Level 100 · Explain · Extended · 60 h · Available
 - Read a short program and state its output and the value of each variable at marked lines.
 - Distinguish lists, tuples, dictionaries and sets by mutability, ordering and lookup cost, and name the right one for a task.
 - Explain when work belongs in a notebook and when in a script or module, including the risk of hidden state.
