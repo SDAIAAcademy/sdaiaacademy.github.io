@@ -113,7 +113,7 @@ In the order their prerequisites suggest.
 
 ### 12. [LDS-EXE-301 · AI in Public Policy and Public Service Delivery](../courses/LDS-EXE-301.md)
 
-- Level 300 · Develop · Intensive · 25 h · In development
+- Level 300 · Develop · Intensive · 25 h · Available
 - Needs: LDS-EXE-201
 - Analyse regulation, guidance, standards, procurement, funding, sandboxes, data sharing and shared compute as policy instruments by reach, cost and speed.
 - Analyse the public value, costs, risks and effects by user group of an AI-enabled public service.

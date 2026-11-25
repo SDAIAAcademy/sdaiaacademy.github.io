@@ -4367,7 +4367,10 @@ By the end, the participant can:
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 25 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-301/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-301/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-301/practice.html
 
 ## Description
 
@@ -4389,6 +4392,32 @@ By the end, the participant can:
 - [LDS-EXE-201 · AI Strategy and Use-Case Portfolio](https://sdaiaacademy.github.io/en/courses/LDS-EXE-201.md)
 - Has drafted or reviewed a policy paper or public-service business case
 - Reads a cost-benefit table
+
+## Format and days
+
+### Day 1: أدوار الدولة وأدواتها والقيمة العامة
+
+- خمسة أدوار للدولة في الذكاء الاصطناعي
+- ثماني أدوات ومفاضلتها
+- المشتريات أداةً للسياسة
+- القيمة العامة لا العائد الخاص
+
+### Day 2: من دراسة القيمة إلى قرار الاختبار
+
+- التكاليف والمنافع وتوزيعها
+- نتائج الخدمة، ومتى لا نؤتمت قرارًا عامًا
+- اختبار مساعد يكلّم المواطنين
+- القرار: إطلاق أو إصلاح أو إيقاف
+
+### Day 3: المساءلة أمام الجمهور وقدرات الخدمة المدنية
+
+- سجل الأنظمة وسجل الشفافية
+- تقييم الأثر والمراجعة المستقلة
+- المراجعة البشرية والتظلم وجبر الضرر
+- قدرات الخدمة المدنية والإحاطة الوزارية
+
+### Day 4: الدفاع أمام لجنة وزارية صورية
+
 
 ## Topics
 
