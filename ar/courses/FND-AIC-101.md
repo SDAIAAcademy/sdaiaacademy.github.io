@@ -8,7 +8,10 @@ How Machine Learning Works
 - الصيغة: دورة مكثفة: 4 أيام تدريبية ويوم للمشروع الختامي، مع عمل تحضيري موجه ومهمة متابعة متعقَّبة
 - إجمالي الساعات: 30 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-aic-101/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-aic-101/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-aic-101/practice.html
 
 ## الوصف
 
@@ -37,6 +40,39 @@ How Machine Learning Works
 - [DEV-MLE-201 · هندسة تعلم الآلة: خطوط الأساس والتحقق ومسارات المعالجة](DEV-MLE-201.md)
 - [DEV-INF-201 · أنظمة تعلم الآلة على جهاز واحد](DEV-INF-201.md)
 - [SPC-MOD-201 · تعلم الآلة للبيانات الجدولية: خطوط الأساس والتحقق](SPC-MOD-201.md)
+
+## الصيغة والأيام
+
+### اليوم 1: Learning from examples
+
+- Features, labels and prediction rules
+- Loss and gradient descent
+- Nearest neighbours and linear models by hand
+- Training, validation and test sets
+
+### اليوم 2: Generalisation and measuring
+
+- Model complexity, overfitting and regularisation
+- Cross-validation and learning curves
+- Confusion matrix, precision and recall
+- Thresholds, error costs and base rates
+
+### اليوم 3: Data and leakage
+
+- Regression errors against a naive baseline
+- Encoding, scaling and missing values
+- Pipelines fitted on training data only
+- Target, duplicate and temporal leakage
+
+### اليوم 4: Model families and limits
+
+- Trees, linear models and small neural networks
+- Distribution shift
+- Subgroup error gaps and the model card
+- Where language models fit, and the capstone
+
+### اليوم 5: Capstone: a modelling report and its defence
+
 
 ## الموضوعات
 

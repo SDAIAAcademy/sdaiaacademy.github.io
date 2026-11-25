@@ -6,7 +6,10 @@
 - Format: Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 30 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-aic-101/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-aic-101/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-aic-101/practice.html
 
 ## Description
 
@@ -35,6 +38,39 @@ By the end, the participant can:
 - [DEV-MLE-201 · Machine Learning Engineering: Baselines, Validation and Pipelines](DEV-MLE-201.md)
 - [DEV-INF-201 · Machine Learning Systems on One Machine](DEV-INF-201.md)
 - [SPC-MOD-201 · Machine Learning for Tabular Data: Baselines and Validation](SPC-MOD-201.md)
+
+## Format and days
+
+### Day 1: Learning from examples
+
+- Features, labels and prediction rules
+- Loss and gradient descent
+- Nearest neighbours and linear models by hand
+- Training, validation and test sets
+
+### Day 2: Generalisation and measuring
+
+- Model complexity, overfitting and regularisation
+- Cross-validation and learning curves
+- Confusion matrix, precision and recall
+- Thresholds, error costs and base rates
+
+### Day 3: Data and leakage
+
+- Regression errors against a naive baseline
+- Encoding, scaling and missing values
+- Pipelines fitted on training data only
+- Target, duplicate and temporal leakage
+
+### Day 4: Model families and limits
+
+- Trees, linear models and small neural networks
+- Distribution shift
+- Subgroup error gaps and the model card
+- Where language models fit, and the capstone
+
+### Day 5: Capstone: a modelling report and its defence
+
 
 ## Topics
 

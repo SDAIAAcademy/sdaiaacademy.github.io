@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [FND-AIC-101 · How Machine Learning Works](../courses/FND-AIC-101.md)
 
-- Level 100 · Explain · Intensive · 30 h · In development
+- Level 100 · Explain · Intensive · 30 h · Available
 - Needs: FND-PRG-101
 - Explain how a supervised learner fits a prediction rule by minimising a loss.
 - Distinguish training, validation and test data, and identify overfitting and underfitting from plotted curves.
