@@ -40,7 +40,7 @@ In the order their prerequisites suggest.
 
 ### 3. [FND-DAT-103 · Data Formats, Interfaces and Quality Checks](../courses/FND-DAT-103.md)
 
-- Level 100 · Explain · Workshop · 16 h · In development
+- Level 100 · Explain · Workshop · 16 h · Available
 - Needs: FND-DAT-102
 - Compare delimited, JSON Lines and columnar files on size, read time and type fidelity.
 - Explain how encodings, byte order marks and time zones corrupt data, and identify each symptom.

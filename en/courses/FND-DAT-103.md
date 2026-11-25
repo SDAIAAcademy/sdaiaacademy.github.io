@@ -6,7 +6,10 @@
 - Format: Workshop: two days with labs, a short pre-work task and a tracked follow-up task
 - Total hours: 16 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-dat-103/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-dat-103/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-dat-103/practice.html
 
 ## Description
 
@@ -26,6 +29,21 @@ By the end, the participant can:
 
 - [FND-DAT-102 · Data Wrangling with DataFrames](FND-DAT-102.md)
 - Writes Python functions and handles exceptions (FND-PRG-101 or equivalent)
+
+## Format and days
+
+### Day 1: Files: formats, text and time
+
+- File formats
+- Text and time
+
+### Day 2: Interfaces and the boundary
+
+- Interfaces
+- Schema and validation
+
+### Day 3: Live ingestion run
+
 
 ## Topics
 

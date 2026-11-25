@@ -8,7 +8,10 @@ Data Formats, Interfaces and Quality Checks
 - الصيغة: ورشة عمل: يومان مع مختبرات، ومهمة تحضيرية قصيرة ومهمة متابعة متعقَّبة
 - إجمالي الساعات: 16 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-dat-103/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-dat-103/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-dat-103/practice.html
 
 ## الوصف
 
@@ -28,6 +31,21 @@ Data Formats, Interfaces and Quality Checks
 
 - [FND-DAT-102 · تجهيز البيانات باستخدام أطر البيانات](FND-DAT-102.md)
 - يكتب دوال بلغة بايثون ويعالج الاستثناءات (FND-PRG-101 أو ما يعادله)
+
+## الصيغة والأيام
+
+### اليوم 1: Files: formats, text and time
+
+- File formats
+- Text and time
+
+### اليوم 2: Interfaces and the boundary
+
+- Interfaces
+- Schema and validation
+
+### اليوم 3: Live ingestion run
+
 
 ## الموضوعات
 

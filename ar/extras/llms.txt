@@ -153,6 +153,7 @@
 - [LDS-DMG-302 · صياغة سياسات البيانات والذكاء الاصطناعي ومعاييرهما](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-302.md): المستوى 300 · التطوير, 12 ساعة, متاح
 - [FND-PRG-101 · البرمجة بلغة بايثون للبيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-PRG-101.md): المستوى 100 · الشرح, 60 ساعة, متاح
 - [FND-DAT-101 · لغة SQL والبيانات العلائقية](https://sdaiaacademy.github.io/ar/courses/FND-DAT-101.md): المستوى 100 · الشرح, 30 ساعة, متاح
+- [FND-DAT-103 · صيغ البيانات وواجهاتها وفحوص جودتها](https://sdaiaacademy.github.io/ar/courses/FND-DAT-103.md): المستوى 100 · الشرح, 16 ساعة, متاح
 - [FND-AIC-101 · كيف يعمل تعلم الآلة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-101.md): المستوى 100 · الشرح, 30 ساعة, متاح
 - [FND-AIC-106 · الكتابة التقنية لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-AIC-106.md): المستوى 100 · الشرح, 12 ساعة, متاح
 - [FN-101 · بايثون لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FN-101.md): المستوى 100 · الشرح, 26 ساعة, متاح
@@ -235,7 +236,6 @@
 - [FND-MTH-104 · الإحصاء بالمحاكاة: التفاوت والتقدير والاختبار](https://sdaiaacademy.github.io/ar/courses/FND-MTH-104.md): المستوى 100 · الشرح, 45 ساعة, قيد التطوير
 - [FND-MTH-105 · الرياضيات المتقطعة والمنطق للحوسبة](https://sdaiaacademy.github.io/ar/courses/FND-MTH-105.md): المستوى 100 · الشرح, 40 ساعة, قيد التطوير
 - [FND-DAT-102 · تجهيز البيانات باستخدام أطر البيانات](https://sdaiaacademy.github.io/ar/courses/FND-DAT-102.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
-- [FND-DAT-103 · صيغ البيانات وواجهاتها وفحوص جودتها](https://sdaiaacademy.github.io/ar/courses/FND-DAT-103.md): المستوى 100 · الشرح, 16 ساعة, قيد التطوير
 - [FND-AIC-102 · كيف تعمل النماذج اللغوية](https://sdaiaacademy.github.io/ar/courses/FND-AIC-102.md): المستوى 100 · الشرح, 16 ساعة, قيد التطوير
 - [FND-AIC-103 · قراءة أدلة الذكاء الاصطناعي: الاختبارات المرجعية والادعاءات والإحصاءات](https://sdaiaacademy.github.io/ar/courses/FND-AIC-103.md): المستوى 100 · الشرح, 8 ساعات, قيد التطوير
 - [FND-AIC-104 · الممارسة المسؤولة للبيانات والذكاء الاصطناعي لبناة الأنظمة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-104.md): المستوى 100 · الشرح, 12 ساعة, قيد التطوير
