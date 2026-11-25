@@ -30,7 +30,7 @@ In the order their prerequisites suggest.
 
 ### 2. [FND-MTH-102 · Calculus and Optimisation for Machine Learning](../courses/FND-MTH-102.md)
 
-- Level 100 · Explain · Extended · 45 h · In development
+- Level 100 · Explain · Extended · 45 h · Available
 - Needs: FND-MTH-101
 - Explain derivatives, partial derivatives, gradients and Jacobians as local linear approximations.
 - Distinguish convex from non-convex objectives and describe how saddle points and step size shape gradient descent.

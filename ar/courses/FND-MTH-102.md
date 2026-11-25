@@ -8,7 +8,10 @@ Calculus and Optimisation for Machine Learning
 - الصيغة: برنامج ممتد: 8 أسابيع بدوام جزئي، بواقع جلسة واحدة ومختبر واحد أسبوعيًا، مع مجموعات مسائل أسبوعية مقيَّمة ومشروع ختامي
 - إجمالي الساعات: 45 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-mth-102/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-mth-102/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-mth-102/practice.html
 
 ## الوصف
 
@@ -30,6 +33,43 @@ Calculus and Optimisation for Machine Learning
 - [FND-MTH-101 · الجبر الخطي لتعلم الآلة](FND-MTH-101.md)
 - يحسب مشتقات كثيرات الحدود والدوال الأسية على مستوى التفاضل المدرسي، أو يُكمل المراجعة التحضيرية
 - يكتب برامج قصيرة بلغة بايثون تستخدم الدوال والحلقات (FND-PRG-101 أو ما يعادله)
+
+## الصيغة والأيام
+
+### اليوم 1: Change and approximation
+
+- Derivatives as local lines
+
+### اليوم 2: Several variables
+
+- Gradients and Jacobians
+
+### اليوم 3: The chain rule on graphs
+
+- Graphs and the chain rule
+
+### اليوم 4: Reverse mode in code
+
+- A reverse-mode engine
+
+### اليوم 5: Gradient descent
+
+- Descent and loss curves
+
+### اليوم 6: The shape of a loss
+
+- Convexity and curvature
+
+### اليوم 7: Stable losses and penalties
+
+- Stable losses and penalties
+
+### اليوم 8: Constraints
+
+- Constraints and prices
+
+### اليوم 9: Capstone oral checks
+
 
 ## الموضوعات
 

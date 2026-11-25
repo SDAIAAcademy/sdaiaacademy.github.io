@@ -8148,7 +8148,10 @@ By the end, the participant can:
 - Format: Extended: 8 weeks part-time, one session and one lab a week, weekly graded problem sets and a capstone
 - Total hours: 45 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-mth-102/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-mth-102/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-mth-102/practice.html
 
 ## Description
 
@@ -8170,6 +8173,43 @@ By the end, the participant can:
 - [FND-MTH-101 · Linear Algebra for Machine Learning](https://sdaiaacademy.github.io/en/courses/FND-MTH-101.md)
 - School calculus: derivatives of polynomials and exponentials, or the pre-work refresher
 - Writes short Python programs with functions and loops (FND-PRG-101 or equivalent)
+
+## Format and days
+
+### Day 1: Change and approximation
+
+- Derivatives as local lines
+
+### Day 2: Several variables
+
+- Gradients and Jacobians
+
+### Day 3: The chain rule on graphs
+
+- Graphs and the chain rule
+
+### Day 4: Reverse mode in code
+
+- A reverse-mode engine
+
+### Day 5: Gradient descent
+
+- Descent and loss curves
+
+### Day 6: The shape of a loss
+
+- Convexity and curvature
+
+### Day 7: Stable losses and penalties
+
+- Stable losses and penalties
+
+### Day 8: Constraints
+
+- Constraints and prices
+
+### Day 9: Capstone oral checks
+
 
 ## Topics
 
