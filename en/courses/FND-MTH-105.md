@@ -6,7 +6,10 @@
 - Format: Extended: 7 weeks part-time, one session and one lab a week, weekly graded problem sets and a capstone portfolio
 - Total hours: 40 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-mth-105/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-mth-105/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-mth-105/practice.html
 
 ## Description
 
@@ -27,6 +30,39 @@ By the end, the participant can:
 
 - School algebra
 - Writes short Python programs with lists, loops, functions and recursion (FND-PRG-101 or equivalent)
+
+## Format and days
+
+### Day 1: Sets, functions and relations
+
+- Sets, functions and relations
+
+### Day 2: Logic: truth tables and satisfiability
+
+- Propositional logic, normal forms and SAT
+
+### Day 3: Predicates, quantifiers and first proofs
+
+- Quantifiers, relations and first proofs
+
+### Day 4: Induction, invariants and the limits of testing
+
+- Induction, invariants, testing and proof
+
+### Day 5: Counting, collisions and the birthday problem
+
+- Counting arrangements and collisions
+
+### Day 6: Counting people: re-identification risk
+
+- Inclusion-exclusion and linkage risk
+
+### Day 7: Graphs, topological order and growth
+
+- Graphs, cycles, orders and recurrences
+
+### Day 8: Portfolio oral defences
+
 
 ## Topics
 

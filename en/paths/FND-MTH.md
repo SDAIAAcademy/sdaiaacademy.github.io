@@ -62,7 +62,7 @@ In the order their prerequisites suggest.
 
 ### 5. [FND-MTH-105 · Discrete Mathematics and Logic for Computing](../courses/FND-MTH-105.md)
 
-- Level 100 · Explain · Extended · 40 h · In development
+- Level 100 · Explain · Extended · 40 h · Available
 - Identify whether a relation is a function, an equivalence or an order, and which properties it has.
 - Distinguish valid from invalid arguments and translate plain-language rules into propositional and predicate logic.
 - Describe direct, contradiction and induction proofs and identify the gap in a flawed proof.

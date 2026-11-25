@@ -8,7 +8,10 @@ Discrete Mathematics and Logic for Computing
 - الصيغة: برنامج ممتد: 7 أسابيع بدوام جزئي، بواقع جلسة واحدة ومختبر واحد أسبوعيًا، مع مجموعات مسائل أسبوعية مقيَّمة وملف إنجاز ختامي
 - إجمالي الساعات: 40 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-mth-105/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-mth-105/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-mth-105/practice.html
 
 ## الوصف
 
@@ -29,6 +32,39 @@ Discrete Mathematics and Logic for Computing
 
 - يطبق الجبر المدرسي
 - يكتب برامج قصيرة بلغة بايثون تستخدم القوائم والحلقات والدوال والاستدعاء الذاتي (FND-PRG-101 أو ما يعادله)
+
+## الصيغة والأيام
+
+### اليوم 1: Sets, functions and relations
+
+- Sets, functions and relations
+
+### اليوم 2: Logic: truth tables and satisfiability
+
+- Propositional logic, normal forms and SAT
+
+### اليوم 3: Predicates, quantifiers and first proofs
+
+- Quantifiers, relations and first proofs
+
+### اليوم 4: Induction, invariants and the limits of testing
+
+- Induction, invariants, testing and proof
+
+### اليوم 5: Counting, collisions and the birthday problem
+
+- Counting arrangements and collisions
+
+### اليوم 6: Counting people: re-identification risk
+
+- Inclusion-exclusion and linkage risk
+
+### اليوم 7: Graphs, topological order and growth
+
+- Graphs, cycles, orders and recurrences
+
+### اليوم 8: Portfolio oral defences
+
 
 ## الموضوعات
 
