@@ -6,7 +6,10 @@
 - Format: Extended: 10-week part-time cohort with weekly labs, a committee simulation and a panel defence
 - Total hours: 60 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-402/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-402/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-402/practice.html
 
 ## Description
 
@@ -29,6 +32,51 @@ By the end, the participant can:
 - [LDS-DMG-101 · Data Management Foundations](LDS-DMG-101.md)
 - Has prepared and defended a budget for a function or programme
 - Reads a data governance policy and names the owner, control and evidence for each requirement
+
+## Format and days
+
+### Day 1: مؤشرات مرتبطة بأهداف الأعمال وبالمؤشرات الوطنية للبيانات
+
+- شجرة المؤشرات من الاستراتيجية إلى المقياس
+
+### Day 2: المكتب واللجنة والمسؤولون والمشرفون كما تطلبها الضوابط الوطنية
+
+- المكتب واللجنة والأدوار وصلاحيات القرار
+
+### Day 3: نماذج النضج وتقييمات المؤشر الوطني للبيانات (نضيء)
+
+- نماذج النضج وتقييم المؤشر الوطني للبيانات
+
+### Day 4: حزم الأدلة والتدقيق الداخلي
+
+- حزم الأدلة والتدقيق الداخلي
+
+### Day 5: واجبات البيانات الشخصية والتصنيف والمشاركة والبيانات المفتوحة
+
+- البيانات الشخصية والتصنيف والمشاركة والبيانات المفتوحة
+
+### Day 6: ما يجوز استعماله في التدريب والاسترجاع ووصول الوكلاء
+
+- ما يصلح للتدريب والاسترجاع والوكلاء
+
+### Day 7: الجودة وتتبع الأصل والوصول المراعي للصلاحيات
+
+- الجودة وتتبع الأصل والوصول المراعي للصلاحيات
+
+### Day 8: اعتماد أدوات الذكاء الاصطناعي التوليدي مقابل شروط الخصوصية والمشاركة
+
+- اعتماد أدوات الذكاء الاصطناعي التوليدي ولجنة البيانات
+
+### Day 9: تحسين العمل بالبيانات أو تغليفها في منتج أو بيعها
+
+- التحسين والتغليف والبيع
+
+### Day 10: الموازنة والفريق والتقارير للمجلس والتغيير
+
+- الموازنة والفريق وتقارير المجلس والتغيير
+
+### Day 11: مناقشة خطة مكتب البيانات أمام اللجنة
+
 
 ## Topics
 

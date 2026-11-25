@@ -144,7 +144,7 @@ In the order their prerequisites suggest.
 
 ### 15. [LDS-EXE-402 · Leading the Enterprise Data Office](../courses/LDS-EXE-402.md)
 
-- Level 400 · Evaluate · Extended · 60 h · In development
+- Level 400 · Evaluate · Extended · 60 h · Available
 - Needs: LDS-DMG-101
 - Design a data strategy with targets and indicators traced to business objectives and national data indicators.
 - Design the governance operating model: office, committee, owners, stewards, decision rights and escalation.
