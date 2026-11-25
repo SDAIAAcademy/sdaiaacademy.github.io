@@ -9149,7 +9149,10 @@ Technical Writing for Data and AI Work
 - الصيغة: ورشة عمل: يوم ونصف من مختبرات الكتابة ومراجعة متابعة متعقَّبة
 - إجمالي الساعات: 12 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-aic-106/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-aic-106/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-aic-106/practice.html
 
 ## الوصف
 
@@ -9168,6 +9171,22 @@ Technical Writing for Data and AI Work
 ## المتطلبات السابقة
 
 - لديه مشروع صغير في البيانات أو البرمجة، خاص به أو مقدَّم له، ليوثّقه
+
+## الصيغة والأيام
+
+### اليوم 1: Writing for a reader
+
+- Write for one reader
+- READMEs, designs and decisions
+- The decision memo
+
+### اليوم 2: Evidence documents and writing with assistance
+
+- Experiment reports and model cards
+- Writing with an assistant
+
+### اليوم 3: Documentation set review
+
 
 ## الموضوعات
 

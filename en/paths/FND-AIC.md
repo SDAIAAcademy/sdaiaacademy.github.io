@@ -69,7 +69,7 @@ In the order their prerequisites suggest.
 
 ### 6. [FND-AIC-106 · Technical Writing for Data and AI Work](../courses/FND-AIC-106.md)
 
-- Level 100 · Explain · Workshop · 12 h · In development
+- Level 100 · Explain · Workshop · 12 h · Available
 - Identify the reader, purpose and required sections of five common technical document types.
 - Draft a README that lets a stranger install, run and check a small project.
 - Draft a one-page decision memo with options, trade-offs, a recommendation and the conditions that would change it.

@@ -8925,7 +8925,10 @@ By the end, the participant can:
 - Format: Workshop: one and a half days of writing labs and a tracked follow-up review
 - Total hours: 12 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-aic-106/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-aic-106/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-aic-106/practice.html
 
 ## Description
 
@@ -8944,6 +8947,22 @@ By the end, the participant can:
 ## Prerequisites
 
 - Has a small data or code project, own or provided, to document
+
+## Format and days
+
+### Day 1: Writing for a reader
+
+- Write for one reader
+- READMEs, designs and decisions
+- The decision memo
+
+### Day 2: Evidence documents and writing with assistance
+
+- Experiment reports and model cards
+- Writing with an assistant
+
+### Day 3: Documentation set review
+
 
 ## Topics
 

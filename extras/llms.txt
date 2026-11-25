@@ -153,6 +153,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-DMG-302 · Drafting Data and AI Policies and Standards](https://sdaiaacademy.github.io/en/courses/LDS-DMG-302.md): Level 300 · Develop, 12 h, Available
 - [FND-PRG-101 · Python Programming for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-PRG-101.md): Level 100 · Explain, 60 h, Available
 - [FND-AIC-101 · How Machine Learning Works](https://sdaiaacademy.github.io/en/courses/FND-AIC-101.md): Level 100 · Explain, 30 h, Available
+- [FND-AIC-106 · Technical Writing for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FND-AIC-106.md): Level 100 · Explain, 12 h, Available
 - [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available
 - [FN-102 · Command Line, Git and Reproducible Projects](https://sdaiaacademy.github.io/en/courses/FN-102.md): Level 100 · Explain, 21 h, Available
 - [FN-103 · Mathematics for Machine Learning: Vectors, Gradients and Probability](https://sdaiaacademy.github.io/en/courses/FN-103.md): Level 100 · Explain, 26 h, Available
@@ -239,7 +240,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [FND-AIC-103 · Reading AI Evidence: Benchmarks, Claims and Statistics](https://sdaiaacademy.github.io/en/courses/FND-AIC-103.md): Level 100 · Explain, 8 h, In development
 - [FND-AIC-104 · Responsible Data and AI Practice for Builders](https://sdaiaacademy.github.io/en/courses/FND-AIC-104.md): Level 100 · Explain, 12 h, In development
 - [FND-AIC-105 · Classical AI: Search, Planning and Knowledge Representation](https://sdaiaacademy.github.io/en/courses/FND-AIC-105.md): Level 100 · Explain, 30 h, In development
-- [FND-AIC-106 · Technical Writing for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FND-AIC-106.md): Level 100 · Explain, 12 h, In development
 - [DEV-SWE-201 · Software Engineering with Coding Agents](https://sdaiaacademy.github.io/en/courses/DEV-SWE-201.md): Level 200 · Apply, 36 h, In development
 - [DEV-SWE-202 · Back-End Services and Interfaces for AI Applications](https://sdaiaacademy.github.io/en/courses/DEV-SWE-202.md): Level 200 · Apply, 30 h, In development
 - [DEV-SWE-203 · Front Ends for AI Applications: Streaming, Chat and Generative Interfaces](https://sdaiaacademy.github.io/en/courses/DEV-SWE-203.md): Level 200 · Apply, 16 h, In development

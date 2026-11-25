@@ -153,6 +153,7 @@
 - [LDS-DMG-302 · صياغة سياسات البيانات والذكاء الاصطناعي ومعاييرهما](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-302.md): المستوى 300 · التطوير, 12 ساعة, متاح
 - [FND-PRG-101 · البرمجة بلغة بايثون للبيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-PRG-101.md): المستوى 100 · الشرح, 60 ساعة, متاح
 - [FND-AIC-101 · كيف يعمل تعلم الآلة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-101.md): المستوى 100 · الشرح, 30 ساعة, متاح
+- [FND-AIC-106 · الكتابة التقنية لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-AIC-106.md): المستوى 100 · الشرح, 12 ساعة, متاح
 - [FN-101 · بايثون لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FN-101.md): المستوى 100 · الشرح, 26 ساعة, متاح
 - [FN-102 · سطر الأوامر وGit والمشاريع القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FN-102.md): المستوى 100 · الشرح, 21 ساعة, متاح
 - [FN-103 · الرياضيات لتعلم الآلة: المتجهات والتدرجات والاحتمالات](https://sdaiaacademy.github.io/ar/courses/FN-103.md): المستوى 100 · الشرح, 26 ساعة, متاح
@@ -239,7 +240,6 @@
 - [FND-AIC-103 · قراءة أدلة الذكاء الاصطناعي: الاختبارات المرجعية والادعاءات والإحصاءات](https://sdaiaacademy.github.io/ar/courses/FND-AIC-103.md): المستوى 100 · الشرح, 8 ساعات, قيد التطوير
 - [FND-AIC-104 · الممارسة المسؤولة للبيانات والذكاء الاصطناعي لبناة الأنظمة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-104.md): المستوى 100 · الشرح, 12 ساعة, قيد التطوير
 - [FND-AIC-105 · الذكاء الاصطناعي التقليدي: البحث والتخطيط وتمثيل المعرفة](https://sdaiaacademy.github.io/ar/courses/FND-AIC-105.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
-- [FND-AIC-106 · الكتابة التقنية لأعمال البيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-AIC-106.md): المستوى 100 · الشرح, 12 ساعة, قيد التطوير
 - [DEV-SWE-201 · هندسة البرمجيات باستخدام وكلاء البرمجة](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-201.md): المستوى 200 · التطبيق, 36 ساعة, قيد التطوير
 - [DEV-SWE-202 · خدمات الواجهة الخلفية والواجهات البرمجية لتطبيقات الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-202.md): المستوى 200 · التطبيق, 30 ساعة, قيد التطوير
 - [DEV-SWE-203 · الواجهات الأمامية لتطبيقات الذكاء الاصطناعي: البث التدفقي والمحادثة والواجهات التوليدية](https://sdaiaacademy.github.io/ar/courses/DEV-SWE-203.md): المستوى 200 · التطبيق, 16 ساعة, قيد التطوير
