@@ -6,7 +6,10 @@
 - Format: Extended: 8 weeks part-time, one session and one lab a week, weekly graded problem sets and a capstone
 - Total hours: 45 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-mth-103/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-mth-103/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-mth-103/practice.html
 
 ## Description
 
@@ -31,6 +34,43 @@ By the end, the participant can:
 ## Next courses
 
 - [FND-MTH-104 · Statistics by Simulation: Variation, Estimation and Testing](FND-MTH-104.md)
+
+## Format and days
+
+### Day 1: Events and conditioning
+
+- Events, conditioning and independence
+
+### Day 2: Bayes rule and base rates
+
+- Bayes rule, base rates and likelihood ratios
+
+### Day 3: Discrete distributions
+
+- Counts, waits and choices
+
+### Day 4: Continuous and joint distributions
+
+- Densities, joint distributions and moments
+
+### Day 5: Simulation and its error
+
+- Seeds and Monte Carlo error
+
+### Day 6: The limit theorems
+
+- The limit theorems and their limits
+
+### Day 7: Probability inside models
+
+- Likelihood, entropy and temperature
+
+### Day 8: Rates, fit and calibration
+
+- Fitted rates and calibration
+
+### Day 9: Capstone oral checks
+
 
 ## Topics
 

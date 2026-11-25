@@ -8454,7 +8454,10 @@ Probability for Data and AI
 - الصيغة: برنامج ممتد: 8 أسابيع بدوام جزئي، بواقع جلسة واحدة ومختبر واحد أسبوعيًا، مع مجموعات مسائل أسبوعية مقيَّمة ومشروع ختامي
 - إجمالي الساعات: 45 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-mth-103/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-mth-103/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-mth-103/practice.html
 
 ## الوصف
 
@@ -8479,6 +8482,43 @@ Probability for Data and AI
 ## المقررات التالية
 
 - [FND-MTH-104 · الإحصاء بالمحاكاة: التفاوت والتقدير والاختبار](https://sdaiaacademy.github.io/ar/courses/FND-MTH-104.md)
+
+## الصيغة والأيام
+
+### اليوم 1: Events and conditioning
+
+- Events, conditioning and independence
+
+### اليوم 2: Bayes rule and base rates
+
+- Bayes rule, base rates and likelihood ratios
+
+### اليوم 3: Discrete distributions
+
+- Counts, waits and choices
+
+### اليوم 4: Continuous and joint distributions
+
+- Densities, joint distributions and moments
+
+### اليوم 5: Simulation and its error
+
+- Seeds and Monte Carlo error
+
+### اليوم 6: The limit theorems
+
+- The limit theorems and their limits
+
+### اليوم 7: Probability inside models
+
+- Likelihood, entropy and temperature
+
+### اليوم 8: Rates, fit and calibration
+
+- Fitted rates and calibration
+
+### اليوم 9: Capstone oral checks
+
 
 ## الموضوعات
 

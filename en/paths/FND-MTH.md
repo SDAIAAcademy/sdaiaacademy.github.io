@@ -41,7 +41,7 @@ In the order their prerequisites suggest.
 
 ### 3. [FND-MTH-103 · Probability for Data and AI](../courses/FND-MTH-103.md)
 
-- Level 100 · Explain · Extended · 45 h · In development
+- Level 100 · Explain · Extended · 45 h · Available
 - Explain conditional probability, independence and Bayes rule, and identify base-rate errors in worded claims.
 - Describe the common discrete and continuous distributions and identify which fits a described process.
 - Explain the law of large numbers and the central limit theorem and identify where the normal approximation fails.
