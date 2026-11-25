@@ -6,7 +6,10 @@
 - Format: Extended: 8 weeks part-time, one session and one lab a week, weekly graded problem sets and a capstone
 - Total hours: 45 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-mth-101/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-mth-101/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-mth-101/practice.html
 
 ## Description
 
@@ -32,6 +35,43 @@ By the end, the participant can:
 
 - [FND-MTH-102 · Calculus and Optimisation for Machine Learning](FND-MTH-102.md)
 - [SPC-MOD-304 · Optimisation and Operations Research for Decisions](SPC-MOD-304.md)
+
+## Format and days
+
+### Day 1: Vectors and similarity
+
+- Vectors, dot products and similarity
+
+### Day 2: Matrices as maps, and their cost
+
+- Matrix products, attention scores and FLOPs
+
+### Day 3: Span, rank and linear systems
+
+- Span, rank and linear systems
+
+### Day 4: Orthogonal projection and QR
+
+- Orthogonal projection and QR
+
+### Day 5: Least squares and conditioning
+
+- Least squares and conditioning
+
+### Day 6: Eigenvectors and link ranking
+
+- Eigenvectors and link ranking
+
+### Day 7: Singular values and low rank
+
+- The SVD and principal components
+
+### Day 8: Low rank in practice, and working numerically
+
+- Low rank in practice
+
+### Day 9: Capstone oral checks
+
 
 ## Topics
 

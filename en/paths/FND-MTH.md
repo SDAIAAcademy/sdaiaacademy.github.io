@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [FND-MTH-101 · Linear Algebra for Machine Learning](../courses/FND-MTH-101.md)
 
-- Level 100 · Explain · Extended · 45 h · In development
+- Level 100 · Explain · Extended · 45 h · Available
 - Explain the geometric meaning of vectors, dot products, norms, projections and matrix products.
 - Describe what rank, eigenvalues and singular values reveal about a matrix and name one machine learning use of each.
 - Identify ill-conditioned or rank-deficient systems and explain their effect on a least-squares fit.

@@ -8,7 +8,10 @@ Linear Algebra for Machine Learning
 - الصيغة: برنامج ممتد: 8 أسابيع بدوام جزئي، بواقع جلسة واحدة ومختبر واحد أسبوعيًا، مع مجموعات مسائل أسبوعية مقيَّمة ومشروع ختامي
 - إجمالي الساعات: 45 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-mth-101/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-mth-101/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-mth-101/practice.html
 
 ## الوصف
 
@@ -34,6 +37,43 @@ Linear Algebra for Machine Learning
 
 - [FND-MTH-102 · التفاضل والتكامل والأمثلة الرياضية لتعلم الآلة](FND-MTH-102.md)
 - [SPC-MOD-304 · الأمثلة الرياضية وبحوث العمليات لدعم القرار](SPC-MOD-304.md)
+
+## الصيغة والأيام
+
+### اليوم 1: Vectors and similarity
+
+- Vectors, dot products and similarity
+
+### اليوم 2: Matrices as maps, and their cost
+
+- Matrix products, attention scores and FLOPs
+
+### اليوم 3: Span, rank and linear systems
+
+- Span, rank and linear systems
+
+### اليوم 4: Orthogonal projection and QR
+
+- Orthogonal projection and QR
+
+### اليوم 5: Least squares and conditioning
+
+- Least squares and conditioning
+
+### اليوم 6: Eigenvectors and link ranking
+
+- Eigenvectors and link ranking
+
+### اليوم 7: Singular values and low rank
+
+- The SVD and principal components
+
+### اليوم 8: Low rank in practice, and working numerically
+
+- Low rank in practice
+
+### اليوم 9: Capstone oral checks
+
 
 ## الموضوعات
 
