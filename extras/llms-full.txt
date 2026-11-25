@@ -8374,7 +8374,10 @@ By the end, the participant can:
 - Format: Intensive: 4 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 30 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-dat-101/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-dat-101/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-dat-101/practice.html
 
 ## Description
 
@@ -8402,6 +8405,39 @@ By the end, the participant can:
 - [DEV-DAT-301 · Data Modelling: Conceptual to Semantic](https://sdaiaacademy.github.io/en/courses/DEV-DAT-301.md)
 - [SPC-ANL-203 · Metrics, Semantic Models and Dashboards](https://sdaiaacademy.github.io/en/courses/SPC-ANL-203.md)
 - [SPC-ANL-204 · Data Acquisition, Preparation and Quality for Analysis](https://sdaiaacademy.github.io/en/courses/SPC-ANL-204.md)
+
+## Format and days
+
+### Day 1: Tables, keys and grain
+
+- Tables, types, keys and constraints
+- Grain and cardinality
+- Normal forms, wide tables and embedded engines
+- Filters, sorting and expressions
+
+### Day 2: One table, then two
+
+- CASE expressions and set operations
+- NULL and three-valued logic
+- Grouping and having
+- Inner, outer, semi and anti joins
+
+### Day 3: Combining safely, then windows
+
+- Join fan-out and double counting
+- Subqueries and common table expressions
+- Partitions, ranking, lag and lead
+- Running and moving aggregates
+
+### Day 4: Building and checking
+
+- Loading into constrained tables, and transactions
+- Views that limit what is exposed
+- Query plans and indexes
+- Testing queries against known answers
+
+### Day 5: Capstone: the business orders brief
+
 
 ## Topics
 

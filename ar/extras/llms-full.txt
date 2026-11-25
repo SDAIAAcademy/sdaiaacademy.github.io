@@ -8582,7 +8582,10 @@ SQL and Relational Data
 - الصيغة: دورة مكثفة: 4 أيام تدريبية ويوم للمشروع الختامي، مع عمل تحضيري موجه ومهمة متابعة متعقَّبة
 - إجمالي الساعات: 30 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-dat-101/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-dat-101/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-dat-101/practice.html
 
 ## الوصف
 
@@ -8610,6 +8613,39 @@ SQL and Relational Data
 - [DEV-DAT-301 · نمذجة البيانات: من النموذج المفاهيمي إلى النموذج الدلالي](https://sdaiaacademy.github.io/ar/courses/DEV-DAT-301.md)
 - [SPC-ANL-203 · المقاييس والنماذج الدلالية ولوحات المعلومات](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-203.md)
 - [SPC-ANL-204 · جمع البيانات وإعدادها وضمان جودتها للتحليل](https://sdaiaacademy.github.io/ar/courses/SPC-ANL-204.md)
+
+## الصيغة والأيام
+
+### اليوم 1: Tables, keys and grain
+
+- Tables, types, keys and constraints
+- Grain and cardinality
+- Normal forms, wide tables and embedded engines
+- Filters, sorting and expressions
+
+### اليوم 2: One table, then two
+
+- CASE expressions and set operations
+- NULL and three-valued logic
+- Grouping and having
+- Inner, outer, semi and anti joins
+
+### اليوم 3: Combining safely, then windows
+
+- Join fan-out and double counting
+- Subqueries and common table expressions
+- Partitions, ranking, lag and lead
+- Running and moving aggregates
+
+### اليوم 4: Building and checking
+
+- Loading into constrained tables, and transactions
+- Views that limit what is exposed
+- Query plans and indexes
+- Testing queries against known answers
+
+### اليوم 5: Capstone: the business orders brief
+
 
 ## الموضوعات
 

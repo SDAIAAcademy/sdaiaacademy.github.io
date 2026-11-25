@@ -152,6 +152,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-DMG-301 · Governing Data for AI: Training, Retrieval and Agent Access](https://sdaiaacademy.github.io/en/courses/LDS-DMG-301.md): Level 300 · Develop, 16 h, Available
 - [LDS-DMG-302 · Drafting Data and AI Policies and Standards](https://sdaiaacademy.github.io/en/courses/LDS-DMG-302.md): Level 300 · Develop, 12 h, Available
 - [FND-PRG-101 · Python Programming for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-PRG-101.md): Level 100 · Explain, 60 h, Available
+- [FND-DAT-101 · SQL and Relational Data](https://sdaiaacademy.github.io/en/courses/FND-DAT-101.md): Level 100 · Explain, 30 h, Available
 - [FND-AIC-101 · How Machine Learning Works](https://sdaiaacademy.github.io/en/courses/FND-AIC-101.md): Level 100 · Explain, 30 h, Available
 - [FND-AIC-106 · Technical Writing for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FND-AIC-106.md): Level 100 · Explain, 12 h, Available
 - [FN-101 · Python for Data and AI Work](https://sdaiaacademy.github.io/en/courses/FN-101.md): Level 100 · Explain, 26 h, Available
@@ -233,7 +234,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [FND-MTH-103 · Probability for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-MTH-103.md): Level 100 · Explain, 45 h, In development
 - [FND-MTH-104 · Statistics by Simulation: Variation, Estimation and Testing](https://sdaiaacademy.github.io/en/courses/FND-MTH-104.md): Level 100 · Explain, 45 h, In development
 - [FND-MTH-105 · Discrete Mathematics and Logic for Computing](https://sdaiaacademy.github.io/en/courses/FND-MTH-105.md): Level 100 · Explain, 40 h, In development
-- [FND-DAT-101 · SQL and Relational Data](https://sdaiaacademy.github.io/en/courses/FND-DAT-101.md): Level 100 · Explain, 30 h, In development
 - [FND-DAT-102 · Data Wrangling with DataFrames](https://sdaiaacademy.github.io/en/courses/FND-DAT-102.md): Level 100 · Explain, 30 h, In development
 - [FND-DAT-103 · Data Formats, Interfaces and Quality Checks](https://sdaiaacademy.github.io/en/courses/FND-DAT-103.md): Level 100 · Explain, 16 h, In development
 - [FND-AIC-102 · How Language Models Work](https://sdaiaacademy.github.io/en/courses/FND-AIC-102.md): Level 100 · Explain, 16 h, In development

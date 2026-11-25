@@ -20,7 +20,7 @@ In the order their prerequisites suggest.
 
 ### 1. [FND-DAT-101 · SQL and Relational Data](../courses/FND-DAT-101.md)
 
-- Level 100 · Explain · Intensive · 30 h · In development
+- Level 100 · Explain · Intensive · 30 h · Available
 - Explain the relational model: tables, keys, constraints, NULL and the grain of a table.
 - Identify the output of joins, grouping and NULL comparisons before running them.
 - Write queries with filters, joins, grouping, subqueries and common table expressions that answer business questions.
