@@ -152,6 +152,7 @@
 - [LDS-DMG-301 · حوكمة البيانات للذكاء الاصطناعي: التدريب والاسترجاع ووصول الوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-301.md): المستوى 300 · التطوير, 16 ساعة, متاح
 - [LDS-DMG-302 · صياغة سياسات البيانات والذكاء الاصطناعي ومعاييرهما](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-302.md): المستوى 300 · التطوير, 12 ساعة, متاح
 - [FND-PRG-101 · البرمجة بلغة بايثون للبيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-PRG-101.md): المستوى 100 · الشرح, 60 ساعة, متاح
+- [FND-PRG-102 · سطر الأوامر وGit والبيئات القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FND-PRG-102.md): المستوى 100 · الشرح, 24 ساعة, متاح
 - [FND-MTH-101 · الجبر الخطي لتعلم الآلة](https://sdaiaacademy.github.io/ar/courses/FND-MTH-101.md): المستوى 100 · الشرح, 45 ساعة, متاح
 - [FND-MTH-102 · التفاضل والتكامل والأمثلة الرياضية لتعلم الآلة](https://sdaiaacademy.github.io/ar/courses/FND-MTH-102.md): المستوى 100 · الشرح, 45 ساعة, متاح
 - [FND-MTH-103 · الاحتمالات للبيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-MTH-103.md): المستوى 100 · الشرح, 45 ساعة, متاح
@@ -230,7 +231,6 @@
 - [LDS-AIG-302 · مختبر ضوابط الذكاء الاصطناعي التوليدي والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-302.md): المستوى 300 · التطوير, 24 ساعة, قيد التطوير
 - [LDS-AIG-306 · الخصوصية والملكية الفكرية وتتبع منشأ المحتوى في الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-306.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
 - [LDS-DMG-201 · نموذج تشغيل حوكمة البيانات والإشراف على البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
-- [FND-PRG-102 · سطر الأوامر وGit والبيئات القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FND-PRG-102.md): المستوى 100 · الشرح, 24 ساعة, قيد التطوير
 - [FND-PRG-103 · بنى البيانات والخوارزميات والتعقيد](https://sdaiaacademy.github.io/ar/courses/FND-PRG-103.md): المستوى 100 · الشرح, 60 ساعة, قيد التطوير
 - [FND-PRG-104 · اختبار البرمجيات ومراجعة الرموز البرمجية والتوثيق](https://sdaiaacademy.github.io/ar/courses/FND-PRG-104.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير
 - [FND-PRG-105 · أساسيات أنظمة الحاسب والحوسبة السحابية لأعمال الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-PRG-105.md): المستوى 100 · الشرح, 30 ساعة, قيد التطوير

@@ -30,7 +30,7 @@ In the order their prerequisites suggest.
 
 ### 2. [FND-PRG-102 · Command Line, Git and Reproducible Environments](../courses/FND-PRG-102.md)
 
-- Level 100 · Explain · Intensive · 24 h · In development
+- Level 100 · Explain · Intensive · 24 h · Available
 - Explain how Git records history as commits, branches and remotes, and what each everyday command changes.
 - Use the shell to inspect and transform files, combining commands with pipes and a short script.
 - Apply a branch, pull request and review workflow, including resolving a merge conflict.

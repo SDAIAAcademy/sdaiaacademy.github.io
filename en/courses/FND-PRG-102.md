@@ -6,7 +6,10 @@
 - Format: Intensive: 3 teaching days and a capstone day, with guided pre-work and a tracked follow-up task
 - Total hours: 24 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-prg-102/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-prg-102/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-prg-102/practice.html
 
 ## Description
 
@@ -33,6 +36,32 @@ By the end, the participant can:
 - [FND-PRG-105 · Computer Systems and Cloud Essentials for AI Work](FND-PRG-105.md)
 - [DEV-SWE-201 · Software Engineering with Coding Agents](DEV-SWE-201.md)
 - [DEV-DAT-201 · Modern Data Engineering](DEV-DAT-201.md)
+
+## Format and days
+
+### Day 1: The shell and the commit graph
+
+- Paths and permissions
+- Pipes, redirection and filters
+- Variables, exit codes and SSH
+- Commits, staging and history
+
+### Day 2: Working together on one history
+
+- Branches, merges and conflicts
+- Pull requests and review etiquette
+- Undoing mistakes
+- Virtual environments and lock files
+
+### Day 3: Rebuild anywhere, leak nothing
+
+- One command to rebuild and run
+- Images, containers and volumes
+- What a container shares
+- Scanning, and after a leak
+
+### Day 4: Capstone: peer reproduction
+
 
 ## Topics
 

@@ -152,6 +152,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-DMG-301 · Governing Data for AI: Training, Retrieval and Agent Access](https://sdaiaacademy.github.io/en/courses/LDS-DMG-301.md): Level 300 · Develop, 16 h, Available
 - [LDS-DMG-302 · Drafting Data and AI Policies and Standards](https://sdaiaacademy.github.io/en/courses/LDS-DMG-302.md): Level 300 · Develop, 12 h, Available
 - [FND-PRG-101 · Python Programming for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-PRG-101.md): Level 100 · Explain, 60 h, Available
+- [FND-PRG-102 · Command Line, Git and Reproducible Environments](https://sdaiaacademy.github.io/en/courses/FND-PRG-102.md): Level 100 · Explain, 24 h, Available
 - [FND-MTH-101 · Linear Algebra for Machine Learning](https://sdaiaacademy.github.io/en/courses/FND-MTH-101.md): Level 100 · Explain, 45 h, Available
 - [FND-MTH-102 · Calculus and Optimisation for Machine Learning](https://sdaiaacademy.github.io/en/courses/FND-MTH-102.md): Level 100 · Explain, 45 h, Available
 - [FND-MTH-103 · Probability for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-MTH-103.md): Level 100 · Explain, 45 h, Available
@@ -230,7 +231,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [LDS-AIG-302 · Generative AI and Agent Controls Laboratory](https://sdaiaacademy.github.io/en/courses/LDS-AIG-302.md): Level 300 · Develop, 24 h, In development
 - [LDS-AIG-306 · Privacy, Intellectual Property and Content Provenance in AI](https://sdaiaacademy.github.io/en/courses/LDS-AIG-306.md): Level 300 · Develop, 12 h, In development
 - [LDS-DMG-201 · Data Governance Operating Model and Stewardship](https://sdaiaacademy.github.io/en/courses/LDS-DMG-201.md): Level 200 · Apply, 24 h, In development
-- [FND-PRG-102 · Command Line, Git and Reproducible Environments](https://sdaiaacademy.github.io/en/courses/FND-PRG-102.md): Level 100 · Explain, 24 h, In development
 - [FND-PRG-103 · Data Structures, Algorithms and Complexity](https://sdaiaacademy.github.io/en/courses/FND-PRG-103.md): Level 100 · Explain, 60 h, In development
 - [FND-PRG-104 · Software Testing, Code Review and Documentation](https://sdaiaacademy.github.io/en/courses/FND-PRG-104.md): Level 100 · Explain, 30 h, In development
 - [FND-PRG-105 · Computer Systems and Cloud Essentials for AI Work](https://sdaiaacademy.github.io/en/courses/FND-PRG-105.md): Level 100 · Explain, 30 h, In development

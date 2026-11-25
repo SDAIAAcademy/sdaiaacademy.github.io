@@ -8,7 +8,10 @@ Command Line, Git and Reproducible Environments
 - الصيغة: دورة مكثفة: 3 أيام تدريبية ويوم للمشروع الختامي، مع عمل تحضيري موجه ومهمة متابعة متعقَّبة
 - إجمالي الساعات: 24 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-prg-102/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-prg-102/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-prg-102/practice.html
 
 ## الوصف
 
@@ -35,6 +38,32 @@ Command Line, Git and Reproducible Environments
 - [FND-PRG-105 · أساسيات أنظمة الحاسب والحوسبة السحابية لأعمال الذكاء الاصطناعي](FND-PRG-105.md)
 - [DEV-SWE-201 · هندسة البرمجيات باستخدام وكلاء البرمجة](DEV-SWE-201.md)
 - [DEV-DAT-201 · هندسة البيانات الحديثة](DEV-DAT-201.md)
+
+## الصيغة والأيام
+
+### اليوم 1: The shell and the commit graph
+
+- Paths and permissions
+- Pipes, redirection and filters
+- Variables, exit codes and SSH
+- Commits, staging and history
+
+### اليوم 2: Working together on one history
+
+- Branches, merges and conflicts
+- Pull requests and review etiquette
+- Undoing mistakes
+- Virtual environments and lock files
+
+### اليوم 3: Rebuild anywhere, leak nothing
+
+- One command to rebuild and run
+- Images, containers and volumes
+- What a container shares
+- Scanning, and after a leak
+
+### اليوم 4: Capstone: peer reproduction
+
 
 ## الموضوعات
 
