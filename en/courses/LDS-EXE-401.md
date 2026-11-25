@@ -6,7 +6,10 @@
 - Format: Extended: 10-week part-time cohort with weekly labs, two simulation days and a panel defence
 - Total hours: 60 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-exe-401/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-exe-401/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-exe-401/practice.html
 
 ## Description
 
@@ -30,6 +33,51 @@ By the end, the participant can:
 - [LDS-EXE-206 · Governing AI in the Organisation: Boards and Executives](LDS-EXE-206.md)
 - LDS-AIG-201 may replace LDS-EXE-206
 - Has prepared and defended a budget for a function or programme
+
+## Format and days
+
+### Day 1: المكتب وتفويضه
+
+- مكتب يُقاس بالقيمة لا بالتبني
+
+### Day 2: نموذج التشغيل وقراءة التشغيلين
+
+- مركزي أم محور وأطراف أم اتحادي
+
+### Day 3: صلاحيات القرار وخارطة الطريق
+
+- من يقرر، وبأي ترتيب
+
+### Day 4: البوابات والموازنة
+
+- موّل ما يثبت، وأوقف ما لا يثبت
+
+### Day 5: يوم المحاكاة الأول: لجنة المحفظة
+
+- لجنة المحفظة
+
+### Day 6: الأدوات المعتمدة وقواعد البيانات
+
+- ما يدخل الأداة وما لا يدخلها
+
+### Day 7: صلاحيات الوكلاء وملكية التقييم
+
+- صلاحية بقدر الأثر، وتقييم يملكه العمل
+
+### Day 8: وكلاء البرمجة والأدوات التي يبنيها الموظفون والموردون
+
+- ما يبنيه الموظفون وما يغيّره الموردون
+
+### Day 9: الإلمام وحماية الخبرة، والإشراف على الحوادث
+
+- الناس والحوادث
+
+### Day 10: يوم المحاكاة الثاني: الحادثة والجهة المختصة
+
+- حادثة واستفسار من الجهة المختصة
+
+### Day 11: الدفاع عن خطة المكتب أمام اللجنة
+
 
 ## Topics
 

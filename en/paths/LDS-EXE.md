@@ -132,7 +132,7 @@ In the order their prerequisites suggest.
 
 ### 14. [LDS-EXE-401 · Leading the Enterprise AI Office](../courses/LDS-EXE-401.md)
 
-- Level 400 · Evaluate · Extended · 60 h · In development
+- Level 400 · Evaluate · Extended · 60 h · Available
 - Needs: LDS-EXE-201, LDS-EXE-206
 - Design a three-horizon AI roadmap with budgets to build, run and retire, sequenced from a maturity profile.
 - Design the AI office's mandate, operating model and decision rights alongside data, technology, security and risk functions.
