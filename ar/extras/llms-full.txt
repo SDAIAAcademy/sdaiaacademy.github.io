@@ -8561,7 +8561,10 @@ Statistics by Simulation: Variation, Estimation and Testing
 - الصيغة: برنامج ممتد: 8 أسابيع بدوام جزئي، بواقع جلسة واحدة ومختبر واحد أسبوعيًا، مع مجموعات مسائل أسبوعية مقيَّمة ومشروع ختامي
 - إجمالي الساعات: 45 ساعة
 - الفئة المستهدفة: مبتدئ
-- الحالة: قيد التطوير
+- الحالة: متاح
+- افتح المقرر: https://sdaiaacademy.github.io/fnd-mth-104/
+- المقرر كاملًا في ملف واحد: https://sdaiaacademy.github.io/fnd-mth-104/llms-full.txt
+- أسئلة للتدريب: https://sdaiaacademy.github.io/fnd-mth-104/practice.html
 
 ## الوصف
 
@@ -8588,6 +8591,43 @@ Statistics by Simulation: Variation, Estimation and Testing
 
 - [SPC-STA-201 · الاستدلال الإحصائي بالمحاكاة](https://sdaiaacademy.github.io/ar/courses/SPC-STA-201.md)
 - [SPC-EXP-201 · تصميم التجارب وقراءة نتائجها](https://sdaiaacademy.github.io/ar/courses/SPC-EXP-201.md)
+
+## الصيغة والأيام
+
+### اليوم 1: Describing data
+
+- Centre, spread, shape and missing values
+
+### اليوم 2: Sampling variation
+
+- Populations, samples and standard error
+
+### اليوم 3: Observational and experimental data
+
+- Confounding and Simpson's paradox
+
+### اليوم 4: The bootstrap
+
+- The bootstrap and its coverage
+
+### اليوم 5: Intervals for differences and slopes
+
+- Differences and slopes
+
+### اليوم 6: Permutation tests
+
+- Null models, p-values and effect sizes
+
+### اليوم 7: Many tests and forking paths
+
+- Multiple testing and false discoveries
+
+### اليوم 8: Error rates, power and honest reporting
+
+- Type I and II errors, power and reporting
+
+### اليوم 9: Capstone oral checks
+
 
 ## الموضوعات
 

@@ -8357,7 +8357,10 @@ By the end, the participant can:
 - Format: Extended: 8 weeks part-time, one session and one lab a week, weekly graded problem sets and a capstone
 - Total hours: 45 h
 - Audience: beginner
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/fnd-mth-104/
+- The whole course in one file: https://sdaiaacademy.github.io/fnd-mth-104/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/fnd-mth-104/practice.html
 
 ## Description
 
@@ -8384,6 +8387,43 @@ By the end, the participant can:
 
 - [SPC-STA-201 · Statistical Inference by Simulation](https://sdaiaacademy.github.io/en/courses/SPC-STA-201.md)
 - [SPC-EXP-201 · Designing and Reading Experiments](https://sdaiaacademy.github.io/en/courses/SPC-EXP-201.md)
+
+## Format and days
+
+### Day 1: Describing data
+
+- Centre, spread, shape and missing values
+
+### Day 2: Sampling variation
+
+- Populations, samples and standard error
+
+### Day 3: Observational and experimental data
+
+- Confounding and Simpson's paradox
+
+### Day 4: The bootstrap
+
+- The bootstrap and its coverage
+
+### Day 5: Intervals for differences and slopes
+
+- Differences and slopes
+
+### Day 6: Permutation tests
+
+- Null models, p-values and effect sizes
+
+### Day 7: Many tests and forking paths
+
+- Multiple testing and false discoveries
+
+### Day 8: Error rates, power and honest reporting
+
+- Type I and II errors, power and reporting
+
+### Day 9: Capstone oral checks
+
 
 ## Topics
 

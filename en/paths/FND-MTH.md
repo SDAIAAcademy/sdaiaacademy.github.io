@@ -51,7 +51,7 @@ In the order their prerequisites suggest.
 
 ### 4. [FND-MTH-104 · Statistics by Simulation: Variation, Estimation and Testing](../courses/FND-MTH-104.md)
 
-- Level 100 · Explain · Extended · 45 h · In development
+- Level 100 · Explain · Extended · 45 h · Available
 - Needs: FND-MTH-103
 - Distinguish population, sample, parameter, statistic and sampling distribution, and explain what a standard error measures.
 - Explain what p-values and confidence intervals mean and identify misreadings of them.

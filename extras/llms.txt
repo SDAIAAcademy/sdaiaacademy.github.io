@@ -155,6 +155,7 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [FND-MTH-101 · Linear Algebra for Machine Learning](https://sdaiaacademy.github.io/en/courses/FND-MTH-101.md): Level 100 · Explain, 45 h, Available
 - [FND-MTH-102 · Calculus and Optimisation for Machine Learning](https://sdaiaacademy.github.io/en/courses/FND-MTH-102.md): Level 100 · Explain, 45 h, Available
 - [FND-MTH-103 · Probability for Data and AI](https://sdaiaacademy.github.io/en/courses/FND-MTH-103.md): Level 100 · Explain, 45 h, Available
+- [FND-MTH-104 · Statistics by Simulation: Variation, Estimation and Testing](https://sdaiaacademy.github.io/en/courses/FND-MTH-104.md): Level 100 · Explain, 45 h, Available
 - [FND-DAT-101 · SQL and Relational Data](https://sdaiaacademy.github.io/en/courses/FND-DAT-101.md): Level 100 · Explain, 30 h, Available
 - [FND-DAT-103 · Data Formats, Interfaces and Quality Checks](https://sdaiaacademy.github.io/en/courses/FND-DAT-103.md): Level 100 · Explain, 16 h, Available
 - [FND-AIC-101 · How Machine Learning Works](https://sdaiaacademy.github.io/en/courses/FND-AIC-101.md): Level 100 · Explain, 30 h, Available
@@ -233,7 +234,6 @@ SDAIA Academy publishes this catalog of courses in data and artificial intellige
 - [FND-PRG-104 · Software Testing, Code Review and Documentation](https://sdaiaacademy.github.io/en/courses/FND-PRG-104.md): Level 100 · Explain, 30 h, In development
 - [FND-PRG-105 · Computer Systems and Cloud Essentials for AI Work](https://sdaiaacademy.github.io/en/courses/FND-PRG-105.md): Level 100 · Explain, 30 h, In development
 - [FND-PRG-106 · Code Reading and Debugging without Assistance](https://sdaiaacademy.github.io/en/courses/FND-PRG-106.md): Level 100 · Explain, 12 h, In development
-- [FND-MTH-104 · Statistics by Simulation: Variation, Estimation and Testing](https://sdaiaacademy.github.io/en/courses/FND-MTH-104.md): Level 100 · Explain, 45 h, In development
 - [FND-MTH-105 · Discrete Mathematics and Logic for Computing](https://sdaiaacademy.github.io/en/courses/FND-MTH-105.md): Level 100 · Explain, 40 h, In development
 - [FND-DAT-102 · Data Wrangling with DataFrames](https://sdaiaacademy.github.io/en/courses/FND-DAT-102.md): Level 100 · Explain, 30 h, In development
 - [FND-AIC-102 · How Language Models Work](https://sdaiaacademy.github.io/en/courses/FND-AIC-102.md): Level 100 · Explain, 16 h, In development
