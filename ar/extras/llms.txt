@@ -138,6 +138,7 @@
 - [LDS-AIG-304 · أنظمة إدارة الذكاء الاصطناعي والتدقيق الداخلي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-304.md): المستوى 300 · التطوير, 24 ساعة, متاح
 - [LDS-AIG-305 · الاستجابة لحوادث الذكاء الاصطناعي ومراقبة الامتثال](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-305.md): المستوى 300 · التطوير, 12 ساعة, متاح
 - [LDS-AIG-307 · تصميم الإشراف البشري ومراجعة الأخلاقيات](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-307.md): المستوى 300 · التطوير, 12 ساعة, متاح
+- [LDS-AIG-401 · تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-401.md): المستوى 400 · التقييم, 40 ساعة, متاح
 - [LDS-DMG-101 · أسس إدارة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-101.md): المستوى 100 · الشرح, 24 ساعة, متاح
 - [LDS-DMG-202 · البيانات الوصفية وكتالوجات البيانات وتتبع أصل البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-202.md): المستوى 200 · التطبيق, 16 ساعة, متاح
 - [LDS-DMG-203 · إدارة جودة البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-203.md): المستوى 200 · التطبيق, 24 ساعة, متاح
@@ -218,7 +219,6 @@
 - [LDS-AIG-301 · تقييم النماذج والأنظمة: أدلة الإنصاف والمتانة والسلامة](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-301.md): المستوى 300 · التطوير, 30 ساعة, قيد التطوير
 - [LDS-AIG-302 · مختبر ضوابط الذكاء الاصطناعي التوليدي والوكلاء](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-302.md): المستوى 300 · التطوير, 24 ساعة, قيد التطوير
 - [LDS-AIG-306 · الخصوصية والملكية الفكرية وتتبع منشأ المحتوى في الذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-306.md): المستوى 300 · التطوير, 12 ساعة, قيد التطوير
-- [LDS-AIG-401 · تصميم برنامج حوكمة الذكاء الاصطناعي وتشغيله](https://sdaiaacademy.github.io/ar/courses/LDS-AIG-401.md): المستوى 400 · التقييم, 40 ساعة, قيد التطوير
 - [LDS-DMG-201 · نموذج تشغيل حوكمة البيانات والإشراف على البيانات](https://sdaiaacademy.github.io/ar/courses/LDS-DMG-201.md): المستوى 200 · التطبيق, 24 ساعة, قيد التطوير
 - [FND-PRG-101 · البرمجة بلغة بايثون للبيانات والذكاء الاصطناعي](https://sdaiaacademy.github.io/ar/courses/FND-PRG-101.md): المستوى 100 · الشرح, 60 ساعة, قيد التطوير
 - [FND-PRG-102 · سطر الأوامر وGit والبيئات القابلة لإعادة الإنتاج](https://sdaiaacademy.github.io/ar/courses/FND-PRG-102.md): المستوى 100 · الشرح, 24 ساعة, قيد التطوير

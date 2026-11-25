@@ -136,7 +136,7 @@ In the order their prerequisites suggest.
 
 ### 12. [LDS-AIG-401 · Designing and Running an AI Governance Programme](../courses/LDS-AIG-401.md)
 
-- Level 400 · Evaluate · Studio · 40 h · In development
+- Level 400 · Evaluate · Studio · 40 h · Available
 - Needs: LDS-AIG-201, LDS-AIG-204
 - Analyse an organisation's AI governance against its obligations and a maturity model.
 - Design the mandate, operating model and decision rights, choosing central, federated or hub-and-spoke.

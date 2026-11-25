@@ -6462,7 +6462,10 @@ By the end, the participant can:
 - Format: Studio: eight weeks part-time, coached design with three milestone reviews, a committee simulation and a panel defence
 - Total hours: 40 h
 - Audience: leadership
-- Status: In development
+- Status: Available
+- Open the course: https://sdaiaacademy.github.io/lds-aig-401/
+- The whole course in one file: https://sdaiaacademy.github.io/lds-aig-401/llms-full.txt
+- Practice questions: https://sdaiaacademy.github.io/lds-aig-401/practice.html
 
 ## Description
 
@@ -6485,6 +6488,28 @@ By the end, the participant can:
 - [LDS-AIG-204 · AI Risk Management in Practice](https://sdaiaacademy.github.io/en/courses/LDS-AIG-204.md)
 - Has produced at least two artefacts of the kind taught in LDS-AIG-202 to LDS-AIG-307
 - Takes a policy through review and approval
+
+## Format and days
+
+### Day 1: موجز الإستديو، والتشخيص، ونموذج التشغيل
+
+- التشخيص والتفويض
+- نماذج التشغيل
+
+### Day 2: التشخيص والميثاق، ثم السياسات والبوابات
+
+- السياسات والبوابات
+
+### Day 3: البوابات على خمسة أنظمة، ثم اللجان والقياس
+
+- اللجان
+- القياس والاستدامة
+
+### Day 4: اللجنة والمقاييس والموارد وخارطة الطريق
+
+
+### Day 5: الدفاع عن البرنامج أمام لجنة
+
 
 ## Topics
 
